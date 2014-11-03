@@ -570,6 +570,12 @@ module.exports.Menu = function() {
                         dst.addItem(src);
                         this.menuIn.removeItem(src);
                      }
+                     src=this.getItemByName("Chrome-Apps");                 
+                     if(src){
+                        dst.addItem(src);
+                        this.menuIn.removeItem(src);
+                     }
+
                      src=this.getItemByName("Hilfsprogramme");                 
                      if(src){
                         dst.addItem(src);
