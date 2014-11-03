@@ -1,0 +1,837 @@
+[
+  {
+    "name": "Antolin",
+    "keywords": [
+      "lp",
+      "z1",
+      "sprachen",
+      "deutsch",
+      "lesen"
+    ],
+    "description": "Lesen und schreiben online üben"
+  },
+  {
+    "name": "Bildungs-Sammlung GCompris",
+    "keywords": [
+      "lp",
+      "z1",
+      "deutsch",
+      "mathe",
+      "nmg",
+      "lesen",
+      "hören",
+      "spielen"
+    ],
+    "description": "Lernspiel für Kinder von 2 bis 10 Jahren"
+  },
+  {
+    "name": "\"Blinde Kuh\"",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "nmg",
+      "ict"
+    ],
+    "description": "Die Suchmaschine für Kinder"
+  },
+  {
+    "name": "Blitzrechnen",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "mathematik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Mathematik lernen und üben"
+  },
+  {
+    "name": "Bodenreise",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "nmg",
+      "biologie"
+    ],
+    "description": "Entdecke den Boden"
+  },
+  {
+    "name": "Cool Driving",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "nmg",
+      "technik",
+      "verkehr"
+    ],
+    "description": "Verkehrtheorie für Velofahrer"
+  },
+  {
+    "name": "Duden",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "z3",
+      "sprachen",
+      "deutsch"
+    ],
+    "description": "Im Duden online nachschlagen"
+  },
+  {
+    "name": "Flubidux",
+    "keywords": [
+      "lp",
+      "z1",
+      "musik",
+      "hören"
+    ],
+    "description": "Töne und Geräusche entdecken"
+  },
+  {
+    "name": "fragFINN",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "nmg",
+      "ict"
+    ],
+    "description": "Suchmaschine für Kinder"
+  },
+  {
+    "name": "GeoGebra",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "mathematik",
+      "raum",
+      "zahl",
+      "variable"
+    ],
+    "description": "Erstellen Sie interaktive geometrische Konstruktionen und Applets."
+  },
+  {
+    "name": "GNU Solfege",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "musik",
+      "hören"
+    ],
+    "description": "Gehörbildung"
+  },
+  {
+    "name": "Google Übersetzer",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "sprachen"
+    ],
+    "description": "Sprachen übersetzen"
+  },
+  {
+    "name": "Internet ABC",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "ict"
+    ],
+    "description": "Umgang mit dem Internet lernen"
+  },
+  {
+    "name": "KGeography",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "z3",
+      "nmg",
+      "geografie"
+    ],
+    "description": "Ein Geografie-Lernprogramm"
+  },
+  {
+    "name": "Kinder Suchmaschine",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "alle"
+    ],
+    "description": "Die Suchmaschine für Kinder"
+  },
+  {
+    "name": "Kinder Wald",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "biologie"
+    ],
+    "description": "Entdecke den Wald"
+  },
+  {
+    "name": "Kinderweltmusik",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "musik",
+      "nmg",
+      "raum",
+      "hören"
+    ],
+    "description": "Ein Multimediale Weltkarte der Kindermusik"
+  },
+  {
+    "name": "Kinder Zeitmaschine",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "geschichte",
+      "raum",
+      "zeit"
+    ],
+    "description": "Reise in die Vergangenheit"
+  },
+  {
+    "name": "Lerntrix",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "mathematik",
+      "raum",
+      "zahl"
+    ],
+    "description": "Eine online Rechenwerkstatt"
+  },
+  {
+    "name": "Logisch",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "mathematik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben"
+  },
+  {
+    "name": "Lose Luege Läse",
+    "keywords": [
+      "lp",
+      "z1",
+      "sprachen",
+      "deutsch",
+      "sprechen",
+      "lesen",
+      "hören"
+    ],
+    "description": "Ausprache und Schrift verbinden und üben"
+  },
+  {
+    "name": "Mathe Aktiv Multiplikation",
+    "keywords": [],
+    "description": "\"Dividieren üben\""
+  },
+  {
+    "name": "Mathe im Netz",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "mathematik",
+      "zahl",
+      "variable"
+    ],
+    "description": "Rechnen online üben"
+  },
+  {
+    "name": "Mille feuilles",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MiniBooks",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "z3",
+      "sprachen",
+      "operieren"
+    ],
+    "description": "Kleine Bücher herstellen"
+  },
+  {
+    "name": "MyMoments",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "ict",
+      "deutsch",
+      "lesen",
+      "schreiben"
+    ],
+    "description": "Online schreiben und lesen"
+  },
+  {
+    "name": "Unser Körper",
+    "keywords": [
+      "lp",
+      "z1",
+      "nmg",
+      "biologie"
+    ],
+    "description": "Entdecke dich und deinen Körper"
+  },
+  {
+    "name": "Tux Paint",
+    "keywords": [
+      "lp",
+      "z1",
+      "gestalten",
+      "zeichnen"
+    ],
+    "description": "Ein Malprogramm für Kinder"
+  },
+  {
+    "name": "Tux Math",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "z3",
+      "mathematik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Spielerisch Mathe lernen"
+  },
+  {
+    "name": "SiKoRe",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "mathematik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Sicheres Kopfrechnen"
+  },
+  {
+    "name": "Schatz der Kulturen",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "gesellschaft",
+      "raum"
+    ],
+    "description": "Interkulturelles Quiz"
+  },
+  {
+    "name": "OpenThesaurus",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "sprachen",
+      "deutsch",
+      "schreiben"
+    ],
+    "description": "Synomyme und Assoziationen finden"
+  },
+  {
+    "name": "OrthoGrafieTrainer",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "sprachen",
+      "deutsch",
+      "schreiben"
+    ],
+    "description": "Rechtschreibung üben"
+  },
+  {
+    "name": "OpenStreetMap",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "geografie"
+    ],
+    "description": "Online Karte ansehen"
+  },
+  {
+    "name": "NotenMax",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "musik",
+      "hören"
+    ],
+    "description": "Musikerziehung"
+  },
+  {
+    "name": "New World 1",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "sprachen",
+      "englisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Englisch lernen"
+  },
+  {
+    "name": "NetLa",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "ict"
+    ],
+    "description": "Meine Daten gehören mir - Sicherheit im Netz lernen"
+  },
+  {
+    "name": "NetCity",
+    "keywords": [
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "ict",
+      "gesellschaft"
+    ],
+    "description": "Spiel zu den Gefahren im Internen"
+  },
+  {
+    "name": "LibreOffice Writer",
+    "keywords": [
+      "n1",
+      "n2",
+      "n3"
+    ],
+    "description": "Erstellen und bearbeiten von Text und Grafiken in Briefen, Reports, Dokumenten und Web-Seiten"
+  },
+  {
+    "name": "PDF-Shuffler",
+    "keywords": [
+      "n1"
+    ],
+    "description": "PDF-Dateien seitenweise bearbeiten"
+  },
+  {
+    "name": "LibreOffice Calc",
+    "keywords": [
+      "n2",
+      "n3"
+    ],
+    "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten"
+  },
+  {
+    "name": "GIMP Bildbearbeitung",
+    "keywords": [
+      "n2",
+      "n3",
+      "photoshop",
+      "fotoshop"
+    ],
+    "description": "Bilder erstellen und Fotografien bearbeiten"
+  },
+  {
+    "name": "Inkscape",
+    "keywords": [
+      "n2",
+      "n3"
+    ],
+    "description": "Skalierbare Vektorgrafiken (SVG) erzeugen und bearbeiten"
+  },
+  {
+    "name": "Shotwell",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Fotos und Bilder organisieren und bearbeiten"
+  },
+  {
+    "name": "Scribus",
+    "keywords": [
+      "n1",
+      "indesign"
+    ],
+    "description": "Seitenlayout erstellen und bearbeiten"
+  },
+  {
+    "name": "Google Earth",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Die Erde erforschen"
+  },
+  {
+    "name": "SFLphone",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Mit SIP telefonieren"
+  },
+  {
+    "name": "Skype",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Skype Internet Telephonie"
+  },
+  {
+    "name": "Empathy",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Chat auf Google Talk, Facebook, MSN und vielen anderen Chat-Diensten"
+  },
+  {
+    "name": "Firefox Web Browser",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Im Internet surfen"
+  },
+  {
+    "name": "Dropbox",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Sync your files across computers and to the web"
+  },
+  {
+    "name": "Audacity",
+    "keywords": [
+      "n1",
+      "n2",
+      "lp"
+    ],
+    "description": "Audio-Dateien aufnehmen und bearbeiten"
+  },
+  {
+    "name": "Cheese",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Ein Programm, um Bilder und Videos mit einer Webcam aufzunehmen und lustige grafische Effekte hinzuzufügen"
+  },
+  {
+    "name": "PhotoFilmStrip",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Animierte Diaschauen erstellen"
+  },
+  {
+    "name": "Pitivi",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Erstellen und bearbeiten Sie Ihre eigenen Filme"
+  },
+  {
+    "name": "RecordMyDesktop",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Den eigenen Desktop aufnehmen"
+  },
+  {
+    "name": "Stellarium",
+    "keywords": [
+      "n1",
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "geografie",
+      "astronomie"
+    ],
+    "description": "Planetarium"
+  },
+  {
+    "name": "LibreOffice Draw",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren"
+  },
+  {
+    "name": "Logisch 1",
+    "keywords": [
+      "lp",
+      "z1",
+      "mathemathik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben 1"
+  },
+  {
+    "name": "Logisch 2",
+    "keywords": [
+      "lp",
+      "z1",
+      "mathemathik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben 2"
+  },
+  {
+    "name": "Logisch 3",
+    "keywords": [
+      "lp",
+      "z2",
+      "mathemathik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben 3"
+  },
+  {
+    "name": "Logisch 4",
+    "keywords": [
+      "lp",
+      "z2",
+      "mathemathik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben 4"
+  },
+  {
+    "name": "Logisch 5",
+    "keywords": [
+      "lp",
+      "z2",
+      "mathemathik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben 5"
+  },
+  {
+    "name": "Logisch 6",
+    "keywords": [
+      "lp",
+      "z2",
+      "mathemathik",
+      "variable",
+      "zahl"
+    ],
+    "description": "Rechnen und üben 6"
+  },
+  {
+    "name": "Mille feuilles 3.2",
+    "keywords": [
+      "lp",
+      "z1",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "Mille feuilles 3.3",
+    "keywords": [
+      "lp",
+      "z1",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 4.1",
+    "keywords": [
+      "lp",
+      "z2",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 4.2",
+    "keywords": [
+      "lp",
+      "z2",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 4.3",
+    "keywords": [
+      "lp",
+      "z2",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 5.1",
+    "keywords": [
+      "lp",
+      "z2",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 5.2",
+    "keywords": [
+      "lp",
+      "z2",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "Mille feuilles: magazine 3.1",
+    "keywords": [
+      "lp",
+      "z1",
+      "sprachen",
+      "französisch",
+      "lesen",
+      "hören"
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "LibreOffice Math",
+    "keywords": [
+      "n2",
+      "n2"
+    ],
+    "description": "Wissenschaftliche Formeln setzen und bearbeiten"
+  },
+  {
+    "name": "LibreOffice Impress",
+    "keywords": [
+      "n2",
+      "n3"
+    ],
+    "description": "Erstellen und bearbeiten von Präsentationen für Dia-Vorführungen, Meetings und Web-Auftritte"
+  },
+  {
+    "name": "LibreOffice Base",
+    "keywords": [
+      "n2",
+      "n3"
+    ],
+    "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten"
+  },
+  {
+    "name": "Adobe Reader 9",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "PDF lesen"
+  },
+  {
+    "name": "Evolution",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Ihre E-Mails, Kontakte und Kalender verwalten"
+  },
+  {
+    "name": "Gummi",
+    "keywords": [
+      "n2",
+      "n3"
+    ],
+    "description": "einfacher LaTeX Editor"
+  },
+  {
+    "name": "LibreOffice",
+    "keywords": [
+      "n1",
+      "n2",
+      "n3"
+    ],
+    "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF)"
+  },
+  {
+    "name": "Thunderbird-E-Mail und -Nachrichten",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben"
+  },
+  {
+    "name": "Liferea",
+    "keywords": [
+      "n1"
+    ],
+    "description": "News-Feeds und Blogs lesen"
+  }
+]

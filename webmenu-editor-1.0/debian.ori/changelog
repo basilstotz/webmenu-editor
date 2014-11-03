@@ -1,0 +1,5 @@
+webmenu-editor (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Basil Stotz <stotz@amxa.ch>  Mon, 03 Nov 2014 17:33:56 +0100
