@@ -305,6 +305,8 @@
     "keywords": [
       "lp",
       "z1",
+      "z2",
+      "z3",
       "nmg",
       "biologie"
     ],
@@ -399,7 +401,8 @@
       "z1",
       "z2",
       "musik",
-      "hören"
+      "hören",
+      "singen"
     ],
     "description": "Musikerziehung"
   },
@@ -444,7 +447,8 @@
     "keywords": [
       "n1",
       "n2",
-      "n3"
+      "n3",
+      "word"
     ],
     "description": "Erstellen und bearbeiten von Text und Grafiken in Briefen, Reports, Dokumenten und Web-Seiten"
   },
@@ -459,7 +463,8 @@
     "name": "LibreOffice Calc",
     "keywords": [
       "n2",
-      "n3"
+      "n3",
+      "excel"
     ],
     "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten"
   },
@@ -527,7 +532,8 @@
   {
     "name": "Firefox Web Browser",
     "keywords": [
-      "n1"
+      "n1",
+      "explorer"
     ],
     "description": "Im Internet surfen"
   },
@@ -774,7 +780,8 @@
     "name": "LibreOffice Impress",
     "keywords": [
       "n2",
-      "n3"
+      "n3",
+      "powerpoint"
     ],
     "description": "Erstellen und bearbeiten von Präsentationen für Dia-Vorführungen, Meetings und Web-Auftritte"
   },
@@ -782,7 +789,8 @@
     "name": "LibreOffice Base",
     "keywords": [
       "n2",
-      "n3"
+      "n3",
+      "access"
     ],
     "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten"
   },
@@ -798,7 +806,8 @@
     "name": "Evolution",
     "keywords": [
       "n1",
-      "n2"
+      "n2",
+      "outlook"
     ],
     "description": "Ihre E-Mails, Kontakte und Kalender verwalten"
   },
@@ -808,14 +817,15 @@
       "n2",
       "n3"
     ],
-    "description": "einfacher LaTeX Editor"
+    "description": "Einfacher LaTeX Editor"
   },
   {
     "name": "LibreOffice",
     "keywords": [
       "n1",
       "n2",
-      "n3"
+      "n3",
+      "office"
     ],
     "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF)"
   },
@@ -823,7 +833,8 @@
     "name": "Thunderbird-E-Mail und -Nachrichten",
     "keywords": [
       "n1",
-      "n2"
+      "n2",
+      "outlook"
     ],
     "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben"
   },
@@ -833,5 +844,98 @@
       "n1"
     ],
     "description": "News-Feeds und Blogs lesen"
+  },
+  {
+    "name": "Kaffeine",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Medien-Spieler"
+  },
+  {
+    "name": "FMIT",
+    "keywords": [
+      "lp",
+      "z1",
+      "z2",
+      "z3",
+      "musik"
+    ],
+    "description": "Musikinstrumente stimmen"
+  },
+  {
+    "name": "Okular",
+    "keywords": [
+      "n2",
+      "pdf",
+      "reader",
+      "acro"
+    ],
+    "description": "Dokumenten Betrachter "
+  },
+  {
+    "name": "Chromium-Webbrowser",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Internetzugriff"
+  },
+  {
+    "name": "Google Chrome",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Internetzugriff"
+  },
+  {
+    "name": "Dateien",
+    "keywords": [
+      "n0",
+      "explorer"
+    ],
+    "description": "Auf Dateien zugreifen und diese organisieren"
+  },
+  {
+    "name": "LMMS",
+    "keywords": [
+      "n2",
+      "n3",
+      "sound",
+      "mix",
+      "record"
+    ],
+    "description": "Ton-Studio"
+  },
+  {
+    "name": "Rhythmbox",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Ihre Musiksammlung wiedergeben und organisieren"
+  },
+  {
+    "name": "Sound Juicer",
+    "keywords": [
+      "n0"
+    ],
+    "description": "Ihre Musik-CDs auslesen"
+  },
+  {
+    "name": "MuseScore",
+    "keywords": [
+      "musik",
+      "noten",
+      "schreiben"
+    ],
+    "description": "Musiknoten setzen"
+  },
+  {
+    "name": "Brasero",
+    "keywords": [
+      "n1"
+    ],
+    "description": "CDs/DVDs schreiben und kopieren"
   }
 ]
