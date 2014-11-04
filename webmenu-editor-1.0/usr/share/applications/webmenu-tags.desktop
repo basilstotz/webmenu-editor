@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Name=WebMenuTags
+GenericName=WebMenuTags
+Comment="Das Menu edieren"
+Icon=flubidux.png
+Exec=nw /usr/share/webmenu-editor/  --tags
+Terminal=false
+Categories=Accessories
+Name[de]=WebMenuTag
