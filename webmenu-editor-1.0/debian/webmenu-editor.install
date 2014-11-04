@@ -1,2 +1,3 @@
-./usr/share/webmenu-editor/ ./usr/share/
-./usr/share/applications/webmenu-editor.desktop ./usr/share/applications/
+./usr/share/node/webmenu-editor/ ./usr/share/node/
+./usr/share/bin/* ./usr/share/bin/
+./usr/share/applications/*.desktop ./usr/share/applications/
