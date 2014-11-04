@@ -8,7 +8,6 @@
 var root=false;
 
 
-
 var fs = require('fs');
 var spawn=require('child_process').spawn;
 
@@ -333,6 +332,11 @@ module.exports.Menu = function() {
 
    this.filter=filterNeu;
 
+
+
+   this.setTagMode = function(mode){
+        root=mode;
+   }
 ////////////////////////////////////////////////////////////////////////////////////////////77
 //          function:     loadKeywords();
 //          function:     initKeywords();

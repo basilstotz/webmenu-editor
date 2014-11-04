@@ -15,6 +15,8 @@ var WebMenu = require('./../js/WebMenu.js');
 
 var menu = new WebMenu.Menu();
 
+//any arg sets tag mode true!
+if(process.argv[2])menu.setTagMode(true);
 
 function redrawMenu(isMenu) {
 
