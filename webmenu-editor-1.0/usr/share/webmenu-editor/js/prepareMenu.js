@@ -22,7 +22,8 @@ process.stdin.on('end', function() {
 
   menu.menuIn=new WebMenu.Itemm(JSON.parse(things));
 
-  menu.initKeywords();
+  menu.loadKeywords();
+  menu.mergeKeywords();
   menu.rearangeMenu();
 
   process.stdout.write(JSON.stringify(menu.menuIn,null,2));
