@@ -54,7 +54,7 @@ var filterNeu={
 
 var menuNeu={
     "type" : "menu",
-    "name" : "menuNeu",
+    "name" : "Anwendungen",
     "items": []
    };
 
@@ -194,8 +194,9 @@ var Itemm = module.exports.Itemm = function(item) {
                     // same, but adds all items
                     if(this.type=="menu"){
                        if(!this.items)this.items=[];
-                       this.items.push(item);
+                       return this.items[ this.items.push(item)-1 ];
                      }
+                     return null;
                  };
 
    this.removeItem = function(item){
@@ -426,96 +427,6 @@ module.exports.Menu = function() {
                     };
 
 
-/*
-  this.keyTree = function(menu) {
-                     var i;
-                     var item;
-                     var tmp;
-                     var n="";
-
-                     for(i=0;i<menu.items.length;i++){
-                        item= new Itemm(menu.items[i]);
-
-                        if(item.type=="menu"){
-                           this.keyTree(item);
-                        }else{
-                           tmp={};
-                           tmp= { "name" : "", "keywords" : []  };
-                           tmp.name=item.name;
-                           this.keywords.push(tmp);
-                        }
-                     } //for
-                 };
-
-
-  this.initKeywords = function(){
-                        this.autoKeywords();
-                        this.loadKeywords();
-                        this.saveKeywords();
-                        this.mergeKeywords();
-                   };
-
-
-  this.autoKeywords = function() {
-                   this.keywords=[];
-                   this.keyTree(this.menuIn);
-                   };
-
-
-
-
-  this.loadKeywords = function() {
-
-                        var kw=[];
-                        var i,j;
-
-                        var p=process.env.HOME+"/.config/webmenu/keywords.json";
-                        if(fs.existsSync(p)){
-                              kw=loadJSON(p);
-                              for(i=0;i<kw.length;i++){
-                                  for(j=0;j<this.keywords.length;j++){
-                                       if(kw[i].name==this.keywords[j].name){
-                                            this.keywords[j]=kw[i];
-                                       }
-                                  }
-                              }
-                        }
-                    };
-
-    this.saveKeywords = function() {
-
-                        var p=process.env.HOME+"/.config/webmenu/keywords.json";
-                        saveJSON(p,this.keywords);
-                    };
-
-
-    this.mergeTree = function(menu){
-                     var i;
-                     var item;
-                     var j;
-
-                     for(i=0;i<menu.items.length;i++){
-                        item= menu.items[i];
-
-                        if(item.type=="menu"){
-                           this.mergeTree(item);
-                        }else{
-                           for(j=0;j<this.keywords.length;j++){
-                             var kw=this.keywords[j];
-                             if(kw.name==item.name){
-                                item.keywords=kw.keywords;                                
-                             }
-                           }  
-                        }
-                     } //for
-                 };
-
-
-    this.mergeKeywords = function(){
-                        this.mergeTree(this.menuIn);          
-
-                    };
-*/
 
 ////////////////////////////////////////////////////////////////////////////////////////////77
 //          function:     initMenu();
@@ -525,7 +436,7 @@ module.exports.Menu = function() {
    this.initMenuSync = function() {
                   this.loadMenuSync();
                   this.findFilterSync();
-                  if(this.filter.stars.length===0)this.autoStar("n0 n1 lp21");
+                  if(this.filter.stars.length===0)this.autoStar("n0 n1 lp");
    };
 
    this.initMenu = function(callback) {
@@ -535,88 +446,92 @@ module.exports.Menu = function() {
                                     );
                    };
 
-   this.rearangeMenu = function(){
-                 var src;
-                 var dst;
+//////////////////////////////////////////////////////////////////////////////////////////////////7
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
+   this.rearangeMenu = function(){
+  
+                  //this is the config for the keeps and removes
+                  var other="Andere";
+                  var drop= [ ];
+                  var keep= [ "Bildung","Büro","Grafik","Internet","Multimedia","Software-Entwicklung","Spiele","Wissenschaft" ];
+
+
+                  //template for new folder
                   var neuer= {
-                    "name": "Andere",
+                    "name": "Other",
                     "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-other.png",
                     "type": "menu",
                     "items": []
                     };
+                  neuer.name=other;
 
-                  //remove Software-Center"
-                  dst= this.getItemByName("Ubuntu Software-Center");
-                  if(dst)this.menuIn.removeItem(dst);
-                  
+                  //////////////////////////////////////////////////////////////////////////
+                 
 
-                  //create new folder
-                  this.menuIn.addItem(neuer);
+                  var src;
+                  var dst;
 
-                  //move dirs..
-                  dst= new Itemm(this.getItemByName("Andere"));
+                  // 1. remove all "not folders"
+                  for(var i=0;i<this.menuIn.items.length;i++){
+                     item = this.items[i];
+                     if(item.type!="menu")this.menuIn.removeItem(item);
+                  }
+
+                  // 2. remove drop's
+                  for(var i=0;i<drop.length;i++){
+                      dst= this.getItemByName(drop[i]);
+                      if(dst)this.menuIn.removeItem(dst);
+                  }
+
+
+                  // 3. move all folders, but "keep-members" to "other-folder"
+                  dst= new Itemm(this.menuIn.addItem(neuer));
+
                   if(dst){
+                     for(var i=0;i<this.menuIn.items.length;i++){
+                         var item=this.menuIn.items[i];
+                         var n=item.name;
 
-                     src=this.getItemByName("Barrierefreiheit");                 
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-                     src=this.getItemByName("Chrome-Apps");                 
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
+                         //look wether n is in keep-list
+                         var found=false;
+                         for(var j=0;j<keep.length;j++){
+                             var k=keep[j];
+                             if(n==k)found=true;
+                         }
 
-                     src=this.getItemByName("Hilfsprogramme");                 
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-
-                     src=this.getItemByName("Sonstige");                  
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-
-
-                     src=this.getItemByName("System Settings");  
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-
-
-                     src=this.getItemByName("Zubehör");                  
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-
-                     src=this.getItemByName("Systemwerkzeuge");                 
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-
-                     src=this.getItemByName("Verschiedenes");                 
-                     if(src){
-                        dst.addItem(src);
-                        this.menuIn.removeItem(src);
-                     }
-                  } //if dst
+                         //if not in keep:
+                         if(!found){   
+                             //move dirs..
+                             src=this.getItemByName(n);                 
+                             if(src){
+                                dst.addItem(src);
+                                this.menuIn.removeItem(src);
+                             }
+                         }   
+                      }     
+                  }        // if(dst)
       }; //rearange 
 
   
    this.loadMenuSync = function() {
-      this.menuIn= new Itemm(loadJSON('/home/stotz.basil/.config/webmenu/menu-xdg.json'));
+      this.menuIn= new Itemm(loadJSON('/opt/webmenu/menu-xdg.json'));
                   //this.rearangeMenu();
                   this.dirPath.init();
                   this.dirPath.down(this.getIdName(this.menuIn));
 
                };
+
+    this.saveMenuSync = function(){
+                      if(this.filterGroup!=""){
+                           saveJSON(process.env.HOME+'/.config/webmenu/menu.json',this.menuOut);
+                      }else{
+                           saveJSON("/home/share/share/bubendorf/"+this.filterGroup+'/.config/webmenu/menu.json',this.menuOut);
+                      }
+                };
+
+ 
+/*
 
    this.loadMenu = function(callback) {
 
@@ -626,6 +541,7 @@ module.exports.Menu = function() {
                                           }
                                );
                    };        
+*/
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////  alle i/o-sachen  sind hier  ////////////////////77
@@ -636,23 +552,54 @@ module.exports.Menu = function() {
 
 
    // load and save filter
+   // groups????????????????????????????????????????????????'
+
+   this.filterGroup="";
+
+   this.setFilterGroup = function(group){
+                   this.filterGroup=group;
+              };
+
    this.findFilterSync = function() {
-                  if(fs.existsSync(process.env.HOME+'/.config/webmenu/filter.json')){
-                      this.loadFilterSync(process.env.HOME+'/.config/webmenu/filter.json');
+                  var p;
+
+                  if(filterGroup==""){
+                       p=process.env.HOME+'/.config/webmenu/filter.json';                  
                   }else{
-                     if(fs.existsSync('/opt/webmenu/filter.json')){
-                        this.loadFilterSync('/opt/webmenu/filter.json');
-                     }else{
-                      // nichts
-                     }
+                       p="/home/share/share/bubendorf/"+filterGroup+"/.config/webmenu/filter.json";
                   }
+
+                  if(fs.existsSync(p)){
+                      this.loadFilterSync(p);
+                  }else{
+                      this.loadFilterSync('/opt/webmenu/filter.json');
+                  }
+
                };
+
+
    
   this.loadFilterSync = function(filterPath){
                this.filter=loadJSONFilter(filterPath);
              };
 
 
+   this.saveFilterSync = function(){
+
+                  var p;
+                  if(filterGroup==""){
+                       p=process.env.HOME+'/.config/webmenu/filter.json';                  
+                       this.hasChanged=true;
+                  }else{
+                       p="/home/share/share/bubendorf/"+filterGroup+"/.config/webmenu/filter.json";
+                  }
+
+                 saveJSON(p,this.filter);
+               };
+
+ 
+
+/*
    this.loadFilter = function(filterPath, callback){
                fs.read(filterPath, 
                        function(err,data){
@@ -685,30 +632,20 @@ module.exports.Menu = function() {
              };        
 
 
-   this.saveFilterSync = function(){
-                 saveJSON(process.env.HOME+'/.config/webmenu/filter.json',this.filter);
-                 hasChanged=true;
-               };
-
- 
    this.saveFilter = function(callback){
                  var p=process.env.HOME+'/.config/webmenu/filter.json';
                  fs.writeFile( p, JSON.stringify( this.filter, null, 2), callback );
                  this.hasChanged=true;
                };
 
+*/
 
-
-    this.saveMenuSync = function(){
-                      saveJSON(process.env.HOME+'/.config/webmenu/menu.json',this.menuOut);
-                    };
-
- 
-
+/*
     this.saveMenu = function(callback){
                  var p=process.env.HOME+'/.config/webmenu/menu.json';
                  fs.writeFile( p, JSON.stringify( this.menuOut, null, 2), callback );
                };
+*/
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////77
@@ -729,17 +666,23 @@ module.exports.Menu = function() {
                      "items": []
                      };
 
-//                      "osIconPath": "/home/stotz.basil/app/img/modern-storage-boxes.png",
-
-
 
              newCat = new Itemm(catInvisible);
-            
              this.menuOut = new Itemm(menuNeu);
 
-             this.menuOut=this.filterTree(this.menuIn); 
-//             this.menuOut.addMenu(newCat);
-             if(!this.filter.options.onlyStarred)this.menuOut.addMenu(newCat);
+             var c=this.countMenu(this.menuIn);
+             if(c<this.filter.options.maxMenuContent){
+                this.flat=[];
+                this.filterFlat(this.menuIn);
+                for(var i=0;i<this.flat.length;i++){
+                   var item=this.flat[i];
+                   if(this.isStarred(item)this.menuOut.addItem(item);
+                }
+             }else{
+                this.menuOut=this.filterTree(this.menuIn);
+                if(!this.filter.options.onlyStarred)this.menuOut.addMenu(newCat);
+             } 
+
              this.saveMenuSync();
 
 
