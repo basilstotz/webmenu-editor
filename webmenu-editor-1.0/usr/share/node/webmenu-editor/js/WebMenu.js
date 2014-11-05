@@ -380,13 +380,13 @@ module.exports.Menu = function() {
 
             this.groupsHtml = function(){
                      var t="<label for='groups'></label>";
-                         t+="<select name='groups' id='group'>";
+                         t+="<select style='font-size:18px;' name='group' id='group'>";
                          for(var i=0;i<this.groups.length;i++){
                             var n=this.groups[i];
                             if(n=="lehrer"){
                                t+="<option value='' selected='selected'>Mein Menu</option>"; 
                             }else{
-                               t+="<option value='"+n+"'>Klasse "+n+"</option>";
+                               t+="<option value='"+n+"'>Klasse: "+n+"</option>";
                             } 
                          }
                          t+="</select>";

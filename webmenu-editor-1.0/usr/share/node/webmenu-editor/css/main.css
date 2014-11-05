@@ -3,7 +3,8 @@ body {
 }
 
 .dir {
-  font:Arial;
+  font-family: Sans-serif;
+  font-size:18px;
   background:#eee;
   padding:3px;
 }
@@ -132,12 +133,13 @@ body {
 }
 
 #query {
+  font-size:18px;
   margin-left:20px;
   margin-top:20px;
 }
 
 #pfad {
-   margin-left:60px;
+   margin-left:20px;
    font-size:18px;
 }
 
