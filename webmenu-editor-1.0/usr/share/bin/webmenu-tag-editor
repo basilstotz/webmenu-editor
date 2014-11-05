@@ -2,6 +2,6 @@
 
 export GROUPS=$(groups|sed 's/ /:/g')
 
-nw /usr/share/node/webmenu-editor/ 
+nw /usr/share/node/webmenu-editor/ --tags 
 
 exit $?

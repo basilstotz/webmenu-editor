@@ -346,7 +346,7 @@ module.exports.Menu = function() {
                
                if(s.search("lehrer")){
                  this.groups.push("lehrer");
-                 this.groups.push("maint");//// <----------------
+//                 this.groups.push("maint");//// <----------------
                  var sa=s.split(':');
                  for(var i=0;i<sa.length;i++){
                     switch(sa[i]){
