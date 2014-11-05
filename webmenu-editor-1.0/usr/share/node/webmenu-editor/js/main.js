@@ -22,7 +22,8 @@ function redrawMenu(isMenu) {
 
    var t;  
 
-   // $("#pfad").html("");
+
+
    if(!menu.recursive){
        $("#pfad").html( menu.dirPath.html() ).show("fade",100,function(){attach_path();});
    }else{
@@ -162,12 +163,13 @@ function attach_display(){
 
 function doit(query){
   menu.search(query);
+  menu.generateMenu();
   redrawMenu(true);
 };
 
 
 function applay(){
-   menu.generateMenu();
+   //menu.generateMenu();
    spawn("webmenu-spawn" , [ '--webmenu-exit'] );
    spawn("notify-send", [ "The new menu is ready!" ] );
    menu.hasChanged=false;
@@ -227,6 +229,21 @@ menu.initKeywords();
 
 $("#query").keyup(function(){doit($("#query").val());});
 $("#applay").click(function(){applay();});  
+
+$("#groups").html(menu.groupsHtml());
+$("#group").change(function(){
+                        //console.log($(this).val());
+                        //menu.saveFilterSync();
+                        menu.setFilterGroup($(this).val());
+                        menu.findFilterSync();
+                        menu.setRootDisplay();
+                        menu.generateMenu();
+                        doit($("#query").val());
+                        //redrawMenu();
+                        //menu.setDisplay(menu.menuIn);
+                        //menu.dirPath.init();
+                     });
+
 
 //menu.setDisplay(menu.menuIn);
 //menu.setRootDisplay();

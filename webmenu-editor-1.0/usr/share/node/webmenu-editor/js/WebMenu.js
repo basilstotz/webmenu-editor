@@ -12,12 +12,11 @@ var fs = require('fs');
 var spawn=require('child_process').spawn;
 
 function loadJSONFilter(path) {
-  var data=fs.readFileSync(path,'utf-8');
-  if(data.length>0){
-     return JSON.parse(data);
-  }else{
-     return filterNeu;
+  if(fs.existsSync(path)){
+     var data=fs.readFileSync(path,'utf-8');
+     if(data.length>0)return JSON.parse(data);
   }
+  return filterNeu;
 }
     
 function loadJSON(path) {
@@ -338,6 +337,62 @@ module.exports.Menu = function() {
    this.setTagMode = function(mode){
         root=mode;
    }
+
+/////////////////////////////////////////////////////////////////////////////////////////////7
+
+   this.groups=[];
+   this.groupsInit = function(){
+               var s=process.env.GROUPS;
+               
+               if(s.search("lehrer")){
+                 this.groups.push("lehrer");
+                 this.groups.push("maint");//// <----------------
+                 var sa=s.split(':');
+                 for(var i=0;i<sa.length;i++){
+                    switch(sa[i]){
+                        case '2010a': this.groups.push('2010a');
+                                      break;
+                        case '2010b': this.groups.push('2010b');
+                                      break;
+                        case '2011a': this.groups.push('2011a');
+                                      break;
+                        case '2011b': this.groups.push('2011b');
+                                      break;
+                        case '2012a': this.groups.push('2012a');
+                                      break;
+                        case '2012b': this.groups.push('2012b');
+                                      break;
+                        case '2013a': this.groups.push('2013a');
+                                      break;
+                        case '2013b': this.groups.push('2013b');
+                                      break;
+                        case '2014a': this.groups.push('2014a');
+                                      break;
+                        case '2014b': this.groups.push('2014b');
+                                      break;
+                        default: break;
+
+                    }
+                 }   
+                 
+               }
+            };
+
+            this.groupsHtml = function(){
+                     var t="<label for='groups'></label>";
+                         t+="<select name='groups' id='group'>";
+                         for(var i=0;i<this.groups.length;i++){
+                            var n=this.groups[i];
+                            if(n=="lehrer"){
+                               t+="<option value='' selected='selected'>Mein Menu</option>"; 
+                            }else{
+                               t+="<option value='"+n+"'>Klasse "+n+"</option>";
+                            } 
+                         }
+                         t+="</select>";
+                         return t;
+                   };
+
 ////////////////////////////////////////////////////////////////////////////////////////////77
 //          function:     loadKeywords();
 //          function:     initKeywords();
@@ -434,6 +489,7 @@ module.exports.Menu = function() {
 ///////////////////////////////////////////////////////////////////////////////////////////////7
 
    this.initMenuSync = function() {
+                  this.groupsInit();
                   this.loadMenuSync();
                   this.findFilterSync();
                   if(this.filter.stars.length===0)this.autoStar("n0 n1 lp");
@@ -523,10 +579,14 @@ module.exports.Menu = function() {
                };
 
     this.saveMenuSync = function(){
-                      if(this.filterGroup!=""){
+                      if(this.filterGroup==""){
                            saveJSON(process.env.HOME+'/.config/webmenu/menu.json',this.menuOut);
                       }else{
-                           saveJSON("/home/share/share/bubendorf/"+this.filterGroup+'/.config/webmenu/menu.json',this.menuOut);
+                           if(this.filterGroup=="maint"){
+                              saveJSON(process.env.HOME+'/.config/webmenu/menu-maint.json',this.menuOut);
+                           }else{
+                              saveJSON("/home/share/share/bubendorf/"+this.filterGroup+'/.config/webmenu/menu.json',this.menuOut);
+                           }
                       }
                 };
 
@@ -563,10 +623,14 @@ module.exports.Menu = function() {
    this.findFilterSync = function() {
                   var p;
 
-                  if(filterGroup==""){
+                  if(this.filterGroup==""){
                        p=process.env.HOME+'/.config/webmenu/filter.json';                  
                   }else{
-                       p="/home/share/share/bubendorf/"+filterGroup+"/.config/webmenu/filter.json";
+                      if(this.filterGroup=="maint"){
+                         p=process.env.HOME+'/.config/webmenu/filter-maint.json';
+                      }else{                  
+                         p="/home/share/share/bubendorf/"+this.filterGroup+"/.config/webmenu/filter.json";
+                      }
                   }
 
                   if(fs.existsSync(p)){
@@ -587,11 +651,15 @@ module.exports.Menu = function() {
    this.saveFilterSync = function(){
 
                   var p;
-                  if(filterGroup==""){
+                  if(this.filterGroup==""){
                        p=process.env.HOME+'/.config/webmenu/filter.json';                  
                        this.hasChanged=true;
                   }else{
-                       p="/home/share/share/bubendorf/"+filterGroup+"/.config/webmenu/filter.json";
+                      if(this.filterGroup=="maint"){
+                         p=process.env.HOME+'/.config/webmenu/filter-maint.json';
+                      }else{                  
+                         p="/home/share/share/bubendorf/"+this.filterGroup+"/.config/webmenu/filter.json";
+                      }
                   }
 
                  saveJSON(p,this.filter);
@@ -676,7 +744,7 @@ module.exports.Menu = function() {
                 this.filterFlat(this.menuIn);
                 for(var i=0;i<this.flat.length;i++){
                    var item=this.flat[i];
-                   if(this.isStarred(item)this.menuOut.addItem(item);
+                   if(this.isStarred(item))this.menuOut.addItem(item);
                 }
              }else{
                 this.menuOut=this.filterTree(this.menuIn);
@@ -862,7 +930,7 @@ module.exports.Menu = function() {
 
    this.setRootDisplay = function(){
       this.setDisplay(this.menuIn);
-      this.level=0;
+      this.dirPath.level=0;
    };
 
    this.setDisplay = function(item){
@@ -935,7 +1003,7 @@ module.exports.Menu = function() {
    this.addStar = function(item){
                      if(!this.isStarred(item)){
                         this.filter.stars.push(this.getIdName(item));
-                        this.saveFilter();
+                        this.saveFilterSync();
                         return true;
                      }
                      return false;

@@ -1,4 +1,4 @@
 ./usr/share/node/webmenu-editor/ ./usr/share/node/
 ./usr/share/bin/* ./usr/share/bin/
 ./usr/share/applications/*.desktop ./usr/share/applications/
-./opt/webmenu/menu-xdg.json ./opt/webmenu/
+./opt/webmenu/*.json ./opt/webmenu/
