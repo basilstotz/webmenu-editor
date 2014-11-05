@@ -20,6 +20,7 @@ process.stdin.on('readable', function() {
 
 process.stdin.on('end', function() {
 
+
   menu.menuIn=new WebMenu.Itemm(JSON.parse(things));
 
   menu.loadKeywords();

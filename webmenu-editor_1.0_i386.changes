@@ -15,14 +15,14 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1: 
- 29c896a6fedb7e40e069bf16b9b617bf9c8de817 576 webmenu-editor_1.0.dsc
- 2606ac23a7e5f937659ec30f2d2a9bd35e108a11 327360 webmenu-editor_1.0.tar.gz
- 84e80937039218ae463908b28046f4616199b65a 238566 webmenu-editor_1.0_all.deb
+ be6768cee257f0b27db001bfc4940e8a0a850450 576 webmenu-editor_1.0.dsc
+ 196fc34d721d2eeba50b295a683c8e9ff8a12575 325010 webmenu-editor_1.0.tar.gz
+ 5c8d1d7b29e85779e87df60f2864f4bdb21e56f7 236932 webmenu-editor_1.0_all.deb
 Checksums-Sha256: 
- b9f47d52850db8b7b8a7048f2e2ffa56f9bd763d40ef888a61d0f5e5e9606957 576 webmenu-editor_1.0.dsc
- 216b6b27c2139381feb1449c5e35fa0c2bb1b2aec5676ba8d0509b410aff416a 327360 webmenu-editor_1.0.tar.gz
- e7ea6a1ba85aa823882b74b1067191bf9522163ba10649abc287f9db985619c4 238566 webmenu-editor_1.0_all.deb
+ 0fa59dc6f3ca4b01d8b937f5f04e52806bd99bf762c8e9cfb2fd929f1acaa598 576 webmenu-editor_1.0.dsc
+ d19740e536d748c19de90c5c4a8786d19b75a6d767aeea19b68d9c0d4094d907 325010 webmenu-editor_1.0.tar.gz
+ b7eec6210081d609de0f2787b7a2e5a5c9b0fefb792bb9657edf030800afca50 236932 webmenu-editor_1.0_all.deb
 Files: 
- 8c890f15fe6646606e9e5ea17b802c39 576 unknown optional webmenu-editor_1.0.dsc
- ad328b57f7100c920c5afa555741c9ce 327360 unknown optional webmenu-editor_1.0.tar.gz
- e9d50041455650b44368b706598ad2c4 238566 unknown optional webmenu-editor_1.0_all.deb
+ 3ddbecf536388112e2fec3b5894ae077 576 unknown optional webmenu-editor_1.0.dsc
+ ff62110c586d655f6e2436c85b6ddd11 325010 unknown optional webmenu-editor_1.0.tar.gz
+ 3c7c628c3caf85741269bc4dd90f71b4 236932 unknown optional webmenu-editor_1.0_all.deb
