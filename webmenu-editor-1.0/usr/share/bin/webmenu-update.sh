@@ -4,7 +4,7 @@ P="/usr/share/node/webmenu-editor/js"
 
 GPREFIX="/home/share/share/bubendorf"
 
-SRC="${HOME}/.config/webmenu/menu-xdg.json"
+SRC="/opt/webmenu/menu-xdg.json"
 
 GROUPS=$(groups)
 
