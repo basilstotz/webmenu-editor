@@ -5,7 +5,9 @@
 ////////////////////////////////////////////////////////////////////
 
 // if false, there is no edit icon!
+
 var root=false;
+if(process.env.TAGS)root=true;
 
 
 var fs = require('fs');
@@ -530,18 +532,18 @@ module.exports.Menu = function() {
 
                   // 1. remove all "not folders"
                   for(var i=0;i<this.menuIn.items.length;i++){
-                     item = this.items[i];
+                     item = this.menuIn.items[i];
                      if(item.type!="menu")this.menuIn.removeItem(item);
                   }
 
-                  // 2. remove drop's
+                  // 2. remove all drop's
                   for(var i=0;i<drop.length;i++){
                       dst= this.getItemByName(drop[i]);
                       if(dst)this.menuIn.removeItem(dst);
                   }
 
 
-                  // 3. move all folders, but "keep-members" to "other-folder"
+                  // 3. move all, which are not in "keep-members", to "other-folder"
                   dst= new Itemm(this.menuIn.addItem(neuer));
 
                   if(dst){
