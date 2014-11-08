@@ -231,7 +231,7 @@ var Itemm = module.exports.Itemm = function(item) {
                   var cl;
                   var st="";
                   var or="";
-                  var dsc=" &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;";
+                  var dsc="";
                   var dst;
 
                   if(this.osIconPath){
@@ -279,11 +279,15 @@ var Itemm = module.exports.Itemm = function(item) {
                     t+="<p class='launch' command='"+this.command+"'></p>";
                     t+=dsc+"<br/>";
                     if((this.keywords)&&(this.keywords.length>0)){
-                        t+="<b>[";
+                        t+="<span style='fond-weight:bold;font-size:10px;'>";
                         for(var k=0;k<this.keywords.length;k++){
-                           t+=this.keywords[k]+" ";
+                           if(this.keywords[k]=="|"){
+                              t+="<br/>";
+                           }else{
+                              t+=this.keywords[k]+" ";
+                           }
                         }
-                        t+="]</b>";
+                        t+="</span>";
                      }
                   t+="</span>";
                   
@@ -345,7 +349,7 @@ module.exports.Menu = function() {
    this.groups=[];
    this.groupsInit = function(){
                var s=process.env.GROUPS;
-               
+               s="lehrer";               
                if(s.search("lehrer")){
                  this.groups.push("lehrer");
 //                 this.groups.push("maint");//// <----------------

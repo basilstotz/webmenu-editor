@@ -73,7 +73,7 @@
           ]
         },
         {
-          "command": "/usr/share/bin/webapps \"http://bafu.lernfragen.ch/file.php/1/lift_2/index.html#de\"",
+          "command": "/usr/share/bin/webapps \"http://bodenreise.ch/lift_v2/de\"",
           "description": "Entdecke den Boden",
           "name": "Bodenreise",
           "osIconPath": "/usr/share/pixmaps/bodenreise.png",
@@ -145,7 +145,7 @@
           "type": "custom"
         },
         {
-          "command": "/usr/share/bin/webapps http://www.flubidux.de/start.htm",
+          "command": "nw /usr/share/node/flubidux",
           "description": "Töne und Geräusche entdecken",
           "name": "Flubidux",
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
@@ -510,6 +510,13 @@
           ]
         },
         {
+          "command": "/usr/share/bin/webapps http://map.geo.admin.ch/",
+          "description": "\"Karten von geo.admin\"",
+          "name": "Map GeoAdmin",
+          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png",
+          "type": "custom"
+        },
+        {
           "command": "marble-qt %F",
           "description": "",
           "name": "Marble",
@@ -524,20 +531,46 @@
           "type": "custom"
         },
         {
+          "command": "nw /usr/share/node/mathe1trainer",
+          "description": "\"Mathe üben 1.Klasse\"",
+          "name": "Mathe1Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
+          "type": "custom"
+        },
+        {
+          "command": "nw /usr/share/node/mathe2trainer",
+          "description": "\"Mathe üben 2.Klasse\"",
+          "name": "Mathe2Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe2trainer.png",
+          "type": "custom"
+        },
+        {
+          "command": "nw /usr/share/node/mathe3trainer",
+          "description": "\"Mathe üben 3 .Klasse\"",
+          "name": "Mathe3Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe3trainer.png",
+          "type": "custom"
+        },
+        {
+          "command": "nw /usr/share/node/mathe4trainer",
+          "description": "\"Mathe üben 4.Klasse\"",
+          "name": "Mathe4Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe4trainer.png",
+          "type": "custom"
+        },
+        {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\"",
           "description": "\"Dividieren üben\"",
-          "name": "Mathe Aktiv Multiplikation",
+          "name": "Mathe Aktiv Division",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
-          "type": "custom",
-          "keywords": []
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\"",
-          "description": "\"Dividieren üben\"",
-          "name": "Mathe Aktiv Multiplikation",
+          "description": "\"Insätze üben\"",
+          "name": "Mathe Aktiv Insätze",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
-          "type": "custom",
-          "keywords": []
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\"",
@@ -561,6 +594,13 @@
             "zahl",
             "variable"
           ]
+        },
+        {
+          "command": "nw /usr/share/node/mathe-trainer",
+          "description": "\"Mathe üben 1. bis 4.Klasse\"",
+          "name": "Mathe-Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe-trainer.png",
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles",
@@ -1132,6 +1172,13 @@
           "name": "VYM - View Your Mind",
           "osIconPath": "/usr/share/pixmaps/vym.png",
           "type": "custom"
+        },
+        {
+          "command": "XMind",
+          "description": "Launch XMind 6",
+          "name": "XMind",
+          "osIconPath": "/usr/share/pixmaps/XMind.png",
+          "type": "custom"
         }
       ],
       "name": "Büro",
@@ -1388,7 +1435,7 @@
           "command": "/usr/bin/elinks %u",
           "description": "Browse the web in text mode",
           "name": "ELinks Webbrowser",
-          "osIconPath": "html",
+          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
           "type": "custom"
         },
         {
@@ -2692,6 +2739,335 @@
     {
       "items": [
         {
+          "items": [
+            {
+              "command": "unity-control-center display",
+              "description": "Auflösung und Anordnung der Bildschirme und Projektoren ändern",
+              "name": "Anzeigegeräte",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-display-panel.svg",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center bluetooth",
+              "description": "Bluetooth-Einstellungen bearbeiten",
+              "name": "Bluetooth",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/bluetooth.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center appearance",
+              "description": "Den Hintergrund und das Thema ändern",
+              "name": "Darstellung",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-wallpaper.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center color",
+              "description": "Einstellungen der Farbverwaltung",
+              "name": "Farbe",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-color-panel.png",
+              "type": "custom"
+            },
+            {
+              "command": "gcompris -a --nolockcheck",
+              "description": "GCompris-Administration",
+              "name": "GCompris-Administration",
+              "osIconPath": "/usr/share/pixmaps/gcompris-edit.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center screen",
+              "description": "Einstellungen für Helligkeit und Sperren von Bildschirmen",
+              "name": "Helligkeit und Sperren",
+              "osIconPath": "/usr/share/icons/Faenza/actions/48/system-lock-screen.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center info",
+              "description": "Systeminformationen",
+              "name": "Informationen",
+              "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-system.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center sound",
+              "description": "Lautstärke ändern und Ereignissen Klänge zuweisen",
+              "name": "Klang",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-sound-panel.png",
+              "type": "custom"
+            },
+            {
+              "command": "gnome-disks",
+              "description": "Verwalten von Laufwerken und Medien",
+              "name": "Laufwerke",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-disks.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center power",
+              "description": "Einstellungen zur Energieverwaltung",
+              "name": "Leistung",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-power-panel.svg",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center mouse",
+              "description": "Einstellungen für Maus und Touchpad festlegen",
+              "name": "Maus und Touchpad",
+              "osIconPath": "/usr/share/icons/Faenza/devices/48/input-mouse.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center network",
+              "description": "Netzwerkeinstellungen",
+              "name": "Netzwerk",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/network-workgroup.png",
+              "type": "custom"
+            },
+            {
+              "command": "onboard-settings",
+              "description": "Onboard-Einstellungen ändern",
+              "name": "Onboard-Einstellungen",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/onboard.png",
+              "type": "custom"
+            },
+            {
+              "command": "credentials-preferences",
+              "description": "Zugangsdaten und Einstellungen für das Online-Konto",
+              "name": "Online-Konten",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/credentials-preferences.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center credentials",
+              "description": "Zugangsdaten und Einstellungen für das Online-Konto",
+              "name": "Online-Konten",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/credentials-preferences.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/policytool",
+              "description": "OpenJDK Java 6 Policy Tool",
+              "name": "OpenJDK Java 6 Policy Tool",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/openjdk-6.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/policytool",
+              "description": "OpenJDK Java 7 Policy Tool",
+              "name": "OpenJDK Java 7 Policy Tool",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/openjdk-7.png",
+              "type": "custom"
+            },
+            {
+              "command": "gnome-tweak-tool",
+              "description": "Erweiterte Einstellungen für GNOME 3 optimieren",
+              "name": "Optimierungswerkzeug",
+              "osIconPath": "/usr/share/icons/Faenza/categories/48/gnome-tweak-tool.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/seahorse",
+              "description": "Verwalten Sie Ihre Passwörter und Schlüssel",
+              "name": "Passwörter und Verschlüsselung",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/seahorse.png",
+              "type": "custom"
+            },
+            {
+              "command": "gpointing-device-settings",
+              "description": "Set your mouse and touchpad preferences",
+              "name": "Pointing devices",
+              "osIconPath": "/usr/share/icons/Faenza/devices/48/input-mouse.png",
+              "type": "custom"
+            },
+            {
+              "command": "gnome-session-properties",
+              "description": "Wählen Sie, welche Anwendungen gestartet werden, wenn Sie sich anmelden",
+              "name": "Startprogramme",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/session-properties.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center keyboard",
+              "description": "Tastatureinstellungen ändern",
+              "name": "Tastatur",
+              "osIconPath": "/usr/share/icons/Faenza/devices/48/input-keyboard.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center region",
+              "description": "Ihre Tastertur- oder Eingabemethoden-Einstellungen anpassen",
+              "name": "Texteingabe",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-keyboard-shortcuts.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center wacom",
+              "description": "Knopfzuordnung und Stiftsensibilität für Grafiktabletts festlegen.",
+              "name": "Wacom-Grafiktablett",
+              "osIconPath": "/usr/share/icons/Faenza/devices/48/input-tablet.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center datetime",
+              "description": "Zeit- und Datumseinstellungen ändern",
+              "name": "Zeit & Datum",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-datetime-panel.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center universal-access",
+              "description": "Einstellungen zu Zugangshilfen",
+              "name": "Zugangshilfen",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-accessibility.png",
+              "type": "custom"
+            }
+          ],
+          "name": "Einstellungen",
+          "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-desktop.png",
+          "type": "menu"
+        },
+        {
+          "items": [
+            {
+              "command": "/usr/bin/autopoweroff",
+              "description": "Configurator for Autopoweroff",
+              "name": "Autopoweroff Configurator",
+              "osIconPath": "/usr/share/autopoweroff/pixmaps/autopoweroff.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/nvidia-settings",
+              "description": "Configure NVIDIA X Server Settings",
+              "name": "NVIDIA X Server Settings",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/nvidia-settings.png",
+              "type": "custom"
+            },
+            {
+              "command": "puavo-local-config-ui",
+              "description": "Configure a personally administered host",
+              "name": "Puavo Local Config",
+              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-desktop.png",
+              "type": "custom"
+            },
+            {
+              "command": "usb-creator-gtk",
+              "description": "Mithilfe eines Abbilds oder einer CD ein Startmedium erstellen",
+              "name": "Startmedienersteller",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/usb-creator-gtk.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/software-center %u",
+              "description": "Lässt Sie aus tausenden von Anwendungen für Ubuntu auswählen",
+              "name": "Ubuntu Software-Center",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/softwarecenter.png",
+              "type": "custom"
+            },
+            {
+              "command": "pkexec xdiagnose",
+              "description": "X.org-Diagnose- und Reperaturwerkzeug",
+              "name": "xdiagnose",
+              "osIconPath": "/usr/share/xdiagnose/icons/microscope.svg",
+              "type": "custom"
+            }
+          ],
+          "name": "Systemverwaltung",
+          "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
+          "type": "menu"
+        },
+        {
+          "command": "cssh",
+          "description": "Control multiple ssh or rsh sessions from a single input window",
+          "name": "ClusterSSH",
+          "osIconPath": "data:image/png;base64,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",
+          "type": "custom"
+        },
+        {
+          "command": "gnome-system-monitor",
+          "description": "Momentan laufende Prozesse betrachten und den Systemzustand überwachen",
+          "name": "GNOME Systemüberwachung",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-system-monitor.png",
+          "type": "custom"
+        },
+        {
+          "command": "k3b %U",
+          "description": "Brennprogramm für CDs, DVDs und Blu-Ray",
+          "name": "K3b",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/k3b.png",
+          "type": "custom"
+        },
+        {
+          "command": "lmt-config-gui",
+          "description": "Tool to enable/disable Laptop Mode Tools settings",
+          "name": "Laptop Mode Tools Configuration Tool",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "type": "custom"
+        },
+        {
+          "command": "nepomukcleaner",
+          "description": "",
+          "name": "Nepomuk-Bereinigung",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/nepomuk.png",
+          "type": "custom"
+        },
+        {
+          "command": "gnome-control-center --overview",
+          "description": "",
+          "name": "Systemeinstellungen",
+          "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
+          "type": "custom"
+        },
+        {
+          "command": "unity-control-center --overview",
+          "description": "",
+          "name": "Systemeinstellungen",
+          "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
+          "type": "custom"
+        },
+        {
+          "command": "terminator",
+          "description": "Mehrere Terminals in einem Fenster",
+          "name": "Terminator",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/terminator.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/bin/unetbootin",
+          "description": "Tool for creating Live USB drives",
+          "name": "UNetbootin",
+          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAABT1JREFUWIXdl81rE1sYxn+pTTLEdgrFwVaCUIpEi5UKgWIRxS6EglSCTBMbIwSESir+DfeuXalYuhDBRcGCIcVo3WQpotBF0SyS1C+kYhcRxxImk/nouQtv5ib2w3jVxb0HskkO5/ec533edybwf16hUEgcPnxY7LSn7XfBZVkW/f39bGxs0NfXt62I9t8Fj0QiqKqKpmncvHkTy7LE6uqq59u9v9yB7u5uEYlEiMfj+Hw+/H4/yWSS3t5egsHgJid+qQBZlsX4+Dh9fX2YpsmXL1/QdR2ARCKxpYhNlvybFQwGha7rqKpKb28v4XCYarWKrus4jkOtVsMwDCzLYn5+nrW1NT58+OCBn3RAkiTR3d3dBB8aGsIwDGq1GgCmaWJZFgCWZRGNRuno6HCD+cMhlCRJCCFQFIUjR47w7NkzVFUlkUigaRrVahUAx3GoVqsIIXAcxy0FgNfrxTRNWhbQCB0eHiYUCqHrOnNzc0SjUeLxOJqmYds2gGu9EMK1vg5Op9N8/vzZLcG2Avx+vwBQFIXjx48zODhIIBDAsizK5TJzc3NMTk6iqiq6rmPbNrZtN9Xdsiz3EwgEyGQyrK6uuvBNAr6FDg8P09XVhWmamKaJ4zhomsbt27dJJBKoqkoul2NoaAjbtjEMA/in7o7jNMFfv37dBG8S0NbWJmKxGMeOHWPPnj0IIZqsBNA0jdnZWS5evMj58+d5/PixC6/Xul53wIVns1nevHmzCQ4NXeDz+QDo6elBCOGmuL4+ffrEzMwMly5d4sKFC1iWRTgcBnD318ValoVhGEiSxKNHjyiVSmw1BZscMAzDMz8/LwDOnDnjbjBNk3K5zMzMDMlkkomJCQzDcFNt27YLryfbcRwkSeLBgwcUCoVt4U0O1EXcu3ePdDrddPMbN26QTCaZnJx0W0rXdQzDcK1vvH0jfH19fTs2ALu+/cJxnD9fvXr1h8fjQZZlrl27xpUrV5iYmMC2bRYXF9m7dy8bGxtN/V1PvdfrJZvNUiqV0DSN9fX1Hafttj8qiiIAUqkUqqpi2zaVSsW9fT31jcHzeDwsLi7y8uVL+vv7efLkCYZh7Chg21HsOA6pVIpIJAJApVIhl8thmuaWqW+Enzx5krW1te/CYZtBpCiKuHr1qgs3DINcLkc4HHbhjan3+/0sLCxQLBY5ffo0XV1drKysfI+9tQN1eDQaxefzYds2Dx8+ZGRkxJ12jakPBAIufHR0lJ6eHt6/f4/H09qDdpMDg4ODRKNRt6UqlQojIyOu9Y117+joIJPJUCwWGRsbQ1EUAPL5fEv2b+nA0tISpVIJ+Dr56nX/tuXq8Hw+z9mzZ9m3bx9erxegZfs3CZBlWRw4cICpqSnevXsH4NYdcK3v7Owkm82Sz+c5d+4cwWAQSZLwer2srKy0bH+TgDr8+vXrXL58mWQySblcdnNQv31nZyf3799neXmZWCzG/v378fl8eL1edu3axdLSUsv2uwJkWRaHDh2iVqsRi8U4deoUqVSK6elpdF2nvb0dXdfZvXs36XSa5eVlPn78SLFYdJ8h8LV1f8R++DuEtVqNVCrFwYMHefr0KQBHjx4lHo8zPT3NrVu3ePv2LYVCgRcvXlAsFj0AmUxGAIyNjVGtVikUCj9kf9OSJEncvXtXPH/+XIyOjgpFUcTU1JRQFEXIsiwGBgZEKBTa9FotSZKIxWLizp07YmBgYMd/QS2JmJ2dFQsLC+LEiROi/oLyveX3+8X4+Lhoa2v7OQF1EdFoVEiS9EOHSZLUsuCWDvslB/0X1l+SUVt15RAk9QAAAABJRU5ErkJggg==",
+          "type": "custom"
+        },
+        {
+          "command": "uxterm",
+          "description": "standard terminal emulator for the X window system",
+          "name": "UXTerm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/xterm-color.png",
+          "type": "custom"
+        },
+        {
+          "command": "xosview",
+          "description": "X based system monitor",
+          "name": "Xosview",
+          "osIconPath": "data:image/png;base64,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",
+          "type": "custom"
+        },
+        {
+          "command": "xterm",
+          "description": "standard terminal emulator for the X window system",
+          "name": "XTerm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/xterm-color.png",
+          "type": "custom"
+        }
+      ],
+      "name": "Systemwerkzeuge",
+      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-system.png",
+      "type": "menu"
+    },
+    {
+      "items": [
+        {
           "command": "basic256",
           "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
           "name": "BASIC-256",
@@ -3039,14 +3415,14 @@
               "type": "custom"
             },
             {
-              "command": "nw /usr/share/node/webmenu-editor/",
+              "command": "/usr/share/bin/webmenu-editor",
               "description": "\"Das Menu edieren\"",
               "name": "WebMenuEditor",
               "osIconPath": "/usr/share/pixmaps/flubidux.png",
               "type": "custom"
             },
             {
-              "command": "nw /usr/share/node/webmenu-editor/  --tags",
+              "command": "/usr/share/bin/webmenu-editor  --tags",
               "description": "\"Das Menu edieren\"",
               "name": "WebMenuTag",
               "osIconPath": "/usr/share/pixmaps/flubidux.png",
@@ -3207,409 +3583,6 @@
         {
           "items": [
             {
-              "command": "nautilus --new-window %U",
-              "description": "Auf Dateien zugreifen und diese organisieren",
-              "name": "Dateien",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
-              "type": "custom",
-              "keywords": [
-                "n0",
-                "explorer"
-              ]
-            },
-            {
-              "command": "gedit %U",
-              "description": "Textdateien bearbeiten",
-              "name": "gedit",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-text-editor.png",
-              "type": "custom"
-            },
-            {
-              "command": "/usr/bin/emacs24 %F",
-              "description": "View and edit files",
-              "name": "GNU Emacs 24",
-              "osIconPath": "/usr/share/icons/hicolor/scalable/apps/emacs24.svg",
-              "type": "custom"
-            },
-            {
-              "command": "gnome-contacts",
-              "description": "",
-              "name": "Kontakte",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/x-office-address-book.png",
-              "type": "custom"
-            },
-            {
-              "command": "screenlets-manager > /dev/null",
-              "description": "Ein grafisches Werkzeug, um Ihre Screenlets zu verwalten.",
-              "name": "Screenlets",
-              "osIconPath": "/usr/share/icons/hicolor/scalable/apps/screenlets.svg",
-              "type": "custom"
-            },
-            {
-              "command": "unison-2.40.102-gtk",
-              "description": "GTK interface for the unison file synchronization tool 2.40.102",
-              "name": "Unison",
-              "osIconPath": "/usr/share/pixmaps/unison-gtk.svg",
-              "type": "custom"
-            },
-            {
-              "command": "webmenu-spawn",
-              "description": "Käynnistä sovelluksia ja muuta asetuksiasi",
-              "name": "Webmenu",
-              "osIconPath": "/usr/share/icons/webmenu/opinsys-nelio-menu.png",
-              "type": "custom"
-            },
-            {
-              "command": "webmenu-spawn --logout",
-              "description": "A desktop menu application",
-              "name": "Webmenu Logout",
-              "osIconPath": "/usr/share/icons/Faenza/apps/24/gnome-session-halt.png",
-              "type": "custom"
-            },
-            {
-              "command": "unity-control-center datetime",
-              "description": "Zeit- und Datumseinstellungen ändern",
-              "name": "Zeit & Datum",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-datetime-panel.png",
-              "type": "custom"
-            }
-          ],
-          "name": "Zubehör",
-          "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-utilities.png",
-          "type": "menu"
-        },
-        {
-          "items": [
-            {
-              "items": [
-                {
-                  "command": "unity-control-center display",
-                  "description": "Auflösung und Anordnung der Bildschirme und Projektoren ändern",
-                  "name": "Anzeigegeräte",
-                  "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-display-panel.svg",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center bluetooth",
-                  "description": "Bluetooth-Einstellungen bearbeiten",
-                  "name": "Bluetooth",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/bluetooth.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center appearance",
-                  "description": "Den Hintergrund und das Thema ändern",
-                  "name": "Darstellung",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-wallpaper.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center color",
-                  "description": "Einstellungen der Farbverwaltung",
-                  "name": "Farbe",
-                  "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-color-panel.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "gcompris -a --nolockcheck",
-                  "description": "GCompris-Administration",
-                  "name": "GCompris-Administration",
-                  "osIconPath": "/usr/share/pixmaps/gcompris-edit.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center screen",
-                  "description": "Einstellungen für Helligkeit und Sperren von Bildschirmen",
-                  "name": "Helligkeit und Sperren",
-                  "osIconPath": "/usr/share/icons/Faenza/actions/48/system-lock-screen.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center info",
-                  "description": "Systeminformationen",
-                  "name": "Informationen",
-                  "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-system.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center sound",
-                  "description": "Lautstärke ändern und Ereignissen Klänge zuweisen",
-                  "name": "Klang",
-                  "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-sound-panel.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "gnome-disks",
-                  "description": "Verwalten von Laufwerken und Medien",
-                  "name": "Laufwerke",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-disks.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center power",
-                  "description": "Einstellungen zur Energieverwaltung",
-                  "name": "Leistung",
-                  "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-power-panel.svg",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center mouse",
-                  "description": "Einstellungen für Maus und Touchpad festlegen",
-                  "name": "Maus und Touchpad",
-                  "osIconPath": "/usr/share/icons/Faenza/devices/48/input-mouse.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center network",
-                  "description": "Netzwerkeinstellungen",
-                  "name": "Netzwerk",
-                  "osIconPath": "/usr/share/icons/Faenza/places/48/network-workgroup.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "onboard-settings",
-                  "description": "Onboard-Einstellungen ändern",
-                  "name": "Onboard-Einstellungen",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/onboard.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "credentials-preferences",
-                  "description": "Zugangsdaten und Einstellungen für das Online-Konto",
-                  "name": "Online-Konten",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/credentials-preferences.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center credentials",
-                  "description": "Zugangsdaten und Einstellungen für das Online-Konto",
-                  "name": "Online-Konten",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/credentials-preferences.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "/usr/bin/policytool",
-                  "description": "OpenJDK Java 6 Policy Tool",
-                  "name": "OpenJDK Java 6 Policy Tool",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/openjdk-6.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "/usr/bin/policytool",
-                  "description": "OpenJDK Java 7 Policy Tool",
-                  "name": "OpenJDK Java 7 Policy Tool",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/openjdk-7.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "gnome-tweak-tool",
-                  "description": "Erweiterte Einstellungen für GNOME 3 optimieren",
-                  "name": "Optimierungswerkzeug",
-                  "osIconPath": "/usr/share/icons/Faenza/categories/48/gnome-tweak-tool.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "/usr/bin/seahorse",
-                  "description": "Verwalten Sie Ihre Passwörter und Schlüssel",
-                  "name": "Passwörter und Verschlüsselung",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/seahorse.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "gpointing-device-settings",
-                  "description": "Set your mouse and touchpad preferences",
-                  "name": "Pointing devices",
-                  "osIconPath": "/usr/share/icons/Faenza/devices/48/input-mouse.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "gnome-session-properties",
-                  "description": "Wählen Sie, welche Anwendungen gestartet werden, wenn Sie sich anmelden",
-                  "name": "Startprogramme",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/session-properties.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center keyboard",
-                  "description": "Tastatureinstellungen ändern",
-                  "name": "Tastatur",
-                  "osIconPath": "/usr/share/icons/Faenza/devices/48/input-keyboard.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center region",
-                  "description": "Ihre Tastertur- oder Eingabemethoden-Einstellungen anpassen",
-                  "name": "Texteingabe",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-keyboard-shortcuts.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center wacom",
-                  "description": "Knopfzuordnung und Stiftsensibilität für Grafiktabletts festlegen.",
-                  "name": "Wacom-Grafiktablett",
-                  "osIconPath": "/usr/share/icons/Faenza/devices/48/input-tablet.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center datetime",
-                  "description": "Zeit- und Datumseinstellungen ändern",
-                  "name": "Zeit & Datum",
-                  "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-datetime-panel.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "unity-control-center universal-access",
-                  "description": "Einstellungen zu Zugangshilfen",
-                  "name": "Zugangshilfen",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-accessibility.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "Einstellungen",
-              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-desktop.png",
-              "type": "menu"
-            },
-            {
-              "items": [
-                {
-                  "command": "/usr/bin/autopoweroff",
-                  "description": "Configurator for Autopoweroff",
-                  "name": "Autopoweroff Configurator",
-                  "osIconPath": "/usr/share/autopoweroff/pixmaps/autopoweroff.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "/usr/bin/nvidia-settings",
-                  "description": "Configure NVIDIA X Server Settings",
-                  "name": "NVIDIA X Server Settings",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/nvidia-settings.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "puavo-local-config-ui",
-                  "description": "Configure a personally administered host",
-                  "name": "Puavo Local Config",
-                  "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-desktop.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "usb-creator-gtk",
-                  "description": "Mithilfe eines Abbilds oder einer CD ein Startmedium erstellen",
-                  "name": "Startmedienersteller",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/usb-creator-gtk.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "/usr/bin/software-center %u",
-                  "description": "Lässt Sie aus tausenden von Anwendungen für Ubuntu auswählen",
-                  "name": "Ubuntu Software-Center",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/softwarecenter.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "pkexec xdiagnose",
-                  "description": "X.org-Diagnose- und Reperaturwerkzeug",
-                  "name": "xdiagnose",
-                  "osIconPath": "/usr/share/xdiagnose/icons/microscope.svg",
-                  "type": "custom"
-                }
-              ],
-              "name": "Systemverwaltung",
-              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
-              "type": "menu"
-            },
-            {
-              "command": "cssh",
-              "description": "Control multiple ssh or rsh sessions from a single input window",
-              "name": "ClusterSSH",
-              "osIconPath": "data:image/png;base64,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",
-              "type": "custom"
-            },
-            {
-              "command": "gnome-system-monitor",
-              "description": "Momentan laufende Prozesse betrachten und den Systemzustand überwachen",
-              "name": "GNOME Systemüberwachung",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-system-monitor.png",
-              "type": "custom"
-            },
-            {
-              "command": "k3b %U",
-              "description": "Brennprogramm für CDs, DVDs und Blu-Ray",
-              "name": "K3b",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/k3b.png",
-              "type": "custom"
-            },
-            {
-              "command": "lmt-config-gui",
-              "description": "Tool to enable/disable Laptop Mode Tools settings",
-              "name": "Laptop Mode Tools Configuration Tool",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-              "type": "custom"
-            },
-            {
-              "command": "nepomukcleaner",
-              "description": "",
-              "name": "Nepomuk-Bereinigung",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/nepomuk.png",
-              "type": "custom"
-            },
-            {
-              "command": "gnome-control-center --overview",
-              "description": "",
-              "name": "Systemeinstellungen",
-              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
-              "type": "custom"
-            },
-            {
-              "command": "unity-control-center --overview",
-              "description": "",
-              "name": "Systemeinstellungen",
-              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
-              "type": "custom"
-            },
-            {
-              "command": "terminator",
-              "description": "Mehrere Terminals in einem Fenster",
-              "name": "Terminator",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/terminator.png",
-              "type": "custom"
-            },
-            {
-              "command": "/usr/bin/unetbootin",
-              "description": "Tool for creating Live USB drives",
-              "name": "UNetbootin",
-              "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAABT1JREFUWIXdl81rE1sYxn+pTTLEdgrFwVaCUIpEi5UKgWIRxS6EglSCTBMbIwSESir+DfeuXalYuhDBRcGCIcVo3WQpotBF0SyS1C+kYhcRxxImk/nouQtv5ib2w3jVxb0HskkO5/ec533edybwf16hUEgcPnxY7LSn7XfBZVkW/f39bGxs0NfXt62I9t8Fj0QiqKqKpmncvHkTy7LE6uqq59u9v9yB7u5uEYlEiMfj+Hw+/H4/yWSS3t5egsHgJid+qQBZlsX4+Dh9fX2YpsmXL1/QdR2ARCKxpYhNlvybFQwGha7rqKpKb28v4XCYarWKrus4jkOtVsMwDCzLYn5+nrW1NT58+OCBn3RAkiTR3d3dBB8aGsIwDGq1GgCmaWJZFgCWZRGNRuno6HCD+cMhlCRJCCFQFIUjR47w7NkzVFUlkUigaRrVahUAx3GoVqsIIXAcxy0FgNfrxTRNWhbQCB0eHiYUCqHrOnNzc0SjUeLxOJqmYds2gGu9EMK1vg5Op9N8/vzZLcG2Avx+vwBQFIXjx48zODhIIBDAsizK5TJzc3NMTk6iqiq6rmPbNrZtN9Xdsiz3EwgEyGQyrK6uuvBNAr6FDg8P09XVhWmamKaJ4zhomsbt27dJJBKoqkoul2NoaAjbtjEMA/in7o7jNMFfv37dBG8S0NbWJmKxGMeOHWPPnj0IIZqsBNA0jdnZWS5evMj58+d5/PixC6/Xul53wIVns1nevHmzCQ4NXeDz+QDo6elBCOGmuL4+ffrEzMwMly5d4sKFC1iWRTgcBnD318ValoVhGEiSxKNHjyiVSmw1BZscMAzDMz8/LwDOnDnjbjBNk3K5zMzMDMlkkomJCQzDcFNt27YLryfbcRwkSeLBgwcUCoVt4U0O1EXcu3ePdDrddPMbN26QTCaZnJx0W0rXdQzDcK1vvH0jfH19fTs2ALu+/cJxnD9fvXr1h8fjQZZlrl27xpUrV5iYmMC2bRYXF9m7dy8bGxtN/V1PvdfrJZvNUiqV0DSN9fX1Hafttj8qiiIAUqkUqqpi2zaVSsW9fT31jcHzeDwsLi7y8uVL+vv7efLkCYZh7Chg21HsOA6pVIpIJAJApVIhl8thmuaWqW+Enzx5krW1te/CYZtBpCiKuHr1qgs3DINcLkc4HHbhjan3+/0sLCxQLBY5ffo0XV1drKysfI+9tQN1eDQaxefzYds2Dx8+ZGRkxJ12jakPBAIufHR0lJ6eHt6/f4/H09qDdpMDg4ODRKNRt6UqlQojIyOu9Y117+joIJPJUCwWGRsbQ1EUAPL5fEv2b+nA0tISpVIJ+Dr56nX/tuXq8Hw+z9mzZ9m3bx9erxegZfs3CZBlWRw4cICpqSnevXsH4NYdcK3v7Owkm82Sz+c5d+4cwWAQSZLwer2srKy0bH+TgDr8+vXrXL58mWQySblcdnNQv31nZyf3799neXmZWCzG/v378fl8eL1edu3axdLSUsv2uwJkWRaHDh2iVqsRi8U4deoUqVSK6elpdF2nvb0dXdfZvXs36XSa5eVlPn78SLFYdJ8h8LV1f8R++DuEtVqNVCrFwYMHefr0KQBHjx4lHo8zPT3NrVu3ePv2LYVCgRcvXlAsFj0AmUxGAIyNjVGtVikUCj9kf9OSJEncvXtXPH/+XIyOjgpFUcTU1JRQFEXIsiwGBgZEKBTa9FotSZKIxWLizp07YmBgYMd/QS2JmJ2dFQsLC+LEiROi/oLyveX3+8X4+Lhoa2v7OQF1EdFoVEiS9EOHSZLUsuCWDvslB/0X1l+SUVt15RAk9QAAAABJRU5ErkJggg==",
-              "type": "custom"
-            },
-            {
-              "command": "uxterm",
-              "description": "standard terminal emulator for the X window system",
-              "name": "UXTerm",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/xterm-color.png",
-              "type": "custom"
-            },
-            {
-              "command": "xosview",
-              "description": "X based system monitor",
-              "name": "Xosview",
-              "osIconPath": "data:image/png;base64,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",
-              "type": "custom"
-            },
-            {
-              "command": "xterm",
-              "description": "standard terminal emulator for the X window system",
-              "name": "XTerm",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/xterm-color.png",
-              "type": "custom"
-            }
-          ],
-          "name": "Systemwerkzeuge",
-          "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-system.png",
-          "type": "menu"
-        },
-        {
-          "items": [
-            {
               "command": "flash-player-properties",
               "description": "Einstellungen zur Adobe Flash Player",
               "name": "Adobe Flash Player",
@@ -3689,6 +3662,80 @@
           ],
           "name": "Verschiedenes",
           "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-other.png",
+          "type": "menu"
+        },
+        {
+          "items": [
+            {
+              "command": "nautilus --new-window %U",
+              "description": "Auf Dateien zugreifen und diese organisieren",
+              "name": "Dateien",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
+              "type": "custom",
+              "keywords": [
+                "n0",
+                "explorer"
+              ]
+            },
+            {
+              "command": "gedit %U",
+              "description": "Textdateien bearbeiten",
+              "name": "gedit",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-text-editor.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/emacs24 %F",
+              "description": "View and edit files",
+              "name": "GNU Emacs 24",
+              "osIconPath": "/usr/share/icons/hicolor/scalable/apps/emacs24.svg",
+              "type": "custom"
+            },
+            {
+              "command": "gnome-contacts",
+              "description": "",
+              "name": "Kontakte",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/x-office-address-book.png",
+              "type": "custom"
+            },
+            {
+              "command": "screenlets-manager > /dev/null",
+              "description": "Ein grafisches Werkzeug, um Ihre Screenlets zu verwalten.",
+              "name": "Screenlets",
+              "osIconPath": "/usr/share/icons/hicolor/scalable/apps/screenlets.svg",
+              "type": "custom"
+            },
+            {
+              "command": "unison-2.40.102-gtk",
+              "description": "GTK interface for the unison file synchronization tool 2.40.102",
+              "name": "Unison",
+              "osIconPath": "/usr/share/pixmaps/unison-gtk.svg",
+              "type": "custom"
+            },
+            {
+              "command": "webmenu-spawn",
+              "description": "Käynnistä sovelluksia ja muuta asetuksiasi",
+              "name": "Webmenu",
+              "osIconPath": "/usr/share/icons/webmenu/opinsys-nelio-menu.png",
+              "type": "custom"
+            },
+            {
+              "command": "webmenu-spawn --logout",
+              "description": "A desktop menu application",
+              "name": "Webmenu Logout",
+              "osIconPath": "/usr/share/icons/Faenza/apps/24/gnome-session-halt.png",
+              "type": "custom"
+            },
+            {
+              "command": "unity-control-center datetime",
+              "description": "Zeit- und Datumseinstellungen ändern",
+              "name": "Zeit & Datum",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-datetime-panel.png",
+              "type": "custom"
+            }
+          ],
+          "name": "Zubehör",
+          "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-utilities.png",
           "type": "menu"
         }
       ]

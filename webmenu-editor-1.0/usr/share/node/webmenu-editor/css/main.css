@@ -1,6 +1,17 @@
+
+q
+
+
+
+
+
 body {
    margin:0px;
 }
+
+
+.on  { background:#f00;color:#fff;font-weight:bold; }
+.off { background:#fff;color:#000; }
 
 .dir {
   font-family: Sans-serif;
