@@ -12,11 +12,18 @@
           "osIconPath": "/usr/share/pixmaps/antolin.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "sprachen",
-            "deutsch",
-            "lesen"
+            "1.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "|",
+            "|",
+            "lesen",
+            "schreiben",
+            "gestalten",
+            "darstellen",
+            "|",
+            ""
           ]
         },
         {
@@ -26,36 +33,61 @@
           "osIconPath": "/usr/share/pixmaps/gcompris.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "deutsch",
-            "mathe",
-            "nmg",
-            "lesen",
-            "hören",
-            "spielen"
+            "1.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "Mathematik",
+            "NMG",
+            "Gestalten",
+            "|",
+            "Deutsch",
+            "Statistik",
+            "|",
+            "Grunderfahrungen",
+            "|",
+            "darstellen",
+            "|",
+            ""
           ]
         },
         {
           "command": "/usr/share/bin/webapps http://www.blinde-kuh.ch",
-          "description": "Die Suchmaschine für Kinder",
+          "description": "Eine Suchmaschine für Kinder",
           "name": "\"Blinde Kuh\"",
           "osIconPath": "/usr/share/pixmaps/blindekuh.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "nmg",
-            "ict"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "NMG",
+            "Medien",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
           "command": "blinken",
-          "description": "Ein Spiel zum Training Ihres Gedächtnisses",
+          "description": "Das Gedächtnis spielerisch trainieren",
           "name": "Blinken",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Beruf",
+            "|",
+            "|",
+            "|",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/blitzrechnen",
@@ -64,26 +96,47 @@
           "osIconPath": "/usr/share/pixmaps/blitzrechnen.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "mathematik",
-            "variable",
-            "zahl"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "Beruf",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
           "command": "/usr/share/bin/webapps \"http://bodenreise.ch/lift_v2/de\"",
-          "description": "Entdecke den Boden",
+          "description": "Den Boden entdecken",
           "name": "Bodenreise",
           "osIconPath": "/usr/share/pixmaps/bodenreise.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "nmg",
-            "biologie"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "Biologie",
+            "Chemie",
+            "Ökologie",
+            "|",
+            "Tiere",
+            "Pflanzen",
+            "Stoff",
+            "Natur",
+            "Lebensraum",
+            "|",
+            "erforschen",
+            "|",
+            ""
           ]
         },
         {
@@ -98,7 +151,14 @@
           "description": "Luo käsitekarttoja yksin tai ryhmässä",
           "name": "Cmaptools - käsitekarttatyökalu",
           "osIconPath": "/opt/cmaptools/share/cmaptools.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps http://www.cooldriving.ch/flashCycle/cool02MX.swf",
@@ -107,12 +167,17 @@
           "osIconPath": "/usr/share/pixmaps/cool-driving.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "nmg",
-            "technik",
-            "verkehr"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "|",
+            "Bewegung",
+            "|",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -124,17 +189,24 @@
         },
         {
           "command": "/usr/share/bin/webapps http://www.duden.de/woerterbuch",
-          "description": "Im Duden online nachschlagen",
+          "description": "Im Duden online Wörter nachschlagen",
           "name": "Duden",
           "osIconPath": "/usr/share/pixmaps/duden.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "z3",
-            "sprachen",
-            "deutsch"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "|",
+            "Sprache",
+            "|",
+            "schreiben",
+            "suchen",
+            "|",
+            ""
           ]
         },
         {
@@ -151,10 +223,16 @@
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "musik",
-            "hören"
+            "1.Zyklus",
+            "|",
+            "NMG",
+            "Musik",
+            "|",
+            "|",
+            "|",
+            "hören",
+            "|",
+            ""
           ]
         },
         {
@@ -164,11 +242,20 @@
           "osIconPath": "/usr/share/pixmaps/fragfinn.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "nmg",
-            "ict"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "NMG",
+            "Gestalten",
+            "Musik",
+            "Medien",
+            "Beruf",
+            "|",
+            "|",
+            "|",
+            "suchen",
+            "|",
+            ""
           ]
         },
         {
@@ -178,13 +265,27 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/geogebra.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "mathematik",
-            "raum",
-            "zahl",
-            "variable"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "Geometrie",
+            "Statistik",
+            "|",
+            "Zahl",
+            "Variable",
+            "Form",
+            "Raum",
+            "Funktion",
+            "Zufall",
+            "|",
+            "operieren",
+            "erforschen",
+            "|",
+            ""
           ]
         },
         {
@@ -201,11 +302,18 @@
           "osIconPath": "/usr/share/pixmaps/solfege.svg",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "musik",
-            "hören"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Musik",
+            "|",
+            "|",
+            "Musik",
+            "|",
+            "singen",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -215,10 +323,22 @@
           "osIconPath": "/usr/share/pixmaps/google-translate.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "sprachen"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "|",
+            "Sprache",
+            "|",
+            "hören",
+            "sprechen",
+            "schreiben",
+            "|",
+            ""
           ]
         },
         {
@@ -228,11 +348,15 @@
           "osIconPath": "/usr/share/pixmaps/internet-abc.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "ict"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Medien",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -240,14 +364,47 @@
           "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
           "name": "Kanagram",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "|",
+            "Sprache",
+            "|",
+            "spielen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "kbruch -caption %c %i",
           "description": "Übungen mit Brüchen",
           "name": "KBruch",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kbruch.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "|",
+            "operieren",
+            "benennen",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "kgeography",
@@ -256,12 +413,20 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kgeography.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "z3",
-            "nmg",
-            "geografie"
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "Geografie",
+            "|",
+            "Räume",
+            "|",
+            "prüfen",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -269,7 +434,22 @@
           "description": "Ein Buchstabierspiel für KDE",
           "name": "KHangMan",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "|",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "|",
+            "Sprache",
+            "|",
+            "spielen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "kig %i -caption %c",
@@ -285,10 +465,20 @@
           "osIconPath": "/usr/share/pixmaps/kindersuchmaschine.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "alle"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "NMG",
+            "Gestalten",
+            "Musik",
+            "Medien",
+            "Beruf",
+            "|",
+            "|",
+            "|",
+            "suchen",
+            "|",
+            ""
           ]
         },
         {
@@ -298,11 +488,24 @@
           "osIconPath": "/usr/share/pixmaps/kinderwald.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "biologie"
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "Biologie",
+            "Chemie",
+            "Ökologie",
+            "|",
+            "Tiere",
+            "Pflanzen",
+            "Stoff",
+            "Natur",
+            "|",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -312,13 +515,22 @@
           "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "musik",
-            "nmg",
-            "raum",
-            "hören"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Musik",
+            "|",
+            "|",
+            "Lebensweise",
+            "Lebensraum",
+            "Räume",
+            "|",
+            "hören",
+            "singen",
+            "tanzen",
+            "musizieren",
+            "|",
+            ""
           ]
         },
         {
@@ -328,13 +540,25 @@
           "osIconPath": "/usr/share/pixmaps/kinderzeitmaschine.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "geschichte",
-            "raum",
-            "zeit"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "|",
+            "Räume",
+            "Zeit",
+            "Dauer",
+            "Wandel",
+            "Gesellschaft",
+            "Weltansichten",
+            "|",
+            "hören",
+            "lesen",
+            "erforschen",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -386,12 +610,20 @@
           "osIconPath": "/usr/share/pixmaps/lerntrix.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "mathematik",
-            "raum",
-            "zahl"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -401,12 +633,21 @@
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "mathematik",
-            "variable",
-            "zahl"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -416,11 +657,19 @@
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "mathemathik",
-            "variable",
-            "zahl"
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -430,11 +679,21 @@
           "osIconPath": "/usr/share/pixmaps/logisch2.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "mathemathik",
-            "variable",
-            "zahl"
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "benennen",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -444,11 +703,20 @@
           "osIconPath": "/usr/share/pixmaps/logisch3.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "mathemathik",
-            "variable",
-            "zahl"
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -458,11 +726,20 @@
           "osIconPath": "/usr/share/pixmaps/logisch4.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "mathemathik",
-            "variable",
-            "zahl"
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -472,11 +749,20 @@
           "osIconPath": "/usr/share/pixmaps/logisch5.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "mathemathik",
-            "variable",
-            "zahl"
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Variable",
+            "Form",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -486,11 +772,20 @@
           "osIconPath": "/usr/share/pixmaps/logisch6.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "mathemathik",
-            "variable",
-            "zahl"
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -500,13 +795,17 @@
           "osIconPath": "/usr/share/pixmaps/lll.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "sprachen",
-            "deutsch",
-            "sprechen",
+            "1.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "|",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "|",
+            ""
           ]
         },
         {
@@ -535,42 +834,134 @@
           "description": "\"Mathe üben 1.Klasse\"",
           "name": "Mathe1Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "nw /usr/share/node/mathe2trainer",
           "description": "\"Mathe üben 2.Klasse\"",
           "name": "Mathe2Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe2trainer.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "nw /usr/share/node/mathe3trainer",
           "description": "\"Mathe üben 3 .Klasse\"",
           "name": "Mathe3Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe3trainer.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "nw /usr/share/node/mathe4trainer",
           "description": "\"Mathe üben 4.Klasse\"",
           "name": "Mathe4Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe4trainer.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\"",
           "description": "\"Dividieren üben\"",
           "name": "Mathe Aktiv Division",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "|",
+            "üben",
+            "lernen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\"",
           "description": "\"Insätze üben\"",
           "name": "Mathe Aktiv Insätze",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "|",
+            "üben",
+            "lernen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\"",
@@ -578,7 +969,20 @@
           "name": "Mathe Aktiv Multiplikation",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-multiplikation.png",
           "type": "custom",
-          "keywords": []
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "|",
+            "üben",
+            "lernen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps http://www.mathe-im-netz.de",
@@ -587,20 +991,45 @@
           "osIconPath": "/usr/share/pixmaps/mathe-im-netz.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "mathematik",
-            "zahl",
-            "variable"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
           "command": "nw /usr/share/node/mathe-trainer",
-          "description": "\"Mathe üben 1. bis 4.Klasse\"",
+          "description": "Mathe üben 1. bis 4.Klasse",
           "name": "Mathe-Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe-trainer.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/millefeuilles",
@@ -609,13 +1038,25 @@
           "osIconPath": "/usr/share/pixmaps/mf.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "sprachen",
-            "französisch",
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -625,12 +1066,23 @@
           "osIconPath": "/usr/share/pixmaps/mf32.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "sprachen",
-            "französisch",
+            "1.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -640,12 +1092,23 @@
           "osIconPath": "/usr/share/pixmaps/mf33.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "sprachen",
-            "französisch",
+            "1.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -655,12 +1118,23 @@
           "osIconPath": "/usr/share/pixmaps/mf41.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "sprachen",
-            "französisch",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -670,12 +1144,24 @@
           "osIconPath": "/usr/share/pixmaps/mf42.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "sprachen",
-            "französisch",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -685,12 +1171,23 @@
           "osIconPath": "/usr/share/pixmaps/mf43.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "sprachen",
-            "französisch",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -700,12 +1197,23 @@
           "osIconPath": "/usr/share/pixmaps/mf51.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "sprachen",
-            "französisch",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -715,12 +1223,23 @@
           "osIconPath": "/usr/share/pixmaps/mf52.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "sprachen",
-            "französisch",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -730,12 +1249,23 @@
           "osIconPath": "/usr/share/pixmaps/mf31.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "sprachen",
-            "französisch",
+            "1.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "sprechen",
+            "schreiben",
+            "singen",
+            "|",
+            ""
           ]
         },
         {
@@ -745,12 +1275,20 @@
           "osIconPath": "/usr/share/pixmaps/minibooks.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "z3",
-            "sprachen",
-            "operieren"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "|",
+            "|",
+            "schreiben",
+            "herstellen",
+            "|",
+            ""
           ]
         },
         {
@@ -758,7 +1296,21 @@
           "description": "\"Übungen zur Gehörbildung\"",
           "name": "Musikwissenschaften",
           "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Musik",
+            "|",
+            "|",
+            "Musik",
+            "|",
+            "hören",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps http://www.mymoment.ch",
@@ -767,14 +1319,18 @@
           "osIconPath": "/usr/share/pixmaps/mymoment.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "ict",
-            "deutsch",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "|",
+            "|",
             "lesen",
-            "schreiben"
+            "schreiben",
+            "|",
+            ""
           ]
         },
         {
@@ -784,12 +1340,16 @@
           "osIconPath": "/usr/share/pixmaps/netcity.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "ict",
-            "gesellschaft"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Medien",
+            "|",
+            "|",
+            "|",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -799,11 +1359,16 @@
           "osIconPath": "/usr/share/pixmaps/netla.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "ict"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Medien",
+            "|",
+            "|",
+            "|",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -813,13 +1378,21 @@
           "osIconPath": "/usr/share/pixmaps/newworld1.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "sprachen",
-            "englisch",
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "English",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
             "lesen",
-            "hören"
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -829,12 +1402,21 @@
           "osIconPath": "/usr/share/pixmaps/notenmax.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "musik",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Musik",
+            "|",
+            "|",
+            "Kultur",
+            "Musik",
+            "|",
             "hören",
-            "singen"
+            "lesen",
+            "singen",
+            "musizieren",
+            "|",
+            ""
           ]
         },
         {
@@ -851,11 +1433,18 @@
           "osIconPath": "/usr/share/pixmaps/openstreetmap.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "geografie"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "|",
+            "Räume",
+            "|",
+            "erforschen",
+            "suchen",
+            "|",
+            ""
           ]
         },
         {
@@ -865,12 +1454,20 @@
           "osIconPath": "/usr/share/pixmaps/openthesaurus.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "sprachen",
-            "deutsch",
-            "schreiben"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "|",
+            "Sprache",
+            "|",
+            "sprechen",
+            "schreiben",
+            "suchen",
+            "|",
+            ""
           ]
         },
         {
@@ -880,12 +1477,19 @@
           "osIconPath": "/usr/share/pixmaps/orthografietrainer.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "sprachen",
-            "deutsch",
-            "schreiben"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "|",
+            "Sprache",
+            "|",
+            "üben",
+            "lernen",
+            "|",
+            ""
           ]
         },
         {
@@ -909,12 +1513,23 @@
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "gesellschaft",
-            "raum"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "|",
+            "Lebensweise",
+            "Lebensraum",
+            "Räume",
+            "Gesellschaft",
+            "Weltansichten",
+            "|",
+            "hören",
+            "lesen",
+            "erforschen",
+            "|",
+            ""
           ]
         },
         {
@@ -931,12 +1546,18 @@
           "osIconPath": "/usr/share/pixmaps/sikore.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "mathematik",
-            "variable",
-            "zahl"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "|",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -967,13 +1588,20 @@
           "osIconPath": "/usr/share/pixmaps/tuxmath.svg",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "z3",
-            "mathematik",
-            "variable",
-            "zahl"
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "|",
+            "Zahl",
+            "|",
+            "operieren",
+            "üben",
+            "spielen",
+            "|",
+            ""
           ]
         },
         {
@@ -983,10 +1611,16 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tuxpaint.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "gestalten",
-            "zeichnen"
+            "1.Zyklus",
+            "|",
+            "Gestalten",
+            "|",
+            "Zeichnen",
+            "|",
+            "|",
+            "herstellen",
+            "|",
+            ""
           ]
         },
         {
@@ -996,12 +1630,22 @@
           "osIconPath": "/usr/share/pixmaps/unserkoerper.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "z3",
-            "nmg",
-            "biologie"
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "Biologie",
+            "|",
+            "Idenität",
+            "Körper",
+            "Gesundheit",
+            "|",
+            "erforschen",
+            "suchen",
+            "|",
+            ""
           ]
         }
       ],
@@ -1036,13 +1680,16 @@
         },
         {
           "command": "gummi %F",
-          "description": "Einfacher LaTeX Editor",
+          "description": "Documente mit LaTeX erstellen und verändern",
           "name": "Gummi",
           "osIconPath": "/usr/share/pixmaps/gummi.png",
           "type": "custom",
           "keywords": [
-            "n2",
-            "n3"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1131,22 +1778,30 @@
         },
         {
           "command": "lokalize %i -caption %c",
-          "description": "",
+          "description": "Programme übersetzten",
           "name": "Lokalize",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/lokalize.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "okular %U %i -caption %c",
-          "description": "Dokumenten Betrachter ",
+          "description": "Dokumente betrachten&nbsp;",
           "name": "Okular",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/okular.png",
           "type": "custom",
           "keywords": [
-            "n2",
-            "pdf",
-            "reader",
-            "acro"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1156,15 +1811,27 @@
           "osIconPath": "/usr/share/pixmaps/pdfshuffler.png",
           "type": "custom",
           "keywords": [
-            "n1"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
           "command": "tellico -caption %c %i %u",
-          "description": "Eine Sammlungsverwaltung",
+          "description": "Eine Sammlung verwalten",
           "name": "Tellico",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tellico.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            "sprechen",
+            ""
+          ]
         },
         {
           "command": "vym",
@@ -1175,10 +1842,18 @@
         },
         {
           "command": "XMind",
-          "description": "Launch XMind 6",
+          "description": "Mindmaps erstellen und berabeiten",
           "name": "XMind",
           "osIconPath": "/usr/share/pixmaps/XMind.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         }
       ],
       "name": "Büro",
@@ -1199,14 +1874,29 @@
           "description": "Diagramme bearbeiten",
           "name": "Dia",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dia.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "f-spot",
           "description": "Fotos anschauen, sortieren und weitergeben",
           "name": "F-Spot",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/f-spot.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "gimp-2.8 %U",
@@ -1215,10 +1905,17 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gimp.png",
           "type": "custom",
           "keywords": [
-            "n2",
-            "n3",
-            "photoshop",
-            "fotoshop"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Gestalten",
+            "|",
+            "Zeichnen",
+            "|",
+            "|",
+            "herstellen",
+            "|",
+            ""
           ]
         },
         {
@@ -1226,7 +1923,14 @@
           "description": "Ihre Bilder betrachten und katalogisieren",
           "name": "gThumb",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gthumb.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "gtkam",
@@ -1283,10 +1987,17 @@
         },
         {
           "command": "librecad %F",
-          "description": "A professional CAD System",
+          "description": "Ein professionelles CAD System",
           "name": "LibreCAD",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/librecad.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "libreoffice --draw %U",
@@ -1308,10 +2019,17 @@
         },
         {
           "command": "mandelbulber",
-          "description": "Visit 3D Fractal World",
+          "description": "Besuche die fraktale 3D-Welt",
           "name": "Mandelbulber",
           "osIconPath": "/usr/share/mandelbulber/icons/mandelbulber.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "mypaint %f",
@@ -1322,15 +2040,16 @@
         },
         {
           "command": "okular %U %i -caption %c",
-          "description": "Dokumenten Betrachter ",
+          "description": "Dokumente betrachten&nbsp;",
           "name": "Okular",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/okular.png",
           "type": "custom",
           "keywords": [
-            "n2",
-            "pdf",
-            "reader",
-            "acro"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1428,7 +2147,15 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dropbox.png",
           "type": "custom",
           "keywords": [
-            "n1"
+            "|",
+            "|",
+            "Geschichte",
+            "|",
+            "Variable",
+            "Grössen",
+            "|",
+            "herstellen",
+            ""
           ]
         },
         {
@@ -1436,14 +2163,28 @@
           "description": "Browse the web in text mode",
           "name": "ELinks Webbrowser",
           "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "emesene -s",
-          "description": "Instant messaging client for MSN, Gtalk and Facebook",
+          "description": "Instant Messaging Client für MSN, Gtalk und Facebook",
           "name": "emesene",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/emesene.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "empathy",
@@ -1539,7 +2280,12 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/liferea.png",
           "type": "custom",
           "keywords": [
-            "n1"
+            "|",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1646,14 +2392,16 @@
         },
         {
           "command": "audacity %F",
-          "description": "Audio-Dateien aufnehmen und bearbeiten",
+          "description": "Audio aufnehmen und bearbeiten",
           "name": "Audacity",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/audacity.png",
           "type": "custom",
           "keywords": [
-            "n1",
-            "n2",
-            "lp"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1682,13 +2430,16 @@
         },
         {
           "command": "cheese",
-          "description": "Ein Programm, um Bilder und Videos mit einer Webcam aufzunehmen und lustige grafische Effekte hinzuzufügen",
+          "description": "Bilder und Videos mit einer Webcam aufzunehmen und Effekte hinzuzufügen",
           "name": "Cheese",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/cheese.png",
           "type": "custom",
           "keywords": [
-            "n1",
-            "lp"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1705,19 +2456,30 @@
           "osIconPath": "/usr/share/icons/hicolor/scalable/apps/fmit.svg",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "z2",
-            "z3",
-            "musik"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Musik",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
           "command": "gnome-mplayer %U",
-          "description": "Play your media",
+          "description": "Medien spielen und darstellen",
           "name": "GNOME MPlayer",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-mplayer.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "denemo",
@@ -1733,11 +2495,18 @@
           "osIconPath": "/usr/share/pixmaps/solfege.svg",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z2",
-            "z3",
-            "musik",
-            "hören"
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Musik",
+            "|",
+            "|",
+            "Musik",
+            "|",
+            "singen",
+            "üben",
+            "|",
+            ""
           ]
         },
         {
@@ -1783,10 +2552,17 @@
         },
         {
           "command": "kino %F",
-          "description": "Bearbeitet Digital-Videos",
+          "description": "Digital-Videos erstellen und bearbeiten",
           "name": "Kino",
           "osIconPath": "/usr/share/pixmaps/kino.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "kscd -caption %c %i",
@@ -1802,11 +2578,11 @@
           "osIconPath": "/usr/share/icons/lmms.png",
           "type": "custom",
           "keywords": [
-            "n2",
-            "n3",
-            "sound",
-            "mix",
-            "record"
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
           ]
         },
         {
@@ -1818,10 +2594,17 @@
         },
         {
           "command": "me-tv",
-          "description": "Eine Anwendung zum Betrachten von digitalem Fernsehen (DVB) unter GNOME",
+          "description": "Digitales Fernsehen (DVB) ansehen",
           "name": "Me TV",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/me-tv.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "pasuspender mixxx",
@@ -1851,17 +2634,31 @@
         },
         {
           "command": "ogmrip",
-          "description": "Ein DVD-Kodierer",
+          "description": "DVD auslesen und rippen",
           "name": "OGMRip DVD-Ausleser",
           "osIconPath": "/usr/share/pixmaps/ogmrip.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "openshot %F",
-          "description": "Create and edit videos and movies",
+          "description": "Videos und Filme erstellen und bearbeiten",
           "name": "OpenShot Video Editor",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/openshot.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "photofilmstrip",
@@ -2030,10 +2827,17 @@
       "items": [
         {
           "command": "arduino",
-          "description": "",
+          "description": "Den Arduino Micro-Computer programmieren",
           "name": "Arduino IDE",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/arduino.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "bluefish %F",
@@ -2044,17 +2848,32 @@
         },
         {
           "command": "/usr/bin/bluegriffon %U",
-          "description": "",
+          "description": "Html-Dateien herstellen und verändern",
           "name": "BlueGriffon",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/bluegriffon.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "eclipse",
           "description": "Eclipse Integrated Development Environment",
           "name": "Eclipse",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/eclipse.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "enchanting",
@@ -2121,10 +2940,17 @@
         },
         {
           "command": "lokalize %i -caption %c",
-          "description": "",
+          "description": "Programme übersetzten",
           "name": "Lokalize",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/lokalize.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/bin/netbeans",
@@ -2315,29 +3141,66 @@
           "osIconPath": "/usr/share/pixmaps/gcompris.png",
           "type": "custom",
           "keywords": [
-            "lp",
-            "z1",
-            "deutsch",
-            "mathe",
-            "nmg",
-            "lesen",
-            "hören",
-            "spielen"
+            "1.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "Mathematik",
+            "NMG",
+            "Gestalten",
+            "|",
+            "Deutsch",
+            "Statistik",
+            "|",
+            "Grunderfahrungen",
+            "|",
+            "darstellen",
+            "|",
+            ""
           ]
         },
         {
           "command": "blinken",
-          "description": "Ein Spiel zum Training Ihres Gedächtnisses",
+          "description": "Das Gedächtnis spielerisch trainieren",
           "name": "Blinken",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Beruf",
+            "|",
+            "|",
+            "|",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "kanagram",
           "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
           "name": "Kanagram",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "|",
+            "Sprache",
+            "|",
+            "spielen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "ktuberling -caption %c %u",
@@ -2351,7 +3214,22 @@
           "description": "Ein Buchstabierspiel für KDE",
           "name": "KHangMan",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "|",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "|",
+            "Sprache",
+            "|",
+            "spielen",
+            "|",
+            ""
+          ]
         },
         {
           "items": [

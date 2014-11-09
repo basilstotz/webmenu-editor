@@ -40,12 +40,12 @@ else
             *)
            ;;
      esac
-    
-     if [ -f ${GPREFIX}/${KLASSE}/.config/webmenu/filter.json ]; then
-       cat ${SRC} | ${P}/updateMenu.js ${GPREFIX}/${KLASSE}/.config/webmenu/filter.json > ${HOME}/.config/webmenu/menu.json
-     fi
-
    done       # for
+    
+   if [ -f ${GPREFIX}/${KLASSE}/.config/webmenu/filter.json ]; then
+       cat ${SRC} | ${P}/updateMenu.js ${GPREFIX}/${KLASSE}/.config/webmenu/filter.json > ${HOME}/.config/webmenu/menu.json
+   fi
+
 fi            # if lehrer
 
 

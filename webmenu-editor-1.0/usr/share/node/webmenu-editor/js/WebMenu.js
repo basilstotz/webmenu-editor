@@ -498,7 +498,7 @@ module.exports.Menu = function() {
                   this.groupsInit();
                   this.loadMenuSync();
                   this.findFilterSync();
-                  if(this.filter.stars.length===0)this.autoStar("n0 n1 lp");
+                  if(this.filter.stars.length===0)this.autoStar("n0 n1");
    };
 
    this.initMenu = function(callback) {
@@ -726,7 +726,36 @@ module.exports.Menu = function() {
 //               function: generateMenu();
 ///////////////////////////////////////////////////////////////////////////////////////////////7
 
+
+  this.cleanKeywords = function(item){
+          var i;
+          var kw=[];
+          if(item.keywords){
+             for(i=0;i<item.keywords.length;i++){
+                 if(item.keywords[i].length>2)kw.push(item.keywords[i]);
+             }
+             item.keywords=kw;
+          }
+          if(item.isStarred)delete item.isStarred;
+  };  
+
                        
+  this.cleanMenu = function(){
+           this.cleanTree(this.menuOut);
+        };
+
+  this.cleanTree = function(dir){
+       for(var i=0;i<dir.items.length;i++){
+          var it=dir.items[i];
+          if(it.type=="menu"){
+              this.cleanTree(it);
+          }else{
+             this.cleanKeywords(it);
+          }
+      }      
+  };    
+
+
    this.generateMenu = function(){
 
             var catInvisible={
@@ -756,7 +785,8 @@ module.exports.Menu = function() {
                 this.menuOut=this.filterTree(this.menuIn);
                 if(!this.filter.options.onlyStarred)this.menuOut.addMenu(newCat);
              } 
-
+          
+             this.cleanMenu();
              this.saveMenuSync();
 
 

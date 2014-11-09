@@ -7,7 +7,7 @@
   "window": {
     "title": "Siweed",
     "icon": "./img/edit-list.png",
-    "toolbar": true,
+    "toolbar": false,
     "frame": true,
     "width": 880,   
     "height": 600,

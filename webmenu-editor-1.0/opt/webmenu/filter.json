@@ -6,9 +6,7 @@
     "useKeywords": true,
     "maxMenuContent": 20
   },
-  "keys": [
-    "mill"
-  ],
+  "keys": [],
   "stars": [
     "Antolin",
     "Bildungs-Sammlung GCompris",
@@ -74,30 +72,25 @@
     "Sixteen",
     "Stellarium",
     "Thunderbird-E-Mail und -Nachrichten",
-    "Liferea",
-    "Google Chrome",
     "Bildschirmfoto",
     "Taschenrechner",
     "Terminal",
-    "Xosview",
-    "Startmedienersteller",
     "WebMenuEditor",
     "LibreOffice Impress",
-    "ELinks Webbrowser",
     "Dropbox",
-    "F-Spot",
     "webmenu-editor",
-    "webmenu-tag-editor"
+    "webmenu-tag-editor",
+    "Mathe Aktiv Division",
+    "Mathe Aktiv Insätze",
+    "Blinken",
+    "GIMP Bildbearbeitung",
+    "Kanagram",
+    "KBruch",
+    "KHangMan",
+    "XMind",
+    "Firefox Web Browser",
+    "Stopmotion",
+    "Mathe-Trainer"
   ],
-  "results": [
-    "Mille feuilles",
-    "Mille feuilles 3.2",
-    "Mille feuilles 3.3",
-    "MilleFeuilles 4.1",
-    "MilleFeuilles 4.2",
-    "MilleFeuilles 4.3",
-    "MilleFeuilles 5.1",
-    "MilleFeuilles 5.2",
-    "Mille feuilles: magazine 3.1"
-  ]
+  "results": []
 }

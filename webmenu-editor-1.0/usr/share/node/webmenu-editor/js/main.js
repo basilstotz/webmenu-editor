@@ -1,6 +1,8 @@
 
 
 var spawn=require('child_process').spawn;
+var gui= require('nw.gui');
+
 var WebMenu = require('./../js/WebMenu.js');
 
 var menu = new WebMenu.Menu();
@@ -197,9 +199,6 @@ function tagsHtml(tag){
 
 
                             
-//any arg sets tag mode true!
-if(process.argv[2])menu.setTagMode(true);
-menu.setTagMode(true);
 
 
 function redrawMenu(isMenu) {
@@ -433,9 +432,9 @@ function doit(query){
 
 
 function applay(){
-   //menu.generateMenu();
+   menu.generateMenu();
    spawn("webmenu-spawn" , [ '--webmenu-exit'] );
-   spawn("notify-send", [ "The new menu is ready!" ] );
+   spawn("notify-send", [ "The new menu is ready in some seconds!" ] );
    menu.hasChanged=false;
    $("#applay").html("");
 }
@@ -486,6 +485,10 @@ buttons: {
 
 }); // #dialog
 
+//any arg sets tag mode true!
+if(process.env.TAGS)menu.setTagMode(true);
+if(gui.App.argv[2])menu.setTagMode(true);
+//menu.setTagMode(true);
 
 
 menu.initMenuSync();
