@@ -1,7 +1,8 @@
 #!/bin/sh
 
-export GROUPS=$(groups|sed 's/ /:/g')
-export TAGS="JA";
-nw /usr/share/node/webmenu-editor/ --tags 
+#export GROUPS=$(groups|sed 's/ /:/g')
+#export TAGS="JA";
+
+env GROUPS="$(groups|sed 's/ /:/g')" TAGS="JA" nw /usr/share/node/webmenu-editor/ 
 
 exit $?

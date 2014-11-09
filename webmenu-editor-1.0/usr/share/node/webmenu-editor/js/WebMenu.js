@@ -348,11 +348,12 @@ module.exports.Menu = function() {
 
    this.groups=[];
    this.groupsInit = function(){
+
                var s=process.env.GROUPS;
-               s="lehrer";               
-               if(s.search("lehrer")){
-                 this.groups.push("lehrer");
-//                 this.groups.push("maint");//// <----------------
+
+               this.groups=[];
+               //s="lehrer";               
+               if((s.search("lehrer")!=-1)||(s.search("maint")!=-1)){
                  var sa=s.split(':');
                  for(var i=0;i<sa.length;i++){
                     switch(sa[i]){
@@ -376,6 +377,11 @@ module.exports.Menu = function() {
                                       break;
                         case '2014b': this.groups.push('2014b');
                                       break;
+                        case 'maint': this.groups.push('maint');
+                                      break;
+                        case 'lehrer': this.groups.push('lehrer');
+                                      break;
+               
                         default: break;
 
                     }
@@ -389,11 +395,17 @@ module.exports.Menu = function() {
                          t+="<select style='font-size:18px;' name='group' id='group'>";
                          for(var i=0;i<this.groups.length;i++){
                             var n=this.groups[i];
-                            if(n=="lehrer"){
-                               t+="<option value='' selected='selected'>Mein Menu</option>"; 
-                            }else{
-                               t+="<option value='"+n+"'>Klasse: "+n+"</option>";
-                            } 
+                            switch(n){
+                              case 'lehrer':
+                                      t+="<option value='' selected='selected'>Mein Menu</option>"; 
+                                    break;
+                              case 'maint':
+                                      t+="<option value='' selected='selected'>System Menu</option>"; 
+                                    break;
+                              default:
+                                      t+="<option value='"+n+"'>Klasse: "+n+"</option>";
+                                    break;
+                            }
                          }
                          t+="</select>";
                          return t;
