@@ -8,7 +8,7 @@ var menu = new WebMenu.Menu();
 
 var tags= { "zyklen"   : [ "1.Zyklus","2.Zyklus","3.Zyklus" ],
             "bereiche" : [ "Sprachen","Mathematik","NMG","Gestalten","Musik","Medien","Beruf" ],
-            "fächer"   : [  "Deutsch", "Französisch", "English", "Arithmetik", "Algebra", "Geometrie",
+            "facher"   : [  "Deutsch", "Französisch", "English", "Arithmetik", "Algebra", "Geometrie",
                             "Statistik", "Biologie", "Psychologie", "Chemie", "Physik", "Geologie",
                             "Geologie", "Wirtschaft", "Ökologie", "Ökonomie", "Geografie", "Astronomie",
                             "Geschichte", "Soziologie", "Ethik", "Philosofie", "Zeichnen",
@@ -25,7 +25,8 @@ var tags= { "zyklen"   : [ "1.Zyklus","2.Zyklus","3.Zyklus" ],
                             "tanzen", "musizieren", "gestalten", "operieren", "benennen", "erforschen",
                             "argumentieren", "mathematisieren", "darstellen", 
                             "erklären", "herstellen", "üben", "suchen", "spielen",
-                            "prüfen", "lernen"  ]
+                            "prüfen", "lernen"  ],
+             "niveau"   : [ "n1","n2","n3","n4" ]
           };
 
 
@@ -33,9 +34,10 @@ function stringToTag(tag_string){
 
    var etag ={ "zyklen"   : [ ],
             "bereiche" : [ ],
-            "fächer"   : [],
+            "facher"   : [],
             "nomen"    : [ ],
-            "verben"   : [ ]
+            "verben"   : [ ],
+            "niveau"   : []
              };
 
 
@@ -44,7 +46,8 @@ function stringToTag(tag_string){
       var u=tsa[i];
       ua=u.split(" ");
       for(var j=0;j<ua.length;j++){
-        if(ua[j].length>=2){
+        ua[j].trim();
+        if(ua[j].length>0){
           switch(i){
             case 0:
                etag.zyklen.push(ua[j]);
@@ -53,10 +56,16 @@ function stringToTag(tag_string){
                etag.bereiche.push(ua[j]);
                break;
             case 2:
-               etag.nomen.push(ua[j]);
+               etag.facher.push(ua[j]);
                break;
             case 3:
+               etag.nomen.push(ua[j]);
+               break;
+            case 4:
                etag.verben.push(ua[j]);
+               break;
+            case 5:
+               etag.niveau.push(ua[j]);
                break;
           }
        }
@@ -67,25 +76,56 @@ function stringToTag(tag_string){
 }
 
 
+function niveauHtml(tag){
+
+   var s="";
+   var c;
+
+    s+="<table style='background:#ddd;width:80px;'><tr>";       
+
+    for(i=0;i<tags.niveau.length;i++){
+
+       n=tags.niveau[i];
+       found=false;
+       for(j=0;j<tag.niveau.length;j++){
+         if(n==tag.niveau[j])found=true;
+       }
+       switch(i){
+         case 0: c="green";
+                 break;
+         case 1: c="blue";
+                 break;
+         case 2: c="red";
+                 break;
+         case 3: c="black";
+                 break;
+       }
+       if(found){cl="class='ein niveau "+c+"'";}else{cl="class='niveau "+c+"'";}
+       s+="<td name='"+n+"' "+cl+" ></td> ";
+    }
+    s+="</tr></table>";
+
+    return s;
+}
    
 
-function tagsHtml(tag_string){
+function tagsHtml(tag){
     var i,j;
     var n;
     var cl;
     var found;
-    var tag=stringToTag(tag_string);
     var s="";
+
     // Zyklus ////////////////////////////////////////////////////////////77
-    s+="<p  id='zyklus'>";
-    s="<b>Zyklen:</b> ";
+    s+="<p  id='zyklen'>";
+    s+="<b>Zyklen:</b> ";
     for(i=0;i<tags.zyklen.length;i++){
        n=tags.zyklen[i];
        found=false;
        for(j=0;j<tag.zyklen.length;j++){
          if(n==tag.zyklen[j])found=true;
        }
-       if(found){cl="class='on zykeln'";}else{cl="class='zykeln'";}
+       if(found){cl="class='on zyklen'";}else{cl="class='zyklen'";}
        s+="<span name='"+n+"' "+cl+" >"+n+"</span> ";
     }
     s+="</p>";
@@ -107,22 +147,22 @@ function tagsHtml(tag_string){
     s+="";
 
     // Fächer ////////////////////////////////////////////////////////////77
-    s+="<p style='margin-bottom:0px;' id='fächer'>";
+    s+="<p id='facher'>";
     s+="<b>Facher:</b> ";
-    for(i=0;i<tags.fächer.length;i++){
-       n=tags.fächer[i];
+    for(i=0;i<tags.facher.length;i++){
+       n=tags.facher[i];
        found=false;
-       for(j=0;j<tag.fächer.length;j++){
-         if(n==tag.fächer[j])found=true;
+       for(j=0;j<tag.facher.length;j++){
+         if(n==tag.facher[j])found=true;
        }
-       if(found){cl="class='on fächer'";}else{cl="class='fächer'";}
+       if(found){cl="class='on facher'";}else{cl="class='facher'";}
        s+="<span name='"+n+"' "+cl+" >"+n+"</span> ";
     }
     s+="</p>";
     s+="";
 
     // Nomen ////////////////////////////////////////////////////////////77
-    s+="<p  style='margin-bottom:0px;' id='nomen'>";
+    s+="<p  id='nomen'>";
     s+="<b>Nomen:</b> ";
     for(i=0;i<tags.nomen.length;i++){
        n=tags.nomen[i];
@@ -137,7 +177,7 @@ function tagsHtml(tag_string){
     s+="";
 
     // Verben ////////////////////////////////////////////////////////////77
-    s+="<p  style='margin-bottom:0px;' id='verben'>";
+    s+="<p id='verben'>";
     s+="<b>Verben:</b> ";
     for(i=0;i<tags.verben.length;i++){
        n=tags.verben[i];
@@ -216,7 +256,7 @@ function attach_path(){
 function compileOutString(){
                                                 $("#out").html("");
 
-                                                $("#zyklus").find(".on").each(function(){
+                                                $("#zyklen").find(".on").each(function(){
                                                                $("#out").append($(this).html()+" ");
                                                               });    
                                                 $("#out").append("| ");
@@ -226,7 +266,7 @@ function compileOutString(){
                                                               });    
                                                 $("#out").append("| ");
  
-                                                $("#fächer").find(".on").each(function(){
+                                                $("#facher").find(".on").each(function(){
                                                                $("#out").append($(this).html()+" ");
                                                               });    
                                                 $("#out").append("| ");
@@ -237,6 +277,11 @@ function compileOutString(){
                                                 $("#out").append("| ");
  
                                                 $("#verben").find(".on").each(function(){
+                                                               $("#out").append($(this).html()+" ");
+                                                              });    
+                                                $("#out").append("| ");                                           
+
+                                                $("#niveau").find(".ein").each(function(){
                                                                $("#out").append($(this).html()+" ");
                                                               });    
                                                 $("#out").append("");
@@ -284,7 +329,12 @@ function attach_display(){
 
                            if(item){
                                t="<img style='float:left;margin-right:50px;margin-bottom:40px;position:relative;top:25px;width:80px;height:80px;' src='"+item.osIconPath+"'>";
-                               t+="<table style='width:80px;float:right;margin-top:25px;'><tr> <td style='background:#0f0;height:10px;'></td> <td style='background:#00f'></td><td style='background:#f00'></td> <td style='background:#000'></td></tr></table>";
+                               //t+="<table style='width:80px;float:right;margin-top:25px;'><tr> <td style='background:#0f0;height:10px;'></td> <td style='background:#00f'></td><td style='background:#f00'></td> <td style='background:#000'></td></tr></table>";
+
+                               t+="<div style='width:80px;float:right;margin-top:25px;'>";
+                               t+=niveauHtml(stringToTag(key_str));
+                               t+="</div>";
+
                                t+="<h3 class='in_name'>"+item.name+"</h3>";
                                
                                t+="<span id='beschreibung' contenteditable='true'>"+item.description+"</span><br/>";
@@ -294,14 +344,15 @@ function attach_display(){
                                //t+="<form id='formular' >";
 
                                  //t+="Keywords<input size='50' class='in_keys' type='text' value='"+key_str+"'><br/><br/>";
-                                  t+="<div style='padding:10px;background:#eee;font-size:12px'>"+tagsHtml(key_str);+"</div>";
+                                  t+="<div style='padding:10px;background:#eee;font-size:12px'>"+
+                                      tagsHtml(stringToTag(key_str));+"</div>";
 
                                   //t+="Description<textarea class='in_desc' cols='50' rows='5'>"+item.description+"</textarea>";
                                //t+="</form>";
                                $("#dialog").html("<span style='vertical-align:top;'>"+t+"</span>");
 
                                ////////////////////////////////////////////////////////////////777
-                               $(".zykeln").click(function(){
+                               $(".zyklen").click(function(){
                                                 $(this).toggleClass("on");
                                                 compileOutString();
                                              });
@@ -309,7 +360,7 @@ function attach_display(){
                                                 $(this).toggleClass("on");
                                                 compileOutString();
                                              });
-                               $(".fächer").click(function(){
+                               $(".facher").click(function(){
                                                 $(this).toggleClass("on");
                                                 compileOutString();
                                              });
@@ -321,6 +372,11 @@ function attach_display(){
                                                 $(this).toggleClass("on");
                                                 compileOutString();
                                              });
+                                $(".niveau").click(function(){
+                                                $(this).toggleClass("ein");
+                                                compileOutString();
+                                             });
+
                                ///////////////////////////////////////////////////////////////////7
                                $("#dialog").dialog("open");
                                compileOutString();
@@ -389,7 +445,7 @@ function applay(){
 
 $("#dialog").dialog({
 resizable:false,
-height: 500,
+height: 550,
 width:800,
 autoOpen: false,
 show: {
