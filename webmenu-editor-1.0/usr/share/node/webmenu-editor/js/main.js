@@ -494,6 +494,7 @@ if(gui.App.argv[2])menu.setTagMode(true);
 menu.initMenuSync();
 menu.initKeywords();
 
+
 $("#query").keyup(function(){doit($("#query").val());});
 $("#applay").click(function(){applay();});  
 

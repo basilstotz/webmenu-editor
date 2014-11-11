@@ -350,7 +350,7 @@ module.exports.Menu = function() {
    this.groupsInit = function(){
 
                var s=process.env.GROUPS;
-
+               this.filterGroup="";
                this.groups=[];
                //s="lehrer";               
                if((s.search("lehrer")!=-1)||(s.search("maint")!=-1)){
