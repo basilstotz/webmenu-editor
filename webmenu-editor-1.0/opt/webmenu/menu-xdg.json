@@ -113,7 +113,7 @@
           ]
         },
         {
-          "command": "/usr/share/bin/webapps \"http://bafu.lernfragen.ch/file.php/1/lift_2/index.html#de\"",
+          "command": "/usr/share/bin/webapps \"http://bodenreise.ch/lift_v2/de\"",
           "description": "Den Boden entdecken",
           "name": "Bodenreise",
           "osIconPath": "/usr/share/pixmaps/bodenreise.png",
@@ -217,7 +217,7 @@
           "type": "custom"
         },
         {
-          "command": "/usr/share/bin/webapps http://www.flubidux.de/start.htm",
+          "command": "nw /usr/share/node/flubidux",
           "description": "Töne und Geräusche entdecken",
           "name": "Flubidux",
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
@@ -809,6 +809,13 @@
           ]
         },
         {
+          "command": "/usr/share/bin/webapps http://map.geo.admin.ch/",
+          "description": "\"Karten von geo.admin\"",
+          "name": "Map GeoAdmin",
+          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png",
+          "type": "custom"
+        },
+        {
           "command": "marble-qt %F",
           "description": "",
           "name": "Marble",
@@ -823,9 +830,101 @@
           "type": "custom"
         },
         {
+          "command": "nw /usr/share/node/mathe1trainer",
+          "description": "\"Mathe üben 1.Klasse\"",
+          "name": "Mathe1Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
+        },
+        {
+          "command": "nw /usr/share/node/mathe2trainer",
+          "description": "\"Mathe üben 2.Klasse\"",
+          "name": "Mathe2Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe2trainer.png",
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
+        },
+        {
+          "command": "nw /usr/share/node/mathe3trainer",
+          "description": "\"Mathe üben 3 .Klasse\"",
+          "name": "Mathe3Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe3trainer.png",
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
+        },
+        {
+          "command": "nw /usr/share/node/mathe4trainer",
+          "description": "\"Mathe üben 4.Klasse\"",
+          "name": "Mathe4Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe4trainer.png",
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
+            "üben",
+            "|",
+            ""
+          ]
+        },
+        {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\"",
           "description": "\"Dividieren üben\"",
-          "name": "Mathe Aktiv Multiplikation",
+          "name": "Mathe Aktiv Division",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
           "type": "custom",
           "keywords": [
@@ -845,8 +944,8 @@
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\"",
-          "description": "\"Dividieren üben\"",
-          "name": "Mathe Aktiv Multiplikation",
+          "description": "\"Insätze üben\"",
+          "name": "Mathe Aktiv Insätze",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
           "type": "custom",
           "keywords": [
@@ -903,6 +1002,30 @@
             "Zahl",
             "Variable",
             "|",
+            "üben",
+            "|",
+            ""
+          ]
+        },
+        {
+          "command": "nw /usr/share/node/mathe-trainer",
+          "description": "Mathe üben 1. bis 4.Klasse",
+          "name": "Mathe-Trainer",
+          "osIconPath": "/usr/share/pixmaps/mathe-trainer.png",
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Arithmetik",
+            "Algebra",
+            "|",
+            "Zahl",
+            "Variable",
+            "|",
+            "operieren",
             "üben",
             "|",
             ""
@@ -1524,6 +1647,13 @@
             "|",
             ""
           ]
+        },
+        {
+          "command": "/usr/share/bin/webapps http://www.zeitklicks.de/zeitklicks",
+          "description": "\"Flubidux und die Tönebox\"",
+          "name": "Zeitklicks",
+          "osIconPath": "/usr/share/pixmaps/zeitklicks.png",
+          "type": "custom"
         }
       ],
       "name": "Bildung",
