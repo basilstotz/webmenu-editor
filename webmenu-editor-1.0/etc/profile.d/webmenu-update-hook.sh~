@@ -1,3 +1,0 @@
-
-/usr/share/bin/webmenu-update.sh
-logger webmenu-update "$(groups)" ${HOME}
