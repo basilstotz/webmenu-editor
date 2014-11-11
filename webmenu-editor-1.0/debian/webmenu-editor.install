@@ -2,3 +2,4 @@
 ./usr/share/bin/* ./usr/share/bin/
 ./usr/share/applications/*.desktop ./usr/share/applications/
 ./opt/webmenu/*.json ./opt/webmenu/
+./etc/profile.d/* ./etc/profile.d/
