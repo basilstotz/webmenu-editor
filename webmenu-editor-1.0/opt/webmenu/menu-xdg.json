@@ -113,7 +113,7 @@
           ]
         },
         {
-          "command": "/usr/share/bin/webapps \"http://bodenreise.ch/lift_v2/de\"",
+          "command": "/usr/share/bin/webapps \"http://bafu.lernfragen.ch/file.php/1/lift_2/index.html#de\"",
           "description": "Den Boden entdecken",
           "name": "Bodenreise",
           "osIconPath": "/usr/share/pixmaps/bodenreise.png",
@@ -217,7 +217,7 @@
           "type": "custom"
         },
         {
-          "command": "nw /usr/share/node/flubidux",
+          "command": "/usr/share/bin/webapps http://www.flubidux.de/start.htm",
           "description": "Töne und Geräusche entdecken",
           "name": "Flubidux",
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
@@ -809,13 +809,6 @@
           ]
         },
         {
-          "command": "/usr/share/bin/webapps http://map.geo.admin.ch/",
-          "description": "\"Karten von geo.admin\"",
-          "name": "Map GeoAdmin",
-          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png",
-          "type": "custom"
-        },
-        {
           "command": "marble-qt %F",
           "description": "",
           "name": "Marble",
@@ -830,101 +823,9 @@
           "type": "custom"
         },
         {
-          "command": "nw /usr/share/node/mathe1trainer",
-          "description": "\"Mathe üben 1.Klasse\"",
-          "name": "Mathe1Trainer",
-          "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
-        },
-        {
-          "command": "nw /usr/share/node/mathe2trainer",
-          "description": "\"Mathe üben 2.Klasse\"",
-          "name": "Mathe2Trainer",
-          "osIconPath": "/usr/share/pixmaps/mathe2trainer.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
-        },
-        {
-          "command": "nw /usr/share/node/mathe3trainer",
-          "description": "\"Mathe üben 3 .Klasse\"",
-          "name": "Mathe3Trainer",
-          "osIconPath": "/usr/share/pixmaps/mathe3trainer.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
-        },
-        {
-          "command": "nw /usr/share/node/mathe4trainer",
-          "description": "\"Mathe üben 4.Klasse\"",
-          "name": "Mathe4Trainer",
-          "osIconPath": "/usr/share/pixmaps/mathe4trainer.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
-        },
-        {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\"",
           "description": "\"Dividieren üben\"",
-          "name": "Mathe Aktiv Division",
+          "name": "Mathe Aktiv Multiplikation",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
           "type": "custom",
           "keywords": [
@@ -944,8 +845,8 @@
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\"",
-          "description": "\"Insätze üben\"",
-          "name": "Mathe Aktiv Insätze",
+          "description": "\"Dividieren üben\"",
+          "name": "Mathe Aktiv Multiplikation",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
           "type": "custom",
           "keywords": [
@@ -1002,30 +903,6 @@
             "Zahl",
             "Variable",
             "|",
-            "üben",
-            "|",
-            ""
-          ]
-        },
-        {
-          "command": "nw /usr/share/node/mathe-trainer",
-          "description": "Mathe üben 1. bis 4.Klasse",
-          "name": "Mathe-Trainer",
-          "osIconPath": "/usr/share/pixmaps/mathe-trainer.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
             "üben",
             "|",
             ""
@@ -1676,20 +1553,6 @@
             "n1",
             "n2",
             "outlook"
-          ]
-        },
-        {
-          "command": "gummi %F",
-          "description": "Documente mit LaTeX erstellen und verändern",
-          "name": "Gummi",
-          "osIconPath": "/usr/share/pixmaps/gummi.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
           ]
         },
         {
@@ -3018,13 +2881,6 @@
         {
           "items": [
             {
-              "command": "cultivation",
-              "description": "Game about the interactions within a gardening community",
-              "name": "Cultivation",
-              "osIconPath": "/usr/share/icons/hicolor/128x128/apps/cultivation.png",
-              "type": "custom"
-            },
-            {
               "command": "etracer",
               "description": "Rutsche mit einem Pinguin einen Hügel hinab",
               "name": "Extreme Tux Racer",
@@ -3269,13 +3125,6 @@
               "type": "custom"
             },
             {
-              "command": "enigma",
-              "description": "Uncover pairs of stones while navigating obstacles using a marble",
-              "name": "Enigma",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/enigma.png",
-              "type": "custom"
-            },
-            {
               "command": "sgt-fifteen",
               "description": "Versuch, die Spielsteine in numerische Reihenfolge und einem Leerraum unten rechts anzuordnen",
               "name": "Fifteen",
@@ -3287,13 +3136,6 @@
               "description": "Füge Ziffern ein, so dass jede zusammenhängende Region von Quadraten mit der gleichen Ziffer über ein mit der Ziffer übereinstimmendes Gebiet verfügt",
               "name": "Filling",
               "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-filling.png",
-              "type": "custom"
-            },
-            {
-              "command": "fillets",
-              "description": "Puzzlespiel mit witzigen Fischen, die die Welt im Sokoban-Stil retten",
-              "name": "Fish Fillets",
-              "osIconPath": "/usr/share/pixmaps/fillets-ng.png",
               "type": "custom"
             },
             {
@@ -4104,15 +3946,15 @@
         {
           "items": [
             {
-              "command": "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=ohmmkhmmmpcnpikjeljgnaoabkaalbgc",
+              "command": "/usr/bin/chromium-browser --profile-directory=Default --app-id=ohmmkhmmmpcnpikjeljgnaoabkaalbgc",
               "description": "",
               "name": "Chrome Apps & Extensions Developer Tool",
               "osIconPath": "/home/stotz.basil/.local/share/icons/hicolor/48x48/apps/chrome-ohmmkhmmmpcnpikjeljgnaoabkaalbgc-Default.png",
               "type": "custom"
             }
           ],
-          "name": "Chrome-Apps",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/google-chrome.png",
+          "name": "Chromium Apps",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/chromium-browser.png",
           "type": "menu"
         },
         {
@@ -4296,13 +4138,6 @@
               "command": "/usr/share/bin/webmenu-editor",
               "description": "\"Das Menu edieren\"",
               "name": "WebMenuEditor",
-              "osIconPath": "/usr/share/pixmaps/flubidux.png",
-              "type": "custom"
-            },
-            {
-              "command": "/usr/share/bin/webmenu-tag-editor",
-              "description": "\"Das Menu edieren\"",
-              "name": "WebMenuTag",
               "osIconPath": "/usr/share/pixmaps/flubidux.png",
               "type": "custom"
             },
