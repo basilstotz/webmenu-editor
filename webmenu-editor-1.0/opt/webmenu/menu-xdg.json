@@ -1686,6 +1686,20 @@
           ]
         },
         {
+          "command": "gummi %F",
+          "description": "Documente mit LaTeX erstellen und verändern",
+          "name": "Gummi",
+          "osIconPath": "/usr/share/pixmaps/gummi.png",
+          "type": "custom",
+          "keywords": [
+            "|",
+            "|",
+            "|",
+            "|",
+            ""
+          ]
+        },
+        {
           "command": "libreoffice %U",
           "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF)",
           "name": "LibreOffice",
@@ -3011,6 +3025,13 @@
         {
           "items": [
             {
+              "command": "cultivation",
+              "description": "Game about the interactions within a gardening community",
+              "name": "Cultivation",
+              "osIconPath": "/usr/share/icons/hicolor/128x128/apps/cultivation.png",
+              "type": "custom"
+            },
+            {
               "command": "etracer",
               "description": "Rutsche mit einem Pinguin einen Hügel hinab",
               "name": "Extreme Tux Racer",
@@ -3255,6 +3276,13 @@
               "type": "custom"
             },
             {
+              "command": "enigma",
+              "description": "Uncover pairs of stones while navigating obstacles using a marble",
+              "name": "Enigma",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/enigma.png",
+              "type": "custom"
+            },
+            {
               "command": "sgt-fifteen",
               "description": "Versuch, die Spielsteine in numerische Reihenfolge und einem Leerraum unten rechts anzuordnen",
               "name": "Fifteen",
@@ -3266,6 +3294,13 @@
               "description": "Füge Ziffern ein, so dass jede zusammenhängende Region von Quadraten mit der gleichen Ziffer über ein mit der Ziffer übereinstimmendes Gebiet verfügt",
               "name": "Filling",
               "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-filling.png",
+              "type": "custom"
+            },
+            {
+              "command": "fillets",
+              "description": "Puzzlespiel mit witzigen Fischen, die die Welt im Sokoban-Stil retten",
+              "name": "Fish Fillets",
+              "osIconPath": "/usr/share/pixmaps/fillets-ng.png",
               "type": "custom"
             },
             {
