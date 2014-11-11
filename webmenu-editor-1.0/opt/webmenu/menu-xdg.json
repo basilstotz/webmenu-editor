@@ -4300,7 +4300,7 @@
               "type": "custom"
             },
             {
-              "command": "/usr/share/bin/webmenu-editor  --tags",
+              "command": "/usr/share/bin/webmenu-tag-editor",
               "description": "\"Das Menu edieren\"",
               "name": "WebMenuTag",
               "osIconPath": "/usr/share/pixmaps/flubidux.png",

@@ -387,6 +387,8 @@ module.exports.Menu = function() {
                     }
                  }   
                  
+               }else{
+                 process.exit();
                }
             };
 
