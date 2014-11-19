@@ -17,25 +17,25 @@ if echo ${GROUPS} | grep -q "lehrer";  then
 else
    for K in ${GROUPS}; do
      case $K in
-        2010a) KLASSE=$K
+        2010a) KLASSE="2010A"
            ;;
-        2010b) KLASSE=$K
+        2010b) KLASSE="2010B"
            ;;
-        2011a) KLASSE=$K
+        2011a) KLASSE="2011A"
            ;;
-        2011b) KLASSE=$K
+        2011b) KLASSE="2011B"
            ;;
-        2012a) KLASSE=$K
+        2012a) KLASSE="2012A"
            ;;
-        2012b) KLASSE=$K
+        2012b) KLASSE="2012B"
            ;;
-        2013a) KLASSE=$K
+        2013a) KLASSE="2013A"
            ;;
-        2013b) KLASSE=$K
+        2013b) KLASSE="2013B"
            ;;
-        2014a) KLASSE=$K
+        2014a) KLASSE="2014A"
            ;;
-        2014b) KLASSE=$K
+        2014b) KLASSE="2014B"
            ;;
             *)
            ;;
