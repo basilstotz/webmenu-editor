@@ -45,7 +45,7 @@ var filterNeu={
           "useNames": true,
           "useDescriptions": true,
           "useKeywords": true,
-          "maxMenuContent": 20,
+          "maxMenuContent": 20
         },
        "keys": [],
        "stars": [],
