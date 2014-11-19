@@ -413,7 +413,7 @@ module.exports.Menu = function() {
                          return t;
                    };
 
-            this.getGroupFolderName = function(){
+            this.getGroupFolderName(){
                     var Name;
                     switch(this.filterGroup){
                         case '2010a': Name="2010A";
