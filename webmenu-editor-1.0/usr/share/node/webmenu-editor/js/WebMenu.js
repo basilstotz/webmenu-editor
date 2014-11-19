@@ -45,7 +45,7 @@ var filterNeu={
           "useNames": true,
           "useDescriptions": true,
           "useKeywords": true,
-          "maxMenuContent": 20
+          "maxMenuContent": 20,
         },
        "keys": [],
        "stars": [],
@@ -413,6 +413,34 @@ module.exports.Menu = function() {
                          return t;
                    };
 
+            this.getGroupFolderName(){
+                    var Name;
+                    switch(this.filterGroup){
+                        case '2010a': Name="2010A";
+                                      break;
+                        case '2010b': Name="2010B";
+                                      break;
+                        case '2011a': Name="2011A";
+                                      break;
+                        case '2011b': Name="2011B";
+                                      break;
+                        case '2012a': Name="2012A";
+                                      break;
+                        case '2012b': Name="2012B";
+                                      break;
+                        case '2013a': Name="2013A";
+                                      break;
+                        case '2013b': Name="2013B";
+                                      break;
+                        case '2014a': Name="2014A";
+                                      break;
+                        case '2014b': Name="2012B";
+                                      break;               
+                        default: break;
+
+                    }
+             return Name;
+             }
 ////////////////////////////////////////////////////////////////////////////////////////////77
 //          function:     loadKeywords();
 //          function:     initKeywords();
@@ -605,7 +633,7 @@ module.exports.Menu = function() {
                            if(this.filterGroup=="maint"){
                               saveJSON(process.env.HOME+'/.config/webmenu/menu-maint.json',this.menuOut);
                            }else{
-                              saveJSON("/home/share/share/bubendorf/"+this.filterGroup+'/.config/webmenu/menu.json',this.menuOut);
+                              saveJSON("/home/share/share/bubendorf/"+this.getGroupFolderName()+'/.config/webmenu/menu.json',this.menuOut);
                            }
                       }
                 };
@@ -649,7 +677,7 @@ module.exports.Menu = function() {
                       if(this.filterGroup=="maint"){
                          p=process.env.HOME+'/.config/webmenu/filter-maint.json';
                       }else{                  
-                         p="/home/share/share/bubendorf/"+this.filterGroup+"/.config/webmenu/filter.json";
+                         p="/home/share/share/bubendorf/"+this.getGroupFolderName()+"/.config/webmenu/filter.json";
                       }
                   }
 
@@ -678,7 +706,7 @@ module.exports.Menu = function() {
                       if(this.filterGroup=="maint"){
                          p=process.env.HOME+'/.config/webmenu/filter-maint.json';
                       }else{                  
-                         p="/home/share/share/bubendorf/"+this.filterGroup+"/.config/webmenu/filter.json";
+                         p="/home/share/share/bubendorf/"+this.getGroupFolderName()+"/.config/webmenu/filter.json";
                       }
                   }
 
