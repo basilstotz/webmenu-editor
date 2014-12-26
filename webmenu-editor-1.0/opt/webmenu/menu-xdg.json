@@ -1493,6 +1493,13 @@
           ]
         },
         {
+          "command": "nw /usr/share/node/pahvi",
+          "description": "\"\"",
+          "name": "Pahvi",
+          "osIconPath": "/usr/share/pixmaps/pahvi.png",
+          "type": "custom"
+        },
+        {
           "command": "parley %u",
           "description": "",
           "name": "Parley",
@@ -1504,6 +1511,13 @@
           "description": "\"Interaktive Simulationen\"",
           "name": "PhEt",
           "osIconPath": "/usr/share/pixmaps/phet.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/share/bin/rechentraining",
+          "description": "Mathematik lernen und üben",
+          "name": "Rechentraining 5",
+          "osIconPath": "/usr/share/pixmaps/rechentraining.png",
           "type": "custom"
         },
         {
@@ -2169,7 +2183,7 @@
           "command": "/usr/bin/elinks %u",
           "description": "Browse the web in text mode",
           "name": "ELinks Webbrowser",
-          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
+          "osIconPath": "html",
           "type": "custom",
           "keywords": [
             "|",
@@ -3953,6 +3967,34 @@
     {
       "items": [
         {
+          "items": [
+            {
+              "items": [
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Rechentraining\\\\ 5/Rechentraining\\\\ 5.lnk",
+                  "description": "",
+                  "name": "Rechentraining 5",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                }
+              ],
+              "name": "Rechentraining 5",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+              "type": "menu"
+            }
+          ],
+          "name": "Programs",
+          "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+          "type": "menu"
+        }
+      ],
+      "name": "Wine",
+      "osIconPath": "/usr/share/icons/Faenza/apps/48/wine.png",
+      "type": "menu"
+    },
+    {
+      "items": [
+        {
           "command": "basic256",
           "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
           "name": "BASIC-256",
@@ -4297,6 +4339,13 @@
               "description": "GUI for the R-project",
               "name": "RKWard",
               "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rkward.png",
+              "type": "custom"
+            },
+            {
+              "command": "",
+              "description": "",
+              "name": "Verknüpfung mit ▶ Ambition the film - YouTube",
+              "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/text-html.png",
               "type": "custom"
             },
             {
