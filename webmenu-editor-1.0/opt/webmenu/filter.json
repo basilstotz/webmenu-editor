@@ -83,14 +83,27 @@
     "Mathe Aktiv Division",
     "Mathe Aktiv Insätze",
     "Blinken",
-    "GIMP Bildbearbeitung",
     "Kanagram",
     "KBruch",
     "KHangMan",
     "XMind",
     "Firefox Web Browser",
     "Stopmotion",
-    "Mathe-Trainer"
+    "Mathe-Trainer",
+    "Google Chrome",
+    "ELinks Webbrowser",
+    "Brasero",
+    "Arduino IDE",
+    "Scratch",
+    "Snap4Arduino",
+    "Enchanting",
+    "ownCloud desktop sync client",
+    "Snap",
+    "KTouch",
+    "Map GeoAdmin",
+    "Sumo Paint",
+    "GIMP Bildbearbeitung",
+    "KolourPaint"
   ],
-  "results": []
+  "results": [ ]
 }
