@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 03 Nov 2014 17:33:56 +0100
+Source: webmenu-editor
+Binary: webmenu-editor
+Architecture: source all
+Version: 1.0
+Distribution: unstable
+Urgency: low
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Basil Stotz <stotz@amxa.ch>
+Description: 
+ webmenu-editor - <insert up to 60 chars description>
+Changes: 
+ webmenu-editor (1.0) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ 2e9f1acb4d8edd3f669e6def33a1ad08b779ceba 576 webmenu-editor_1.0.dsc
+ 2d5eaa574ffa197088d6c32f35ca2a291cbdba33 398326 webmenu-editor_1.0.tar.gz
+ 0d01622ad63adec443ed407d73776260dd22aa8a 401466 webmenu-editor_1.0_all.deb
+Checksums-Sha256: 
+ ed0cad8d34b589e35f3818d1e35db12bfd87c415ba7486f80e3dbc5a76260126 576 webmenu-editor_1.0.dsc
+ a8e525f54f8dc66527eb48a661f84e1d285323b7f300652d33b0384d5523b7e2 398326 webmenu-editor_1.0.tar.gz
+ 93e53f5b9d88ea0e12febfa4a97a881e8b8954d89464bbddad84ba297b4d35b9 401466 webmenu-editor_1.0_all.deb
+Files: 
+ e6cc59fd12ae7a30625a7d36db531db8 576 unknown optional webmenu-editor_1.0.dsc
+ 225577dc400a8be58b6853072ef37156 398326 unknown optional webmenu-editor_1.0.tar.gz
+ ee24228803c515a99874c09c1d3a4199 401466 unknown optional webmenu-editor_1.0_all.deb
