@@ -10,6 +10,12 @@ GROUPS=$(groups)
 
 KLASSE=""
 
+      if [ -f ${HOME}/.config/webmenu/filter.json ]; then
+         cat ${SRC} | ${P}/updateMenu.js ${HOME}/.config/webmenu/filter.json > ${HOME}/.config/webmenu/menu.json
+      fi
+
+
+#bubendorf
 if echo ${GROUPS} | grep -q "lehrer";  then
       if [ -f ${HOME}/.config/webmenu/filter.json ]; then
          cat ${SRC} | ${P}/updateMenu.js ${HOME}/.config/webmenu/filter.json > ${HOME}/.config/webmenu/menu.json
@@ -36,6 +42,10 @@ else
         2014a) KLASSE="2014A"
            ;;
         2014b) KLASSE="2014B"
+           ;;
+        2015a) KLASSE="2015A"
+           ;;
+        2015b) KLASSE="2015B"
            ;;
             *)
            ;;
