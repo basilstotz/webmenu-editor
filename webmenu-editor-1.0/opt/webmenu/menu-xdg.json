@@ -4930,13 +4930,6 @@
               "type": "custom"
             },
             {
-              "command": "",
-              "description": "",
-              "name": "Verknüpfung mit ▶ Ambition the film - YouTube",
-              "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/text-html.png",
-              "type": "custom"
-            },
-            {
               "command": "/usr/share/bin/webmenu-editor",
               "description": "\"Das Menu edieren\"",
               "name": "WebMenuEditor",
