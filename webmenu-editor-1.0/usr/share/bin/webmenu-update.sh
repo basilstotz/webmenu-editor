@@ -10,6 +10,12 @@ GROUPS=$(groups)
 
 KLASSE=""
 
+
+#default
+     if ! [ -f ${HOME}/.config/webmenu/filter.json ]; then
+           cp /opt/webmenu/filter-default.json ${HOME}/.config/webmenu/filter.json
+     fi
+
       if [ -f ${HOME}/.config/webmenu/filter.json ]; then
          cat ${SRC} | ${P}/updateMenu.js ${HOME}/.config/webmenu/filter.json > ${HOME}/.config/webmenu/menu.json
       fi
