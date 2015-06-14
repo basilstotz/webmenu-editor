@@ -100,7 +100,6 @@
             "2.Zyklus",
             "|",
             "Mathematik",
-            "Beruf",
             "|",
             "Arithmetik",
             "|",
@@ -185,7 +184,23 @@
           "description": "Interaktives Geometrieprogramm",
           "name": "Dr. Geo",
           "osIconPath": "data:image/png;base64,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",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "3.Zyklus",
+            "|",
+            "Mathematik",
+            "|",
+            "Geometrie",
+            "|",
+            "Form",
+            "Raum",
+            "|",
+            "erforschen",
+            "mathematisieren",
+            "darstellen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/webapps http://www.duden.de/woerterbuch",
@@ -820,14 +835,48 @@
           "description": "",
           "name": "Marble",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "Geografie",
+            "|",
+            "Lebensraum",
+            "Räume",
+            "|",
+            "benennen",
+            "erforschen",
+            "darstellen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "marble %F",
           "description": "",
           "name": "Marble",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "NMG",
+            "|",
+            "Geografie",
+            "|",
+            "Lebensraum",
+            "Räume",
+            "|",
+            "benennen",
+            "erforschen",
+            "darstellen",
+            "|",
+            ""
+          ]
         },
         {
           "command": "nw /usr/share/node/mathe1trainer",
@@ -1243,6 +1292,20 @@
           ]
         },
         {
+          "command": "/usr/share/bin/millefeuilles 6.1",
+          "description": "",
+          "name": "MilleFeuilles 6.1",
+          "osIconPath": "/usr/share/pixmaps/mf61.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/share/bin/millefeuilles 6.2",
+          "description": "",
+          "name": "MilleFeuilles 6.2",
+          "osIconPath": "/usr/share/pixmaps/mf62.png",
+          "type": "custom"
+        },
+        {
           "command": "/usr/share/bin/millefeuilles 3.1",
           "description": "Französisch lernen",
           "name": "Mille feuilles: magazine 3.1",
@@ -1514,13 +1577,6 @@
           "type": "custom"
         },
         {
-          "command": "/usr/share/bin/rechentraining",
-          "description": "Mathematik lernen und üben",
-          "name": "Rechentraining 5",
-          "osIconPath": "/usr/share/pixmaps/rechentraining.png",
-          "type": "custom"
-        },
-        {
           "command": "/usr/share/bin/webapps http://www.schatz-der-kulturen.de",
           "description": "Interkulturelles Quiz",
           "name": "Schatz der Kulturen",
@@ -1575,6 +1631,13 @@
           ]
         },
         {
+          "command": "nw /usr/share/node/snap",
+          "description": "\"Programieren mit Blöcken\"",
+          "name": "Snap",
+          "osIconPath": "/usr/share/pixmaps/snap.png",
+          "type": "custom"
+        },
+        {
           "command": "squeak",
           "description": "Programmier- und Multimediaentwicklungsumgebung",
           "name": "Squeak",
@@ -1589,7 +1652,7 @@
           "type": "custom"
         },
         {
-          "command": "/usr/share/bin/webapps \"http://www.sumoware.com/home/#app\"",
+          "command": "/usr/share/bin/webapps \"http://www.sumoware.com/app/?target\"",
           "description": "\"Online Bildbearbeitung\"",
           "name": "Sumo Paint",
           "osIconPath": "/usr/share/pixmaps/sumopaint.png",
@@ -1668,6 +1731,152 @@
           "name": "Zeitklicks",
           "osIconPath": "/usr/share/pixmaps/zeitklicks.png",
           "type": "custom"
+        },
+        {
+          "items": [
+            {
+              "command": "avogadro %f",
+              "description": "Advanced molecular editor",
+              "name": "Avogadro",
+              "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
+              "type": "custom"
+            },
+            {
+              "command": "basic256",
+              "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
+              "name": "BASIC-256",
+              "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAABpJREFUWIXtwQEBAAAAgiD/r25IQAEAAADvBhAgAAFHAaCIAAAAAElFTkSuQmCC",
+              "type": "custom"
+            },
+            {
+              "command": "cantor %i -caption %c",
+              "description": "",
+              "name": "Cantor",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/cantor.png",
+              "type": "custom"
+            },
+            {
+              "command": "gchempaint-0.14 %U",
+              "description": "Erstellt 2D-Formeln chemischer Strukturen",
+              "name": "GChemPaint Chemischer Strukturformeleditor",
+              "osIconPath": "/usr/share/icons/hicolor/scalable/apps/gchempaint.svg",
+              "type": "custom"
+            },
+            {
+              "command": "ghemical",
+              "description": "Draw models of molecules",
+              "name": "ghemical",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+              "type": "custom"
+            },
+            {
+              "command": "psppire %F",
+              "description": "Statistische Daten mit einer freien Alternative zu SPSS analysieren",
+              "name": "GNU PSPP",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/pspp.png",
+              "type": "custom"
+            },
+            {
+              "command": "grass64",
+              "description": "Geoinformationssystem",
+              "name": "GRASS GIS",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/grass64.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/gretl %f",
+              "description": "Econometrics package",
+              "name": "gretl",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gretl.png",
+              "type": "custom"
+            },
+            {
+              "command": "kalgebra",
+              "description": "Mathematische Gleichungslösung und -zeichnung",
+              "name": "KAlgebra",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalgebra.png",
+              "type": "custom"
+            },
+            {
+              "command": "kalzium -caption %c %i",
+              "description": "Periodensystem der Elemente",
+              "name": "Kalzium",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalzium.png",
+              "type": "custom"
+            },
+            {
+              "command": "kstars -caption %c %i",
+              "description": "Das Planetarium für den Schreibtisch",
+              "name": "KStars",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kstars.png",
+              "type": "custom"
+            },
+            {
+              "command": "libreoffice --math %U",
+              "description": "Wissenschaftliche Formeln setzen und bearbeiten",
+              "name": "LibreOffice Math",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
+              "type": "custom",
+              "keywords": [
+                "n2",
+                "n2"
+              ]
+            },
+            {
+              "command": "loggerpro %F",
+              "description": "Measure. Analyze. Learn",
+              "name": "Logger Pro",
+              "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/loggerpro.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/qbrowser %F",
+              "description": "",
+              "name": "QGIS Browser",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
+              "type": "custom"
+            },
+            {
+              "command": "/usr/bin/qgis %F",
+              "description": "",
+              "name": "QGIS Desktop",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
+              "type": "custom"
+            },
+            {
+              "command": "rocs %i -caption %c",
+              "description": "Graphentheorie-Werkzeug für Professoren und Studenten.",
+              "name": "Rocs",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rocs.png",
+              "type": "custom"
+            },
+            {
+              "command": "stellarium",
+              "description": "Planetarium",
+              "name": "Stellarium",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
+              "type": "custom",
+              "keywords": [
+                "n1",
+                "lp",
+                "z2",
+                "z3",
+                "nmg",
+                "geografie",
+                "astronomie"
+              ]
+            },
+            {
+              "command": "wxmaxima %f",
+              "description": "Perform symbolic and numeric calculations using Maxima",
+              "name": "wxMaxima",
+              "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
+              "type": "custom"
+            }
+          ],
+          "name": "Wissenschaft",
+          "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
+          "type": "menu"
         }
       ],
       "name": "Bildung",
@@ -1677,7 +1886,7 @@
     {
       "items": [
         {
-          "command": "acroread",
+          "command": "acroread %U",
           "description": "PDF lesen",
           "name": "Adobe Reader 9",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/AdobeReader9.png",
@@ -1686,6 +1895,27 @@
             "n1",
             "n2"
           ]
+        },
+        {
+          "command": "calibre %f",
+          "description": "E-Book Bibliotheksverwaltung",
+          "name": "calibre",
+          "osIconPath": "/usr/share/pixmaps/calibre-gui.png",
+          "type": "custom"
+        },
+        {
+          "command": "FBReader %F",
+          "description": "FBReader E-book reader",
+          "name": "E-book reader",
+          "osIconPath": "/usr/share/pixmaps/FBReader.png",
+          "type": "custom"
+        },
+        {
+          "command": "ebook-viewer %F",
+          "description": "E-Book Viewer",
+          "name": "E-Book Viewer",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "type": "custom"
         },
         {
           "command": "evolution %U",
@@ -1826,6 +2056,20 @@
           ]
         },
         {
+          "command": "orage",
+          "description": "Desktop calendar",
+          "name": "Orage Calendar",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/xfcalendar.png",
+          "type": "custom"
+        },
+        {
+          "command": "globaltime",
+          "description": "Show clocks from different countries",
+          "name": "Orage Globaltime",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png",
+          "type": "custom"
+        },
+        {
           "command": "pdfshuffler",
           "description": "PDF-Dateien seitenweise bearbeiten",
           "name": "PDF-Shuffler",
@@ -1853,6 +2097,20 @@
             "sprechen",
             ""
           ]
+        },
+        {
+          "command": "tilitin %F",
+          "description": "",
+          "name": "Tilitin",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tilitin.png",
+          "type": "custom"
+        },
+        {
+          "command": "t-lasku %F",
+          "description": "",
+          "name": "T-lasku",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/t-lasku.png",
+          "type": "custom"
         },
         {
           "command": "vym",
@@ -1903,6 +2161,13 @@
             "|",
             ""
           ]
+        },
+        {
+          "command": "ebook-viewer %F",
+          "description": "E-Book Viewer",
+          "name": "E-Book Viewer",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "type": "custom"
         },
         {
           "command": "f-spot",
@@ -2032,6 +2297,13 @@
           ]
         },
         {
+          "command": "lrfviewer %F",
+          "description": "Viewer for LRF files (SONY ebook format files)",
+          "name": "LRF Viewer",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "type": "custom"
+        },
+        {
           "command": "luciole",
           "description": "Image Per Image capture tool for making animation movies.",
           "name": "Luciole",
@@ -2081,7 +2353,7 @@
           "type": "custom"
         },
         {
-          "command": "pinta",
+          "command": "pinta %F",
           "description": "Einfach Bilder erstellen und bearbeiten",
           "name": "Pinta",
           "osIconPath": "/usr/share/icons/hicolor/scalable/apps/pinta.svg",
@@ -2183,7 +2455,7 @@
           "command": "/usr/bin/elinks %u",
           "description": "Browse the web in text mode",
           "name": "ELinks Webbrowser",
-          "osIconPath": "html",
+          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
           "type": "custom",
           "keywords": [
             "|",
@@ -2192,6 +2464,13 @@
             "|",
             ""
           ]
+        },
+        {
+          "command": "exo-open --launch MailReader %u",
+          "description": "E-Mails lesen",
+          "name": "E-Mail-Programm",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/internet-mail.png",
+          "type": "custom"
         },
         {
           "command": "emesene -s",
@@ -2266,13 +2545,6 @@
             "n1",
             "n2"
           ]
-        },
-        {
-          "command": "/usr/bin/google-chrome-beta %U",
-          "description": "Internetzugriff",
-          "name": "Google Chrome (beta)",
-          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/google-chrome-beta.png",
-          "type": "custom"
         },
         {
           "command": "/opt/google/earth/free/google-earth %f",
@@ -2367,6 +2639,20 @@
           "description": "Download and share files over BitTorrent",
           "name": "Transmission",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/transmission.png",
+          "type": "custom"
+        },
+        {
+          "command": "epiphany-browser %U",
+          "description": "Im Web surfen",
+          "name": "Webbrowser",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/web-browser.png",
+          "type": "custom"
+        },
+        {
+          "command": "exo-open --launch WebBrowser %u",
+          "description": "Im Internet surfen",
+          "name": "Webbrowser",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/web-browser.png",
           "type": "custom"
         },
         {
@@ -2593,6 +2879,13 @@
           "type": "custom"
         },
         {
+          "command": "xfce4-mixer",
+          "description": "Lautstärke einstellen",
+          "name": "Lautstärkeregler",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/multimedia-volume-control.png",
+          "type": "custom"
+        },
+        {
           "command": "env QT_X11_NO_NATIVE_MENUBAR=1 lmms",
           "description": "Ton-Studio",
           "name": "LMMS",
@@ -2774,6 +3067,13 @@
           "type": "custom"
         },
         {
+          "command": "simplescreenrecorder --logfile",
+          "description": "A feature-rich screen recorder that supports X11 and OpenGL",
+          "name": "SimpleScreenRecorder",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/simplescreenrecorder.png",
+          "type": "custom"
+        },
+        {
           "command": "soundconverter %U",
           "description": "Konvertiert Audio-Dateien in andere Formate",
           "name": "Sound Converter",
@@ -2850,7 +3150,7 @@
           "command": "arduino",
           "description": "Den Arduino Micro-Computer programmieren",
           "name": "Arduino IDE",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/arduino.png",
+          "osIconPath": "arduino",
           "type": "custom",
           "keywords": [
             "|",
@@ -2880,6 +3180,13 @@
             "|",
             ""
           ]
+        },
+        {
+          "command": "drracket",
+          "description": "IDE for Racket",
+          "name": "DrRacket",
+          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAAuZJREFUWIXtWD1vFDEQnSBzd9EtusLFNdEJbUyZf3Q/4CRSUCABFaIK0SItSKC7hiJs/lFKFIRQGgqKCJC5CGko7sb4Zm3v2rsRDSONlPM69vObmecPgP/2j6ysClS5RJVLHIxFzembyiWWVYEaNabMsxf7Dxo1Hh0ewJev187vg9F9uPn12fltNp3AxeUV7O/tR8/bChixpXKJ1KZRY1kVOBgLBEC3i7Maw2VVJDHqNAongXOZyiWCOPOD3DpPg17A2YOSlVVhnH4HWQwwmpqfQKzRyCqXqFGb1S8FmEJAxPYAHUCjQRIj9oiGRTbTUoDJxUyq2wdJLPHRVC69MyWzyHKTg7zjAjfJ7sH65+8a8I+fvjUubjadQCYftCLCtpv1ewAAODo8CHc0lRpJwVKAEeRUFjOpwqF25V2MU5jbSk4o1DVwJMQp7HGAt8JiV/ZsgKZY+mSRa15KDnKA0ZLDWOylOGz2aFehPEwNM2mjCbNP92Lc3ga75iGFuawKrOlgig3HAk5XJzttIxj1MfRGqFfnbzsP9Gj+uNZ2ujpJEm3bOjPoYu/1+SsA2ID2HV7bWi8h5uw9WTyDYXYXANK3PrJOAFcCnOy9Wf/dxy8ur+JZFB8AAGAxP978Tq1iXrkkL1wXo7e+rcwYwCkAuTDTqdq1gLIqogB6hbov9uw+GnX0OdF5X4ndRexdw8Ue+U6YIwB2OiwQ/SH2UsPsDG9sHnKAZVXgUvj7xoQ5eGducx7kh4IQe9S/sZqpjVevj0UfG67ioINum4IyBwgGiIqi1WU+lIux7JHTtZT62w9ONB+1NV497bcWPkkKez7mbUt6CuEnbFptLHuuXOTWmj0fSFodhYkqN0XcOUjvLW5rje90KpdIb4Gz6QQA2l3gfTYci1rb9Y/v3d4M7USOYczFIPdkUNz4A2ZIinjuuYD1+oBpG38vtCWiyUmmYuZLjrtGjfZd5t3zlzvfH754av5ezI+Tc+wPdAiXYXlxUnAAAAAASUVORK5CYII=",
+          "type": "custom"
         },
         {
           "command": "eclipse",
@@ -2974,10 +3281,10 @@
           ]
         },
         {
-          "command": "/usr/bin/netbeans",
+          "command": "/opt/tmcbeans/bin/tmcbeans",
           "description": "Integrated Development Environment",
-          "name": "NetBeans IDE 7.0.1",
-          "osIconPath": "/usr/share/netbeans/7.0.1/nb/netbeans.png",
+          "name": "NetBeans IDE",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
           "type": "custom"
         },
         {
@@ -3038,13 +3345,6 @@
       "items": [
         {
           "items": [
-            {
-              "command": "cultivation",
-              "description": "Game about the interactions within a gardening community",
-              "name": "Cultivation",
-              "osIconPath": "/usr/share/icons/hicolor/128x128/apps/cultivation.png",
-              "type": "custom"
-            },
             {
               "command": "etracer",
               "description": "Rutsche mit einem Pinguin einen Hügel hinab",
@@ -3617,6 +3917,13 @@
           "type": "custom"
         },
         {
+          "command": "realtimebattle",
+          "description": "ein Programmierspiel",
+          "name": "RealTimeBattle",
+          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAxCAYAAABODiB6AAAABHNCSVQICAgIfAhkiAAAAQNJREFUaIHtmDEOwyAMRaGqOBL3n3MklnRJKuoCMgabIP23dSh9+TUGxzvnTveLdw/ntVpAAqQBADIkPXl5X9+ye0AaAACejdZppnpqbtmnIQ0a2F4rU6QbtEw4ml420lxZSkVev6apcDjk373QS7r0g7dwiv3rZanbdY884Z60C+hIj5QEY8350vwO0f7cWNumPLg1zPxH5kr3tjZJ2aR42m1ESceosP7ukafNfDBb6ZpUZ5msT1pQNm8FjX9oCZROxg55+6QnHDQ2SdMUb3HhA9hIUwbb3/qNKGD+1VR64ecSDo+kv2ilfQ0CtpPLCEsml4noT+OjiRcm8i1fIWz5suYD/YtJz9GW+pIAAAAASUVORK5CYII=",
+          "type": "custom"
+        },
+        {
           "command": "dosbox",
           "description": "Ein Emulator für alte DOS programe",
           "name": "DOSBox Emulator",
@@ -3629,6 +3936,13 @@
           "name": "OpenTTD",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/openttd.png",
           "type": "custom"
+        },
+        {
+          "command": "renpy",
+          "description": "visual-novel type games",
+          "name": "Ren'Py",
+          "osIconPath": "data:image/png;base64,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",
+          "type": "custom"
         }
       ],
       "name": "Spiele",
@@ -3640,10 +3954,52 @@
         {
           "items": [
             {
+              "command": "xfce4-display-settings",
+              "description": "Stellen Sie Ihre Bildschirme und deren Anordnung ein",
+              "name": "Anzeige",
+              "osIconPath": "/usr/share/icons/Faenza/devices/48/video-display.png",
+              "type": "custom"
+            },
+            {
               "command": "unity-control-center display",
               "description": "Auflösung und Anordnung der Bildschirme und Projektoren ändern",
               "name": "Anzeigegeräte",
               "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-display-panel.svg",
+              "type": "custom"
+            },
+            {
+              "command": "xfwm4-workspace-settings",
+              "description": "Configure layout, names and margins",
+              "name": "Arbeitsflächen",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/xfce4-workspaces.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-accessibility-settings",
+              "description": "Erleichtern Sie sich die Verwendung von Tastatur und Maus",
+              "name": "Barrierefreiheit",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-accessibility.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-notifyd-config",
+              "description": "Das Erscheinungsbild von Benachrichtigungen anpassen",
+              "name": "Benachrichtigungen",
+              "osIconPath": "/usr/share/icons/Faenza/status/48/xfce4-notifyd.png",
+              "type": "custom"
+            },
+            {
+              "command": "exo-preferred-applications",
+              "description": "Bevorzugte Anwendungen (Webbrowser, E-Mail-Programm und Terminal)",
+              "name": "Bevorzugte Anwendungen",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-default-applications.png",
+              "type": "custom"
+            },
+            {
+              "command": "xscreensaver-demo",
+              "description": "Einstellungen des Bildschirmschoners ändern",
+              "name": "Bildschirmschoner",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/xscreensaver.png",
               "type": "custom"
             },
             {
@@ -3661,10 +4017,52 @@
               "type": "custom"
             },
             {
+              "command": "thunar-settings",
+              "description": "Dateimanager Thunar einrichten",
+              "name": "Dateimanager",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-settings-manager",
+              "description": "Grafische Einstellungsverwaltung für Xfce 4",
+              "name": "Einstellungen",
+              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-desktop.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-settings-editor",
+              "description": "Grafischer Einstellungseditor für Xfconf",
+              "name": "Einstellungseditor",
+              "osIconPath": "/usr/share/icons/Faenza/categories/48/preferences-system.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-appearance-settings",
+              "description": "Passen Sie das Aussehen der Arbeitsoberfläche an",
+              "name": "Erscheinungsbild",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-theme.png",
+              "type": "custom"
+            },
+            {
               "command": "unity-control-center color",
               "description": "Einstellungen der Farbverwaltung",
               "name": "Farbe",
               "osIconPath": "/usr/share/icons/hicolor/48x48/apps/unity-color-panel.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfwm4-tweaks-settings",
+              "description": "Nehmen Sie Feineinstellungen am Fensterverhalten und den Fenstereffekten vor",
+              "name": "Feineinstellungen des Fensterverhaltens",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/wmtweaks.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfwm4-settings",
+              "description": "Passen Sie das Fensterverhalten und die Fenstertastenkürzel an",
+              "name": "Fensterverwaltung",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/xfwm4.png",
               "type": "custom"
             },
             {
@@ -3703,6 +4101,13 @@
               "type": "custom"
             },
             {
+              "command": "xfce4-panel --preferences",
+              "description": "Leiste einrichten",
+              "name": "Leiste",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/xfce4-panel.png",
+              "type": "custom"
+            },
+            {
               "command": "unity-control-center power",
               "description": "Einstellungen zur Energieverwaltung",
               "name": "Leistung",
@@ -3714,6 +4119,20 @@
               "description": "Einstellungen für Maus und Touchpad festlegen",
               "name": "Maus und Touchpad",
               "osIconPath": "/usr/share/icons/Faenza/devices/48/input-mouse.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-mouse-settings",
+              "description": "Stellen Sie das Verhalten und Aussehen der Zeigegeräte ein",
+              "name": "Maus und Touchpad",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-peripherals.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-mime-settings",
+              "description": "Verknüpfe Anwendungen mit MIME-Typen",
+              "name": "MIME-Typ-Editor",
+              "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/application-x-executable.png",
               "type": "custom"
             },
             {
@@ -3766,6 +4185,13 @@
               "type": "custom"
             },
             {
+              "command": "orage -p",
+              "description": "Settings for the Xfce 4 Calendar Application (Orage)",
+              "name": "Orage preferences",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/xfcalendar.png",
+              "type": "custom"
+            },
+            {
               "command": "/usr/bin/seahorse",
               "description": "Verwalten Sie Ihre Passwörter und Schlüssel",
               "name": "Passwörter und Verschlüsselung",
@@ -3777,6 +4203,20 @@
               "description": "Set your mouse and touchpad preferences",
               "name": "Pointing devices",
               "osIconPath": "/usr/share/icons/Faenza/devices/48/input-mouse.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfdesktop-settings",
+              "description": "Den Hintergrund des Schreibtischs sowie das Menü- und Symbolverhalten einstellen",
+              "name": "Schreibtisch",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-wallpaper.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-session-settings",
+              "description": "Passen Sie das Startverhalten der Arbeitsumgebung und den Startbildschirm an Ihre Bedürfnisse an",
+              "name": "Sitzung und Startverhalten",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/xfce4-session.png",
               "type": "custom"
             },
             {
@@ -3794,6 +4234,13 @@
               "type": "custom"
             },
             {
+              "command": "xfce4-keyboard-settings",
+              "description": "Bearbeiten Sie die Tastatureinstellungen und Tastenkürzel für Anwendungen",
+              "name": "Tastatur",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-keyboard.png",
+              "type": "custom"
+            },
+            {
               "command": "unity-control-center region",
               "description": "Ihre Tastertur- oder Eingabemethoden-Einstellungen anpassen",
               "name": "Texteingabe",
@@ -3802,9 +4249,16 @@
             },
             {
               "command": "unity-control-center wacom",
-              "description": "Knopfzuordnung und Stiftsensibilität für Grafiktabletts festlegen.",
+              "description": "Knopfzuordnung einstellen und die Empfindlichkeit des Stiftes für Grafiktabletts einstellen",
               "name": "Wacom-Grafiktablett",
               "osIconPath": "/usr/share/icons/Faenza/devices/48/input-tablet.png",
+              "type": "custom"
+            },
+            {
+              "command": "thunar-volman-settings",
+              "description": "Handhabung von Wechseldatenträgern und -medien konfigurieren",
+              "name": "Wechseldatenträger- und Medieneinstellungen",
+              "osIconPath": "/usr/share/icons/Faenza/devices/48/drive-removable-media.png",
               "type": "custom"
             },
             {
@@ -3857,6 +4311,13 @@
               "type": "custom"
             },
             {
+              "command": "/bin/sh -c \"xinput_calibrator; cat\"",
+              "description": "Run the calibration tool for touchscreens",
+              "name": "Touchscreen Kalibrieren",
+              "osIconPath": "/usr/share/pixmaps/xinput_calibrator.svg",
+              "type": "custom"
+            },
+            {
               "command": "/usr/bin/software-center %u",
               "description": "Lässt Sie aus tausenden von Anwendungen für Ubuntu auswählen",
               "name": "Ubuntu Software-Center",
@@ -3876,10 +4337,31 @@
           "type": "menu"
         },
         {
+          "command": "xfce4-session-logout",
+          "description": "Von der Arbeitsumgebung Xfce abmelden",
+          "name": "Abmelden",
+          "osIconPath": "/usr/share/icons/Faenza/actions/48/system-log-out.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/lib/i386-linux-gnu/Thunar/ThunarBulkRename %F",
+          "description": "Mehrere Dateien gleichzeitig umbenennen",
+          "name": "Bulk-Rename",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/Thunar.png",
+          "type": "custom"
+        },
+        {
           "command": "cssh",
           "description": "Control multiple ssh or rsh sessions from a single input window",
           "name": "ClusterSSH",
           "osIconPath": "data:image/png;base64,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",
+          "type": "custom"
+        },
+        {
+          "command": "thunar %F",
+          "description": "Das Dateisystem im Dateimanager anzeigen",
+          "name": "Dateimanager Thunar",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/Thunar.png",
           "type": "custom"
         },
         {
@@ -3971,6 +4453,244 @@
             {
               "items": [
                 {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/freeSSHd/freeSSHd.lnk",
+                  "description": "",
+                  "name": "freeSSHd",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/freeSSHd/Uninstall\\\\ freeSSHd.lnk",
+                  "description": "",
+                  "name": "Uninstall freeSSHd",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/freeSSHd/Visit\\\\ us\\\\ on\\\\ Website.lnk",
+                  "description": "",
+                  "name": "Visit us on Website",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                }
+              ],
+              "name": "freeSSHd",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+              "type": "menu"
+            },
+            {
+              "items": [
+                {
+                  "items": [
+                    {
+                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/Download\\\\ DLL\\\\ Documentation.lnk",
+                      "description": "Download DLL Documentation",
+                      "name": "Download DLL Documentation",
+                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                      "type": "custom"
+                    },
+                    {
+                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool.lnk",
+                      "description": "Start ISTool",
+                      "name": "ISTool",
+                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                      "type": "custom"
+                    },
+                    {
+                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool\\\\ Help.lnk",
+                      "description": "View ISTool Help",
+                      "name": "ISTool Help",
+                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                      "type": "custom"
+                    },
+                    {
+                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool\\\\ History.lnk",
+                      "description": "View the history of ISTool",
+                      "name": "ISTool History",
+                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                      "type": "custom"
+                    },
+                    {
+                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool\\\\ License.lnk",
+                      "description": "View the ISTool License",
+                      "name": "ISTool License",
+                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                      "type": "custom"
+                    },
+                    {
+                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/Uninstall\\\\ ISTool.lnk",
+                      "description": "This will remove ISTool from your computer.",
+                      "name": "Uninstall ISTool",
+                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                      "type": "custom"
+                    }
+                  ],
+                  "name": "ISTool",
+                  "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+                  "type": "menu"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Compiler.lnk",
+                  "description": "",
+                  "name": "Inno Setup Compiler",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Documentation.lnk",
+                  "description": "",
+                  "name": "Inno Setup Documentation",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ FAQ.lnk",
+                  "description": "",
+                  "name": "Inno Setup FAQ",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Preprocessor\\\\ Documentation.lnk",
+                  "description": "",
+                  "name": "Inno Setup Preprocessor Documentation",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Revision\\\\ History.lnk",
+                  "description": "",
+                  "name": "Inno Setup Revision History",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                }
+              ],
+              "name": "Inno Setup 5",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+              "type": "menu"
+            },
+            {
+              "items": [
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/KTS/KTS\\\\ home!.lnk",
+                  "description": "",
+                  "name": "KTS home!",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/KTS/Setup\\\\ KpyM\\\\ Telnet\\\\ SSH\\\\ Server.lnk",
+                  "description": "",
+                  "name": "Setup KpyM Telnet SSH Server",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/KTS/Uninstall\\\\ KTS.lnk",
+                  "description": "",
+                  "name": "Uninstall KTS",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                }
+              ],
+              "name": "KTS",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+              "type": "menu"
+            },
+            {
+              "items": [
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Key\\\\ Based\\\\ Authentication.lnk",
+                  "description": "",
+                  "name": "Key Based Authentication",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/OpenSSH\\\\ for\\\\ Windows\\\\ Web\\\\ Site.url",
+                  "description": "",
+                  "name": "OpenSSH for Windows Web Site",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Quick\\\\ Start\\\\ Guide.lnk",
+                  "description": "",
+                  "name": "Quick Start Guide",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Readme.lnk",
+                  "description": "",
+                  "name": "Readme",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Remove\\\\ OpenSSH\\\\ for\\\\ Windows.lnk",
+                  "description": "",
+                  "name": "Remove OpenSSH for Windows",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                }
+              ],
+              "name": "OpenSSH for Windows",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+              "type": "menu"
+            },
+            {
+              "items": [
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/Pageant.lnk",
+                  "description": "",
+                  "name": "Pageant",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PSFTP.lnk",
+                  "description": "",
+                  "name": "PSFTP",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTY.lnk",
+                  "description": "",
+                  "name": "PuTTY",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTYgen.lnk",
+                  "description": "",
+                  "name": "PuTTYgen",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTY\\\\ Manual.lnk",
+                  "description": "",
+                  "name": "PuTTY Manual",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                },
+                {
+                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTY\\\\ Web\\\\ Site.lnk",
+                  "description": "",
+                  "name": "PuTTY Web Site",
+                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+                  "type": "custom"
+                }
+              ],
+              "name": "PuTTY",
+              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
+              "type": "menu"
+            },
+            {
+              "items": [
+                {
                   "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Rechentraining\\\\ 5/Rechentraining\\\\ 5.lnk",
                   "description": "",
                   "name": "Rechentraining 5",
@@ -3990,145 +4710,6 @@
       ],
       "name": "Wine",
       "osIconPath": "/usr/share/icons/Faenza/apps/48/wine.png",
-      "type": "menu"
-    },
-    {
-      "items": [
-        {
-          "command": "basic256",
-          "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
-          "name": "BASIC-256",
-          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAABpJREFUWIXtwQEBAAAAgiD/r25IQAEAAADvBhAgAAFHAaCIAAAAAElFTkSuQmCC",
-          "type": "custom"
-        },
-        {
-          "command": "cantor %i -caption %c",
-          "description": "",
-          "name": "Cantor",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/cantor.png",
-          "type": "custom"
-        },
-        {
-          "command": "gchempaint-0.14 %U",
-          "description": "Erstellt 2D-Formeln chemischer Strukturen",
-          "name": "GChemPaint Chemischer Strukturformeleditor",
-          "osIconPath": "/usr/share/icons/hicolor/scalable/apps/gchempaint.svg",
-          "type": "custom"
-        },
-        {
-          "command": "ghemical",
-          "description": "Draw models of molecules",
-          "name": "ghemical",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "type": "custom"
-        },
-        {
-          "command": "psppire %F",
-          "description": "Statistische Daten mit einer freien Alternative zu SPSS analysieren",
-          "name": "GNU PSPP",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/pspp.png",
-          "type": "custom"
-        },
-        {
-          "command": "grass64",
-          "description": "Geoinformationssystem",
-          "name": "GRASS GIS",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/grass64.png",
-          "type": "custom"
-        },
-        {
-          "command": "/usr/bin/gretl %f",
-          "description": "Econometrics package",
-          "name": "gretl",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gretl.png",
-          "type": "custom"
-        },
-        {
-          "command": "kalgebra",
-          "description": "Mathematische Gleichungslösung und -zeichnung",
-          "name": "KAlgebra",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalgebra.png",
-          "type": "custom"
-        },
-        {
-          "command": "kalzium -caption %c %i",
-          "description": "Periodensystem der Elemente",
-          "name": "Kalzium",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalzium.png",
-          "type": "custom"
-        },
-        {
-          "command": "kstars -caption %c %i",
-          "description": "Das Planetarium für den Schreibtisch",
-          "name": "KStars",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kstars.png",
-          "type": "custom"
-        },
-        {
-          "command": "libreoffice --math %U",
-          "description": "Wissenschaftliche Formeln setzen und bearbeiten",
-          "name": "LibreOffice Math",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n2"
-          ]
-        },
-        {
-          "command": "loggerpro %F",
-          "description": "Measure. Analyze. Learn",
-          "name": "Logger Pro",
-          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/loggerpro.png",
-          "type": "custom"
-        },
-        {
-          "command": "/usr/bin/qbrowser %F",
-          "description": "",
-          "name": "QGIS Browser",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
-          "type": "custom"
-        },
-        {
-          "command": "/usr/bin/qgis %F",
-          "description": "",
-          "name": "QGIS Desktop",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
-          "type": "custom"
-        },
-        {
-          "command": "rocs %i -caption %c",
-          "description": "Graphentheorie-Werkzeug für Professoren und Studenten.",
-          "name": "Rocs",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rocs.png",
-          "type": "custom"
-        },
-        {
-          "command": "stellarium",
-          "description": "Planetarium",
-          "name": "Stellarium",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "geografie",
-            "astronomie"
-          ]
-        },
-        {
-          "command": "wxmaxima %f",
-          "description": "Perform symbolic and numeric calculations using Maxima",
-          "name": "wxMaxima",
-          "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
-          "type": "custom"
-        }
-      ],
-      "name": "Wissenschaft",
-      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
       "type": "menu"
     },
     {
@@ -4197,7 +4778,7 @@
             {
               "command": "evince %U",
               "description": "Mehrseitige Dokumente anzeigen",
-              "name": "Dokument-Betrachter",
+              "name": "Dokumentenbetrachter",
               "osIconPath": "/usr/share/icons/Faenza/apps/48/evince.png",
               "type": "custom"
             },
@@ -4304,6 +4885,13 @@
               "description": "Ein Windows Editor Klon",
               "name": "Editor",
               "osIconPath": "/usr/share/icons/Faenza/apps/48/wine-notepad.png",
+              "type": "custom"
+            },
+            {
+              "command": "GlobiLab",
+              "description": "",
+              "name": "GlobiLab",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/GlobiLab.png",
               "type": "custom"
             },
             {
@@ -4428,7 +5016,7 @@
             {
               "command": "gnome-control-center background",
               "description": "Den Hintergrund ändern",
-              "name": "Hintergrund",
+              "name": "Hinter­grund",
               "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-wallpaper.png",
               "type": "custom"
             },
@@ -4581,7 +5169,7 @@
             },
             {
               "command": "ibus-setup",
-              "description": "Tastatur-Eingabemethoden anpassen",
+              "description": "Tastatureingabemethoden anpassen",
               "name": "Tastatureingabemethoden",
               "osIconPath": "/usr/share/icons/Faenza/apps/48/ibus-setup.png",
               "type": "custom"
@@ -4594,6 +5182,13 @@
         {
           "items": [
             {
+              "command": "xfce4-appfinder",
+              "description": "Im System installierte Anwendungen finden und starten",
+              "name": "Anwendungsfinder",
+              "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-find.png",
+              "type": "custom"
+            },
+            {
               "command": "nautilus --new-window %U",
               "description": "Auf Dateien zugreifen und diese organisieren",
               "name": "Dateien",
@@ -4603,6 +5198,13 @@
                 "n0",
                 "explorer"
               ]
+            },
+            {
+              "command": "exo-open --launch FileManager %u",
+              "description": "Das Dateisystem durchsuchen, um einen eigenen Befehl zu wählen",
+              "name": "Dateimanager",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
+              "type": "custom"
             },
             {
               "command": "gedit %U",
@@ -4619,6 +5221,20 @@
               "type": "custom"
             },
             {
+              "command": "keepass2",
+              "description": "",
+              "name": "KeePass2",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/keepass2.png",
+              "type": "custom"
+            },
+            {
+              "command": "keepassx %f",
+              "description": "Passwortverwaltung",
+              "name": "KeePassX",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/keepassx.png",
+              "type": "custom"
+            },
+            {
               "command": "gnome-contacts",
               "description": "",
               "name": "Kontakte",
@@ -4626,10 +5242,52 @@
               "type": "custom"
             },
             {
+              "command": "globaltime",
+              "description": "Show clocks from different countries",
+              "name": "Orage Globaltime",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png",
+              "type": "custom"
+            },
+            {
+              "command": "owncloud",
+              "description": "ownCloud desktop synchronization client",
+              "name": "ownCloud desktop sync client",
+              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/owncloud.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-appfinder --collapsed",
+              "description": "Ein Programm ausführen",
+              "name": "Programm ausführen …",
+              "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
+              "type": "custom"
+            },
+            {
+              "command": "urxvt",
+              "description": "Use the command line",
+              "name": "Rxvt Color Unicode Terminal",
+              "osIconPath": "data:image/png;base64,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",
+              "type": "custom"
+            },
+            {
               "command": "screenlets-manager > /dev/null",
               "description": "Ein grafisches Werkzeug, um Ihre Screenlets zu verwalten.",
               "name": "Screenlets",
               "osIconPath": "/usr/share/icons/hicolor/scalable/apps/screenlets.svg",
+              "type": "custom"
+            },
+            {
+              "command": "exo-open --launch TerminalEmulator",
+              "description": "Befehlszeile verwenden",
+              "name": "Terminal",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-terminal.png",
+              "type": "custom"
+            },
+            {
+              "command": "xfce4-about",
+              "description": "Informationen über die Xfce-Desktopumgebung",
+              "name": "Über Xfce",
+              "osIconPath": "/usr/share/icons/Faenza/actions/48/help-about.png",
               "type": "custom"
             },
             {
