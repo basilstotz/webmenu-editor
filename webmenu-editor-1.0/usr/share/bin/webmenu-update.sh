@@ -11,14 +11,24 @@ GROUPS=$(groups)
 KLASSE=""
 
 
+
+if echo ${GROUPS} | grep -q -v "bubendorf"; then
+
+
 #default
-     if ! [ -f ${HOME}/.config/webmenu/filter.json ]; then
-           cp /opt/webmenu/filter-default.json ${HOME}/.config/webmenu/filter.json
-     fi
+#     if ! [ -f ${HOME}/.config/webmenu/filter.json ]; then
+#           cp /opt/webmenu/filter-default.json ${HOME}/.config/webmenu/filter.json
+#     fi
 
       if [ -f ${HOME}/.config/webmenu/filter.json ]; then
          cat ${SRC} | ${P}/updateMenu.js ${HOME}/.config/webmenu/filter.json > ${HOME}/.config/webmenu/menu.json
       fi
+
+      exit 0
+
+fi
+
+
 
 
 #bubendorf
