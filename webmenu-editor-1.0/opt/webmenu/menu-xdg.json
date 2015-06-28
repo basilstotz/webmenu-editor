@@ -225,6 +225,13 @@
           ]
         },
         {
+          "command": "nw /usr/share/node/duolingo",
+          "description": "\"Mit Duolingo sprachen lernen\"",
+          "name": "Duolingo",
+          "osIconPath": "/usr/share/pixmaps/duolingo.png",
+          "type": "custom"
+        },
+        {
           "command": "enchanting",
           "description": "Tool for programming LEGO Mindstorms NXT robots",
           "name": "Enchanting",
@@ -1296,14 +1303,52 @@
           "description": "",
           "name": "MilleFeuilles 6.1",
           "osIconPath": "/usr/share/pixmaps/mf61.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
+            "lesen",
+            "sprechen",
+            "singen",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/millefeuilles 6.2",
           "description": "",
           "name": "MilleFeuilles 6.2",
           "osIconPath": "/usr/share/pixmaps/mf62.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Französisch",
+            "|",
+            "Sprache",
+            "Kultur",
+            "|",
+            "hören",
+            "lesen",
+            "sprechen",
+            "singen",
+            "üben",
+            "|",
+            ""
+          ]
         },
         {
           "command": "/usr/share/bin/millefeuilles 3.1",
@@ -1353,6 +1398,13 @@
             "|",
             ""
           ]
+        },
+        {
+          "command": "nw /usr/share/node/minipodium",
+          "description": "\"\"",
+          "name": "MiniPodium",
+          "osIconPath": "/usr/share/pixmaps/minipodium.png",
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.musikwissenschaften.de/kids/",
@@ -1560,7 +1612,22 @@
           "description": "\"\"",
           "name": "Pahvi",
           "osIconPath": "/usr/share/pixmaps/pahvi.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Gestalten",
+            "Medien",
+            "|",
+            "|",
+            "|",
+            "schreiben",
+            "gestalten",
+            "|",
+            ""
+          ]
         },
         {
           "command": "parley %u",
@@ -1635,7 +1702,21 @@
           "description": "\"Programieren mit Blöcken\"",
           "name": "Snap",
           "osIconPath": "/usr/share/pixmaps/snap.png",
-          "type": "custom"
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "|",
+            "Mathematik",
+            "Medien",
+            "|",
+            "|",
+            "|",
+            "gestalten",
+            "operieren",
+            "|",
+            ""
+          ]
         },
         {
           "command": "squeak",
@@ -1731,152 +1812,6 @@
           "name": "Zeitklicks",
           "osIconPath": "/usr/share/pixmaps/zeitklicks.png",
           "type": "custom"
-        },
-        {
-          "items": [
-            {
-              "command": "avogadro %f",
-              "description": "Advanced molecular editor",
-              "name": "Avogadro",
-              "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
-              "type": "custom"
-            },
-            {
-              "command": "basic256",
-              "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
-              "name": "BASIC-256",
-              "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAABpJREFUWIXtwQEBAAAAgiD/r25IQAEAAADvBhAgAAFHAaCIAAAAAElFTkSuQmCC",
-              "type": "custom"
-            },
-            {
-              "command": "cantor %i -caption %c",
-              "description": "",
-              "name": "Cantor",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/cantor.png",
-              "type": "custom"
-            },
-            {
-              "command": "gchempaint-0.14 %U",
-              "description": "Erstellt 2D-Formeln chemischer Strukturen",
-              "name": "GChemPaint Chemischer Strukturformeleditor",
-              "osIconPath": "/usr/share/icons/hicolor/scalable/apps/gchempaint.svg",
-              "type": "custom"
-            },
-            {
-              "command": "ghemical",
-              "description": "Draw models of molecules",
-              "name": "ghemical",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-              "type": "custom"
-            },
-            {
-              "command": "psppire %F",
-              "description": "Statistische Daten mit einer freien Alternative zu SPSS analysieren",
-              "name": "GNU PSPP",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/pspp.png",
-              "type": "custom"
-            },
-            {
-              "command": "grass64",
-              "description": "Geoinformationssystem",
-              "name": "GRASS GIS",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/grass64.png",
-              "type": "custom"
-            },
-            {
-              "command": "/usr/bin/gretl %f",
-              "description": "Econometrics package",
-              "name": "gretl",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gretl.png",
-              "type": "custom"
-            },
-            {
-              "command": "kalgebra",
-              "description": "Mathematische Gleichungslösung und -zeichnung",
-              "name": "KAlgebra",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalgebra.png",
-              "type": "custom"
-            },
-            {
-              "command": "kalzium -caption %c %i",
-              "description": "Periodensystem der Elemente",
-              "name": "Kalzium",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalzium.png",
-              "type": "custom"
-            },
-            {
-              "command": "kstars -caption %c %i",
-              "description": "Das Planetarium für den Schreibtisch",
-              "name": "KStars",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kstars.png",
-              "type": "custom"
-            },
-            {
-              "command": "libreoffice --math %U",
-              "description": "Wissenschaftliche Formeln setzen und bearbeiten",
-              "name": "LibreOffice Math",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
-              "type": "custom",
-              "keywords": [
-                "n2",
-                "n2"
-              ]
-            },
-            {
-              "command": "loggerpro %F",
-              "description": "Measure. Analyze. Learn",
-              "name": "Logger Pro",
-              "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/loggerpro.png",
-              "type": "custom"
-            },
-            {
-              "command": "/usr/bin/qbrowser %F",
-              "description": "",
-              "name": "QGIS Browser",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
-              "type": "custom"
-            },
-            {
-              "command": "/usr/bin/qgis %F",
-              "description": "",
-              "name": "QGIS Desktop",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
-              "type": "custom"
-            },
-            {
-              "command": "rocs %i -caption %c",
-              "description": "Graphentheorie-Werkzeug für Professoren und Studenten.",
-              "name": "Rocs",
-              "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rocs.png",
-              "type": "custom"
-            },
-            {
-              "command": "stellarium",
-              "description": "Planetarium",
-              "name": "Stellarium",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-              "type": "custom",
-              "keywords": [
-                "n1",
-                "lp",
-                "z2",
-                "z3",
-                "nmg",
-                "geografie",
-                "astronomie"
-              ]
-            },
-            {
-              "command": "wxmaxima %f",
-              "description": "Perform symbolic and numeric calculations using Maxima",
-              "name": "wxMaxima",
-              "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
-              "type": "custom"
-            }
-          ],
-          "name": "Wissenschaft",
-          "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
-          "type": "menu"
         }
       ],
       "name": "Bildung",
@@ -3150,7 +3085,7 @@
           "command": "arduino",
           "description": "Den Arduino Micro-Computer programmieren",
           "name": "Arduino IDE",
-          "osIconPath": "arduino",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/arduino.png",
           "type": "custom",
           "keywords": [
             "|",
@@ -3938,6 +3873,13 @@
           "type": "custom"
         },
         {
+          "command": "playonlinux",
+          "description": "",
+          "name": "PlayOnLinux",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/playonlinux.png",
+          "type": "custom"
+        },
+        {
           "command": "renpy",
           "description": "visual-novel type games",
           "name": "Ren'Py",
@@ -4710,6 +4652,152 @@
       ],
       "name": "Wine",
       "osIconPath": "/usr/share/icons/Faenza/apps/48/wine.png",
+      "type": "menu"
+    },
+    {
+      "items": [
+        {
+          "command": "avogadro %f",
+          "description": "Advanced molecular editor",
+          "name": "Avogadro",
+          "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
+          "type": "custom"
+        },
+        {
+          "command": "basic256",
+          "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
+          "name": "BASIC-256",
+          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAABpJREFUWIXtwQEBAAAAgiD/r25IQAEAAADvBhAgAAFHAaCIAAAAAElFTkSuQmCC",
+          "type": "custom"
+        },
+        {
+          "command": "cantor %i -caption %c",
+          "description": "",
+          "name": "Cantor",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/cantor.png",
+          "type": "custom"
+        },
+        {
+          "command": "gchempaint-0.14 %U",
+          "description": "Erstellt 2D-Formeln chemischer Strukturen",
+          "name": "GChemPaint Chemischer Strukturformeleditor",
+          "osIconPath": "/usr/share/icons/hicolor/scalable/apps/gchempaint.svg",
+          "type": "custom"
+        },
+        {
+          "command": "ghemical",
+          "description": "Draw models of molecules",
+          "name": "ghemical",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "type": "custom"
+        },
+        {
+          "command": "psppire %F",
+          "description": "Statistische Daten mit einer freien Alternative zu SPSS analysieren",
+          "name": "GNU PSPP",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/pspp.png",
+          "type": "custom"
+        },
+        {
+          "command": "grass64",
+          "description": "Geoinformationssystem",
+          "name": "GRASS GIS",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/grass64.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/bin/gretl %f",
+          "description": "Econometrics package",
+          "name": "gretl",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gretl.png",
+          "type": "custom"
+        },
+        {
+          "command": "kalgebra",
+          "description": "Mathematische Gleichungslösung und -zeichnung",
+          "name": "KAlgebra",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalgebra.png",
+          "type": "custom"
+        },
+        {
+          "command": "kalzium -caption %c %i",
+          "description": "Periodensystem der Elemente",
+          "name": "Kalzium",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalzium.png",
+          "type": "custom"
+        },
+        {
+          "command": "kstars -caption %c %i",
+          "description": "Das Planetarium für den Schreibtisch",
+          "name": "KStars",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kstars.png",
+          "type": "custom"
+        },
+        {
+          "command": "libreoffice --math %U",
+          "description": "Wissenschaftliche Formeln setzen und bearbeiten",
+          "name": "LibreOffice Math",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
+          "type": "custom",
+          "keywords": [
+            "n2",
+            "n2"
+          ]
+        },
+        {
+          "command": "loggerpro %F",
+          "description": "Measure. Analyze. Learn",
+          "name": "Logger Pro",
+          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/loggerpro.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/bin/qbrowser %F",
+          "description": "",
+          "name": "QGIS Browser",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/bin/qgis %F",
+          "description": "",
+          "name": "QGIS Desktop",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
+          "type": "custom"
+        },
+        {
+          "command": "rocs %i -caption %c",
+          "description": "Graphentheorie-Werkzeug für Professoren und Studenten.",
+          "name": "Rocs",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rocs.png",
+          "type": "custom"
+        },
+        {
+          "command": "stellarium",
+          "description": "Planetarium",
+          "name": "Stellarium",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
+          "type": "custom",
+          "keywords": [
+            "n1",
+            "lp",
+            "z2",
+            "z3",
+            "nmg",
+            "geografie",
+            "astronomie"
+          ]
+        },
+        {
+          "command": "wxmaxima %f",
+          "description": "Perform symbolic and numeric calculations using Maxima",
+          "name": "wxMaxima",
+          "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
+          "type": "custom"
+        }
+      ],
+      "name": "Wissenschaft",
+      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
       "type": "menu"
     },
     {

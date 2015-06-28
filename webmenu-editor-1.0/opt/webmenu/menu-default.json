@@ -137,6 +137,13 @@
         },
         {
           "type": "custom",
+          "description": "\"Mit Duolingo sprachen lernen\"",
+          "osIconPath": "/usr/share/pixmaps/duolingo.png",
+          "name": "Duolingo",
+          "command": "nw /usr/share/node/duolingo"
+        },
+        {
+          "type": "custom",
           "description": "Tool for programming LEGO Mindstorms NXT robots",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/enchanting.png",
           "name": "Enchanting",
@@ -391,9 +398,23 @@
         },
         {
           "type": "custom",
+          "description": "Ein KDE-Programm zum Erlernen des Alphabets",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/klettres.png",
+          "name": "KLettres",
+          "command": "klettres -caption %c %i"
+        },
+        {
+          "type": "custom",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/ktouch.png",
           "name": "KTouch",
           "command": "ktouch -caption %c %i"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Karteikarten- und Vokabel-Lernprogramm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kwordquiz.png",
+          "name": "KWordQuiz",
+          "command": "kwordquiz -caption %c %i"
         },
         {
           "type": "custom",
@@ -450,6 +471,40 @@
           "osIconPath": "/usr/share/pixmaps/map-geo-admin.png",
           "name": "Map GeoAdmin",
           "command": "/usr/share/bin/webapps http://map.geo.admin.ch/"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "NMG",
+            "Geografie",
+            "Lebensraum",
+            "Räume",
+            "benennen",
+            "erforschen",
+            "darstellen"
+          ],
+          "name": "Marble",
+          "command": "marble-qt %F"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "NMG",
+            "Geografie",
+            "Lebensraum",
+            "Räume",
+            "benennen",
+            "erforschen",
+            "darstellen"
+          ],
+          "name": "Marble",
+          "command": "marble %F"
         },
         {
           "type": "custom",
@@ -569,6 +624,26 @@
           ],
           "name": "MiniBooks",
           "command": "/usr/share/bin/webapps http://www.minibooks.ch"
+        },
+        {
+          "type": "custom",
+          "description": "\"\"",
+          "osIconPath": "/usr/share/pixmaps/minipodium.png",
+          "keywords": [
+            "2.Zyklus",
+            "Sprachen",
+            "NMG",
+            "Gestalten",
+            "Medien",
+            "Zeichnen",
+            "Werken",
+            "Kultur",
+            "darstellen",
+            "erklären",
+            "herstellen"
+          ],
+          "name": "MiniPodium",
+          "command": "nw /usr/share/node/minipodium"
         },
         {
           "type": "custom",
@@ -697,6 +772,40 @@
         },
         {
           "type": "custom",
+          "description": "\"\"",
+          "osIconPath": "/usr/share/pixmaps/pahvi.png",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "Gestalten",
+            "Medien",
+            "schreiben",
+            "gestalten"
+          ],
+          "name": "Pahvi",
+          "command": "nw /usr/share/node/pahvi"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/parley.png",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "Sprache",
+            "üben",
+            "lernen"
+          ],
+          "name": "Parley",
+          "command": "parley %u"
+        },
+        {
+          "type": "custom",
           "description": "Interkulturelles Quiz",
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
           "keywords": [
@@ -741,15 +850,16 @@
           "type": "custom",
           "description": "\"Programieren mit Blöcken\"",
           "osIconPath": "/usr/share/pixmaps/snap.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Mathematik",
+            "Medien",
+            "gestalten",
+            "operieren"
+          ],
           "name": "Snap",
           "command": "nw /usr/share/node/snap"
-        },
-        {
-          "type": "custom",
-          "description": "\"Online Bildbearbeitung\"",
-          "osIconPath": "/usr/share/pixmaps/sumopaint.png",
-          "name": "Sumo Paint",
-          "command": "/usr/share/bin/webapps \"http://www.sumoware.com/app/?target\""
         },
         {
           "type": "custom",
@@ -801,24 +911,11 @@
           "command": "/usr/share/bin/webapps http://www.unserkoerper.de"
         },
         {
-          "type": "menu",
-          "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
-          "name": "Wissenschaft",
-          "items": [
-            {
-              "type": "custom",
-              "description": "Planetarium",
-              "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-              "keywords": [
-                "nmg",
-                "geografie",
-                "astronomie"
-              ],
-              "name": "Stellarium",
-              "command": "stellarium"
-            }
-          ],
-          "isStarred": false
+          "type": "custom",
+          "description": "\"Flubidux und die Tönebox\"",
+          "osIconPath": "/usr/share/pixmaps/zeitklicks.png",
+          "name": "Zeitklicks",
+          "command": "/usr/share/bin/webapps http://www.zeitklicks.de/zeitklicks"
         }
       ],
       "isStarred": false
@@ -828,6 +925,13 @@
       "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-office.png",
       "name": "Büro",
       "items": [
+        {
+          "type": "custom",
+          "description": "E-Book Viewer",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "E-Book Viewer",
+          "command": "ebook-viewer %F"
+        },
         {
           "type": "custom",
           "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten",
@@ -884,6 +988,13 @@
       "items": [
         {
           "type": "custom",
+          "description": "E-Book Viewer",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "E-Book Viewer",
+          "command": "ebook-viewer %F"
+        },
+        {
+          "type": "custom",
           "description": "Bilder erstellen und Fotografien bearbeiten",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gimp.png",
           "keywords": [
@@ -903,12 +1014,6 @@
           "keywords": [],
           "name": "Inkscape",
           "command": "inkscape %F"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kolourpaint.png",
-          "name": "KolourPaint",
-          "command": "kolourpaint %u"
         },
         {
           "type": "custom",
@@ -948,14 +1053,6 @@
           ],
           "name": "Dropbox",
           "command": "dropbox start -i"
-        },
-        {
-          "type": "custom",
-          "description": "Browse the web in text mode",
-          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
-          "keywords": [],
-          "name": "ELinks Webbrowser",
-          "command": "/usr/bin/elinks %u"
         },
         {
           "type": "custom",
@@ -1017,13 +1114,10 @@
         },
         {
           "type": "custom",
-          "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/thunderbird.png",
-          "keywords": [
-            "outlook"
-          ],
-          "name": "Thunderbird-E-Mail und -Nachrichten",
-          "command": "thunderbird %u"
+          "description": "Share this desktop by VNC",
+          "osIconPath": "/usr/share/icons/Faenza/devices/48/computer.png",
+          "name": "X11VNC Server",
+          "command": "x11vnc -gui tray=setpass -rfbport PROMPT -bg -o %%HOME/.x11vnc.log.%%VNCDISPLAY"
         }
       ],
       "isStarred": false
@@ -1040,14 +1134,6 @@
           "keywords": [],
           "name": "Audacity",
           "command": "audacity %F"
-        },
-        {
-          "type": "custom",
-          "description": "CDs/DVDs schreiben und kopieren",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/brasero.png",
-          "keywords": [],
-          "name": "Brasero",
-          "command": "brasero %U"
         },
         {
           "type": "custom",
@@ -1071,6 +1157,22 @@
           ],
           "name": "GNU Solfege",
           "command": "solfege"
+        },
+        {
+          "type": "custom",
+          "description": "DVD auslesen und rippen",
+          "osIconPath": "/usr/share/pixmaps/ogmrip.png",
+          "keywords": [],
+          "name": "OGMRip DVD-Ausleser",
+          "command": "ogmrip"
+        },
+        {
+          "type": "custom",
+          "description": "Videos und Filme erstellen und bearbeiten",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/openshot.png",
+          "keywords": [],
+          "name": "OpenShot Video Editor",
+          "command": "openshot %F"
         },
         {
           "type": "custom",
@@ -1098,6 +1200,22 @@
         },
         {
           "type": "custom",
+          "description": "Ihre Musiksammlung wiedergeben und organisieren",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/rhythmbox.png",
+          "keywords": [],
+          "name": "Rhythmbox",
+          "command": "rhythmbox %U"
+        },
+        {
+          "type": "custom",
+          "description": "Ihre Musik-CDs auslesen",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/sound-juicer.png",
+          "keywords": [],
+          "name": "Sound Juicer",
+          "command": "sound-juicer %u"
+        },
+        {
+          "type": "custom",
           "description": "Program to create stop-motion animations",
           "osIconPath": "/usr/share/icons/hicolor/scalable/apps/stopmotion.svg",
           "name": "Stopmotion",
@@ -1109,6 +1227,13 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/vlc.png",
           "name": "VLC Media Player",
           "command": "/usr/bin/vlc --started-from-file %U"
+        },
+        {
+          "type": "custom",
+          "description": "Manage and view your media",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/xbmc.png",
+          "name": "XBMC Media Center",
+          "command": "xbmc"
         }
       ],
       "isStarred": false
@@ -1118,14 +1243,6 @@
       "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-development.png",
       "name": "Software-Entwicklung",
       "items": [
-        {
-          "type": "custom",
-          "description": "Den Arduino Micro-Computer programmieren",
-          "osIconPath": "arduino",
-          "keywords": [],
-          "name": "Arduino IDE",
-          "command": "arduino"
-        },
         {
           "type": "custom",
           "description": "Tool for programming LEGO Mindstorms NXT robots",
@@ -1287,6 +1404,26 @@
     },
     {
       "type": "menu",
+      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
+      "name": "Wissenschaft",
+      "items": [
+        {
+          "type": "custom",
+          "description": "Planetarium",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
+          "keywords": [
+            "nmg",
+            "geografie",
+            "astronomie"
+          ],
+          "name": "Stellarium",
+          "command": "stellarium"
+        }
+      ],
+      "isStarred": false
+    },
+    {
+      "type": "menu",
       "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-other.png",
       "name": "Andere",
       "items": [
@@ -1316,6 +1453,22 @@
         },
         {
           "type": "custom",
+          "description": "Durchsuche das virtuelle C: Laufwerk",
+          "osIconPath": "/usr/share/icons/Faenza/places/48/folder-wine.png",
+          "name": "Durchsuche C:",
+          "command": "xdg-open .wine/dosdevices/c:",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Ein Windows Editor Klon",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/wine-notepad.png",
+          "name": "Editor",
+          "command": "notepad",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "\"Das Menu edieren\"",
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
           "name": "WebMenuEditor",
@@ -1324,10 +1477,37 @@
         },
         {
           "type": "custom",
+          "description": "Auf Dateien zugreifen und diese organisieren",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
+          "keywords": [
+            "explorer"
+          ],
+          "name": "Dateien",
+          "command": "nautilus --new-window %U",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Textdateien bearbeiten",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-text-editor.png",
+          "name": "gedit",
+          "command": "gedit %U",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "ownCloud desktop synchronization client",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/owncloud.png",
           "name": "ownCloud desktop sync client",
           "command": "owncloud",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Ein Programm ausführen",
+          "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
+          "name": "Programm ausführen …",
+          "command": "xfce4-appfinder --collapsed",
           "isStarred": false
         },
         {
@@ -1405,13 +1585,6 @@
         },
         {
           "type": "custom",
-          "description": "Ein KDE-Programm zum Erlernen des Alphabets",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/klettres.png",
-          "name": "KLettres",
-          "command": "klettres -caption %c %i"
-        },
-        {
-          "type": "custom",
           "description": "Funktionsplotter",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kmplot.png",
           "name": "KmPlot",
@@ -1422,13 +1595,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kturtle.png",
           "name": "KTurtle",
           "command": "kturtle %i -caption %c"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Karteikarten- und Vokabel-Lernprogramm",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kwordquiz.png",
-          "name": "KWordQuiz",
-          "command": "kwordquiz -caption %c %i"
         },
         {
           "type": "custom",
@@ -1531,40 +1697,6 @@
           ],
           "name": "Logisch 6",
           "command": "/usr/share/bin/logisch 6"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "NMG",
-            "Geografie",
-            "Lebensraum",
-            "Räume",
-            "benennen",
-            "erforschen",
-            "darstellen"
-          ],
-          "name": "Marble",
-          "command": "marble-qt %F"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "NMG",
-            "Geografie",
-            "Lebensraum",
-            "Räume",
-            "benennen",
-            "erforschen",
-            "darstellen"
-          ],
-          "name": "Marble",
-          "command": "marble %F"
         },
         {
           "type": "custom",
@@ -1778,12 +1910,38 @@
         {
           "type": "custom",
           "osIconPath": "/usr/share/pixmaps/mf61.png",
+          "keywords": [
+            "3.Zyklus",
+            "Sprachen",
+            "Französisch",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "hören",
+            "lesen",
+            "sprechen",
+            "singen",
+            "üben"
+          ],
           "name": "MilleFeuilles 6.1",
           "command": "/usr/share/bin/millefeuilles 6.1"
         },
         {
           "type": "custom",
           "osIconPath": "/usr/share/pixmaps/mf62.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Sprachen",
+            "Französisch",
+            "Sprache",
+            "Kultur",
+            "hören",
+            "lesen",
+            "sprechen",
+            "singen",
+            "üben"
+          ],
           "name": "MilleFeuilles 6.2",
           "command": "/usr/share/bin/millefeuilles 6.2"
         },
@@ -1831,19 +1989,6 @@
         },
         {
           "type": "custom",
-          "description": "\"\"",
-          "osIconPath": "/usr/share/pixmaps/pahvi.png",
-          "name": "Pahvi",
-          "command": "nw /usr/share/node/pahvi"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/parley.png",
-          "name": "Parley",
-          "command": "parley %u"
-        },
-        {
-          "type": "custom",
           "description": "\"Interaktive Simulationen\"",
           "osIconPath": "/usr/share/pixmaps/phet.png",
           "name": "PhEt",
@@ -1865,127 +2010,10 @@
         },
         {
           "type": "custom",
-          "description": "\"Flubidux und die Tönebox\"",
-          "osIconPath": "/usr/share/pixmaps/zeitklicks.png",
-          "name": "Zeitklicks",
-          "command": "/usr/share/bin/webapps http://www.zeitklicks.de/zeitklicks"
-        },
-        {
-          "type": "custom",
-          "description": "Advanced molecular editor",
-          "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
-          "name": "Avogadro",
-          "command": "avogadro %f"
-        },
-        {
-          "type": "custom",
-          "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
-          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAABpJREFUWIXtwQEBAAAAgiD/r25IQAEAAADvBhAgAAFHAaCIAAAAAElFTkSuQmCC",
-          "name": "BASIC-256",
-          "command": "basic256"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/cantor.png",
-          "name": "Cantor",
-          "command": "cantor %i -caption %c"
-        },
-        {
-          "type": "custom",
-          "description": "Erstellt 2D-Formeln chemischer Strukturen",
-          "osIconPath": "/usr/share/icons/hicolor/scalable/apps/gchempaint.svg",
-          "name": "GChemPaint Chemischer Strukturformeleditor",
-          "command": "gchempaint-0.14 %U"
-        },
-        {
-          "type": "custom",
-          "description": "Draw models of molecules",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "ghemical",
-          "command": "ghemical"
-        },
-        {
-          "type": "custom",
-          "description": "Statistische Daten mit einer freien Alternative zu SPSS analysieren",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/pspp.png",
-          "name": "GNU PSPP",
-          "command": "psppire %F"
-        },
-        {
-          "type": "custom",
-          "description": "Geoinformationssystem",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/grass64.png",
-          "name": "GRASS GIS",
-          "command": "grass64"
-        },
-        {
-          "type": "custom",
-          "description": "Econometrics package",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gretl.png",
-          "name": "gretl",
-          "command": "/usr/bin/gretl %f"
-        },
-        {
-          "type": "custom",
-          "description": "Mathematische Gleichungslösung und -zeichnung",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalgebra.png",
-          "name": "KAlgebra",
-          "command": "kalgebra"
-        },
-        {
-          "type": "custom",
-          "description": "Periodensystem der Elemente",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalzium.png",
-          "name": "Kalzium",
-          "command": "kalzium -caption %c %i"
-        },
-        {
-          "type": "custom",
-          "description": "Das Planetarium für den Schreibtisch",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kstars.png",
-          "name": "KStars",
-          "command": "kstars -caption %c %i"
-        },
-        {
-          "type": "custom",
-          "description": "Wissenschaftliche Formeln setzen und bearbeiten",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
-          "keywords": [],
-          "name": "LibreOffice Math",
-          "command": "libreoffice --math %U"
-        },
-        {
-          "type": "custom",
-          "description": "Measure. Analyze. Learn",
-          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/loggerpro.png",
-          "name": "Logger Pro",
-          "command": "loggerpro %F"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
-          "name": "QGIS Browser",
-          "command": "/usr/bin/qbrowser %F"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
-          "name": "QGIS Desktop",
-          "command": "/usr/bin/qgis %F"
-        },
-        {
-          "type": "custom",
-          "description": "Graphentheorie-Werkzeug für Professoren und Studenten.",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rocs.png",
-          "name": "Rocs",
-          "command": "rocs %i -caption %c"
-        },
-        {
-          "type": "custom",
-          "description": "Perform symbolic and numeric calculations using Maxima",
-          "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
-          "name": "wxMaxima",
-          "command": "wxmaxima %f"
+          "description": "\"Online Bildbearbeitung\"",
+          "osIconPath": "/usr/share/pixmaps/sumopaint.png",
+          "name": "Sumo Paint",
+          "command": "/usr/share/bin/webapps \"http://www.sumoware.com/app/?target\""
         },
         {
           "type": "custom",
@@ -2008,13 +2036,6 @@
           "osIconPath": "/usr/share/pixmaps/FBReader.png",
           "name": "E-book reader",
           "command": "FBReader %F"
-        },
-        {
-          "type": "custom",
-          "description": "E-Book Viewer",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "E-Book Viewer",
-          "command": "ebook-viewer %F"
         },
         {
           "type": "custom",
@@ -2146,13 +2167,6 @@
         },
         {
           "type": "custom",
-          "description": "E-Book Viewer",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "E-Book Viewer",
-          "command": "ebook-viewer %F"
-        },
-        {
-          "type": "custom",
           "description": "Fotos anschauen, sortieren und weitergeben",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/f-spot.png",
           "keywords": [],
@@ -2201,6 +2215,12 @@
           "osIconPath": "/usr/share/icons/Faenza/devices/48/display.png",
           "name": "ImageMagick (display)",
           "command": "/usr/bin/display.im6 %f"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kolourpaint.png",
+          "name": "KolourPaint",
+          "command": "kolourpaint %u"
         },
         {
           "type": "custom",
@@ -2314,6 +2334,14 @@
         },
         {
           "type": "custom",
+          "description": "Browse the web in text mode",
+          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
+          "keywords": [],
+          "name": "ELinks Webbrowser",
+          "command": "/usr/bin/elinks %u"
+        },
+        {
+          "type": "custom",
           "description": "E-Mails lesen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/internet-mail.png",
           "name": "E-Mail-Programm",
@@ -2385,6 +2413,16 @@
         },
         {
           "type": "custom",
+          "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/thunderbird.png",
+          "keywords": [
+            "outlook"
+          ],
+          "name": "Thunderbird-E-Mail und -Nachrichten",
+          "command": "thunderbird %u"
+        },
+        {
+          "type": "custom",
           "description": "Download and share files over BitTorrent",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/transmission.png",
           "name": "Transmission",
@@ -2403,13 +2441,6 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/web-browser.png",
           "name": "Webbrowser",
           "command": "exo-open --launch WebBrowser %u"
-        },
-        {
-          "type": "custom",
-          "description": "Share this desktop by VNC",
-          "osIconPath": "/usr/share/icons/Faenza/devices/48/computer.png",
-          "name": "X11VNC Server",
-          "command": "x11vnc -gui tray=setpass -rfbport PROMPT -bg -o %%HOME/.x11vnc.log.%%VNCDISPLAY"
         },
         {
           "type": "custom",
@@ -2444,6 +2475,14 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/media-player-banshee.png",
           "name": "Banshee",
           "command": "banshee --redirect-log --play-enqueued %U"
+        },
+        {
+          "type": "custom",
+          "description": "CDs/DVDs schreiben und kopieren",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/brasero.png",
+          "keywords": [],
+          "name": "Brasero",
+          "command": "brasero %U"
         },
         {
           "type": "custom",
@@ -2594,22 +2633,6 @@
         },
         {
           "type": "custom",
-          "description": "DVD auslesen und rippen",
-          "osIconPath": "/usr/share/pixmaps/ogmrip.png",
-          "keywords": [],
-          "name": "OGMRip DVD-Ausleser",
-          "command": "ogmrip"
-        },
-        {
-          "type": "custom",
-          "description": "Videos und Filme erstellen und bearbeiten",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/openshot.png",
-          "keywords": [],
-          "name": "OpenShot Video Editor",
-          "command": "openshot %F"
-        },
-        {
-          "type": "custom",
           "description": "Lautstärke anpassen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/multimedia-volume-control.png",
           "name": "PulseAudio-Lautstärkeregler",
@@ -2652,14 +2675,6 @@
         },
         {
           "type": "custom",
-          "description": "Ihre Musiksammlung wiedergeben und organisieren",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/rhythmbox.png",
-          "keywords": [],
-          "name": "Rhythmbox",
-          "command": "rhythmbox %U"
-        },
-        {
-          "type": "custom",
           "description": "MIDI- und Audio-Sequencer und Notensatzprogramm",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/rosegarden.png",
           "name": "Rosegarden",
@@ -2678,14 +2693,6 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/soundconverter.png",
           "name": "Sound Converter",
           "command": "soundconverter %U"
-        },
-        {
-          "type": "custom",
-          "description": "Ihre Musik-CDs auslesen",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/sound-juicer.png",
-          "keywords": [],
-          "name": "Sound Juicer",
-          "command": "sound-juicer %u"
         },
         {
           "type": "custom",
@@ -2717,10 +2724,19 @@
         },
         {
           "type": "custom",
-          "description": "Manage and view your media",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/xbmc.png",
-          "name": "XBMC Media Center",
-          "command": "xbmc"
+          "description": "Den Arduino Micro-Computer programmieren",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/arduino.png",
+          "keywords": [
+            "NMG",
+            "gestalten",
+            "operieren",
+            "erforschen",
+            "herstellen",
+            "spielen",
+            "lernen"
+          ],
+          "name": "Arduino IDE",
+          "command": "arduino"
         },
         {
           "type": "custom",
@@ -3336,6 +3352,12 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/playonlinux.png",
+          "name": "PlayOnLinux",
+          "command": "playonlinux"
+        },
+        {
+          "type": "custom",
           "description": "visual-novel type games",
           "osIconPath": "data:image/png;base64,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",
           "name": "Ren'Py",
@@ -3932,6 +3954,123 @@
         },
         {
           "type": "custom",
+          "description": "Advanced molecular editor",
+          "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
+          "name": "Avogadro",
+          "command": "avogadro %f"
+        },
+        {
+          "type": "custom",
+          "description": "Lerne BASIC in einer Programmierumgebung speziell für die ganz Kleinen",
+          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAABpJREFUWIXtwQEBAAAAgiD/r25IQAEAAADvBhAgAAFHAaCIAAAAAElFTkSuQmCC",
+          "name": "BASIC-256",
+          "command": "basic256"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/cantor.png",
+          "name": "Cantor",
+          "command": "cantor %i -caption %c"
+        },
+        {
+          "type": "custom",
+          "description": "Erstellt 2D-Formeln chemischer Strukturen",
+          "osIconPath": "/usr/share/icons/hicolor/scalable/apps/gchempaint.svg",
+          "name": "GChemPaint Chemischer Strukturformeleditor",
+          "command": "gchempaint-0.14 %U"
+        },
+        {
+          "type": "custom",
+          "description": "Draw models of molecules",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "ghemical",
+          "command": "ghemical"
+        },
+        {
+          "type": "custom",
+          "description": "Statistische Daten mit einer freien Alternative zu SPSS analysieren",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/pspp.png",
+          "name": "GNU PSPP",
+          "command": "psppire %F"
+        },
+        {
+          "type": "custom",
+          "description": "Geoinformationssystem",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/grass64.png",
+          "name": "GRASS GIS",
+          "command": "grass64"
+        },
+        {
+          "type": "custom",
+          "description": "Econometrics package",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gretl.png",
+          "name": "gretl",
+          "command": "/usr/bin/gretl %f"
+        },
+        {
+          "type": "custom",
+          "description": "Mathematische Gleichungslösung und -zeichnung",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalgebra.png",
+          "name": "KAlgebra",
+          "command": "kalgebra"
+        },
+        {
+          "type": "custom",
+          "description": "Periodensystem der Elemente",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kalzium.png",
+          "name": "Kalzium",
+          "command": "kalzium -caption %c %i"
+        },
+        {
+          "type": "custom",
+          "description": "Das Planetarium für den Schreibtisch",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kstars.png",
+          "name": "KStars",
+          "command": "kstars -caption %c %i"
+        },
+        {
+          "type": "custom",
+          "description": "Wissenschaftliche Formeln setzen und bearbeiten",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
+          "keywords": [],
+          "name": "LibreOffice Math",
+          "command": "libreoffice --math %U"
+        },
+        {
+          "type": "custom",
+          "description": "Measure. Analyze. Learn",
+          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/loggerpro.png",
+          "name": "Logger Pro",
+          "command": "loggerpro %F"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
+          "name": "QGIS Browser",
+          "command": "/usr/bin/qbrowser %F"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/qgis.png",
+          "name": "QGIS Desktop",
+          "command": "/usr/bin/qgis %F"
+        },
+        {
+          "type": "custom",
+          "description": "Graphentheorie-Werkzeug für Professoren und Studenten.",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rocs.png",
+          "name": "Rocs",
+          "command": "rocs %i -caption %c"
+        },
+        {
+          "type": "custom",
+          "description": "Perform symbolic and numeric calculations using Maxima",
+          "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
+          "name": "wxMaxima",
+          "command": "wxmaxima %f"
+        },
+        {
+          "type": "custom",
           "description": "Flexible Bildschirmtastatur für GNOME",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/onboard.png",
           "name": "Onboard",
@@ -4055,22 +4194,6 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/wine-uninstaller.png",
           "name": "Deinstalliere Wine Applikationen",
           "command": "wine uninstaller",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Durchsuche das virtuelle C: Laufwerk",
-          "osIconPath": "/usr/share/icons/Faenza/places/48/folder-wine.png",
-          "name": "Durchsuche C:",
-          "command": "xdg-open .wine/dosdevices/c:",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Ein Windows Editor Klon",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/wine-notepad.png",
-          "name": "Editor",
-          "command": "notepad",
           "isStarred": false
         },
         {
@@ -4377,29 +4500,10 @@
         },
         {
           "type": "custom",
-          "description": "Auf Dateien zugreifen und diese organisieren",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
-          "keywords": [
-            "explorer"
-          ],
-          "name": "Dateien",
-          "command": "nautilus --new-window %U",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Das Dateisystem durchsuchen, um einen eigenen Befehl zu wählen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
           "name": "Dateimanager",
           "command": "exo-open --launch FileManager %u",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Textdateien bearbeiten",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-text-editor.png",
-          "name": "gedit",
-          "command": "gedit %U",
           "isStarred": false
         },
         {
@@ -4438,14 +4542,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png",
           "name": "Orage Globaltime",
           "command": "globaltime",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Ein Programm ausführen",
-          "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
-          "name": "Programm ausführen …",
-          "command": "xfce4-appfinder --collapsed",
           "isStarred": false
         },
         {

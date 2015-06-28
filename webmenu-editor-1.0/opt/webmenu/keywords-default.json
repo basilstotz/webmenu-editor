@@ -62,7 +62,6 @@
       "2.Zyklus",
       "|",
       "Mathematik",
-      "Beruf",
       "|",
       "Arithmetik",
       "|",
@@ -1592,8 +1591,16 @@
     "name": "Arduino IDE",
     "keywords": [
       "|",
+      "NMG",
       "|",
       "|",
+      "|",
+      "gestalten",
+      "operieren",
+      "erforschen",
+      "herstellen",
+      "spielen",
+      "lernen",
       "|",
       ""
     ],
@@ -1872,5 +1879,174 @@
       ""
     ],
     "description": "Mindmaps erstellen und berabeiten"
+  },
+  {
+    "name": "Dr. Geo",
+    "keywords": [
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Geometrie",
+      "|",
+      "Form",
+      "Raum",
+      "|",
+      "erforschen",
+      "mathematisieren",
+      "darstellen",
+      "|",
+      ""
+    ],
+    "description": "Interaktives Geometrieprogramm"
+  },
+  {
+    "name": "Marble",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "Geografie",
+      "|",
+      "Lebensraum",
+      "Räume",
+      "|",
+      "benennen",
+      "erforschen",
+      "darstellen",
+      "|",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "MilleFeuilles 6.1",
+    "keywords": [
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "MilleFeuilles 6.2",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "Snap",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "gestalten",
+      "operieren",
+      "|",
+      ""
+    ],
+    "description": "\"Programieren mit Blöcken\""
+  },
+  {
+    "name": "Pahvi",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Gestalten",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "schreiben",
+      "gestalten",
+      "|",
+      ""
+    ],
+    "description": "\"\""
+  },
+  {
+    "name": "MiniPodium",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "NMG",
+      "Gestalten",
+      "Medien",
+      "|",
+      "Zeichnen",
+      "Werken",
+      "|",
+      "Kultur",
+      "|",
+      "darstellen",
+      "erklären",
+      "herstellen",
+      "|",
+      ""
+    ],
+    "description": "\"\""
+  },
+  {
+    "name": "Parley",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "Französisch",
+      "English",
+      "|",
+      "Sprache",
+      "|",
+      "üben",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": ""
   }
 ]
