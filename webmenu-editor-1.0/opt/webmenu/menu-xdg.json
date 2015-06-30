@@ -7,136 +7,45 @@
       "items": [
         {
           "command": "/usr/share/bin/webapps https://www.antolin.de",
-          "description": "Lesen und schreiben online üben",
+          "description": "\"Mit lesen Punkten\"",
           "name": "Antolin",
           "osIconPath": "/usr/share/pixmaps/antolin.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "|",
-            "|",
-            "lesen",
-            "schreiben",
-            "gestalten",
-            "darstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "gcompris",
           "description": "Lernspiel für Kinder von 2 bis 10 Jahren",
           "name": "Bildungs-Sammlung GCompris",
           "osIconPath": "/usr/share/pixmaps/gcompris.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "Mathematik",
-            "NMG",
-            "Gestalten",
-            "|",
-            "Deutsch",
-            "Statistik",
-            "|",
-            "Grunderfahrungen",
-            "|",
-            "darstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.blinde-kuh.ch",
-          "description": "Eine Suchmaschine für Kinder",
+          "description": "\"Die Suchmaschine für Kinder\"",
           "name": "\"Blinde Kuh\"",
           "osIconPath": "/usr/share/pixmaps/blindekuh.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "NMG",
-            "Medien",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "blinken",
-          "description": "Das Gedächtnis spielerisch trainieren",
+          "description": "Ein Spiel zum Training Ihres Gedächtnisses",
           "name": "Blinken",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Beruf",
-            "|",
-            "|",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/blitzrechnen",
           "description": "Mathematik lernen und üben",
           "name": "Blitzrechnen",
           "osIconPath": "/usr/share/pixmaps/blitzrechnen.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps \"http://bodenreise.ch/lift_v2/de\"",
-          "description": "Den Boden entdecken",
+          "description": "\"Entdecke den Boden\"",
           "name": "Bodenreise",
           "osIconPath": "/usr/share/pixmaps/bodenreise.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "Biologie",
-            "Chemie",
-            "Ökologie",
-            "|",
-            "Tiere",
-            "Pflanzen",
-            "Stoff",
-            "Natur",
-            "Lebensraum",
-            "|",
-            "erforschen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "celestia-gnome",
@@ -150,79 +59,28 @@
           "description": "Luo käsitekarttoja yksin tai ryhmässä",
           "name": "Cmaptools - käsitekarttatyökalu",
           "osIconPath": "/opt/cmaptools/share/cmaptools.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.cooldriving.ch/flashCycle/cool02MX.swf",
-          "description": "Verkehrtheorie für Velofahrer",
+          "description": "\"Verkehrtheorie für Velofahrer\"",
           "name": "Cool Driving",
           "osIconPath": "/usr/share/pixmaps/cool-driving.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "|",
-            "Bewegung",
-            "|",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "drgeo",
           "description": "Interaktives Geometrieprogramm",
           "name": "Dr. Geo",
           "osIconPath": "data:image/png;base64,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",
-          "type": "custom",
-          "keywords": [
-            "3.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Geometrie",
-            "|",
-            "Form",
-            "Raum",
-            "|",
-            "erforschen",
-            "mathematisieren",
-            "darstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.duden.de/woerterbuch",
-          "description": "Im Duden online Wörter nachschlagen",
+          "description": "\"Im Duden online nachschlagen\"",
           "name": "Duden",
           "osIconPath": "/usr/share/pixmaps/duden.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "|",
-            "Sprache",
-            "|",
-            "schreiben",
-            "suchen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/duolingo",
@@ -240,75 +98,24 @@
         },
         {
           "command": "nw /usr/share/node/flubidux",
-          "description": "Töne und Geräusche entdecken",
+          "description": "\"Flubidux und die Tönebox\"",
           "name": "Flubidux",
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "NMG",
-            "Musik",
-            "|",
-            "|",
-            "|",
-            "hören",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.fragfinn.de",
-          "description": "Suchmaschine für Kinder",
+          "description": "\"Das Netz für Kids\"",
           "name": "fragFINN",
           "osIconPath": "/usr/share/pixmaps/fragfinn.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "NMG",
-            "Gestalten",
-            "Musik",
-            "Medien",
-            "Beruf",
-            "|",
-            "|",
-            "|",
-            "suchen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "geogebra %F",
-          "description": "Erstellen Sie interaktive geometrische Konstruktionen und Applets.",
+          "description": "Erstellen Sie interaktive Konstruktionen und Applets.",
           "name": "GeoGebra",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/geogebra.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "Geometrie",
-            "Statistik",
-            "|",
-            "Zahl",
-            "Variable",
-            "Form",
-            "Raum",
-            "Funktion",
-            "Zufall",
-            "|",
-            "operieren",
-            "erforschen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "denemo",
@@ -319,159 +126,52 @@
         },
         {
           "command": "solfege",
-          "description": "Gehörbildung",
+          "description": "",
           "name": "GNU Solfege",
           "osIconPath": "/usr/share/pixmaps/solfege.svg",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Musik",
-            "|",
-            "|",
-            "Musik",
-            "|",
-            "singen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps https://translate.google.ch/",
-          "description": "Sprachen übersetzen",
+          "description": "\"Sprachen übersetzen\"",
           "name": "Google Übersetzer",
           "osIconPath": "/usr/share/pixmaps/google-translate.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "|",
-            "Sprache",
-            "|",
-            "hören",
-            "sprechen",
-            "schreiben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.internet-abc.ch/kinder/",
-          "description": "Umgang mit dem Internet lernen",
+          "description": "\"Umgang mit dem Interent\"",
           "name": "Internet ABC",
           "osIconPath": "/usr/share/pixmaps/internet-abc.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Medien",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kanagram",
           "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
           "name": "Kanagram",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "|",
-            "Sprache",
-            "|",
-            "spielen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kbruch -caption %c %i",
           "description": "Übungen mit Brüchen",
           "name": "KBruch",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kbruch.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "|",
-            "operieren",
-            "benennen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kgeography",
           "description": "Ein Geografie-Lernprogramm",
           "name": "KGeography",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kgeography.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "Geografie",
-            "|",
-            "Räume",
-            "|",
-            "prüfen",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "khangman -caption %c %i",
           "description": "Ein Buchstabierspiel für KDE",
           "name": "KHangMan",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "|",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "|",
-            "Sprache",
-            "|",
-            "spielen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kig %i -caption %c",
@@ -485,103 +185,28 @@
           "description": "Die Suchmaschine für Kinder",
           "name": "Kinder Suchmaschine",
           "osIconPath": "/usr/share/pixmaps/kindersuchmaschine.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "NMG",
-            "Gestalten",
-            "Musik",
-            "Medien",
-            "Beruf",
-            "|",
-            "|",
-            "|",
-            "suchen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://kinder.wald.de",
-          "description": "Entdecke den Wald",
+          "description": "\"Entdecke den Wald\"",
           "name": "Kinder Wald",
           "osIconPath": "/usr/share/pixmaps/kinderwald.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "Biologie",
-            "Chemie",
-            "Ökologie",
-            "|",
-            "Tiere",
-            "Pflanzen",
-            "Stoff",
-            "Natur",
-            "|",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.weltmusik-fuer-kinder.de",
-          "description": "Ein Multimediale Weltkarte der Kindermusik",
+          "description": "\"Ein Multimediale Weltkarte der Kindermusik\"",
           "name": "Kinderweltmusik",
           "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Musik",
-            "|",
-            "|",
-            "Lebensweise",
-            "Lebensraum",
-            "Räume",
-            "|",
-            "hören",
-            "singen",
-            "tanzen",
-            "musizieren",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.kinderzeitmaschine.de",
-          "description": "Reise in die Vergangenheit",
+          "description": "\"Reise in die Vergangenheit\"",
           "name": "Kinder Zeitmaschine",
           "osIconPath": "/usr/share/pixmaps/kinderzeitmaschine.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "|",
-            "Räume",
-            "Zeit",
-            "Dauer",
-            "Wandel",
-            "Gesellschaft",
-            "Weltansichten",
-            "|",
-            "hören",
-            "lesen",
-            "erforschen",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kiten -caption %c %i",
@@ -627,208 +252,66 @@
         },
         {
           "command": "/usr/share/bin/webapps http://www.labbe.de/lerntrix/index_mg.asp",
-          "description": "Eine online Rechenwerkstatt",
+          "description": "\"Rechenwerkstatt\"",
           "name": "Lerntrix",
           "osIconPath": "/usr/share/pixmaps/lerntrix.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch",
           "description": "Rechnen und üben",
           "name": "Logisch",
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch 1",
           "description": "Rechnen und üben 1",
           "name": "Logisch 1",
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch 2",
           "description": "Rechnen und üben 2",
           "name": "Logisch 2",
           "osIconPath": "/usr/share/pixmaps/logisch2.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "benennen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch 3",
           "description": "Rechnen und üben 3",
           "name": "Logisch 3",
           "osIconPath": "/usr/share/pixmaps/logisch3.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch 4",
           "description": "Rechnen und üben 4",
           "name": "Logisch 4",
           "osIconPath": "/usr/share/pixmaps/logisch4.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch 5",
           "description": "Rechnen und üben 5",
           "name": "Logisch 5",
           "osIconPath": "/usr/share/pixmaps/logisch5.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Variable",
-            "Form",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/logisch 6",
           "description": "Rechnen und üben 6",
           "name": "Logisch 6",
           "osIconPath": "/usr/share/pixmaps/logisch6.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/luegeloselaese",
-          "description": "Ausprache und Schrift verbinden und üben",
+          "description": "",
           "name": "Lose Luege Läse",
           "osIconPath": "/usr/share/pixmaps/lll.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "|",
-            "|",
-            "hören",
-            "lesen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://map.geo.admin.ch/",
@@ -842,562 +325,161 @@
           "description": "",
           "name": "Marble",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "Geografie",
-            "|",
-            "Lebensraum",
-            "Räume",
-            "|",
-            "benennen",
-            "erforschen",
-            "darstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "marble %F",
           "description": "",
           "name": "Marble",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "Geografie",
-            "|",
-            "Lebensraum",
-            "Räume",
-            "|",
-            "benennen",
-            "erforschen",
-            "darstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/mathe1trainer",
           "description": "\"Mathe üben 1.Klasse\"",
           "name": "Mathe1Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/mathe2trainer",
           "description": "\"Mathe üben 2.Klasse\"",
           "name": "Mathe2Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe2trainer.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/mathe3trainer",
           "description": "\"Mathe üben 3 .Klasse\"",
           "name": "Mathe3Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe3trainer.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/mathe4trainer",
           "description": "\"Mathe üben 4.Klasse\"",
           "name": "Mathe4Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe4trainer.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\"",
           "description": "\"Dividieren üben\"",
           "name": "Mathe Aktiv Division",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "|",
-            "üben",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\"",
           "description": "\"Insätze üben\"",
           "name": "Mathe Aktiv Insätze",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "|",
-            "üben",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\"",
-          "description": "\"Dividieren üben\"",
+          "description": "\"1 mal 1 üben\"",
           "name": "Mathe Aktiv Multiplikation",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-multiplikation.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "|",
-            "üben",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.mathe-im-netz.de",
-          "description": "Rechnen online üben",
+          "description": "\"Rechnen üben (1. bis 4.Klasse)\"",
           "name": "Mathe im Netz",
           "osIconPath": "/usr/share/pixmaps/mathe-im-netz.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/mathe-trainer",
-          "description": "Mathe üben 1. bis 4.Klasse",
+          "description": "\"Mathe üben 1. bis 4.Klasse\"",
           "name": "Mathe-Trainer",
           "osIconPath": "/usr/share/pixmaps/mathe-trainer.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "Algebra",
-            "|",
-            "Zahl",
-            "Variable",
-            "|",
-            "operieren",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles",
           "description": "Französisch lernen",
           "name": "Mille feuilles",
           "osIconPath": "/usr/share/pixmaps/mf.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 3.2",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "Mille feuilles 3.2",
           "osIconPath": "/usr/share/pixmaps/mf32.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 3.3",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "Mille feuilles 3.3",
           "osIconPath": "/usr/share/pixmaps/mf33.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 4.1",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "MilleFeuilles 4.1",
           "osIconPath": "/usr/share/pixmaps/mf41.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 4.2",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "MilleFeuilles 4.2",
           "osIconPath": "/usr/share/pixmaps/mf42.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 4.3",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "MilleFeuilles 4.3",
           "osIconPath": "/usr/share/pixmaps/mf43.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 5.1",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "MilleFeuilles 5.1",
           "osIconPath": "/usr/share/pixmaps/mf51.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 5.2",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "MilleFeuilles 5.2",
           "osIconPath": "/usr/share/pixmaps/mf52.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 6.1",
           "description": "",
           "name": "MilleFeuilles 6.1",
           "osIconPath": "/usr/share/pixmaps/mf61.png",
-          "type": "custom",
-          "keywords": [
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "singen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 6.2",
           "description": "",
           "name": "MilleFeuilles 6.2",
           "osIconPath": "/usr/share/pixmaps/mf62.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "singen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/millefeuilles 3.1",
-          "description": "Französisch lernen",
+          "description": "",
           "name": "Mille feuilles: magazine 3.1",
           "osIconPath": "/usr/share/pixmaps/mf31.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Französisch",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "sprechen",
-            "schreiben",
-            "singen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.minibooks.ch",
-          "description": "Kleine Bücher herstellen",
+          "description": "\"Kleine Bücher herstellen\"",
           "name": "MiniBooks",
           "osIconPath": "/usr/share/pixmaps/minibooks.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "|",
-            "|",
-            "schreiben",
-            "herstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/minipodium",
@@ -1411,128 +493,49 @@
           "description": "\"Übungen zur Gehörbildung\"",
           "name": "Musikwissenschaften",
           "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Musik",
-            "|",
-            "|",
-            "Musik",
-            "|",
-            "hören",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.mymoment.ch",
-          "description": "Online schreiben und lesen",
+          "description": "\"Schreiben und lesen\"",
           "name": "MyMoments",
           "osIconPath": "/usr/share/pixmaps/mymoment.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "|",
-            "|",
-            "lesen",
-            "schreiben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.netcity.org",
-          "description": "Spiel zu den Gefahren im Internen",
+          "description": "\"Spiel zu den Gefahren im Internet\"",
           "name": "NetCity",
           "osIconPath": "/usr/share/pixmaps/netcity.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Medien",
-            "|",
-            "|",
-            "|",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.netla.ch",
-          "description": "Meine Daten gehören mir - Sicherheit im Netz lernen",
+          "description": "\"Meine Daten gehören mir\"",
           "name": "NetLa",
           "osIconPath": "/usr/share/pixmaps/netla.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Medien",
-            "|",
-            "|",
-            "|",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "chromium-browser --app=file:///usr/share/prop/newworld/1/lmplayer.html",
-          "description": "Englisch lernen",
+          "description": "",
           "name": "New World 1",
           "osIconPath": "/usr/share/pixmaps/newworld1.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "English",
-            "|",
-            "Sprache",
-            "Literatur",
-            "Kultur",
-            "|",
-            "hören",
-            "lesen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.notenmax.de",
-          "description": "Musikerziehung",
+          "description": "\"Musikerziehung\"",
           "name": "NotenMax",
           "osIconPath": "/usr/share/pixmaps/notenmax.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Musik",
-            "|",
-            "|",
-            "Kultur",
-            "Musik",
-            "|",
-            "hören",
-            "lesen",
-            "singen",
-            "musizieren",
-            "|",
-            ""
-          ]
+          "type": "custom"
+        },
+        {
+          "command": "/usr/bin/omnitux",
+          "description": "An educational game based on multimedia elements.",
+          "name": "Omnitux",
+          "osIconPath": "/usr/share/omnitux/data/default/icons/Omnitux_logo.svg",
+          "type": "custom"
         },
         {
           "command": "/usr/local/Open-Sankore-2.5.0/run.sh",
@@ -1543,97 +546,44 @@
         },
         {
           "command": "/usr/share/bin/webapps http://www.openstreetmap.ch",
-          "description": "Online Karte ansehen",
+          "description": "\"Online Karte\"",
           "name": "OpenStreetMap",
           "osIconPath": "/usr/share/pixmaps/openstreetmap.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "|",
-            "Räume",
-            "|",
-            "erforschen",
-            "suchen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.openthesaurus.de",
-          "description": "Synomyme und Assoziationen finden",
+          "description": "\"Synomyme und Assoziationen finden\"",
           "name": "OpenThesaurus",
           "osIconPath": "/usr/share/pixmaps/openthesaurus.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "|",
-            "Sprache",
-            "|",
-            "sprechen",
-            "schreiben",
-            "suchen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.orthografietrainer.net",
-          "description": "Rechtschreibung üben",
+          "description": "\"Rechtschreibung üben\"",
           "name": "OrthoGrafieTrainer",
           "osIconPath": "/usr/share/pixmaps/orthografietrainer.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "|",
-            "Sprache",
-            "|",
-            "üben",
-            "lernen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/pahvi",
           "description": "\"\"",
           "name": "Pahvi",
           "osIconPath": "/usr/share/pixmaps/pahvi.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Gestalten",
-            "Medien",
-            "|",
-            "|",
-            "|",
-            "schreiben",
-            "gestalten",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "parley %u",
           "description": "",
           "name": "Parley",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/parley.png",
+          "type": "custom"
+        },
+        {
+          "command": "pauker",
+          "description": "Generic card based learning program",
+          "name": "Pauker",
+          "osIconPath": "/usr/share/icons/pauker.png",
           "type": "custom"
         },
         {
@@ -1645,29 +595,10 @@
         },
         {
           "command": "/usr/share/bin/webapps http://www.schatz-der-kulturen.de",
-          "description": "Interkulturelles Quiz",
+          "description": "\"Interkulturelles Quiz\"",
           "name": "Schatz der Kulturen",
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "|",
-            "Lebensweise",
-            "Lebensraum",
-            "Räume",
-            "Gesellschaft",
-            "Weltansichten",
-            "|",
-            "hören",
-            "lesen",
-            "erforschen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "scratch %f",
@@ -1678,45 +609,17 @@
         },
         {
           "command": "/usr/share/bin/webapps http://www.sikore.schiffner-tischer.de/",
-          "description": "Sicheres Kopfrechnen",
+          "description": "\"Sicheres Kopfrechnen\"",
           "name": "SiKoRe",
           "osIconPath": "/usr/share/pixmaps/sikore.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "nw /usr/share/node/snap",
           "description": "\"Programieren mit Blöcken\"",
           "name": "Snap",
           "osIconPath": "/usr/share/pixmaps/snap.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Mathematik",
-            "Medien",
-            "|",
-            "|",
-            "|",
-            "gestalten",
-            "operieren",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "squeak",
@@ -1741,70 +644,24 @@
         },
         {
           "command": "tuxmath",
-          "description": "Spielerisch Mathe lernen",
+          "description": "Tux Math - Learn math with Tux!",
           "name": "Tux Math",
           "osIconPath": "/usr/share/pixmaps/tuxmath.svg",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "Mathematik",
-            "|",
-            "Arithmetik",
-            "|",
-            "Zahl",
-            "|",
-            "operieren",
-            "üben",
-            "spielen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "tuxpaint",
-          "description": "Ein Malprogramm für Kinder",
+          "description": "Ein Malprogramm für Kinder.",
           "name": "Tux Paint",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tuxpaint.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "|",
-            "Gestalten",
-            "|",
-            "Zeichnen",
-            "|",
-            "|",
-            "herstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.unserkoerper.de",
-          "description": "Entdecke dich und deinen Körper",
+          "description": "\"Mein Körper und Ich\"",
           "name": "Unser Körper",
           "osIconPath": "/usr/share/pixmaps/unserkoerper.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "NMG",
-            "|",
-            "Biologie",
-            "|",
-            "Idenität",
-            "Körper",
-            "Gesundheit",
-            "|",
-            "erforschen",
-            "suchen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/share/bin/webapps http://www.zeitklicks.de/zeitklicks",
@@ -1822,14 +679,10 @@
       "items": [
         {
           "command": "acroread %U",
-          "description": "PDF lesen",
+          "description": "",
           "name": "Adobe Reader 9",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/AdobeReader9.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "calibre %f",
@@ -1857,138 +710,77 @@
           "description": "Ihre E-Mails, Kontakte und Kalender verwalten",
           "name": "Evolution",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/evolution.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2",
-            "outlook"
-          ]
+          "type": "custom"
         },
         {
           "command": "gummi %F",
-          "description": "Documente mit LaTeX erstellen und verändern",
+          "description": "Simple LaTeX Editor",
           "name": "Gummi",
           "osIconPath": "/usr/share/pixmaps/gummi.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice %U",
-          "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF)",
+          "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF). Unterstützt von The Document Foundation.",
           "name": "LibreOffice",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-startcenter.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2",
-            "n3",
-            "office"
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --base %U",
-          "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten",
+          "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten - Base macht's möglich.",
           "name": "LibreOffice Base",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-base.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n3",
-            "access"
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --calc %U",
-          "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten",
+          "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten - Calc macht's möglich.",
           "name": "LibreOffice Calc",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-calc.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n3",
-            "excel"
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --draw %U",
-          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren",
+          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.",
           "name": "LibreOffice Draw",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --impress %U",
-          "description": "Erstellen und bearbeiten von Präsentationen für Dia-Vorführungen, Meetings und Web-Auftritte",
+          "description": "Erstellen und bearbeiten von Präsentationen für Dia-Vorführungen, Meetings und Web-Auftritte mithilfe von Impress.",
           "name": "LibreOffice Impress",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-impress.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n3",
-            "powerpoint"
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --math %U",
-          "description": "Wissenschaftliche Formeln setzen und bearbeiten",
+          "description": "Wissenschaftliche Formeln setzen und bearbeiten - Math macht's möglich.",
           "name": "LibreOffice Math",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --writer %U",
-          "description": "Erstellen und bearbeiten von Text und Grafiken in Briefen, Reports, Dokumenten und Web-Seiten",
+          "description": "Erstellen und bearbeiten von Text und Grafiken in Briefen, Reports, Dokumenten und Web-Seiten - Writer macht's möglich.",
           "name": "LibreOffice Writer",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-writer.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2",
-            "n3",
-            "word"
-          ]
+          "type": "custom"
         },
         {
           "command": "lokalize %i -caption %c",
-          "description": "Programme übersetzten",
+          "description": "",
           "name": "Lokalize",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/lokalize.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "okular %U %i -caption %c",
-          "description": "Dokumente betrachten&nbsp;",
+          "description": "",
           "name": "Okular",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/okular.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "orage",
@@ -2006,32 +798,17 @@
         },
         {
           "command": "pdfshuffler",
-          "description": "PDF-Dateien seitenweise bearbeiten",
+          "description": "PDF Merging, Rearranging, Splitting, Rotating and Cropping",
           "name": "PDF-Shuffler",
           "osIconPath": "/usr/share/pixmaps/pdfshuffler.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "tellico -caption %c %i %u",
-          "description": "Eine Sammlung verwalten",
+          "description": "Eine Sammlungsverwaltung",
           "name": "Tellico",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tellico.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            "sprechen",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "tilitin %F",
@@ -2056,18 +833,10 @@
         },
         {
           "command": "XMind",
-          "description": "Mindmaps erstellen und berabeiten",
+          "description": "Launch XMind 6",
           "name": "XMind",
           "osIconPath": "/usr/share/pixmaps/XMind.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         }
       ],
       "name": "Büro",
@@ -2088,14 +857,7 @@
           "description": "Diagramme bearbeiten",
           "name": "Dia",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dia.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "ebook-viewer %F",
@@ -2109,49 +871,21 @@
           "description": "Fotos anschauen, sortieren und weitergeben",
           "name": "F-Spot",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/f-spot.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "gimp-2.8 %U",
           "description": "Bilder erstellen und Fotografien bearbeiten",
           "name": "GIMP Bildbearbeitung",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gimp.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Gestalten",
-            "|",
-            "Zeichnen",
-            "|",
-            "|",
-            "herstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "gthumb %U",
           "description": "Ihre Bilder betrachten und katalogisieren",
           "name": "gThumb",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gthumb.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "gtkam",
@@ -2193,11 +927,7 @@
           "description": "Skalierbare Vektorgrafiken (SVG) erzeugen und bearbeiten",
           "name": "Inkscape",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/inkscape.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n3"
-          ]
+          "type": "custom"
         },
         {
           "command": "kolourpaint %u",
@@ -2208,28 +938,17 @@
         },
         {
           "command": "librecad %F",
-          "description": "Ein professionelles CAD System",
+          "description": "A professional CAD System",
           "name": "LibreCAD",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/librecad.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "libreoffice --draw %U",
-          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren",
+          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.",
           "name": "LibreOffice Draw",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "lrfviewer %F",
@@ -2247,17 +966,10 @@
         },
         {
           "command": "mandelbulber",
-          "description": "Besuche die fraktale 3D-Welt",
+          "description": "Visit 3D Fractal World",
           "name": "Mandelbulber",
           "osIconPath": "/usr/share/mandelbulber/icons/mandelbulber.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "mypaint %f",
@@ -2268,17 +980,10 @@
         },
         {
           "command": "okular %U %i -caption %c",
-          "description": "Dokumente betrachten&nbsp;",
+          "description": "",
           "name": "Okular",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/okular.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "pencil %F",
@@ -2303,24 +1008,17 @@
         },
         {
           "command": "scribus %f",
-          "description": "Seitenlayout erstellen und bearbeiten",
+          "description": "Page Layout and Publication",
           "name": "Scribus",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/scribus.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "indesign"
-          ]
+          "type": "custom"
         },
         {
           "command": "shotwell %U",
-          "description": "Fotos und Bilder organisieren und bearbeiten",
+          "description": "Organize your photos",
           "name": "Shotwell",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/shotwell.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "simple-scan",
@@ -2355,11 +1053,7 @@
           "description": "Internetzugriff",
           "name": "Chromium-Webbrowser",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/chromium-browser.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "cssh",
@@ -2373,32 +1067,14 @@
           "description": "Sync your files across computers and to the web",
           "name": "Dropbox",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dropbox.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "Geschichte",
-            "|",
-            "Variable",
-            "Grössen",
-            "|",
-            "herstellen",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/usr/bin/elinks %u",
           "description": "Browse the web in text mode",
           "name": "ELinks Webbrowser",
           "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "exo-open --launch MailReader %u",
@@ -2409,38 +1085,24 @@
         },
         {
           "command": "emesene -s",
-          "description": "Instant Messaging Client für MSN, Gtalk und Facebook",
+          "description": "Instant messaging client for MSN, Gtalk and Facebook",
           "name": "emesene",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/emesene.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "empathy",
           "description": "Chat auf Google Talk, Facebook, MSN und vielen anderen Chat-Diensten",
           "name": "Empathy",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/empathy.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "firefox %u",
           "description": "Im Internet surfen",
           "name": "Firefox Web Browser",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/firefox.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "explorer"
-          ]
+          "type": "custom"
         },
         {
           "command": "vino-preferences",
@@ -2475,46 +1137,28 @@
           "description": "Internetzugriff",
           "name": "Google Chrome",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/google-chrome.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "/opt/google/earth/free/google-earth %f",
-          "description": "Die Erde erforschen",
+          "description": "Explore, search and discover the planet",
           "name": "Google Earth",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/google-earth.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "googleearth %f",
-          "description": "Die Erde erforschen",
+          "description": "Explore, search and discover the planet",
           "name": "Google Earth",
           "osIconPath": "data:image/png;base64,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",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "liferea",
           "description": "News-Feeds und Blogs lesen",
           "name": "Liferea",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/liferea.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "pidgin",
@@ -2532,23 +1176,17 @@
         },
         {
           "command": "sflphone-client-gnome",
-          "description": "Mit SIP telefonieren",
+          "description": "Call and receive calls with SIP or IAX protocols",
           "name": "SFLphone",
           "osIconPath": "/usr/share/pixmaps/sflphone.svg",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "env PULSE_LATENCY_MSEC=60 skype %U",
-          "description": "Skype Internet Telephonie",
+          "description": "Skype Internet Telephony",
           "name": "Skype",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/skype.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "steadyflow",
@@ -2562,12 +1200,7 @@
           "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben",
           "name": "Thunderbird-E-Mail und -Nachrichten",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/thunderbird.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "n2",
-            "outlook"
-          ]
+          "type": "custom"
         },
         {
           "command": "transmission-gtk %U",
@@ -2634,17 +1267,17 @@
         },
         {
           "command": "audacity %F",
-          "description": "Audio aufnehmen und bearbeiten",
+          "description": "Audio-Dateien aufnehmen und bearbeiten",
           "name": "Audacity",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/audacity.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
+        },
+        {
+          "command": "avidemux2_gtk",
+          "description": "Videos bearbeiten",
+          "name": "Avidemux (GTK+)",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/avidemux.png",
+          "type": "custom"
         },
         {
           "command": "banshee --redirect-log --play-enqueued %U",
@@ -2658,10 +1291,7 @@
           "description": "CDs/DVDs schreiben und kopieren",
           "name": "Brasero",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/brasero.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "goobox",
@@ -2672,17 +1302,10 @@
         },
         {
           "command": "cheese",
-          "description": "Bilder und Videos mit einer Webcam aufzunehmen und Effekte hinzuzufügen",
+          "description": "Ein Programm, um Bilder und Videos mit einer Webcam aufzunehmen und lustige grafische Effekte hinzuzufügen",
           "name": "Cheese",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/cheese.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "chordata",
@@ -2696,32 +1319,14 @@
           "description": "Musikinstrumente stimmen",
           "name": "FMIT",
           "osIconPath": "/usr/share/icons/hicolor/scalable/apps/fmit.svg",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Musik",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "gnome-mplayer %U",
-          "description": "Medien spielen und darstellen",
+          "description": "Play your media",
           "name": "GNOME MPlayer",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-mplayer.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "denemo",
@@ -2732,24 +1337,10 @@
         },
         {
           "command": "solfege",
-          "description": "Gehörbildung",
+          "description": "",
           "name": "GNU Solfege",
           "osIconPath": "/usr/share/pixmaps/solfege.svg",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Musik",
-            "|",
-            "|",
-            "Musik",
-            "|",
-            "singen",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "hydrogen %F",
@@ -2767,23 +1358,17 @@
         },
         {
           "command": "kaffeine --dvd %U",
-          "description": "Medien-Spieler",
+          "description": "",
           "name": "Kaffeine",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "kaffeine %U",
-          "description": "Medien-Spieler",
+          "description": "",
           "name": "Kaffeine",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "kdenlive %i -caption \"%c\" %u",
@@ -2794,17 +1379,10 @@
         },
         {
           "command": "kino %F",
-          "description": "Digital-Videos erstellen und bearbeiten",
+          "description": "Bearbeitet Digital-Videos",
           "name": "Kino",
           "osIconPath": "/usr/share/pixmaps/kino.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kscd -caption %c %i",
@@ -2822,17 +1400,10 @@
         },
         {
           "command": "env QT_X11_NO_NATIVE_MENUBAR=1 lmms",
-          "description": "Ton-Studio",
+          "description": "easy music production for everyone!",
           "name": "LMMS",
           "osIconPath": "/usr/share/icons/lmms.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "luciole",
@@ -2843,17 +1414,10 @@
         },
         {
           "command": "me-tv",
-          "description": "Digitales Fernsehen (DVB) ansehen",
+          "description": "Eine Anwendung zum Betrachten von digitalem Fernsehen (DVB) unter GNOME",
           "name": "Me TV",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/me-tv.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "pasuspender mixxx",
@@ -2864,15 +1428,10 @@
         },
         {
           "command": "mscore",
-          "description": "Musiknoten setzen",
+          "description": "WYSIWYG Music score typesetter",
           "name": "MuseScore",
           "osIconPath": "/usr/share/pixmaps/mscore.png",
-          "type": "custom",
-          "keywords": [
-            "musik",
-            "noten",
-            "schreiben"
-          ]
+          "type": "custom"
         },
         {
           "command": "netflix",
@@ -2883,53 +1442,31 @@
         },
         {
           "command": "ogmrip",
-          "description": "DVD auslesen und rippen",
+          "description": "Ein DVD-Kodierer",
           "name": "OGMRip DVD-Ausleser",
           "osIconPath": "/usr/share/pixmaps/ogmrip.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "openshot %F",
-          "description": "Videos und Filme erstellen und bearbeiten",
+          "description": "Create and edit videos and movies",
           "name": "OpenShot Video Editor",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/openshot.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "photofilmstrip",
-          "description": "Animierte Diaschauen erstellen",
+          "description": "Create animated slideshows",
           "name": "PhotoFilmStrip",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/photofilmstrip.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "lp"
-          ]
+          "type": "custom"
         },
         {
           "command": "pitivi %f",
           "description": "Erstellen und bearbeiten Sie Ihre eigenen Filme",
           "name": "Pitivi",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/pitivi.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "lp"
-          ]
+          "type": "custom"
         },
         {
           "command": "pavucontrol",
@@ -2975,24 +1512,17 @@
         },
         {
           "command": "gtk-recordmydesktop",
-          "description": "Den eigenen Desktop aufnehmen",
+          "description": "Record a video of your desktop",
           "name": "RecordMyDesktop",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gtk-recordmydesktop.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "lp"
-          ]
+          "type": "custom"
         },
         {
           "command": "rhythmbox %U",
           "description": "Ihre Musiksammlung wiedergeben und organisieren",
           "name": "Rhythmbox",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/rhythmbox.png",
-          "type": "custom",
-          "keywords": [
-            "n1"
-          ]
+          "type": "custom"
         },
         {
           "command": "rosegarden %f",
@@ -3020,10 +1550,7 @@
           "description": "Ihre Musik-CDs auslesen",
           "name": "Sound Juicer",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/sound-juicer.png",
-          "type": "custom",
-          "keywords": [
-            "n0"
-          ]
+          "type": "custom"
         },
         {
           "command": "spotify %U",
@@ -3083,17 +1610,10 @@
       "items": [
         {
           "command": "arduino",
-          "description": "Den Arduino Micro-Computer programmieren",
+          "description": "",
           "name": "Arduino IDE",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/arduino.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "bluefish %F",
@@ -3104,17 +1624,10 @@
         },
         {
           "command": "/usr/bin/bluegriffon %U",
-          "description": "Html-Dateien herstellen und verändern",
+          "description": "",
           "name": "BlueGriffon",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/bluegriffon.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "drracket",
@@ -3128,15 +1641,7 @@
           "description": "Eclipse Integrated Development Environment",
           "name": "Eclipse",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/eclipse.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "enchanting",
@@ -3203,17 +1708,10 @@
         },
         {
           "command": "lokalize %i -caption %c",
-          "description": "Programme übersetzten",
+          "description": "",
           "name": "Lokalize",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/lokalize.png",
-          "type": "custom",
-          "keywords": [
-            "|",
-            "|",
-            "|",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "/opt/tmcbeans/bin/tmcbeans",
@@ -3395,68 +1893,21 @@
           "description": "Lernspiel für Kinder von 2 bis 10 Jahren",
           "name": "Bildungs-Sammlung GCompris",
           "osIconPath": "/usr/share/pixmaps/gcompris.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "Mathematik",
-            "NMG",
-            "Gestalten",
-            "|",
-            "Deutsch",
-            "Statistik",
-            "|",
-            "Grunderfahrungen",
-            "|",
-            "darstellen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "blinken",
-          "description": "Das Gedächtnis spielerisch trainieren",
+          "description": "Ein Spiel zum Training Ihres Gedächtnisses",
           "name": "Blinken",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
-          "type": "custom",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Beruf",
-            "|",
-            "|",
-            "|",
-            "üben",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "kanagram",
           "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
           "name": "Kanagram",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "|",
-            "Sprachen",
-            "|",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "|",
-            "Sprache",
-            "|",
-            "spielen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "command": "ktuberling -caption %c %u",
@@ -3470,22 +1921,7 @@
           "description": "Ein Buchstabierspiel für KDE",
           "name": "KHangMan",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
-          "type": "custom",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "|",
-            "|",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "|",
-            "Sprache",
-            "|",
-            "spielen",
-            "|",
-            ""
-          ]
+          "type": "custom"
         },
         {
           "items": [
@@ -3866,17 +2302,17 @@
           "type": "custom"
         },
         {
+          "command": "/usr/bin/omnitux",
+          "description": "An educational game based on multimedia elements.",
+          "name": "Omnitux",
+          "osIconPath": "/usr/share/omnitux/data/default/icons/Omnitux_logo.svg",
+          "type": "custom"
+        },
+        {
           "command": "openttd",
           "description": "Ein auf der Idee von Transport Tycoon Deluxe basierendes Spiel",
           "name": "OpenTTD",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/openttd.png",
-          "type": "custom"
-        },
-        {
-          "command": "playonlinux",
-          "description": "",
-          "name": "PlayOnLinux",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/playonlinux.png",
           "type": "custom"
         },
         {
@@ -4391,272 +2827,6 @@
     {
       "items": [
         {
-          "items": [
-            {
-              "items": [
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/freeSSHd/freeSSHd.lnk",
-                  "description": "",
-                  "name": "freeSSHd",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/freeSSHd/Uninstall\\\\ freeSSHd.lnk",
-                  "description": "",
-                  "name": "Uninstall freeSSHd",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/freeSSHd/Visit\\\\ us\\\\ on\\\\ Website.lnk",
-                  "description": "",
-                  "name": "Visit us on Website",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "freeSSHd",
-              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-              "type": "menu"
-            },
-            {
-              "items": [
-                {
-                  "items": [
-                    {
-                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/Download\\\\ DLL\\\\ Documentation.lnk",
-                      "description": "Download DLL Documentation",
-                      "name": "Download DLL Documentation",
-                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                      "type": "custom"
-                    },
-                    {
-                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool.lnk",
-                      "description": "Start ISTool",
-                      "name": "ISTool",
-                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                      "type": "custom"
-                    },
-                    {
-                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool\\\\ Help.lnk",
-                      "description": "View ISTool Help",
-                      "name": "ISTool Help",
-                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                      "type": "custom"
-                    },
-                    {
-                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool\\\\ History.lnk",
-                      "description": "View the history of ISTool",
-                      "name": "ISTool History",
-                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                      "type": "custom"
-                    },
-                    {
-                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/ISTool\\\\ License.lnk",
-                      "description": "View the ISTool License",
-                      "name": "ISTool License",
-                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                      "type": "custom"
-                    },
-                    {
-                      "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/ISTool/Uninstall\\\\ ISTool.lnk",
-                      "description": "This will remove ISTool from your computer.",
-                      "name": "Uninstall ISTool",
-                      "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                      "type": "custom"
-                    }
-                  ],
-                  "name": "ISTool",
-                  "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-                  "type": "menu"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Compiler.lnk",
-                  "description": "",
-                  "name": "Inno Setup Compiler",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Documentation.lnk",
-                  "description": "",
-                  "name": "Inno Setup Documentation",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ FAQ.lnk",
-                  "description": "",
-                  "name": "Inno Setup FAQ",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Preprocessor\\\\ Documentation.lnk",
-                  "description": "",
-                  "name": "Inno Setup Preprocessor Documentation",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Inno\\\\ Setup\\\\ 5/Inno\\\\ Setup\\\\ Revision\\\\ History.lnk",
-                  "description": "",
-                  "name": "Inno Setup Revision History",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "Inno Setup 5",
-              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-              "type": "menu"
-            },
-            {
-              "items": [
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/KTS/KTS\\\\ home!.lnk",
-                  "description": "",
-                  "name": "KTS home!",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/KTS/Setup\\\\ KpyM\\\\ Telnet\\\\ SSH\\\\ Server.lnk",
-                  "description": "",
-                  "name": "Setup KpyM Telnet SSH Server",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/KTS/Uninstall\\\\ KTS.lnk",
-                  "description": "",
-                  "name": "Uninstall KTS",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "KTS",
-              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-              "type": "menu"
-            },
-            {
-              "items": [
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Key\\\\ Based\\\\ Authentication.lnk",
-                  "description": "",
-                  "name": "Key Based Authentication",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/OpenSSH\\\\ for\\\\ Windows\\\\ Web\\\\ Site.url",
-                  "description": "",
-                  "name": "OpenSSH for Windows Web Site",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Quick\\\\ Start\\\\ Guide.lnk",
-                  "description": "",
-                  "name": "Quick Start Guide",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Readme.lnk",
-                  "description": "",
-                  "name": "Readme",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/OpenSSH\\\\ for\\\\ Windows/Remove\\\\ OpenSSH\\\\ for\\\\ Windows.lnk",
-                  "description": "",
-                  "name": "Remove OpenSSH for Windows",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "OpenSSH for Windows",
-              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-              "type": "menu"
-            },
-            {
-              "items": [
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/Pageant.lnk",
-                  "description": "",
-                  "name": "Pageant",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PSFTP.lnk",
-                  "description": "",
-                  "name": "PSFTP",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTY.lnk",
-                  "description": "",
-                  "name": "PuTTY",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTYgen.lnk",
-                  "description": "",
-                  "name": "PuTTYgen",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTY\\\\ Manual.lnk",
-                  "description": "",
-                  "name": "PuTTY Manual",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                },
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/PuTTY/PuTTY\\\\ Web\\\\ Site.lnk",
-                  "description": "",
-                  "name": "PuTTY Web Site",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "PuTTY",
-              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-              "type": "menu"
-            },
-            {
-              "items": [
-                {
-                  "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Rechentraining\\\\ 5/Rechentraining\\\\ 5.lnk",
-                  "description": "",
-                  "name": "Rechentraining 5",
-                  "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-                  "type": "custom"
-                }
-              ],
-              "name": "Rechentraining 5",
-              "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-              "type": "menu"
-            }
-          ],
-          "name": "Programs",
-          "osIconPath": "/usr/share/icons/Faenza/places/48/folder.png",
-          "type": "menu"
-        }
-      ],
-      "name": "Wine",
-      "osIconPath": "/usr/share/icons/Faenza/apps/48/wine.png",
-      "type": "menu"
-    },
-    {
-      "items": [
-        {
           "command": "avogadro %f",
           "description": "Advanced molecular editor",
           "name": "Avogadro",
@@ -4735,14 +2905,10 @@
         },
         {
           "command": "libreoffice --math %U",
-          "description": "Wissenschaftliche Formeln setzen und bearbeiten",
+          "description": "Wissenschaftliche Formeln setzen und bearbeiten - Math macht's möglich.",
           "name": "LibreOffice Math",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-math.png",
-          "type": "custom",
-          "keywords": [
-            "n2",
-            "n2"
-          ]
+          "type": "custom"
         },
         {
           "command": "loggerpro %F",
@@ -4777,16 +2943,7 @@
           "description": "Planetarium",
           "name": "Stellarium",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-          "type": "custom",
-          "keywords": [
-            "n1",
-            "lp",
-            "z2",
-            "z3",
-            "nmg",
-            "geografie",
-            "astronomie"
-          ]
+          "type": "custom"
         },
         {
           "command": "wxmaxima %f",
@@ -4817,20 +2974,6 @@
           ],
           "name": "Barrierefreiheit",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-desktop-accessibility.png",
-          "type": "menu"
-        },
-        {
-          "items": [
-            {
-              "command": "/usr/bin/chromium-browser --profile-directory=Default --app-id=ohmmkhmmmpcnpikjeljgnaoabkaalbgc",
-              "description": "",
-              "name": "Chrome Apps & Extensions Developer Tool",
-              "osIconPath": "/home/stotz.basil/.local/share/icons/hicolor/48x48/apps/chrome-ohmmkhmmmpcnpikjeljgnaoabkaalbgc-Default.png",
-              "type": "custom"
-            }
-          ],
-          "name": "Chromium Apps",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/chromium-browser.png",
           "type": "menu"
         },
         {
@@ -4955,6 +3098,20 @@
         {
           "items": [
             {
+              "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Anleitung.lnk",
+              "description": "",
+              "name": "Anleitung",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+              "type": "custom"
+            },
+            {
+              "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Bitte\\\\ lesen.lnk",
+              "description": "",
+              "name": "Bitte lesen",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+              "type": "custom"
+            },
+            {
               "command": "wine uninstaller",
               "description": "Wine Applikations Deinstallations Programm",
               "name": "Deinstalliere Wine Applikationen",
@@ -4997,6 +3154,13 @@
               "type": "custom"
             },
             {
+              "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Lizenz.lnk",
+              "description": "",
+              "name": "Lizenz",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+              "type": "custom"
+            },
+            {
               "command": "gnome-file-share-properties",
               "description": "Einstellungen zur Freigabe von Dateien",
               "name": "Persönliche Dateifreigabe",
@@ -5011,10 +3175,24 @@
               "type": "custom"
             },
             {
+              "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Remove\\\\ Sprachfenster.lnk",
+              "description": "",
+              "name": "Remove Sprachfenster",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+              "type": "custom"
+            },
+            {
               "command": "rkward -caption \"%c\" %i",
               "description": "GUI for the R-project",
               "name": "RKWard",
               "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rkward.png",
+              "type": "custom"
+            },
+            {
+              "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Sprachfenster.lnk",
+              "description": "",
+              "name": "Sprachfenster",
+              "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
               "type": "custom"
             },
             {
@@ -5274,11 +3452,7 @@
               "description": "Auf Dateien zugreifen und diese organisieren",
               "name": "Dateien",
               "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
-              "type": "custom",
-              "keywords": [
-                "n0",
-                "explorer"
-              ]
+              "type": "custom"
             },
             {
               "command": "exo-open --launch FileManager %u",
