@@ -121,31 +121,10 @@
         },
         {
           "type": "custom",
-          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "name": "Kanagram",
-          "command": "kanagram"
-        },
-        {
-          "type": "custom",
           "description": "Übungen mit Brüchen",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kbruch.png",
           "name": "KBruch",
           "command": "kbruch -caption %c %i"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Geografie-Lernprogramm",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kgeography.png",
-          "name": "KGeography",
-          "command": "kgeography"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Buchstabierspiel für KDE",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
-          "name": "KHangMan",
-          "command": "khangman -caption %c %i"
         },
         {
           "type": "custom",
@@ -177,9 +156,23 @@
         },
         {
           "type": "custom",
+          "description": "Ein KDE-Programm zum Erlernen des Alphabets",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/klettres.png",
+          "name": "KLettres",
+          "command": "klettres -caption %c %i"
+        },
+        {
+          "type": "custom",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/ktouch.png",
           "name": "KTouch",
           "command": "ktouch -caption %c %i"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Karteikarten- und Vokabel-Lernprogramm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kwordquiz.png",
+          "name": "KWordQuiz",
+          "command": "kwordquiz -caption %c %i"
         },
         {
           "type": "custom",
@@ -210,24 +203,15 @@
         },
         {
           "type": "custom",
-          "description": "\"Dividieren üben\"",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
-          "name": "Mathe Aktiv Division",
-          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\""
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "name": "Marble",
+          "command": "marble-qt %F"
         },
         {
           "type": "custom",
-          "description": "\"Insätze üben\"",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
-          "name": "Mathe Aktiv Insätze",
-          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\""
-        },
-        {
-          "type": "custom",
-          "description": "\"1 mal 1 üben\"",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-multiplikation.png",
-          "name": "Mathe Aktiv Multiplikation",
-          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\""
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "name": "Marble",
+          "command": "marble %F"
         },
         {
           "type": "custom",
@@ -341,13 +325,6 @@
         },
         {
           "type": "custom",
-          "description": "Generic card based learning program",
-          "osIconPath": "/usr/share/icons/pauker.png",
-          "name": "Pauker",
-          "command": "pauker"
-        },
-        {
-          "type": "custom",
           "description": "\"Interkulturelles Quiz\"",
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
           "name": "Schatz der Kulturen",
@@ -373,13 +350,6 @@
           "osIconPath": "/usr/share/pixmaps/snap.png",
           "name": "Snap",
           "command": "nw /usr/share/node/snap"
-        },
-        {
-          "type": "custom",
-          "description": "\"Online Bildbearbeitung\"",
-          "osIconPath": "/usr/share/pixmaps/sumopaint.png",
-          "name": "Sumo Paint",
-          "command": "/usr/share/bin/webapps \"http://www.sumoware.com/app/?target\""
         },
         {
           "type": "custom",
@@ -419,10 +389,51 @@
       "items": [
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/AdobeReader9.png",
+          "name": "Adobe Reader 9",
+          "command": "acroread %U"
+        },
+        {
+          "type": "custom",
+          "description": "FBReader E-book reader",
+          "osIconPath": "/usr/share/pixmaps/FBReader.png",
+          "name": "E-book reader",
+          "command": "FBReader %F"
+        },
+        {
+          "type": "custom",
+          "description": "Ihre E-Mails, Kontakte und Kalender verwalten",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/evolution.png",
+          "name": "Evolution",
+          "command": "evolution %U"
+        },
+        {
+          "type": "custom",
+          "description": "Simple LaTeX Editor",
+          "osIconPath": "/usr/share/pixmaps/gummi.png",
+          "name": "Gummi",
+          "command": "gummi %F"
+        },
+        {
+          "type": "custom",
+          "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten - Base macht's möglich.",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-base.png",
+          "name": "LibreOffice Base",
+          "command": "libreoffice --base %U"
+        },
+        {
+          "type": "custom",
           "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten - Calc macht's möglich.",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-calc.png",
           "name": "LibreOffice Calc",
           "command": "libreoffice --calc %U"
+        },
+        {
+          "type": "custom",
+          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
+          "name": "LibreOffice Draw",
+          "command": "libreoffice --draw %U"
         },
         {
           "type": "custom",
@@ -482,6 +493,27 @@
         },
         {
           "type": "custom",
+          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
+          "name": "LibreOffice Draw",
+          "command": "libreoffice --draw %U"
+        },
+        {
+          "type": "custom",
+          "description": "Image Per Image capture tool for making animation movies.",
+          "osIconPath": "data:image/png;base64,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",
+          "name": "Luciole",
+          "command": "luciole"
+        },
+        {
+          "type": "custom",
+          "description": "Painting program for digital artists",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/mypaint.png",
+          "name": "MyPaint",
+          "command": "mypaint %f"
+        },
+        {
+          "type": "custom",
           "description": "Page Layout and Publication",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/scribus.png",
           "name": "Scribus",
@@ -504,17 +536,17 @@
       "items": [
         {
           "type": "custom",
+          "description": "Internetzugriff",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/chromium-browser.png",
+          "name": "Chromium-Webbrowser",
+          "command": "chromium-browser %U"
+        },
+        {
+          "type": "custom",
           "description": "Sync your files across computers and to the web",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dropbox.png",
           "name": "Dropbox",
           "command": "dropbox start -i"
-        },
-        {
-          "type": "custom",
-          "description": "Browse the web in text mode",
-          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
-          "name": "ELinks Webbrowser",
-          "command": "/usr/bin/elinks %u"
         },
         {
           "type": "custom",
@@ -529,6 +561,13 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/firefox.png",
           "name": "Firefox Web Browser",
           "command": "firefox %u"
+        },
+        {
+          "type": "custom",
+          "description": "Gemeinschaftliches Editieren von Textdateien",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gobby.png",
+          "name": "Gobby Collaborative Editor (0.4)",
+          "command": "gobby-0.4"
         },
         {
           "type": "custom",
@@ -589,10 +628,24 @@
         },
         {
           "type": "custom",
+          "description": "Videos bearbeiten",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/avidemux.png",
+          "name": "Avidemux (GTK+)",
+          "command": "avidemux2_gtk"
+        },
+        {
+          "type": "custom",
           "description": "CDs/DVDs schreiben und kopieren",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/brasero.png",
           "name": "Brasero",
           "command": "brasero %U"
+        },
+        {
+          "type": "custom",
+          "description": "CDs abspielen und auslesen",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/goobox.png",
+          "name": "CD-Spieler",
+          "command": "goobox"
         },
         {
           "type": "custom",
@@ -606,6 +659,48 @@
           "osIconPath": "/usr/share/pixmaps/solfege.svg",
           "name": "GNU Solfege",
           "command": "solfege"
+        },
+        {
+          "type": "custom",
+          "description": "Transcodes DVD, Bluray, and other media",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/hb-icon.png",
+          "name": "HandBrake",
+          "command": "ghb"
+        },
+        {
+          "type": "custom",
+          "description": "Nichtlinearer Video-Editor für KDE",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kdenlive.png",
+          "name": "Kdenlive",
+          "command": "kdenlive %i -caption \"%c\" %u"
+        },
+        {
+          "type": "custom",
+          "description": "Bearbeitet Digital-Videos",
+          "osIconPath": "/usr/share/pixmaps/kino.png",
+          "name": "Kino",
+          "command": "kino %F"
+        },
+        {
+          "type": "custom",
+          "description": "Image Per Image capture tool for making animation movies.",
+          "osIconPath": "data:image/png;base64,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",
+          "name": "Luciole",
+          "command": "luciole"
+        },
+        {
+          "type": "custom",
+          "description": "Ein DVD-Kodierer",
+          "osIconPath": "/usr/share/pixmaps/ogmrip.png",
+          "name": "OGMRip DVD-Ausleser",
+          "command": "ogmrip"
+        },
+        {
+          "type": "custom",
+          "description": "Create and edit videos and movies",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/openshot.png",
+          "name": "OpenShot Video Editor",
+          "command": "openshot %F"
         },
         {
           "type": "custom",
@@ -630,17 +725,17 @@
         },
         {
           "type": "custom",
-          "description": "Program to create stop-motion animations",
-          "osIconPath": "/usr/share/icons/hicolor/scalable/apps/stopmotion.svg",
-          "name": "Stopmotion",
-          "command": "stopmotion"
+          "description": "Ihre Musiksammlung wiedergeben und organisieren",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/rhythmbox.png",
+          "name": "Rhythmbox",
+          "command": "rhythmbox %U"
         },
         {
           "type": "custom",
-          "description": "Wiedergabe, Aufnahme und Verbreitung Ihrer Multimedia-Streams",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/vlc.png",
-          "name": "VLC Media Player",
-          "command": "/usr/bin/vlc --started-from-file %U"
+          "description": "Manage and view your media",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/xbmc.png",
+          "name": "XBMC Media Center",
+          "command": "xbmc"
         }
       ],
       "isStarred": false
@@ -652,7 +747,7 @@
       "items": [
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/arduino.png",
+          "osIconPath": "arduino",
           "name": "Arduino IDE",
           "command": "arduino"
         },
@@ -662,6 +757,13 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/enchanting.png",
           "name": "Enchanting",
           "command": "enchanting"
+        },
+        {
+          "type": "custom",
+          "description": "PCB-Suite",
+          "osIconPath": "/usr/share/pixmaps/fritzing_icon.png",
+          "name": "Fritzing",
+          "command": "Fritzing"
         },
         {
           "type": "custom",
@@ -686,10 +788,40 @@
       "items": [
         {
           "type": "custom",
+          "description": "Rutsche mit einem Pinguin einen Hügel hinab",
+          "osIconPath": "data:image/png;base64,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",
+          "name": "Extreme Tux Racer",
+          "command": "etracer",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Pop out the bubbles!",
+          "osIconPath": "data:image/png;base64,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",
+          "name": "Frozen-Bubble",
+          "command": "frozen-bubble",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "Einen Haufen Steine durch Entfernen der zusammengehörenden Paare auseinandernehmen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-mahjongg.png",
           "name": "Mahjongg",
           "command": "gnome-mahjongg"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Tetris-artiges Spiel mit vielen Leveln spielen",
+          "osIconPath": "/usr/share/icons/hicolor/64x64/apps/cuyo.png",
+          "name": "Cuyo",
+          "command": "cuyo"
+        },
+        {
+          "type": "custom",
+          "description": "Viele verschiedene Solitaire-Spiele spielen",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-aisleriot.png",
+          "name": "AisleRiot Solitaire",
+          "command": "/usr/games/sol"
         },
         {
           "type": "custom",
@@ -704,20 +836,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
           "name": "Blinken",
           "command": "blinken"
-        },
-        {
-          "type": "custom",
-          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "name": "Kanagram",
-          "command": "kanagram"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Buchstabierspiel für KDE",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
-          "name": "KHangMan",
-          "command": "khangman -caption %c %i"
         },
         {
           "type": "custom",
@@ -737,34 +855,10 @@
         },
         {
           "type": "custom",
-          "description": "Zeichne Ecken entlang der Gitterlinien, die das Rechteck gemäß bestimmter Regeln teilen",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-galaxies.png",
-          "name": "Galaxies",
-          "command": "sgt-galaxies",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Färbe jede Region mit einer der vier Farben, so dass keine zwei Regionen mit gemeinsamer Grenze die selbe Farbe haben",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-map.png",
-          "name": "Map",
-          "command": "sgt-map",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Versteckte Minen aus einem Minenfeld räumen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-mines.png",
           "name": "Minen",
           "command": "gnome-mines",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Spiel ähnlich Fifteen aber mit einer anderen Art von Spielzügen",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-sixteen.png",
-          "name": "Sixteen",
-          "command": "sgt-sixteen",
           "isStarred": false
         },
         {
@@ -776,25 +870,17 @@
         },
         {
           "type": "custom",
+          "description": "Guide a horde of penguins through various obstacles",
+          "osIconPath": "/usr/share/pixmaps/pingus-icon.png",
+          "name": "Pingus",
+          "command": "pingus"
+        },
+        {
+          "type": "custom",
           "description": "An educational game based on multimedia elements.",
           "osIconPath": "/usr/share/omnitux/data/default/icons/Omnitux_logo.svg",
           "name": "Omnitux",
           "command": "/usr/bin/omnitux"
-        }
-      ],
-      "isStarred": false
-    },
-    {
-      "type": "menu",
-      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
-      "name": "Wissenschaft",
-      "items": [
-        {
-          "type": "custom",
-          "description": "Planetarium",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-          "name": "Stellarium",
-          "command": "stellarium"
         }
       ],
       "isStarred": false
@@ -810,6 +896,14 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/applets-screenshooter.png",
           "name": "Bildschirmfoto",
           "command": "gnome-screenshot --interactive",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Momentan laufende Prozesse betrachten und den Systemzustand überwachen",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-system-monitor.png",
+          "name": "Systemüberwachung",
+          "command": "gnome-system-monitor",
           "isStarred": false
         },
         {
@@ -830,10 +924,18 @@
         },
         {
           "type": "custom",
-          "description": "\"Das Menu edieren\"",
-          "osIconPath": "/usr/share/pixmaps/flubidux.png",
-          "name": "WebMenuEditor",
-          "command": "/usr/share/bin/webmenu-editor",
+          "description": "Auf Dateien zugreifen und diese organisieren",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
+          "name": "Dateien",
+          "command": "nautilus --new-window %U",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Textdateien bearbeiten",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-text-editor.png",
+          "name": "gedit",
+          "command": "gedit %U",
           "isStarred": false
         },
         {
@@ -842,6 +944,14 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/owncloud.png",
           "name": "ownCloud desktop sync client",
           "command": "owncloud",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Ein Programm ausführen",
+          "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
+          "name": "Programm ausführen …",
+          "command": "xfce4-appfinder --collapsed",
           "isStarred": false
         },
         {
@@ -894,6 +1004,27 @@
         },
         {
           "type": "custom",
+          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
+          "name": "Kanagram",
+          "command": "kanagram"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Geografie-Lernprogramm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kgeography.png",
+          "name": "KGeography",
+          "command": "kgeography"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Buchstabierspiel für KDE",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
+          "name": "KHangMan",
+          "command": "khangman -caption %c %i"
+        },
+        {
+          "type": "custom",
           "description": "Geometrische Konstruktionen untersuchen",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kig.png",
           "name": "Kig",
@@ -908,13 +1039,6 @@
         },
         {
           "type": "custom",
-          "description": "Ein KDE-Programm zum Erlernen des Alphabets",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/klettres.png",
-          "name": "KLettres",
-          "command": "klettres -caption %c %i"
-        },
-        {
-          "type": "custom",
           "description": "Funktionsplotter",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kmplot.png",
           "name": "KmPlot",
@@ -925,13 +1049,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kturtle.png",
           "name": "KTurtle",
           "command": "kturtle %i -caption %c"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Karteikarten- und Vokabel-Lernprogramm",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kwordquiz.png",
-          "name": "KWordQuiz",
-          "command": "kwordquiz -caption %c %i"
         },
         {
           "type": "custom",
@@ -977,18 +1094,6 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "name": "Marble",
-          "command": "marble-qt %F"
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
-          "name": "Marble",
-          "command": "marble %F"
-        },
-        {
-          "type": "custom",
           "description": "\"Mathe üben 1.Klasse\"",
           "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
           "name": "Mathe1Trainer",
@@ -1014,6 +1119,27 @@
           "osIconPath": "/usr/share/pixmaps/mathe4trainer.png",
           "name": "Mathe4Trainer",
           "command": "nw /usr/share/node/mathe4trainer"
+        },
+        {
+          "type": "custom",
+          "description": "\"Dividieren üben\"",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
+          "name": "Mathe Aktiv Division",
+          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\""
+        },
+        {
+          "type": "custom",
+          "description": "\"Insätze üben\"",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
+          "name": "Mathe Aktiv Insätze",
+          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\""
+        },
+        {
+          "type": "custom",
+          "description": "\"1 mal 1 üben\"",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-multiplikation.png",
+          "name": "Mathe Aktiv Multiplikation",
+          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\""
         },
         {
           "type": "custom",
@@ -1091,6 +1217,13 @@
         },
         {
           "type": "custom",
+          "description": "Generic card based learning program",
+          "osIconPath": "/usr/share/icons/pauker.png",
+          "name": "Pauker",
+          "command": "pauker"
+        },
+        {
+          "type": "custom",
           "description": "\"Interaktive Simulationen\"",
           "osIconPath": "/usr/share/pixmaps/phet.png",
           "name": "PhEt",
@@ -1112,9 +1245,10 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/AdobeReader9.png",
-          "name": "Adobe Reader 9",
-          "command": "acroread %U"
+          "description": "\"Online Bildbearbeitung\"",
+          "osIconPath": "/usr/share/pixmaps/sumopaint.png",
+          "name": "Sumo Paint",
+          "command": "/usr/share/bin/webapps \"http://www.sumoware.com/app/?target\""
         },
         {
           "type": "custom",
@@ -1125,13 +1259,6 @@
         },
         {
           "type": "custom",
-          "description": "FBReader E-book reader",
-          "osIconPath": "/usr/share/pixmaps/FBReader.png",
-          "name": "E-book reader",
-          "command": "FBReader %F"
-        },
-        {
-          "type": "custom",
           "description": "E-Book Viewer",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
           "name": "E-Book Viewer",
@@ -1139,38 +1266,10 @@
         },
         {
           "type": "custom",
-          "description": "Ihre E-Mails, Kontakte und Kalender verwalten",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/evolution.png",
-          "name": "Evolution",
-          "command": "evolution %U"
-        },
-        {
-          "type": "custom",
-          "description": "Simple LaTeX Editor",
-          "osIconPath": "/usr/share/pixmaps/gummi.png",
-          "name": "Gummi",
-          "command": "gummi %F"
-        },
-        {
-          "type": "custom",
           "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF). Unterstützt von The Document Foundation.",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-startcenter.png",
           "name": "LibreOffice",
           "command": "libreoffice %U"
-        },
-        {
-          "type": "custom",
-          "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten - Base macht's möglich.",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-base.png",
-          "name": "LibreOffice Base",
-          "command": "libreoffice --base %U"
-        },
-        {
-          "type": "custom",
-          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
-          "name": "LibreOffice Draw",
-          "command": "libreoffice --draw %U"
         },
         {
           "type": "custom",
@@ -1310,13 +1409,6 @@
         },
         {
           "type": "custom",
-          "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
-          "name": "LibreOffice Draw",
-          "command": "libreoffice --draw %U"
-        },
-        {
-          "type": "custom",
           "description": "Viewer for LRF files (SONY ebook format files)",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
           "name": "LRF Viewer",
@@ -1324,24 +1416,10 @@
         },
         {
           "type": "custom",
-          "description": "Image Per Image capture tool for making animation movies.",
-          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAACTRJREFUWIXFlmlwVtUZgJ9z7vqt2Q1kJYSwShI2CTgErIBQFxTcxf6gLowdtNPa0erUWi1DRbo7FafVuowDUxEqgwIVqokFlEWJEIiEYABD9j3fl2+79/THF0MtVPll35k7c+fMfc/73HeH/4MUl09Sc+9aqgD0b9v4hCtnqLtXP4onGCA9J1t96wCWx0MgKwOhwBsMIC9F6dbHH1ILV9yhLtWIJ+BXGbkjVHrOiAt0Du+qFk11JxkcCHH2WD3imy57YP1aNXrK5eiWwYebt7Pxqd9cVKd42mQ1qnQSkyoryCkZjW4aCAGxwQhNdSep23eI00eOU3+wRgDKl5pCqKdXfG0IZi5ZpIqmTEI3DUCQNuKyi363/JePqLyJY8nKz8WwTHRDR9M1NE1DCMHIwjyu+O7V9Hd1c/LQp2r7+teo++hjAXx9COLxGIZlASAAoSd53/7gdQUwbdE8dc19d6uxFVPJHTsaf0oQj8+DYRpoQiKUQrgKN+HgRGN4/T7K5s7iB39aw6wbr/nmKqicNoFjVXspLJ1Eb0cntTt28dGx7SotI40Hn1iljHHjySrMp6eljZziUSjXRSgQQiAlCBSgEEIMx1oAqekp3LTq++z7+84Lc2D3gTeVbuigIDQQorbmM/oiMZ5+eI0AONm6T3247zAbd+1nzp1LCWakIaVACoEUEgFIoZIeGzIsAIYhFCAwTIN3Xtz4VYAjZ6pUd2cPXp+HSDSGlILZk64VR85Uqd7uXh647wmKZ06lds8Blv3sR+SVjMawTCSgaRIpBcpxkAikIAmVtD0EBEolIYSmc2j3v87nQE3j+6qtrYPKKUuElBqu45CZmQHA3Jm3sv94IyvWPcGVy2/BTk1lRFEBhmUgAalJmus/59gH+zENHU0KDCmwpMDSBLYmsDWJJSW2JjE1DVMKbNs8nwNSCK6evkwAGKZOZfkSAfDkc0+qWE4+iZHZSBSOk8D2eTBtCykEAoFQihGj8tj9yt+YOncmmibQAV2CNuQFXdNQSuG6CqQATaOvtT3pgQMn/qHiicRwKDweDwDTr52vsmfPIn/iWALpafgzM/AFA+iGiWVbiC9djcK2La6/9042/+4veE0Dr6nh0/XkY+i0NDRiKpfMFD/dTS1Ee3ppPXUm6QGPx0M0Gh0GsC2D2++9Tc24fwVaSgqu6yJEMl0snxfXTaBpGk7CSYZACJTrkDe6gIW3XsfGdS9Q8Z1ZeGwL29AZN7EEGY+z7se/xOv3Mu+6qzFkDk31jUkAr9dDLBYbBjh44Ag33HcX/empuI6DbhjEozGkJjFNA9vrJRoKYxo6QigkEl0IdKHIK8zhnkdWcq7+czy6TlFJIbgO5VMmMP3FNSgliCYSvPHym7z/9m4hqw6/pQAsyxwGcHSDrLQgKh7H9Ngc3L6b6g1b6GvvJB6NcdXyZezf9i66qSMQdLe20dPcgiEEmlJIx2HM2CJGj8lHVw62FOiui4jFkE6CjrPNrF/zfDL3dF1HKYU11PEApGVhezz43TinDtfS39HF1EVX8cVnDQz29pNbPIr4YITOs81IIbBti9q9B0GppCekQFcKicIQAkOQrAgp6WnvYtUdq2hrbk22YifhJDuUEOytfUcBdPX0owRkWDpNdfUUTyuj+WQj4d4+fKlBpK5ROm8WH729i+6WNrJys5k8ezr/3PQOnS1txCMRpBiCEQJdSixD54vTTax59BmO1Ow+/7OV5TcIAKUUqWlBFixbrGJCgAKvaVCQ6sefGuRo1V5mXDsf13ERKLILcrli8VV8/G41O19+g8KSIuYvW0w0FCYeiSKEQJMCj9ci6PeweeNW1j71a5bcOIOXXv0rSp1UMDSMXNdNlp9tUz5jMnGPDzfZspg8fhRZHp2B3n4srwcxdO46Dlk5I1n4vZuJRqI8eM1d7NzwFomEQzAtBSEkbS0dPLf2zyyYfTMTStLY+OrvWX7bSoqL8/jkcA0wNIwGBkIEAn4cx2X2ldNokAbhaIyAx0YzTUYFbCqmTSDU2YXl8w719mTYXvn5swT9PhYsWUh2dibvbdnBnm06EjhxopEVj6xkxoIKZk4twdQmMtBfT2ggRCKeLGsJEI3EkhNMk3S1tJFKnCZHEovGMD02g4NRltx+Pf6eDvRoBDSJaVlsf2kj85cuZmzZeEDxxanTjBpTyKy5M3l8zU8oqyhn3OTx5BSPoSMcAZp4+dUX+eTjOubMueI8QMXERSKRSIACzbbJ0MAaHOBMXOELBuhubQchyEgJoJ1tJFF7lE3PPk9BUR5FE0u4fFoplmUiUNTXniA3N5ua/TVk5o4kEY+TcBWtPQNU79mCwuXBh+7B0ieK4RAARKNRDMMAAb6MdLTePgY0jXOuTmZBLs0Np8kuyieYnoIA8kuKaA7F2Pn6FkpnljPYH2Lp8ptQ8TgvPLMePRjgh796lFg4jC4kLZ1h1q/dxOrVDxP0lQ9P4WGA0sJ5oqHjgPJaBpqmo9se/NEI4YROu2nhTUuj6+w5hKEjFITDYWqONdLR2Uukb4DMEVk01DXgs01KJhQzaeFcBsODCAWabbK/+hDbtlaJbVur+E/5yj5w9Gy16u3ppzUcIzM/l0QsmRuRaJT2UBQMg7REFF25dCUUbnoWbiLOhqd+S4rXJhDw0t8fouDy8UyrrCA9M5VASoAdG7byi/t/etFl9oLDz1r2qU9r6gjk5+EJBoaHkHIcerq76dUs4rYXTZNoCqQU2KZOfDCGoQm8Pg+6gJo9B8jJy+H4gcM8vfKx/7l9X7ATtra0UVo2nmO19Qz29GEG/XgDARDgDwQIJOL0xcL0GB5cTUMAsVgC3dCSuTQYwQj4afi0jh2vvMmuzdu/dvW/YCuuLF8iWlvbKSufQEFmCon2Ds4cPUb3uWai4Qia7SEj4MPvxHBFsoMiBQnHwVUgDIODVR+iR0LfaPyiAACVZTeIUw2n8af4KS0bh4hGUS740lIQUoIQ6MpFuYpEPMGRPQcJD4SJO8n3E7ve44+rn/9G43CRHPhvOVj/rkpPT+PMqTN09A7gTU9DGganW9o5G0pQ/dom0kdkMXX+HJprj2P0dPGHdS9dkvFLAvhSqmu2Kp/XS19vHx3tXdyy+J5h3cfWPKwyM1LIybmM26+7/5LvBPg33GOKCIIoqdQAAAAASUVORK5CYII=",
-          "name": "Luciole",
-          "command": "luciole"
-        },
-        {
-          "type": "custom",
           "description": "Visit 3D Fractal World",
           "osIconPath": "/usr/share/mandelbulber/icons/mandelbulber.png",
           "name": "Mandelbulber",
           "command": "mandelbulber"
-        },
-        {
-          "type": "custom",
-          "description": "Painting program for digital artists",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/mypaint.png",
-          "name": "MyPaint",
-          "command": "mypaint %f"
         },
         {
           "type": "custom",
@@ -1393,17 +1471,17 @@
         },
         {
           "type": "custom",
-          "description": "Internetzugriff",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/chromium-browser.png",
-          "name": "Chromium-Webbrowser",
-          "command": "chromium-browser %U"
-        },
-        {
-          "type": "custom",
           "description": "Control multiple ssh or rsh sessions from a single input window",
           "osIconPath": "data:image/png;base64,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",
           "name": "ClusterSSH",
           "command": "cssh"
+        },
+        {
+          "type": "custom",
+          "description": "Browse the web in text mode",
+          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
+          "name": "ELinks Webbrowser",
+          "command": "/usr/bin/elinks %u"
         },
         {
           "type": "custom",
@@ -1442,10 +1520,10 @@
         },
         {
           "type": "custom",
-          "description": "Gemeinschaftliches Editieren von Textdateien",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gobby.png",
-          "name": "Gobby Collaborative Editor (0.4)",
-          "command": "gobby-0.4"
+          "description": "Internetzugriff",
+          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/google-chrome-beta.png",
+          "name": "Google Chrome (beta)",
+          "command": "/usr/bin/google-chrome-beta %U"
         },
         {
           "type": "custom",
@@ -1531,24 +1609,10 @@
         },
         {
           "type": "custom",
-          "description": "Videos bearbeiten",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/avidemux.png",
-          "name": "Avidemux (GTK+)",
-          "command": "avidemux2_gtk"
-        },
-        {
-          "type": "custom",
           "description": "Mediensammlung wiedergeben und organisieren",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/media-player-banshee.png",
           "name": "Banshee",
           "command": "banshee --redirect-log --play-enqueued %U"
-        },
-        {
-          "type": "custom",
-          "description": "CDs abspielen und auslesen",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/goobox.png",
-          "name": "CD-Spieler",
-          "command": "goobox"
         },
         {
           "type": "custom",
@@ -1606,20 +1670,6 @@
         },
         {
           "type": "custom",
-          "description": "Nichtlinearer Video-Editor für KDE",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kdenlive.png",
-          "name": "Kdenlive",
-          "command": "kdenlive %i -caption \"%c\" %u"
-        },
-        {
-          "type": "custom",
-          "description": "Bearbeitet Digital-Videos",
-          "osIconPath": "/usr/share/pixmaps/kino.png",
-          "name": "Kino",
-          "command": "kino %F"
-        },
-        {
-          "type": "custom",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kscd.png",
           "name": "KsCD",
           "command": "kscd -caption %c %i"
@@ -1637,13 +1687,6 @@
           "osIconPath": "/usr/share/icons/lmms.png",
           "name": "LMMS",
           "command": "env QT_X11_NO_NATIVE_MENUBAR=1 lmms"
-        },
-        {
-          "type": "custom",
-          "description": "Image Per Image capture tool for making animation movies.",
-          "osIconPath": "data:image/png;base64,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",
-          "name": "Luciole",
-          "command": "luciole"
         },
         {
           "type": "custom",
@@ -1671,20 +1714,6 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/me-tv.png",
           "name": "Netflix",
           "command": "netflix"
-        },
-        {
-          "type": "custom",
-          "description": "Ein DVD-Kodierer",
-          "osIconPath": "/usr/share/pixmaps/ogmrip.png",
-          "name": "OGMRip DVD-Ausleser",
-          "command": "ogmrip"
-        },
-        {
-          "type": "custom",
-          "description": "Create and edit videos and movies",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/openshot.png",
-          "name": "OpenShot Video Editor",
-          "command": "openshot %F"
         },
         {
           "type": "custom",
@@ -1730,24 +1759,10 @@
         },
         {
           "type": "custom",
-          "description": "Ihre Musiksammlung wiedergeben und organisieren",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/rhythmbox.png",
-          "name": "Rhythmbox",
-          "command": "rhythmbox %U"
-        },
-        {
-          "type": "custom",
           "description": "MIDI- und Audio-Sequencer und Notensatzprogramm",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/rosegarden.png",
           "name": "Rosegarden",
           "command": "rosegarden %f"
-        },
-        {
-          "type": "custom",
-          "description": "A feature-rich screen recorder that supports X11 and OpenGL",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/simplescreenrecorder.png",
-          "name": "SimpleScreenRecorder",
-          "command": "simplescreenrecorder --logfile"
         },
         {
           "type": "custom",
@@ -1772,6 +1787,13 @@
         },
         {
           "type": "custom",
+          "description": "Program to create stop-motion animations",
+          "osIconPath": "/usr/share/icons/hicolor/scalable/apps/stopmotion.svg",
+          "name": "Stopmotion",
+          "command": "stopmotion"
+        },
+        {
+          "type": "custom",
           "description": "Sweep Sound Editor",
           "osIconPath": "/usr/share/pixmaps/sweep.svg",
           "name": "Sweep",
@@ -1793,10 +1815,10 @@
         },
         {
           "type": "custom",
-          "description": "Manage and view your media",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/xbmc.png",
-          "name": "XBMC Media Center",
-          "command": "xbmc"
+          "description": "Wiedergabe, Aufnahme und Verbreitung Ihrer Multimedia-Streams",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/vlc.png",
+          "name": "VLC Media Player",
+          "command": "/usr/bin/vlc --started-from-file %U"
         },
         {
           "type": "custom",
@@ -1831,13 +1853,6 @@
           "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAA3NCSVQICAjb4U/gAAAFAElEQVRIiZ1WTWwbRRT+3CRkbcfrrN21cdXatbe2AymYNG6okioKbfrDT0GC5FIQF3oDcYETJyRuCC5VERJwqmgRCpUoVUEtUFWVk6atQ2pKII2zjp2kcezNer1re+MmDeYwjeX4R3F4sqy3b2beN98382ZGUygUsBVTZBkAbTROhsa0NAOgRac3W621+mu2BKDI8kJ0GkBOWjz9xeck2Ns32HOwq83XWXVIY/3ZAazm8/+EroVuXb95Zy4iyCS4GPuSODt276GNxv/PQEwkblw5++OlX0aCfFJMkaDFbEqKKYvZ1O3n3nz7vQO9h8sw6mJAlLk4dGFsNHDl9nhpUxFpJMj39iUOVIzdHECR5dEbv587e2YxtlSUhczdxRoHPOZPhyNJMXWgzbkUn5NSYhmDbRuSaTSV/kJ0+tzZMyNBPiLIpcoAiAgyZWru9nPHujoGPOax0cBvP1+pzUCjQel6FAokMjsbW4wtAej2c7bm3ReGo0UYYh+/ehgAP33vCBK77FZFlktJbC6R3e4w0q2njr7S2RC5Goy4WKOLNfpYCoC5o38Huyak5pPRB3Eh88OUeOhW0Lv3uRoA61MuJaTI8sWhCwBe8GhDVxOkZcBj9u1vC92ZRPRmJPq4e1jK+Vhqh/KHw+mqIVERo+gDAPr7ezqe99+bTVCmZjfgZvSUqVlJSU7OmlfUuJAJSzk3o3cz+rCU239soEyACok2lgVtNLo7Dl766CTXsOblnOAQujOZTz3MN6gAKFpnW+9pYw1Ozqp9+lBZvm3YzFbz+e7j7yzQ+wAoKcnGGgDEhQwA2sRQtM7GGsJSjnwyJnNtAI2myg8wW61HT7ze39/DmnbO8AmK1jk5K8FIRh8Qx83o40KG3tNZeVRsXOQapsiyae4uAKI7ANf+LgALfMgGnY01ULQuLqWV6THg1JYlAkBOUCE1P8MnpLWV4MpaIRUzMC1ezknWOS6lbUwrn8lVjq2o5GrFjPlxITWvpKR9pz587ZPvuYY1oekJhZ/gM7mAILe07XrEueJSmrO7KwFKTtNiERCnpCbERAJAE0UNfXt+l916d/Q71sJSmezc8jKAiSnx/Xc/6Ox7uSr7GhJtPDaaKApAeDxw4/pQTuLd3q5Wxpk3tABgLazTov0zdLl6nvI6qNRnHWbs9vD4rWC7xwwgLc2QIGthAXhtZmSydQDU3kW00ZiT+LHRwIsn9hazC0mBOGpa1bXq6mNQw8REQs9wWqZRSApqWgVQzEiyq2k1NhMpO4WIbSy0MluPZNXc3GwC65rMJJcnpkQ1rU5MicTPy9lrP31WdXLVFrkSCQDQ2zcIwOFxkJX4+36GxJelRyaHpahYHQAV5nC6Bt862XOw69/GZwiPdo9ZyzSOBHlyF6lplZDbDKBYaBsrjjy2tDQjLly7HpiMTcUmpsR2j5lcbVqmMS9nn/VVr4N6d5Eiy/f/usta2HYSSi5/ff42uZkBxB82iJmHdTCoZoosK7IspUQArYyztMnFGp90bLeqWadFm/j1q8nL3xCuWwMoO4Hd3i7Wwh737ez2c49TMFoAXn/Pg+nw5MXTZcPrehcBKL1JqEzWYrAd90HtG1yKz0nRYa/NzM+G2dWVDBxbflWQ3kXutLRkWF0xQCmsrjDt9u0vHVtW3gCA+XEArP9EGeMtvE0VWQ6PB/S5uCLGATTY9+1+yt9EUWQLFP/LRv0HsJVWYqjPB5MAAAAASUVORK5CYII=",
           "name": "Eric python IDE",
           "command": "eric"
-        },
-        {
-          "type": "custom",
-          "description": "PCB-Suite",
-          "osIconPath": "/usr/share/pixmaps/fritzing_icon.png",
-          "name": "Fritzing",
-          "command": "Fritzing"
         },
         {
           "type": "custom",
@@ -1929,22 +1944,6 @@
         },
         {
           "type": "custom",
-          "description": "Rutsche mit einem Pinguin einen Hügel hinab",
-          "osIconPath": "data:image/png;base64,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",
-          "name": "Extreme Tux Racer",
-          "command": "etracer",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Pop out the bubbles!",
-          "osIconPath": "data:image/png;base64,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",
-          "name": "Frozen-Bubble",
-          "command": "frozen-bubble",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Melt an iceberg into small pieces, in order to trap the penguins",
           "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAA3NCSVQICAjb4U/gAAAC+UlEQVRYhe1Zz2vTUBz/tsRZuq4roxuhbMOhYyJMlKGHHcThZewgw0NlMD3Mg+eJsIOHCfYgO+yoF/FP8CLIFEWRHcSCWhE2aFlKk5UysuyRvDRp9gw7ZNT5XkjSsWoP+Zwen/de+mnf++T7oxFlRwEAAMAYDw0Owd8Qq+LQME0KJYHneYqUJCmdTlPkw+dvXn4UoBVEW1r9DxAK8gMny7IzsixLlERqWtVUsUKTGtagRj9Ir+sgn4Sg0XOjzkiUxICXmliEvdTEJukB+lIfAx13ZKEgP3DBl+a/5tferc1Mz/Sl+tonqIVf6O2LR8Nc6fWrZ+1TAwBc0+qqqnrYPvc0V3r/YaA3VtiLFkUzt5yjVuq6DjsnICjiHcuEisBneEEQxi+OX5mYWH68vLKyur7+ufCtMHJm5OjKcrmcSqWo7QihgKRpmXyGh4BHls/nbdtefLB4Y+ra3TvzsVis8LMQZOMxEEhQNpuNx+MXzp/tOsWNjY1lBjOzN2fbJCioyxbmbv348qnrdK+OtqenJtukpgVBq/MTJGF93/41mUSX5kb/vyBy9T4AXAYAACzVEu0T5B3tNU2DKr3HNdobpgHo+OT+733ng/5E+2KpmEjQ35wQwg/QgZ2LcuwLgpNcSKHskuzWajWWlGXZ2d5xsSwU5IdQkB8ila2KM9pVdrvj3dS0YRo9iR6KrNfryWSSIlVVZck9tMdu17Dm8cwIXH/ioXehLNwrt1Z6toT+pdvppSwAYBU71UTHHVkoyA+hID+0UAa1A7quw44MAFbDcqqJSLV6mF4gBaX66NwbI8y2oRBCARtWsiyzpHdnrOOOLBTkh1CQHzikHCbchmGAQk83zAbbqDNMI2BLz5X07h1yzRwe1zHbvStuFl1sryKnDj8Kc8tMpFxqBNfCgbX9xuYGF+WgA48sFOSHUJAfjtT2+xbbtHf1rdEw2ILf9a3hWsbbts3avrmSa9qS2IS1PcbYxcwKicVjFNkf7Xc1M9u9c7U9IYf/DhwAS4h8mJQZaDEAAAAASUVORK5CYII=",
           "name": "IceBreaker",
@@ -2021,23 +2020,23 @@
         },
         {
           "type": "custom",
-          "description": "Ein Tetris-artiges Spiel mit vielen Leveln spielen",
-          "osIconPath": "/usr/share/icons/hicolor/64x64/apps/cuyo.png",
-          "name": "Cuyo",
-          "command": "cuyo"
-        },
-        {
-          "type": "custom",
-          "description": "Viele verschiedene Solitaire-Spiele spielen",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-aisleriot.png",
-          "name": "AisleRiot Solitaire",
-          "command": "/usr/games/sol"
+          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
+          "name": "Kanagram",
+          "command": "kanagram"
         },
         {
           "type": "custom",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/ktuberling.png",
           "name": "Kartoffelknülch",
           "command": "ktuberling -caption %c %u"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Buchstabierspiel für KDE",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/khangman.png",
+          "name": "KHangMan",
+          "command": "khangman -caption %c %i"
         },
         {
           "type": "custom",
@@ -2101,6 +2100,14 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-flip.png",
           "name": "Flip",
           "command": "sgt-flip",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Zeichne Ecken entlang der Gitterlinien, die das Rechteck gemäß bestimmter Regeln teilen",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-galaxies.png",
+          "name": "Galaxies",
+          "command": "sgt-galaxies",
           "isStarred": false
         },
         {
@@ -2173,6 +2180,14 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-magnets.png",
           "name": "Magnets",
           "command": "sgt-magnets",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Färbe jede Region mit einer der vier Farben, so dass keine zwei Regionen mit gemeinsamer Grenze die selbe Farbe haben",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-map.png",
+          "name": "Map",
+          "command": "sgt-map",
           "isStarred": false
         },
         {
@@ -2261,6 +2276,14 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-singles.png",
           "name": "Singles",
           "command": "sgt-singles",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Spiel ähnlich Fifteen aber mit einer anderen Art von Spielzügen",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/sgt-sixteen.png",
+          "name": "Sixteen",
+          "command": "sgt-sixteen",
           "isStarred": false
         },
         {
@@ -2376,13 +2399,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/freeciv-server.png",
           "name": "Freeciv server",
           "command": "freeciv-server"
-        },
-        {
-          "type": "custom",
-          "description": "Guide a horde of penguins through various obstacles",
-          "osIconPath": "/usr/share/pixmaps/pingus-icon.png",
-          "name": "Pingus",
-          "command": "pingus"
         },
         {
           "type": "custom",
@@ -2926,6 +2942,13 @@
         },
         {
           "type": "custom",
+          "description": "Verwalten virtueller Maschinen",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/virt-manager.png",
+          "name": "Verwaltung für virtuelle Maschinen",
+          "command": "virt-manager"
+        },
+        {
+          "type": "custom",
           "description": "X based system monitor",
           "osIconPath": "data:image/png;base64,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",
           "name": "Xosview",
@@ -2937,13 +2960,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/xterm-color.png",
           "name": "XTerm",
           "command": "xterm"
-        },
-        {
-          "type": "custom",
-          "description": "Advanced molecular editor",
-          "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
-          "name": "Avogadro",
-          "command": "avogadro %f"
         },
         {
           "type": "custom",
@@ -3049,6 +3065,13 @@
         },
         {
           "type": "custom",
+          "description": "Planetarium",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
+          "name": "Stellarium",
+          "command": "stellarium"
+        },
+        {
+          "type": "custom",
           "description": "Perform symbolic and numeric calculations using Maxima",
           "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
           "name": "wxMaxima",
@@ -3060,6 +3083,13 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/onboard.png",
           "name": "Onboard",
           "command": "onboard",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/home/stotz.basil/.local/share/icons/hicolor/48x48/apps/chrome-ohmmkhmmmpcnpikjeljgnaoabkaalbgc-Default.png",
+          "name": "Chrome Apps & Extensions Developer Tool",
+          "command": "/usr/bin/chromium-browser --profile-directory=Default --app-id=ohmmkhmmmpcnpikjeljgnaoabkaalbgc",
           "isStarred": false
         },
         {
@@ -3152,32 +3182,10 @@
         },
         {
           "type": "custom",
-          "description": "Momentan laufende Prozesse betrachten und den Systemzustand überwachen",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-system-monitor.png",
-          "name": "Systemüberwachung",
-          "command": "gnome-system-monitor",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Sonderzeichen in Dokumente einfügen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-character-map.png",
           "name": "Zeichentabelle",
           "command": "gucharmap",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "Anleitung",
-          "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Anleitung.lnk",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "Bitte lesen",
-          "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Bitte\\\\ lesen.lnk",
           "isStarred": false
         },
         {
@@ -3229,13 +3237,6 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "Lizenz",
-          "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Lizenz.lnk",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Einstellungen zur Freigabe von Dateien",
           "osIconPath": "/usr/share/icons/Faenza/places/48/folder-remote.png",
           "name": "Persönliche Dateifreigabe",
@@ -3251,13 +3252,6 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "Remove Sprachfenster",
-          "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Remove\\\\ Sprachfenster.lnk",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "GUI for the R-project",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rkward.png",
           "name": "RKWard",
@@ -3266,9 +3260,10 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
-          "name": "Sprachfenster",
-          "command": "env WINEPREFIX=\"/home/stotz.basil/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/stotz.basil/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Sprachfenster/Sprachfenster.lnk",
+          "description": "\"Das Menu edieren\"",
+          "osIconPath": "/usr/share/pixmaps/flubidux.png",
+          "name": "WebMenuEditor",
+          "command": "/usr/share/bin/webmenu-editor",
           "isStarred": false
         },
         {
@@ -3529,26 +3524,10 @@
         },
         {
           "type": "custom",
-          "description": "Auf Dateien zugreifen und diese organisieren",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
-          "name": "Dateien",
-          "command": "nautilus --new-window %U",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Das Dateisystem durchsuchen, um einen eigenen Befehl zu wählen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/system-file-manager.png",
           "name": "Dateimanager",
           "command": "exo-open --launch FileManager %u",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Textdateien bearbeiten",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/accessories-text-editor.png",
-          "name": "gedit",
-          "command": "gedit %U",
           "isStarred": false
         },
         {
@@ -3587,14 +3566,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png",
           "name": "Orage Globaltime",
           "command": "globaltime",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Ein Programm ausführen",
-          "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
-          "name": "Programm ausführen …",
-          "command": "xfce4-appfinder --collapsed",
           "isStarred": false
         },
         {
