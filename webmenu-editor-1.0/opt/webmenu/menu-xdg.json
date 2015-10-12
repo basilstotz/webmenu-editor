@@ -831,6 +831,26 @@
           ]
         },
         {
+          "command": "/usr/share/bin/leseschlau",
+          "description": "Ausprache und Schrift verbinden und üben",
+          "name": "Leseschlau",
+          "osIconPath": "/usr/share/pixmaps/leseschlau.png",
+          "type": "custom",
+          "keywords": [
+            "1.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "Deutsch",
+            "|",
+            "|",
+            "hören",
+            "lesen",
+            "|",
+            ""
+          ]
+        },
+        {
           "command": "/usr/share/bin/webapps http://map.geo.admin.ch/",
           "description": "\"Karten von geo.admin\"",
           "name": "Map GeoAdmin",
@@ -1506,10 +1526,34 @@
           ]
         },
         {
-          "command": "chromium-browser --app=file:///usr/share/prop/newworld/1/lmplayer.html",
+          "command": "nw /usr/share/prop/newworld/1/",
           "description": "Englisch lernen",
           "name": "New World 1",
           "osIconPath": "/usr/share/pixmaps/newworld1.png",
+          "type": "custom",
+          "keywords": [
+            "2.Zyklus",
+            "|",
+            "Sprachen",
+            "|",
+            "English",
+            "|",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "|",
+            "hören",
+            "lesen",
+            "üben",
+            "|",
+            ""
+          ]
+        },
+        {
+          "command": "nw /usr/share/prop/newworld/2/",
+          "description": "Englisch lernen",
+          "name": "New World 2",
+          "osIconPath": "/usr/share/pixmaps/newworld2.png",
           "type": "custom",
           "keywords": [
             "2.Zyklus",

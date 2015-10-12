@@ -57,19 +57,6 @@
         },
         {
           "type": "custom",
-          "description": "Das Gedächtnis spielerisch trainieren",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "Beruf",
-            "üben"
-          ],
-          "name": "Blinken",
-          "command": "blinken"
-        },
-        {
-          "type": "custom",
           "description": "Mathematik lernen und üben",
           "osIconPath": "/usr/share/pixmaps/blitzrechnen.png",
           "keywords": [
@@ -139,6 +126,18 @@
           "type": "custom",
           "description": "\"Mit Duolingo sprachen lernen\"",
           "osIconPath": "/usr/share/pixmaps/duolingo.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "hören",
+            "lesen",
+            "sprechen",
+            "lernen"
+          ],
           "name": "Duolingo",
           "command": "nw /usr/share/node/duolingo"
         },
@@ -146,8 +145,47 @@
           "type": "custom",
           "description": "Tool for programming LEGO Mindstorms NXT robots",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/enchanting.png",
+          "keywords": [
+            "3.Zyklus",
+            "NMG",
+            "Technik",
+            "gestalten",
+            "operieren",
+            "erforschen",
+            "herstellen"
+          ],
           "name": "Enchanting",
           "command": "enchanting"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/pixmaps/fichier.png",
+          "keywords": [
+            "3.Zyklus",
+            "Sprachen",
+            "Französisch",
+            "hören",
+            "lesen",
+            "sprechen",
+            "schreiben",
+            "benennen",
+            "üben",
+            "lernen"
+          ],
+          "name": "Fichier",
+          "command": "nw /usr/share/prop/fichier"
+        },
+        {
+          "type": "custom",
+          "description": "\"Bildersuche\"",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/flickr.png",
+          "keywords": [
+            "NMG",
+            "gestalten",
+            "suchen"
+          ],
+          "name": "Flickr",
+          "command": "nw /usr/share/node/flickr/"
         },
         {
           "type": "custom",
@@ -178,30 +216,6 @@
           ],
           "name": "fragFINN",
           "command": "/usr/share/bin/webapps http://www.fragfinn.de"
-        },
-        {
-          "type": "custom",
-          "description": "Erstellen Sie interaktive geometrische Konstruktionen und Applets.",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/geogebra.png",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Geometrie",
-            "Statistik",
-            "Zahl",
-            "Variable",
-            "Form",
-            "Raum",
-            "Funktion",
-            "Zufall",
-            "operieren",
-            "erforschen"
-          ],
-          "name": "GeoGebra",
-          "command": "geogebra %F"
         },
         {
           "type": "custom",
@@ -251,6 +265,24 @@
         },
         {
           "type": "custom",
+          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "Sprache",
+            "spielen"
+          ],
+          "name": "Kanagram",
+          "command": "kanagram"
+        },
+        {
+          "type": "custom",
           "description": "Übungen mit Brüchen",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kbruch.png",
           "keywords": [
@@ -264,7 +296,24 @@
             "üben"
           ],
           "name": "KBruch",
-          "command": "kbruch -caption %c %i"
+          "command": "kbruch"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Geografie-Lernprogramm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kgeography.png",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "NMG",
+            "Geografie",
+            "Räume",
+            "prüfen",
+            "lernen"
+          ],
+          "name": "KGeography",
+          "command": "kgeography"
         },
         {
           "type": "custom",
@@ -354,16 +403,10 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/ktouch.png",
-          "name": "KTouch",
-          "command": "ktouch -caption %c %i"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Karteikarten- und Vokabel-Lernprogramm",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kwordquiz.png",
-          "name": "KWordQuiz",
-          "command": "kwordquiz -caption %c %i"
+          "description": "\"Wörterbücher\"",
+          "osIconPath": "/usr/share/pixmaps/leo.png",
+          "name": "Leo",
+          "command": "nw /usr/share/node/leo/"
         },
         {
           "type": "custom",
@@ -381,6 +424,12 @@
           ],
           "name": "Lerntrix",
           "command": "/usr/share/bin/webapps http://www.labbe.de/lerntrix/index_mg.asp"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/pixmaps/leseschlau.png",
+          "name": "Leseschlau",
+          "command": "/usr/share/bin/leseschlau"
         },
         {
           "type": "custom",
@@ -423,37 +472,48 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "description": "\"Dividieren üben\"",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
           "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "NMG",
-            "Geografie",
-            "Lebensraum",
-            "Räume",
-            "benennen",
-            "erforschen",
-            "darstellen"
+            "1.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Zahl",
+            "üben",
+            "lernen"
           ],
-          "name": "Marble",
-          "command": "marble-qt %F"
+          "name": "Mathe Aktiv Division",
+          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\""
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "description": "\"Insätze üben\"",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
           "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "NMG",
-            "Geografie",
-            "Lebensraum",
-            "Räume",
-            "benennen",
-            "erforschen",
-            "darstellen"
+            "1.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Zahl",
+            "üben",
+            "lernen"
           ],
-          "name": "Marble",
-          "command": "marble %F"
+          "name": "Mathe Aktiv Insätze",
+          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\""
+        },
+        {
+          "type": "custom",
+          "description": "\"Dividieren üben\"",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-multiplikation.png",
+          "keywords": [
+            "1.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Zahl",
+            "üben",
+            "lernen"
+          ],
+          "name": "Mathe Aktiv Multiplikation",
+          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\""
         },
         {
           "type": "custom",
@@ -551,6 +611,21 @@
         },
         {
           "type": "custom",
+          "description": "\"Übungen zur Gehörbildung\"",
+          "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Musik",
+            "Musik",
+            "hören",
+            "üben"
+          ],
+          "name": "Musikwissenschaften",
+          "command": "/usr/share/bin/webapps http://www.musikwissenschaften.de/kids/"
+        },
+        {
+          "type": "custom",
           "description": "Online schreiben und lesen",
           "osIconPath": "/usr/share/pixmaps/mymoment.png",
           "keywords": [
@@ -606,7 +681,13 @@
             "üben"
           ],
           "name": "New World 1",
-          "command": "chromium-browser --app=file:///usr/share/prop/newworld/1/lmplayer.html"
+          "command": "nw /usr/share/prop/newworld/1/"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/pixmaps/newworld2.png",
+          "name": "New World 2",
+          "command": "nw /usr/share/prop/newworld/2/"
         },
         {
           "type": "custom",
@@ -625,13 +706,6 @@
           ],
           "name": "NotenMax",
           "command": "/usr/share/bin/webapps http://www.notenmax.de"
-        },
-        {
-          "type": "custom",
-          "description": "An educational game based on multimedia elements.",
-          "osIconPath": "/usr/share/omnitux/data/default/icons/Omnitux_logo.svg",
-          "name": "Omnitux",
-          "command": "/usr/bin/omnitux"
         },
         {
           "type": "custom",
@@ -699,21 +773,17 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/parley.png",
+          "description": "Mathematik lernen und üben",
+          "osIconPath": "/usr/share/pixmaps/rechentraining.png",
           "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
             "3.Zyklus",
-            "Sprachen",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "Sprache",
+            "Mathematik",
+            "mathematisieren",
             "üben",
             "lernen"
           ],
-          "name": "Parley",
-          "command": "parley %u"
+          "name": "Rechentraining 5",
+          "command": "/usr/share/bin/rechentraining"
         },
         {
           "type": "custom",
@@ -734,6 +804,26 @@
           ],
           "name": "Schatz der Kulturen",
           "command": "/usr/share/bin/webapps http://www.schatz-der-kulturen.de"
+        },
+        {
+          "type": "custom",
+          "description": "\"Schulkarte mit ÖV\"",
+          "osIconPath": "/usr/share/pixmaps/schulkarte.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "NMG",
+            "Geografie",
+            "Raum",
+            "Grössen",
+            "Natur",
+            "Lebensraum",
+            "Räume",
+            "erklären",
+            "lernen"
+          ],
+          "name": "Schulkarte",
+          "command": "nw /usr/share/node/schulkarte"
         },
         {
           "type": "custom",
@@ -761,6 +851,16 @@
           "type": "custom",
           "description": "Touch Typing Software",
           "osIconPath": "/usr/share/pixmaps/tipp10.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "Sprache",
+            "Technik",
+            "schreiben",
+            "üben"
+          ],
           "name": "TIPP10",
           "command": "tipp10"
         },
@@ -838,13 +938,6 @@
         },
         {
           "type": "custom",
-          "description": "FBReader E-book reader",
-          "osIconPath": "/usr/share/pixmaps/FBReader.png",
-          "name": "E-book reader",
-          "command": "FBReader %F"
-        },
-        {
-          "type": "custom",
           "description": "Ihre E-Mails, Kontakte und Kalender verwalten",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/evolution.png",
           "keywords": [
@@ -860,16 +953,6 @@
           "keywords": [],
           "name": "Gummi",
           "command": "gummi %F"
-        },
-        {
-          "type": "custom",
-          "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-base.png",
-          "keywords": [
-            "access"
-          ],
-          "name": "LibreOffice Base",
-          "command": "libreoffice --base %U"
         },
         {
           "type": "custom",
@@ -935,6 +1018,13 @@
       "items": [
         {
           "type": "custom",
+          "description": "3D-Modellierung, Animation, Rendering und Nachbearbeitung",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/blender.png",
+          "name": "Blender",
+          "command": "blender"
+        },
+        {
+          "type": "custom",
           "description": "Bilder erstellen und Fotografien bearbeiten",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gimp.png",
           "keywords": [
@@ -957,24 +1047,11 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kolourpaint.png",
-          "name": "KolourPaint",
-          "command": "kolourpaint %u"
-        },
-        {
-          "type": "custom",
           "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-draw.png",
           "keywords": [],
           "name": "LibreOffice Draw",
           "command": "libreoffice --draw %U"
-        },
-        {
-          "type": "custom",
-          "description": "Image Per Image capture tool for making animation movies.",
-          "osIconPath": "data:image/png;base64,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",
-          "name": "Luciole",
-          "command": "luciole"
         },
         {
           "type": "custom",
@@ -1090,12 +1167,6 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/steadyflow.svg",
-          "name": "Steadyflow",
-          "command": "steadyflow"
-        },
-        {
-          "type": "custom",
           "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/thunderbird.png",
           "keywords": [
@@ -1121,13 +1192,6 @@
       "items": [
         {
           "type": "custom",
-          "description": "Record, mix and master multi-track audio",
-          "osIconPath": "/usr/share/ardour2/icons/ardour_icon_22px.png",
-          "name": "Ardour Digital Audio Workstation",
-          "command": "/usr/bin/ardour2"
-        },
-        {
-          "type": "custom",
           "description": "Audio aufnehmen und bearbeiten",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/audacity.png",
           "keywords": [],
@@ -1148,13 +1212,6 @@
           "keywords": [],
           "name": "Brasero",
           "command": "brasero %U"
-        },
-        {
-          "type": "custom",
-          "description": "CDs abspielen und auslesen",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/goobox.png",
-          "name": "CD-Spieler",
-          "command": "goobox"
         },
         {
           "type": "custom",
@@ -1188,25 +1245,19 @@
         },
         {
           "type": "custom",
-          "description": "Nichtlinearer Video-Editor für KDE",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kdenlive.png",
-          "name": "Kdenlive",
-          "command": "kdenlive %i -caption \"%c\" %u"
-        },
-        {
-          "type": "custom",
-          "description": "Digital-Videos erstellen und bearbeiten",
-          "osIconPath": "/usr/share/pixmaps/kino.png",
+          "description": "Medien-Spieler",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
           "keywords": [],
-          "name": "Kino",
-          "command": "kino %F"
+          "name": "Kaffeine",
+          "command": "kaffeine --dvd %U"
         },
         {
           "type": "custom",
-          "description": "Image Per Image capture tool for making animation movies.",
-          "osIconPath": "data:image/png;base64,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",
-          "name": "Luciole",
-          "command": "luciole"
+          "description": "Medien-Spieler",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
+          "keywords": [],
+          "name": "Kaffeine",
+          "command": "kaffeine %U"
         },
         {
           "type": "custom",
@@ -1258,10 +1309,25 @@
         },
         {
           "type": "custom",
+          "description": "Ihre Musik-CDs auslesen",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/sound-juicer.png",
+          "keywords": [],
+          "name": "Sound Juicer",
+          "command": "sound-juicer %u"
+        },
+        {
+          "type": "custom",
           "description": "Program to create stop-motion animations",
           "osIconPath": "/usr/share/icons/hicolor/scalable/apps/stopmotion.svg",
           "name": "Stopmotion",
           "command": "stopmotion"
+        },
+        {
+          "type": "custom",
+          "description": "Wiedergabe, Aufnahme und Verbreitung Ihrer Multimedia-Streams",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/vlc.png",
+          "name": "VLC Media Player",
+          "command": "/usr/bin/vlc --started-from-file %U"
         },
         {
           "type": "custom",
@@ -1310,10 +1376,10 @@
         },
         {
           "type": "custom",
-          "description": "PCB-Suite",
-          "osIconPath": "/usr/share/pixmaps/fritzing_icon.png",
-          "name": "Fritzing",
-          "command": "Fritzing"
+          "description": "\"Processing\"",
+          "osIconPath": "/usr/share/pixmaps/processing.png",
+          "name": "Processing",
+          "command": "/opt/processing/processing"
         },
         {
           "type": "custom",
@@ -1353,14 +1419,6 @@
       "items": [
         {
           "type": "custom",
-          "description": "Rutsche mit einem Pinguin einen Hügel hinab",
-          "osIconPath": "data:image/png;base64,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",
-          "name": "Extreme Tux Racer",
-          "command": "etracer",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Pop out the bubbles!",
           "osIconPath": "data:image/png;base64,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",
           "name": "Frozen-Bubble",
@@ -1373,13 +1431,6 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-mahjongg.png",
           "name": "Mahjongg",
           "command": "gnome-mahjongg"
-        },
-        {
-          "type": "custom",
-          "description": "Viele verschiedene Solitaire-Spiele spielen",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-aisleriot.png",
-          "name": "AisleRiot Solitaire",
-          "command": "/usr/games/sol"
         },
         {
           "type": "custom",
@@ -1402,32 +1453,21 @@
         },
         {
           "type": "custom",
-          "description": "Das Gedächtnis spielerisch trainieren",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
+          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
           "keywords": [
+            "1.Zyklus",
             "2.Zyklus",
             "3.Zyklus",
-            "Beruf",
-            "üben"
+            "Sprachen",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "Sprache",
+            "spielen"
           ],
-          "name": "Blinken",
-          "command": "blinken"
-        },
-        {
-          "type": "custom",
-          "description": "Uncover pairs of stones while navigating obstacles using a marble",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/enigma.png",
-          "name": "Enigma",
-          "command": "enigma",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Puzzlespiel mit witzigen Fischen, die die Welt im Sokoban-Stil retten",
-          "osIconPath": "/usr/share/pixmaps/fillets-ng.png",
-          "name": "Fish Fillets",
-          "command": "fillets",
-          "isStarred": false
+          "name": "Kanagram",
+          "command": "kanagram"
         },
         {
           "type": "custom",
@@ -1436,27 +1476,26 @@
           "name": "Minen",
           "command": "gnome-mines",
           "isStarred": false
-        },
+        }
+      ],
+      "isStarred": false
+    },
+    {
+      "type": "menu",
+      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
+      "name": "Wissenschaft",
+      "items": [
         {
           "type": "custom",
-          "description": "Plane und baue eine Stadt und kümmere dich um das Verkehrswesen, die Wirtschaft, Elektrizität und mehr.",
-          "osIconPath": "/usr/share/pixmaps/lincity-ng.png",
-          "name": "Lincity-NG",
-          "command": "lincity-ng"
-        },
-        {
-          "type": "custom",
-          "description": "Guide a horde of penguins through various obstacles",
-          "osIconPath": "/usr/share/pixmaps/pingus-icon.png",
-          "name": "Pingus",
-          "command": "pingus"
-        },
-        {
-          "type": "custom",
-          "description": "An educational game based on multimedia elements.",
-          "osIconPath": "/usr/share/omnitux/data/default/icons/Omnitux_logo.svg",
-          "name": "Omnitux",
-          "command": "/usr/bin/omnitux"
+          "description": "Planetarium",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
+          "keywords": [
+            "nmg",
+            "geografie",
+            "astronomie"
+          ],
+          "name": "Stellarium",
+          "command": "stellarium"
         }
       ],
       "isStarred": false
@@ -1472,14 +1511,6 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/applets-screenshooter.png",
           "name": "Bildschirmfoto",
           "command": "gnome-screenshot --interactive",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Momentan laufende Prozesse betrachten und den Systemzustand überwachen",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-system-monitor.png",
-          "name": "Systemüberwachung",
-          "command": "gnome-system-monitor",
           "isStarred": false
         },
         {
@@ -1527,14 +1558,6 @@
         },
         {
           "type": "custom",
-          "description": "Ein Programm ausführen",
-          "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
-          "name": "Programm ausführen …",
-          "command": "xfce4-appfinder --collapsed",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Befehlszeile verwenden",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-terminal.png",
           "name": "Terminal",
@@ -1553,6 +1576,19 @@
         "de": "         "
       },
       "items": [
+        {
+          "type": "custom",
+          "description": "Das Gedächtnis spielerisch trainieren",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Beruf",
+            "üben"
+          ],
+          "name": "Blinken",
+          "command": "blinken"
+        },
         {
           "type": "custom",
           "description": "Explore the Universe in this detailed space simulation",
@@ -1587,45 +1623,34 @@
         },
         {
           "type": "custom",
+          "description": "Erstellen Sie interaktive geometrische Konstruktionen und Applets.",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/geogebra.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Algebra",
+            "Geometrie",
+            "Statistik",
+            "Zahl",
+            "Variable",
+            "Form",
+            "Raum",
+            "Funktion",
+            "Zufall",
+            "operieren",
+            "erforschen"
+          ],
+          "name": "GeoGebra",
+          "command": "geogebra %F"
+        },
+        {
+          "type": "custom",
           "description": "Partituren editieren",
           "osIconPath": "/usr/share/pixmaps/denemo.png",
           "name": "GNU Denemo",
           "command": "denemo"
-        },
-        {
-          "type": "custom",
-          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "Sprachen",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "Sprache",
-            "spielen"
-          ],
-          "name": "Kanagram",
-          "command": "kanagram"
-        },
-        {
-          "type": "custom",
-          "description": "Ein Geografie-Lernprogramm",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kgeography.png",
-          "keywords": [
-            "1.Zyklus",
-            "2.Zyklus",
-            "3.Zyklus",
-            "NMG",
-            "Geografie",
-            "Räume",
-            "prüfen",
-            "lernen"
-          ],
-          "name": "KGeography",
-          "command": "kgeography"
         },
         {
           "type": "custom",
@@ -1666,9 +1691,28 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/ktouch.png",
+          "name": "KTouch",
+          "command": "ktouch -caption %c %i"
+        },
+        {
+          "type": "custom",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kturtle.png",
           "name": "KTurtle",
           "command": "kturtle %i -caption %c"
+        },
+        {
+          "type": "custom",
+          "description": "Ein Karteikarten- und Vokabel-Lernprogramm",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kwordquiz.png",
+          "name": "KWordQuiz",
+          "command": "kwordquiz -caption %c %i"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/pixmaps/lehreroffice.png",
+          "name": "LehrerOffice",
+          "command": "/opt/lehreroffice/LehrerOffice"
         },
         {
           "type": "custom",
@@ -1774,6 +1818,40 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "NMG",
+            "Geografie",
+            "Lebensraum",
+            "Räume",
+            "benennen",
+            "erforschen",
+            "darstellen"
+          ],
+          "name": "Marble",
+          "command": "marble-qt %F"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/marble.png",
+          "keywords": [
+            "2.Zyklus",
+            "3.Zyklus",
+            "NMG",
+            "Geografie",
+            "Lebensraum",
+            "Räume",
+            "benennen",
+            "erforschen",
+            "darstellen"
+          ],
+          "name": "Marble",
+          "command": "marble %F"
+        },
+        {
+          "type": "custom",
           "description": "\"Mathe üben 1.Klasse\"",
           "osIconPath": "/usr/share/pixmaps/mathe1trainer.png",
           "keywords": [
@@ -1839,51 +1917,6 @@
           ],
           "name": "Mathe4Trainer",
           "command": "nw /usr/share/node/mathe4trainer"
-        },
-        {
-          "type": "custom",
-          "description": "\"Dividieren üben\"",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
-          "keywords": [
-            "1.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Zahl",
-            "üben",
-            "lernen"
-          ],
-          "name": "Mathe Aktiv Division",
-          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm\""
-        },
-        {
-          "type": "custom",
-          "description": "\"Insätze üben\"",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-insaetze.png",
-          "keywords": [
-            "1.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Zahl",
-            "üben",
-            "lernen"
-          ],
-          "name": "Mathe Aktiv Insätze",
-          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm\""
-        },
-        {
-          "type": "custom",
-          "description": "\"Dividieren üben\"",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-multiplikation.png",
-          "keywords": [
-            "1.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Zahl",
-            "üben",
-            "lernen"
-          ],
-          "name": "Mathe Aktiv Multiplikation",
-          "command": "/usr/share/bin/webapps \"http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm\""
         },
         {
           "type": "custom",
@@ -2086,21 +2119,6 @@
         },
         {
           "type": "custom",
-          "description": "\"Übungen zur Gehörbildung\"",
-          "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
-          "keywords": [
-            "2.Zyklus",
-            "3.Zyklus",
-            "Musik",
-            "Musik",
-            "hören",
-            "üben"
-          ],
-          "name": "Musikwissenschaften",
-          "command": "/usr/share/bin/webapps http://www.musikwissenschaften.de/kids/"
-        },
-        {
-          "type": "custom",
           "description": "Logiciel de création de présentations pour tableau numérique interactif (TNI)",
           "osIconPath": "/usr/local/Open-Sankore-2.5.0/sankore.png",
           "name": "Open-Sankore (2.5.0)",
@@ -2108,10 +2126,21 @@
         },
         {
           "type": "custom",
-          "description": "Generic card based learning program",
-          "osIconPath": "/usr/share/icons/pauker.png",
-          "name": "Pauker",
-          "command": "pauker"
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/parley.png",
+          "keywords": [
+            "1.Zyklus",
+            "2.Zyklus",
+            "3.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "Französisch",
+            "English",
+            "Sprache",
+            "üben",
+            "lernen"
+          ],
+          "name": "Parley",
+          "command": "parley %u"
         },
         {
           "type": "custom",
@@ -2150,6 +2179,13 @@
         },
         {
           "type": "custom",
+          "description": "FBReader E-book reader",
+          "osIconPath": "/usr/share/pixmaps/FBReader.png",
+          "name": "E-book reader",
+          "command": "FBReader %F"
+        },
+        {
+          "type": "custom",
           "description": "E-Book Viewer",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
           "name": "E-Book Viewer",
@@ -2164,6 +2200,16 @@
           ],
           "name": "LibreOffice",
           "command": "libreoffice %U"
+        },
+        {
+          "type": "custom",
+          "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/libreoffice-base.png",
+          "keywords": [
+            "access"
+          ],
+          "name": "LibreOffice Base",
+          "command": "libreoffice --base %U"
         },
         {
           "type": "custom",
@@ -2234,13 +2280,6 @@
         },
         {
           "type": "custom",
-          "description": "3D-Modellierung, Animation, Rendering und Nachbearbeitung",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/blender.png",
-          "name": "Blender",
-          "command": "blender"
-        },
-        {
-          "type": "custom",
           "description": "Diagramme bearbeiten",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dia.png",
           "keywords": [],
@@ -2307,6 +2346,12 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kolourpaint.png",
+          "name": "KolourPaint",
+          "command": "kolourpaint %u"
+        },
+        {
+          "type": "custom",
           "description": "Ein professionelles CAD System",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/librecad.png",
           "keywords": [],
@@ -2322,11 +2367,31 @@
         },
         {
           "type": "custom",
+          "description": "Image Per Image capture tool for making animation movies.",
+          "osIconPath": "data:image/png;base64,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",
+          "name": "Luciole",
+          "command": "luciole"
+        },
+        {
+          "type": "custom",
           "description": "Besuche die fraktale 3D-Welt",
           "osIconPath": "/usr/share/mandelbulber/icons/mandelbulber.png",
           "keywords": [],
           "name": "Mandelbulber",
           "command": "mandelbulber"
+        },
+        {
+          "type": "custom",
+          "description": "Node-graph based compositing software",
+          "osIconPath": "/home/stotz.basil/.local/share/icons/natronIcon256_linux.png",
+          "name": "Natron",
+          "command": "/home/stotz.basil/Natron/Natron"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/home/stotz.basil/.local/share/icons/natronIcon256_linux.png",
+          "name": "Natron Maintenance Tool",
+          "command": "/home/stotz.basil/Natron/MaintenanceTool"
         },
         {
           "type": "custom",
@@ -2388,7 +2453,7 @@
         {
           "type": "custom",
           "description": "Browse the web in text mode",
-          "osIconPath": "/usr/share/icons/Faenza/mimetypes/48/html.png",
+          "osIconPath": "html",
           "keywords": [],
           "name": "ELinks Webbrowser",
           "command": "/usr/bin/elinks %u"
@@ -2438,13 +2503,6 @@
         },
         {
           "type": "custom",
-          "description": "Internetzugriff",
-          "osIconPath": "/usr/local/share/icons/hicolor/48x48/apps/google-chrome-beta.png",
-          "name": "Google Chrome (beta)",
-          "command": "/usr/bin/google-chrome-beta %U"
-        },
-        {
-          "type": "custom",
           "description": "News-Feeds und Blogs lesen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/liferea.png",
           "keywords": [],
@@ -2464,6 +2522,19 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/remmina.png",
           "name": "Remmina",
           "command": "remmina"
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/steadyflow.svg",
+          "name": "Steadyflow",
+          "command": "steadyflow"
+        },
+        {
+          "type": "custom",
+          "description": "Application for managing and playing games on Steam",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/steam.png",
+          "name": "Steam",
+          "command": "/usr/bin/steam %U"
         },
         {
           "type": "custom",
@@ -2515,10 +2586,24 @@
         },
         {
           "type": "custom",
+          "description": "Record, mix and master multi-track audio",
+          "osIconPath": "/usr/share/ardour2/icons/ardour_icon_22px.png",
+          "name": "Ardour Digital Audio Workstation",
+          "command": "/usr/bin/ardour2"
+        },
+        {
+          "type": "custom",
           "description": "Mediensammlung wiedergeben und organisieren",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/media-player-banshee.png",
           "name": "Banshee",
           "command": "banshee --redirect-log --play-enqueued %U"
+        },
+        {
+          "type": "custom",
+          "description": "CDs abspielen und auslesen",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/goobox.png",
+          "name": "CD-Spieler",
+          "command": "goobox"
         },
         {
           "type": "custom",
@@ -2570,19 +2655,18 @@
         },
         {
           "type": "custom",
-          "description": "Medien-Spieler",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
-          "keywords": [],
-          "name": "Kaffeine",
-          "command": "kaffeine --dvd %U"
+          "description": "Nichtlinearer Video-Editor für KDE",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kdenlive.png",
+          "name": "Kdenlive",
+          "command": "kdenlive %i -caption %c %u"
         },
         {
           "type": "custom",
-          "description": "Medien-Spieler",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
+          "description": "Digital-Videos erstellen und bearbeiten",
+          "osIconPath": "/usr/share/pixmaps/kino.png",
           "keywords": [],
-          "name": "Kaffeine",
-          "command": "kaffeine %U"
+          "name": "Kino",
+          "command": "kino %F"
         },
         {
           "type": "custom",
@@ -2604,6 +2688,13 @@
           "keywords": [],
           "name": "LMMS",
           "command": "env QT_X11_NO_NATIVE_MENUBAR=1 lmms"
+        },
+        {
+          "type": "custom",
+          "description": "Image Per Image capture tool for making animation movies.",
+          "osIconPath": "data:image/png;base64,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",
+          "name": "Luciole",
+          "command": "luciole"
         },
         {
           "type": "custom",
@@ -2689,6 +2780,13 @@
         },
         {
           "type": "custom",
+          "description": "A feature-rich screen recorder that supports X11 and OpenGL",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/simplescreenrecorder.png",
+          "name": "SimpleScreenRecorder",
+          "command": "simplescreenrecorder --logfile"
+        },
+        {
+          "type": "custom",
           "description": "Konvertiert Audio-Dateien in andere Formate",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/soundconverter.png",
           "name": "Sound Converter",
@@ -2696,15 +2794,7 @@
         },
         {
           "type": "custom",
-          "description": "Ihre Musik-CDs auslesen",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/sound-juicer.png",
-          "keywords": [],
-          "name": "Sound Juicer",
-          "command": "sound-juicer %u"
-        },
-        {
-          "type": "custom",
-          "description": "Listen to music using Spotify",
+          "description": "Spotify streaming music client",
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/spotify-client.png",
           "name": "Spotify",
           "command": "spotify %U"
@@ -2732,10 +2822,10 @@
         },
         {
           "type": "custom",
-          "description": "Wiedergabe, Aufnahme und Verbreitung Ihrer Multimedia-Streams",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/vlc.png",
-          "name": "VLC Media Player",
-          "command": "/usr/bin/vlc --started-from-file %U"
+          "description": "Video Player",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/xine.png",
+          "name": "xine",
+          "command": "xine %U"
         },
         {
           "type": "custom",
@@ -2755,7 +2845,7 @@
         {
           "type": "custom",
           "description": "IDE for Racket",
-          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAAuZJREFUWIXtWD1vFDEQnSBzd9EtusLFNdEJbUyZf3Q/4CRSUCABFaIK0SItSKC7hiJs/lFKFIRQGgqKCJC5CGko7sb4Zm3v2rsRDSONlPM69vObmecPgP/2j6ysClS5RJVLHIxFzembyiWWVYEaNabMsxf7Dxo1Hh0ewJev187vg9F9uPn12fltNp3AxeUV7O/tR8/bChixpXKJ1KZRY1kVOBgLBEC3i7Maw2VVJDHqNAongXOZyiWCOPOD3DpPg17A2YOSlVVhnH4HWQwwmpqfQKzRyCqXqFGb1S8FmEJAxPYAHUCjQRIj9oiGRTbTUoDJxUyq2wdJLPHRVC69MyWzyHKTg7zjAjfJ7sH65+8a8I+fvjUubjadQCYftCLCtpv1ewAAODo8CHc0lRpJwVKAEeRUFjOpwqF25V2MU5jbSk4o1DVwJMQp7HGAt8JiV/ZsgKZY+mSRa15KDnKA0ZLDWOylOGz2aFehPEwNM2mjCbNP92Lc3ga75iGFuawKrOlgig3HAk5XJzttIxj1MfRGqFfnbzsP9Gj+uNZ2ujpJEm3bOjPoYu/1+SsA2ID2HV7bWi8h5uw9WTyDYXYXANK3PrJOAFcCnOy9Wf/dxy8ur+JZFB8AAGAxP978Tq1iXrkkL1wXo7e+rcwYwCkAuTDTqdq1gLIqogB6hbov9uw+GnX0OdF5X4ndRexdw8Ue+U6YIwB2OiwQ/SH2UsPsDG9sHnKAZVXgUvj7xoQ5eGducx7kh4IQe9S/sZqpjVevj0UfG67ioINum4IyBwgGiIqi1WU+lIux7JHTtZT62w9ONB+1NV497bcWPkkKez7mbUt6CuEnbFptLHuuXOTWmj0fSFodhYkqN0XcOUjvLW5rje90KpdIb4Gz6QQA2l3gfTYci1rb9Y/v3d4M7USOYczFIPdkUNz4A2ZIinjuuYD1+oBpG38vtCWiyUmmYuZLjrtGjfZd5t3zlzvfH754av5ezI+Tc+wPdAiXYXlxUnAAAAAASUVORK5CYII=",
+          "osIconPath": "/usr/share/pixmaps/plt.png",
           "name": "DrRacket",
           "command": "drracket"
         },
@@ -2773,6 +2863,13 @@
           "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAA3NCSVQICAjb4U/gAAAFAElEQVRIiZ1WTWwbRRT+3CRkbcfrrN21cdXatbe2AymYNG6okioKbfrDT0GC5FIQF3oDcYETJyRuCC5VERJwqmgRCpUoVUEtUFWVk6atQ2pKII2zjp2kcezNer1re+MmDeYwjeX4R3F4sqy3b2beN98382ZGUygUsBVTZBkAbTROhsa0NAOgRac3W621+mu2BKDI8kJ0GkBOWjz9xeck2Ns32HOwq83XWXVIY/3ZAazm8/+EroVuXb95Zy4iyCS4GPuSODt276GNxv/PQEwkblw5++OlX0aCfFJMkaDFbEqKKYvZ1O3n3nz7vQO9h8sw6mJAlLk4dGFsNHDl9nhpUxFpJMj39iUOVIzdHECR5dEbv587e2YxtlSUhczdxRoHPOZPhyNJMXWgzbkUn5NSYhmDbRuSaTSV/kJ0+tzZMyNBPiLIpcoAiAgyZWru9nPHujoGPOax0cBvP1+pzUCjQel6FAokMjsbW4wtAej2c7bm3ReGo0UYYh+/ehgAP33vCBK77FZFlktJbC6R3e4w0q2njr7S2RC5Goy4WKOLNfpYCoC5o38Huyak5pPRB3Eh88OUeOhW0Lv3uRoA61MuJaTI8sWhCwBe8GhDVxOkZcBj9u1vC92ZRPRmJPq4e1jK+Vhqh/KHw+mqIVERo+gDAPr7ezqe99+bTVCmZjfgZvSUqVlJSU7OmlfUuJAJSzk3o3cz+rCU239soEyACok2lgVtNLo7Dl766CTXsOblnOAQujOZTz3MN6gAKFpnW+9pYw1Ozqp9+lBZvm3YzFbz+e7j7yzQ+wAoKcnGGgDEhQwA2sRQtM7GGsJSjnwyJnNtAI2myg8wW61HT7ze39/DmnbO8AmK1jk5K8FIRh8Qx83o40KG3tNZeVRsXOQapsiyae4uAKI7ANf+LgALfMgGnY01ULQuLqWV6THg1JYlAkBOUCE1P8MnpLWV4MpaIRUzMC1ezknWOS6lbUwrn8lVjq2o5GrFjPlxITWvpKR9pz587ZPvuYY1oekJhZ/gM7mAILe07XrEueJSmrO7KwFKTtNiERCnpCbERAJAE0UNfXt+l916d/Q71sJSmezc8jKAiSnx/Xc/6Ox7uSr7GhJtPDaaKApAeDxw4/pQTuLd3q5Wxpk3tABgLazTov0zdLl6nvI6qNRnHWbs9vD4rWC7xwwgLc2QIGthAXhtZmSydQDU3kW00ZiT+LHRwIsn9hazC0mBOGpa1bXq6mNQw8REQs9wWqZRSApqWgVQzEiyq2k1NhMpO4WIbSy0MluPZNXc3GwC65rMJJcnpkQ1rU5MicTPy9lrP31WdXLVFrkSCQDQ2zcIwOFxkJX4+36GxJelRyaHpahYHQAV5nC6Bt862XOw69/GZwiPdo9ZyzSOBHlyF6lplZDbDKBYaBsrjjy2tDQjLly7HpiMTcUmpsR2j5lcbVqmMS9nn/VVr4N6d5Eiy/f/usta2HYSSi5/ff42uZkBxB82iJmHdTCoZoosK7IspUQArYyztMnFGp90bLeqWadFm/j1q8nL3xCuWwMoO4Hd3i7Wwh737ez2c49TMFoAXn/Pg+nw5MXTZcPrehcBKL1JqEzWYrAd90HtG1yKz0nRYa/NzM+G2dWVDBxbflWQ3kXutLRkWF0xQCmsrjDt9u0vHVtW3gCA+XEArP9EGeMtvE0VWQ6PB/S5uCLGATTY9+1+yt9EUWQLFP/LRv0HsJVWYqjPB5MAAAAASUVORK5CYII=",
           "name": "Eric python IDE",
           "command": "eric"
+        },
+        {
+          "type": "custom",
+          "description": "PCB-Suite",
+          "osIconPath": "/usr/share/pixmaps/fritzing_icon.png",
+          "name": "Fritzing",
+          "command": "Fritzing"
         },
         {
           "type": "custom",
@@ -2920,13 +3017,6 @@
         },
         {
           "type": "custom",
-          "osIconPath": "/usr/share/pixmaps/supertuxkart_128.png",
-          "name": "SuperTuxKart",
-          "command": "/usr/games/supertuxkart --no-console",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Ein 2D Spiel mit lustigen Figuren und Waffen",
           "osIconPath": "/usr/share/icons/hicolor/scalable/apps/warmux.svg",
           "name": "Warmux",
@@ -2942,6 +3032,13 @@
         },
         {
           "type": "custom",
+          "description": "GTK or console backgammon program with analysis",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/gnubg.png",
+          "name": "GNU Backgammon",
+          "command": "gnubg -w"
+        },
+        {
+          "type": "custom",
           "description": "Ein Tetris-artiges Spiel mit vielen Leveln spielen",
           "osIconPath": "/usr/share/icons/hicolor/64x64/apps/cuyo.png",
           "name": "Cuyo",
@@ -2949,21 +3046,23 @@
         },
         {
           "type": "custom",
-          "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kanagram.png",
+          "description": "Viele verschiedene Solitaire-Spiele spielen",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-aisleriot.png",
+          "name": "AisleRiot Solitaire",
+          "command": "/usr/games/sol"
+        },
+        {
+          "type": "custom",
+          "description": "Das Gedächtnis spielerisch trainieren",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/blinken.png",
           "keywords": [
-            "1.Zyklus",
             "2.Zyklus",
             "3.Zyklus",
-            "Sprachen",
-            "Deutsch",
-            "Französisch",
-            "English",
-            "Sprache",
-            "spielen"
+            "Beruf",
+            "üben"
           ],
-          "name": "Kanagram",
-          "command": "kanagram"
+          "name": "Blinken",
+          "command": "blinken"
         },
         {
           "type": "custom",
@@ -3324,6 +3423,13 @@
         },
         {
           "type": "custom",
+          "description": "Plane und baue eine Stadt und kümmere dich um das Verkehrswesen, die Wirtschaft, Elektrizität und mehr.",
+          "osIconPath": "/usr/share/pixmaps/lincity-ng.png",
+          "name": "Lincity-NG",
+          "command": "lincity-ng"
+        },
+        {
+          "type": "custom",
           "osIconPath": "data:image/png;base64,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",
           "name": "Xmoto",
           "command": "xmoto"
@@ -3348,6 +3454,13 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/freeciv-server.png",
           "name": "Freeciv server",
           "command": "freeciv-server"
+        },
+        {
+          "type": "custom",
+          "description": "Guide a horde of penguins through various obstacles",
+          "osIconPath": "/usr/share/pixmaps/pingus-icon.png",
+          "name": "Pingus",
+          "command": "pingus"
         },
         {
           "type": "custom",
@@ -3376,6 +3489,13 @@
           "osIconPath": "data:image/png;base64,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",
           "name": "Ren'Py",
           "command": "renpy"
+        },
+        {
+          "type": "custom",
+          "description": "Application for managing and playing games on Steam",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/steam.png",
+          "name": "Steam",
+          "command": "/usr/bin/steam %U"
         },
         {
           "type": "custom",
@@ -3715,6 +3835,14 @@
         },
         {
           "type": "custom",
+          "description": "Configure Tux Paint",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tuxpaint-config.png",
+          "name": "Tux Paint Config.",
+          "command": "tuxpaint-config",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "Knopfzuordnung einstellen und die Empfindlichkeit des Stiftes für Grafiktabletts einstellen",
           "osIconPath": "/usr/share/icons/Faenza/devices/48/input-tablet.png",
           "name": "Wacom-Grafiktablett",
@@ -3891,13 +4019,6 @@
         },
         {
           "type": "custom",
-          "description": "Verwalten virtueller Maschinen",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/virt-manager.png",
-          "name": "Verwaltung für virtuelle Maschinen",
-          "command": "virt-manager"
-        },
-        {
-          "type": "custom",
           "description": "X based system monitor",
           "osIconPath": "data:image/png;base64,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",
           "name": "Xosview",
@@ -3909,6 +4030,13 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/xterm-color.png",
           "name": "XTerm",
           "command": "xterm"
+        },
+        {
+          "type": "custom",
+          "description": "Advanced molecular editor",
+          "osIconPath": "/usr/share/pixmaps/avogadro-icon.png",
+          "name": "Avogadro",
+          "command": "avogadro %f"
         },
         {
           "type": "custom",
@@ -4015,18 +4143,6 @@
         },
         {
           "type": "custom",
-          "description": "Planetarium",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-          "keywords": [
-            "nmg",
-            "geografie",
-            "astronomie"
-          ],
-          "name": "Stellarium",
-          "command": "stellarium"
-        },
-        {
-          "type": "custom",
           "description": "Perform symbolic and numeric calculations using Maxima",
           "osIconPath": "/usr/share/wxMaxima/wxmaxima.png",
           "name": "wxMaxima",
@@ -4038,6 +4154,13 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/onboard.png",
           "name": "Onboard",
           "command": "onboard",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/home/stotz.basil/.local/share/icons/hicolor/48x48/apps/chrome-ohmmkhmmmpcnpikjeljgnaoabkaalbgc-Default.png",
+          "name": "Chrome Apps & Extensions Developer Tool",
+          "command": "/usr/bin/chromium-browser --profile-directory=Default --app-id=ohmmkhmmmpcnpikjeljgnaoabkaalbgc",
           "isStarred": false
         },
         {
@@ -4126,6 +4249,14 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/logview.png",
           "name": "Systemprotokoll",
           "command": "gnome-system-log-pkexec",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Momentan laufende Prozesse betrachten und den Systemzustand überwachen",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-system-monitor.png",
+          "name": "Systemüberwachung",
+          "command": "gnome-system-monitor",
           "isStarred": false
         },
         {
@@ -4514,6 +4645,22 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png",
           "name": "Orage Globaltime",
           "command": "globaltime",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Programm zum Verwalten von Passwörtern",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/password-gorilla.png",
+          "name": "Password Gorilla",
+          "command": "password-gorilla",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Ein Programm ausführen",
+          "osIconPath": "/usr/share/icons/Faenza/actions/48/gtk-execute.png",
+          "name": "Programm ausführen …",
+          "command": "xfce4-appfinder --collapsed",
           "isStarred": false
         },
         {
