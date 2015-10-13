@@ -787,6 +787,20 @@
         },
         {
           "type": "custom",
+          "description": "Mathematik lernen und üben",
+          "osIconPath": "/usr/share/pixmaps/rechentraining6.png",
+          "keywords": [
+            "3.Zyklus",
+            "Mathematik",
+            "mathematisieren",
+            "üben",
+            "lernen"
+          ],
+          "name": "Rechentraining 6",
+          "command": "/usr/share/bin/rechentraining6"
+        },
+        {
+          "type": "custom",
           "description": "Interkulturelles Quiz",
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
           "keywords": [
