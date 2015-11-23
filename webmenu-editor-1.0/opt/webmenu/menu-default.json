@@ -686,6 +686,17 @@
         {
           "type": "custom",
           "osIconPath": "/usr/share/pixmaps/newworld2.png",
+          "keywords": [
+            "2.Zyklus",
+            "Sprachen",
+            "English",
+            "Sprache",
+            "Literatur",
+            "Kultur",
+            "hören",
+            "lesen",
+            "üben"
+          ],
           "name": "New World 2",
           "command": "nw /usr/share/prop/newworld/2/"
         },
@@ -1463,7 +1474,7 @@
             "darstellen"
           ],
           "name": "Bildungs-Sammlung GCompris",
-          "command": "gcompris"
+          "command": "/usr/share/bin/gcompris-amxa"
         },
         {
           "type": "custom",
