@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List: 
  webmenu-editor deb unknown optional
 Checksums-Sha1: 
- 20b8da9227947b26ebce8f17f8c7c827d651c6a2 400176 webmenu-editor_1.0.tar.gz
+ d0051416821df27014582bb86bf1e1f14f9a5ad9 400236 webmenu-editor_1.0.tar.gz
 Checksums-Sha256: 
- e4307b1c71e7db32951fb3482fad5368f3a766cc28edbd4bc648bc12c8e0d670 400176 webmenu-editor_1.0.tar.gz
+ 8756c51b58ab626ba0c601bbaf8a5d78d7691478620088863c9f0d4206278b05 400236 webmenu-editor_1.0.tar.gz
 Files: 
- 1ce2830e643e6eba9a8ad93e02be8c96 400176 webmenu-editor_1.0.tar.gz
+ 8b74b14d1d8369cafca5c17ed09fc626 400236 webmenu-editor_1.0.tar.gz

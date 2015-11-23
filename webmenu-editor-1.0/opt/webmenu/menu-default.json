@@ -40,7 +40,7 @@
             "darstellen"
           ],
           "name": "Bildungs-Sammlung GCompris",
-          "command": "gcompris"
+          "command": "/usr/share/bin/gcompris-amxa"
         },
         {
           "type": "custom",
