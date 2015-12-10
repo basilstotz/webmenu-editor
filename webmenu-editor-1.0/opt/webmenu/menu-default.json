@@ -433,6 +433,20 @@
         },
         {
           "type": "custom",
+          "description": "Lesewerkstatt",
+          "osIconPath": "/usr/share/pixmaps/lesewerkstatt.png",
+          "keywords": [
+            "1.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "hören",
+            "lesen"
+          ],
+          "name": "Lesewerkstatt",
+          "command": "/usr/share/bin/lesewerkstatt"
+        },
+        {
+          "type": "custom",
           "description": "Rechnen und üben",
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
           "keywords": [
@@ -465,14 +479,14 @@
         },
         {
           "type": "custom",
-          "description": "\"Karten von geo.admin\"",
+          "description": "Karten von geo.admin",
           "osIconPath": "/usr/share/pixmaps/map-geo-admin.png",
           "name": "Map GeoAdmin",
           "command": "/usr/share/bin/webapps http://map.geo.admin.ch/"
         },
         {
           "type": "custom",
-          "description": "\"Dividieren üben\"",
+          "description": "Dividieren üben",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
           "keywords": [
             "1.Zyklus",
@@ -871,6 +885,21 @@
           ],
           "name": "SiKoRe",
           "command": "/usr/share/bin/webapps http://www.sikore.schiffner-tischer.de/"
+        },
+        {
+          "type": "custom",
+          "description": "Lesen und hören",
+          "osIconPath": "/usr/share/pixmaps/suchbuch.png",
+          "keywords": [
+            "1.Zyklus",
+            "Sprachen",
+            "Deutsch",
+            "lesen",
+            "hören",
+            "üben"
+          ],
+          "name": "Suchbuch",
+          "command": "/usr/share/bin/suchbuch"
         },
         {
           "type": "custom",
@@ -1579,14 +1608,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/owncloud.png",
           "name": "ownCloud desktop sync client",
           "command": "owncloud",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Befehlszeile verwenden",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/utilities-terminal.png",
-          "name": "Terminal",
-          "command": "exo-open --launch TerminalEmulator",
           "isStarred": false
         }
       ],
