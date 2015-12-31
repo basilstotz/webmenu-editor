@@ -447,10 +447,43 @@
         },
         {
           "type": "custom",
-          "description": "Rechnen und üben",
+          "description": "Rechnen und üben 1",
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
           "keywords": [
             "1.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Algebra",
+            "Zahl",
+            "Variable",
+            "üben"
+          ],
+          "name": "Logisch 1",
+          "command": "/usr/share/bin/logisch 1"
+        },
+        {
+          "type": "custom",
+          "description": "Rechnen und üben 2",
+          "osIconPath": "/usr/share/pixmaps/logisch2.png",
+          "keywords": [
+            "1.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Algebra",
+            "Zahl",
+            "Variable",
+            "operieren",
+            "benennen",
+            "üben"
+          ],
+          "name": "Logisch 2",
+          "command": "/usr/share/bin/logisch 2"
+        },
+        {
+          "type": "custom",
+          "description": "Rechnen und üben 3",
+          "osIconPath": "/usr/share/pixmaps/logisch3.png",
+          "keywords": [
             "2.Zyklus",
             "Mathematik",
             "Arithmetik",
@@ -460,8 +493,59 @@
             "operieren",
             "üben"
           ],
-          "name": "Logisch",
-          "command": "/usr/share/bin/logisch"
+          "name": "Logisch 3",
+          "command": "/usr/share/bin/logisch 3"
+        },
+        {
+          "type": "custom",
+          "description": "Rechnen und üben 4",
+          "osIconPath": "/usr/share/pixmaps/logisch4.png",
+          "keywords": [
+            "2.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Algebra",
+            "Zahl",
+            "Variable",
+            "operieren",
+            "üben"
+          ],
+          "name": "Logisch 4",
+          "command": "/usr/share/bin/logisch 4"
+        },
+        {
+          "type": "custom",
+          "description": "Rechnen und üben 5",
+          "osIconPath": "/usr/share/pixmaps/logisch5.png",
+          "keywords": [
+            "2.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Algebra",
+            "Variable",
+            "Form",
+            "operieren",
+            "üben"
+          ],
+          "name": "Logisch 5",
+          "command": "/usr/share/bin/logisch 5"
+        },
+        {
+          "type": "custom",
+          "description": "Rechnen und üben 6",
+          "osIconPath": "/usr/share/pixmaps/logisch6.png",
+          "keywords": [
+            "2.Zyklus",
+            "Mathematik",
+            "Arithmetik",
+            "Algebra",
+            "Zahl",
+            "Variable",
+            "operieren",
+            "üben"
+          ],
+          "name": "Logisch 6",
+          "command": "/usr/share/bin/logisch 6"
         },
         {
           "type": "custom",
@@ -1759,108 +1843,6 @@
           "osIconPath": "/usr/share/pixmaps/lehreroffice.png",
           "name": "LehrerOffice",
           "command": "/opt/lehreroffice/LehrerOffice"
-        },
-        {
-          "type": "custom",
-          "description": "Rechnen und üben 1",
-          "osIconPath": "/usr/share/pixmaps/logisch1.png",
-          "keywords": [
-            "1.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Zahl",
-            "Variable",
-            "üben"
-          ],
-          "name": "Logisch 1",
-          "command": "/usr/share/bin/logisch 1"
-        },
-        {
-          "type": "custom",
-          "description": "Rechnen und üben 2",
-          "osIconPath": "/usr/share/pixmaps/logisch2.png",
-          "keywords": [
-            "1.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Zahl",
-            "Variable",
-            "operieren",
-            "benennen",
-            "üben"
-          ],
-          "name": "Logisch 2",
-          "command": "/usr/share/bin/logisch 2"
-        },
-        {
-          "type": "custom",
-          "description": "Rechnen und üben 3",
-          "osIconPath": "/usr/share/pixmaps/logisch3.png",
-          "keywords": [
-            "2.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Zahl",
-            "Variable",
-            "operieren",
-            "üben"
-          ],
-          "name": "Logisch 3",
-          "command": "/usr/share/bin/logisch 3"
-        },
-        {
-          "type": "custom",
-          "description": "Rechnen und üben 4",
-          "osIconPath": "/usr/share/pixmaps/logisch4.png",
-          "keywords": [
-            "2.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Zahl",
-            "Variable",
-            "operieren",
-            "üben"
-          ],
-          "name": "Logisch 4",
-          "command": "/usr/share/bin/logisch 4"
-        },
-        {
-          "type": "custom",
-          "description": "Rechnen und üben 5",
-          "osIconPath": "/usr/share/pixmaps/logisch5.png",
-          "keywords": [
-            "2.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Variable",
-            "Form",
-            "operieren",
-            "üben"
-          ],
-          "name": "Logisch 5",
-          "command": "/usr/share/bin/logisch 5"
-        },
-        {
-          "type": "custom",
-          "description": "Rechnen und üben 6",
-          "osIconPath": "/usr/share/pixmaps/logisch6.png",
-          "keywords": [
-            "2.Zyklus",
-            "Mathematik",
-            "Arithmetik",
-            "Algebra",
-            "Zahl",
-            "Variable",
-            "operieren",
-            "üben"
-          ],
-          "name": "Logisch 6",
-          "command": "/usr/share/bin/logisch 6"
         },
         {
           "type": "custom",
