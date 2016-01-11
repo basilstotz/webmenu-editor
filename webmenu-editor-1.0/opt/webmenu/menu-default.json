@@ -9,6 +9,20 @@
       "name": "Bildung",
       "items": [
         {
+          "command": "/usr/local/bin/inspire",
+          "description": "Promethean ActivInspire",
+          "name": "ActivInspire",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/asstudio.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/local/bin/inspire -nc",
+          "description": "Promethean ActivInspire",
+          "name": "ActivInspire (Ohne Desktopeffekte)",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/asstudio.png",
+          "type": "custom"
+        },
+        {
           "type": "custom",
           "description": "Lesen und schreiben online üben",
           "osIconPath": "/usr/share/pixmaps/antolin.png",
@@ -1643,6 +1657,27 @@
       "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-other.png",
       "name": "Andere",
       "items": [
+        {
+          "command": "activaid",
+          "description": "Promethean ActivAid",
+          "name": "ActivAid",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/activaid.png",
+          "type": "custom"
+        },
+        {
+          "command": "activcalibrate",
+          "description": "Promethean ActivBoard Calibration",
+          "name": "ActivCalibrate",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/activcalibrate.png",
+          "type": "custom"
+        },
+        {
+          "command": "activmonitor",
+          "description": "Promethean ActivMonitor",
+          "name": "ActivMonitor",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/activmonitor.png",
+          "type": "custom"
+        },
         {
           "type": "custom",
           "description": "Bildschirmfotos Ihres Bildschirms oder einzelner Fenster speichern",
