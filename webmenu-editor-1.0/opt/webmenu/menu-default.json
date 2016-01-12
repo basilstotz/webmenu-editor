@@ -1704,6 +1704,14 @@
           "name": "ownCloud desktop sync client",
           "command": "owncloud",
           "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "\"Das Menu edieren\"",
+          "osIconPath": "/usr/share/pixmaps/flubidux.png",
+          "name": "WebMenuEditor",
+          "command": "/usr/share/bin/webmenu-editor",
+          "isStarred": false
         }
       ],
       "isStarred": false
@@ -4390,14 +4398,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rkward.png",
           "name": "RKWard",
           "command": "rkward -caption \"%c\" %i",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "\"Das Menu edieren\"",
-          "osIconPath": "/usr/share/pixmaps/flubidux.png",
-          "name": "WebMenuEditor",
-          "command": "/usr/share/bin/webmenu-editor",
           "isStarred": false
         },
         {
