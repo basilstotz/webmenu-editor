@@ -9,20 +9,6 @@
       "name": "Bildung",
       "items": [
         {
-          "command": "/usr/local/bin/inspire",
-          "description": "Promethean ActivInspire",
-          "name": "ActivInspire",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/asstudio.png",
-          "type": "custom"
-        },
-        {
-          "command": "/usr/local/bin/inspire -nc",
-          "description": "Promethean ActivInspire",
-          "name": "ActivInspire (Ohne Desktopeffekte)",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/asstudio.png",
-          "type": "custom"
-        },
-        {
           "type": "custom",
           "description": "Lesen und schreiben online üben",
           "osIconPath": "/usr/share/pixmaps/antolin.png",
@@ -986,6 +972,18 @@
         },
         {
           "type": "custom",
+          "description": "Planetarium",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
+          "keywords": [
+            "nmg",
+            "geografie",
+            "astronomie"
+          ],
+          "name": "Stellarium",
+          "command": "stellarium"
+        },
+        {
+          "type": "custom",
           "description": "Lesen und hören",
           "osIconPath": "/usr/share/pixmaps/suchbuch.png",
           "keywords": [
@@ -1169,6 +1167,20 @@
       "name": "Grafik",
       "items": [
         {
+          "command": "/usr/local/bin/inspire",
+          "description": "Promethean ActivInspire",
+          "name": "ActivInspire",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/asstudio.png",
+          "type": "custom"
+        },
+        {
+          "command": "/usr/local/bin/inspire -nc",
+          "description": "Promethean ActivInspire",
+          "name": "ActivInspire (Ohne Desktopeffekte)",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/asstudio.png",
+          "type": "custom"
+        },
+        {
           "type": "custom",
           "description": "3D-Modellierung, Animation, Rendering und Nachbearbeitung",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/blender.png",
@@ -1295,14 +1307,6 @@
         },
         {
           "type": "custom",
-          "description": "Die Erde erforschen",
-          "osIconPath": "data:image/png;base64,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",
-          "keywords": [],
-          "name": "Google Earth",
-          "command": "googleearth %f"
-        },
-        {
-          "type": "custom",
           "description": "Mit SIP telefonieren",
           "osIconPath": "/usr/share/pixmaps/sflphone.svg",
           "keywords": [],
@@ -1394,14 +1398,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/hb-icon.png",
           "name": "HandBrake",
           "command": "ghb"
-        },
-        {
-          "type": "custom",
-          "description": "Medien-Spieler",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
-          "keywords": [],
-          "name": "Kaffeine",
-          "command": "kaffeine --dvd %U"
         },
         {
           "type": "custom",
@@ -1634,26 +1630,6 @@
     },
     {
       "type": "menu",
-      "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-science.png",
-      "name": "Wissenschaft",
-      "items": [
-        {
-          "type": "custom",
-          "description": "Planetarium",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/stellarium.png",
-          "keywords": [
-            "nmg",
-            "geografie",
-            "astronomie"
-          ],
-          "name": "Stellarium",
-          "command": "stellarium"
-        }
-      ],
-      "isStarred": false
-    },
-    {
-      "type": "menu",
       "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-other.png",
       "name": "Andere",
       "items": [
@@ -1741,6 +1717,22 @@
         "de": "         "
       },
       "items": [
+        {
+          "type": "custom",
+          "description": "Medien-Spieler",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/kaffeine.png",
+          "keywords": [],
+          "name": "Kaffeine",
+          "command": "kaffeine --dvd %U"
+        },
+        {
+          "type": "custom",
+          "description": "Die Erde erforschen",
+          "osIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAADkxJREFUaIHtmnlwXdV9xz/n3HffIr2nzZItyZa8yMixbMsb3tlimy2pKWlr2kyGlkzTlECmbdrSDnSYimk6w6SlCU1mElraAmk6hQkdUojNEkgweGGzkbwJ29pty5Isa5feu/eec/rHvW+TbGMDM53O9HiOzn3v3eX7Pd/fds41/B9v4rO+YfXt3zIyUogQgDGgFdpzUG4KlRxHTQ5z4YOffWbP/dQ3qrnzQWMXzcEKR6mrLGHJ3BIWV5Uwp6SARMxGAsmUy+DoOF1nz3O8s5ejp7ro6+vDTI0w+O5PPxWG0Ce9cNHdjxm7aDYViQjbV9Zw0/J5VJUVErUtCsIWBbaFHZIYY9BaY4wBA1KAqzTNJ0+ze18LuxbWme7OTgbfefYTEbnqixZ+5e9MtKzav1SAZUkEAgMIAZaASEhSGLaoKo3SWFPG2roKllSXMisRwRiD0cYfjWFsMsmuvc388/Ov0dbWxuB7/3VVmK7q5CX3P2MsOwKAERKDREqBEMFtjMFgQGswGqMVWim05xKPSNbVVXDHuoXctKJmBpHxySTPvLSHf/z3/2byfA+jrXuuCNsVnVR754MmvmA1GkNZooCN18xhXV05pfEIHQMT7G7ppa1/AinAGA1aB6PCKA+jPYznoZWLcl3mlkb5kx1r2LpyPkLgE9EaA3zUeZY/f+wpjh45yvDhlz8W38eeMH/nI6Zw3lKiYZu7Ntdxz42LqUhE8s6ZTCme3tfNT/b3MOl4Phit/K68nO6gPRejXIznsql+Dg/99haqy+K+n2iNNoahkXH+6vs/4dU39zHcvOuyGK3Lgv+Nh01BzTJqyhN8756N/NaGBRRGQohpvG1Lsm5BCasXlNJyepwpz4CwQPjmJYTITFX2Sk13/zC73zvB6rpK5pTGMYAxhmjY5uaNjXT2DtEzYTcl+089ctUEqm6538QXrWXd4jn82303sKAinv1RTJNOgAEqiyN8YcUcPuqfZGDcRQiJCfxD5F3oRyQwTKUcdr3TyvL5FdRUFPskMEgh2Lp+OR/1DHB2wmpKDXRclMQlCcy97Y+atjbW8NjvbaIoZs88QeTrkP4UCUluqi9jOKnoHExiAJ1miPGTm/G/Bd+BPeXxVnMbmxpqmZWIZU4TQrB55RL2Hm5jOEWTM3R2BomLEqi753GzubGOx+7ZQnFB+DKOIi56aEvJhoXFKODo2XEAlG8fPgnSecGPVmhNMuXywUfd/OYNy/0sHmgRCdusWrKQF/Y0M3m29eMJVN16v5m9cCnP/PHNlBYGziouQWGaKeUdC1hbW4RlSY6cGUNp0FoHCgTAg2MT9MHhMSIhyZpr5maEMgbKS4pQWnP4XLIp2d+eR0JOx1RYvZR7b22kPBEFwPE07QMTvNE6yMvHzrO3fYQzIw6uMheDnUfMAF9ZX8XXrq8lYltIywJpIYKOkCAkQkiElEjL4qmX36Pz3AV/ztL3MYa77/g882vnz5jDPAUqt33dLKhv4Nt3b8EOSV472s/fvnSCp/efZl/HCM1nJjh4ZoL9XRMcG0ihEFQV2VhpDnmKZJ13WXUCOyR5p304kyOM9k2HdMg1CrQimUrReXaA2zcsDSbB/2eHQoQsiwPto02pgawKeQTKN97V9I1f30Tjggr+4j8O8sSbHQwnFWE7RDRsEwnbxCIhwuEQjhF0jSqOnPdIRC1mF1wqHvisVs4rQkjBB51DoH2wmVwRkMAo0Jqec+cJScG1n6tFaxNYmqG2spzd+5o5396cIZBnQvGiYtbVV/GNJ/fyxrFzSCERQiCl3y0pkFJiSUkoZBG2Q7hG8otul1e6HJLKcJGAD4EZfHXLPO7duhApZUAskEwQlCPpz4IfvbCHfYfbsu4nIFFYwE3XLidRf13afrMKVN9yn1mzchkf9ozyXvsg0rIRVigAamGHLGzbBx22/e/C4RDhsEU0YnN+ynBy0KE6bhG3c2J/hogfaFfVFFNaaPN267kcBbwcRTy/hvI83jrYyoaGhVSUJNBBzeQ4Li/v/ZDUQNsjeQpYsSJOnBtjf2tv8MwMSYJKOIgKvqRa+2WyUpqU4+G4HmfHXH74/hD7eybR2ctzOSAE3LW+lke/vJaYbZFNajPb8PgEX/v2k7z2TgsCcF2P5155GzsSzZyTWQ/IcIwpRyHtUDZ+Ge0DDWr6NGAv6I6rEAg8pcGAqxQpx+PZlgu0nB1n54oySmL5vpGOKrcsr6b4ns385dN7OO8k/byQk6GDupaxySke+O6PWVRZhuMk6TjdlzslWQWEtLJxOUg06cWIVhqlDJ7SuErjegrH9Ug5HlMpl8mkw2TSIZlyM2oc6Bzl4V0dHOwZy9p6Dg2DYf01s3nym9upLiv0S/EMiWwXxqCV5kTn6QC8jz+xeJOBHB8oXbG9yQrHQFgIKXPitIVlyYwjy7SzBbaldUDMUzhOlpjjeIxMurx6bIDTQ1M0VMWJ2flpxxgoKYxwx/rFtPYM0NU76PtDXgXrf9bKyzdr5ZE63/VIlsDybU3SjiCkzJIQEoLRX7iQWbykK0elNZ7nE8iSUKRcj5Trq3HszCi7W/qoLIpQM6tgRmkSDkm2r16E43o0n+xBKxejFCg3u57QXj55bUgOtPsEytbuMJHSaqQdzcx8hoAQmHRZnJOpjDaooHsqAO8qHM8H7zheZnRcj+HxJK82n6Ht3DCNtSXEoyG/NAqksKRgU0MttbNL2He4DSeV9NcNgQJG62nqKZL9bT6B6JzFTZGSKiw7CuklopSZ2CyEQBuREdBoUIGD++CnK+CDTzkq4xNaeRjl0tY7xLNvn8CWUF9dgm2JbJQD6ueVc9v6Bo53nKWntx+056thVD4B5ZLsDxRInjv5SPGS65pkOJqpTdKLkYzXCHwSxqBNWgGNp7IKuJ7CdbMm5DgerusFM5meTRfPddh3rIfXD7VTXhSltqLYX47ih+hEQYQvbG4kURDhyIkOpqYm8+wfwLgOyYGOrA8kFm9osiKxLHAhgiyYG0F88CpjPkFIzYDXOJ4/446rUK6L1i7Gy5JIK4FyuTAyxq4Dxzl0opu55UXMKy/OJCwpYNWS+dyyeRUTk1Mcb+/BGJOxCpUcIzXYnSUQn7+qyYrGs8DTKymRrisD1w12E9LgladxMwp4uJ7C8zyMFzigl519rZwgsriBo/r23dN3nud/eZADR05RNStB5awiBKCNIVEQZeuGRr60fROzy4pJFMQYm5jizHsv5if6Odf/rolVLkaEbGQojLBsRMj2R8tGWiGwQplSOB2tcldmJh3DMxVnzq5EADythvYcjOf4x65/rL0UKI+G+RXs3Hot29avIF4Q8fOQVhjte8od3/wbDv38XwTkZGJvahTtTCGFQCOyGS6oIbTRCK3ACmFEOk8If92btczMSssvl3PqG5VLIquK8VyMDo6VwnguLR91cvBwK+VFUTauqOfWLWtYs3QRiYIYg8NjdJ3pyzwxo0BR/XUmvmAVdrwMYYWwwhGqK0pBhhgYS+JqgRWypyW5bKRKm1keAZPeWslVItcngm0Wzw0UcPJH5UKQayxpMXd2GYnCGEeOtzJy7I18BUZPvC1ic+qMFY0zf3YJj39rJ/U1swHoGx7nzcPdPLfnOO19o4H5yLxdh6wIxt/Umq7CDFPKOnTGudO/pxNXkCgsKQHDmf5BQGTA5xEAcMfOE02U8ui9O1hTPy/zfTxaxqLKUr584zJefOckT+w6SGf/CJZl4eeJDHZfifTOnMnd4LqIKan8CGWUh86QyE9c2fnJzwd5BC58+HNRWPpVUxgL518UmEc0HGLn9Uu5c/MSftXcydOvHeLgqXM4jkIKkXXiPBVyVl95JNzMmLtb5/tHPsi8SR6/kPd5xjrQKq5uGhj3uHPbeoQQQYU47RwpqKsqZcfGJdy+bjFFMZsLI2OMjE3geS5oL8ig6TLgIjOvpjlyOrTq/KItbyK1ZuTY69P31Ga2Wet3mh8/9hC3bVl5yZnwd6KzzXEVx7r62Hekg5cPHKe16xzJVApLcBkVLpLgciZMG4MlJWsaFnP0VBej/d2Mtb378QQS9deZ+fWNvPREE7VV5RcBnzWrPDLBHyEEY5Mpmk+dZl/LKVo7ztLdO0DvwCDj45M4Tiowm/TOtYvRCksKCmIRqirKqKupYvOqpdy0vpGfvvIW3/3X5xg99osZeC+56VbaeJu54fotPP3on1JUGLsM+JzPGSLZ0R8MjqsYn5xiaHScweExhkbHSaVSaKWwBMSiEUqL4swqSRAviBKSEqM1rx9o5s++80+ce/eFi2K97NZ12eod5ktf3M4P//p+QpacCT6nGR0sAtPnZEaTs5a+SA9eP/nb69mlqzGa5tZ27m36AR1v/eclcV72HdmFQy+K5/278w8Pfp14QTTv96de+CU/+9X7zCpJsLHxGj6/bhm1leVYlgyiUE5ond7T0QoygUJIgfY0Pb0D7Hn/MN975gW69z532Um+ojc0pau+aG7ceC2PP3wf8yp9n5hKOnzu1+7D9VQGREEkzNzZZaxtWMSahjrmV1dQXVFGUbwA2w4RkjIo0vwKNpVyGBmboHdgkM7TfXxw9CQfHD3Bmb4LTKVSDB168dO/oUm3kuW3mJqaWv7+oT9k+6bVJB2Xa27+fdzpMTuYWRXsuIVDFrGoTUE0QiwSxrIkShtSKYeJqRSTU0kc18WQzrh+uLzw4UtXhO2KCYC/E2AnytmxbTMP/MHv8MCjP+LdltZpt8lujVx9E3ipcUaOvn7FuK6KQLoVN2wzieIySorj9PYPfpJbzIChlcNQ8+6rxvOJCKRb8bJtJhQuACnzEtDVPFp7SYZaXvnEOD4VgXQrXLDG2IWliFAEGawTZrwUSe+4aY32/P83MXZq/2fy/P9v/5vtfwBjllV86w60GAAAAABJRU5ErkJggg==",
+          "keywords": [],
+          "name": "Google Earth",
+          "command": "googleearth %f"
+        },
         {
           "type": "custom",
           "description": "Das Gedächtnis spielerisch trainieren",
