@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Name=WebMenuEditor
+GenericName=WebMenuEditor
+Comment="Das Menu edieren"
+Icon=flubidux.png
+Exec=/usr/share/bin/webmenu-editor
+Terminal=false
+Categories=Accessories
+Name[de]=WebMenuEditor

@@ -1,0 +1,23 @@
+{
+  "main": "./html/index.html",
+  "name": "Sisweed",
+  "description": "WebMenu Editor for Puavo",
+  "version": "0.1.0",
+  "keywords": [ "puavo", "menu", "editor" ],
+  "window": {
+    "title": "Siweed",
+    "icon": "./img/edit-list.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 880,   
+    "height": 600,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 1024,
+    "max_height": 738
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

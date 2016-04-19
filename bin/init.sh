@@ -19,5 +19,5 @@ cp debian/control essentials
 
 mv debian debian.ori
 mv essentials debian
-cd debian
-sed -i  's/1.0-1/1.0/'  changelog
+#cd debian
+#sed -i  's/1.0-1/1.0/'  changelog

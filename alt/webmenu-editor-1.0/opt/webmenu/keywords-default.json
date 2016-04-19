@@ -1,0 +1,2052 @@
+[
+  {
+    "name": "Antolin",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "|",
+      "|",
+      "lesen",
+      "schreiben",
+      "gestalten",
+      "darstellen",
+      "|",
+      ""
+    ],
+    "description": "Lesen und schreiben online üben"
+  },
+  {
+    "name": "Bildungs-Sammlung GCompris",
+    "keywords": [
+      "1.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "Mathematik",
+      "NMG",
+      "Gestalten",
+      "|",
+      "Deutsch",
+      "Statistik",
+      "|",
+      "Grunderfahrungen",
+      "|",
+      "darstellen",
+      "|",
+      ""
+    ],
+    "description": "Lernspiel für Kinder von 2 bis 10 Jahren"
+  },
+  {
+    "name": "\"Blinde Kuh\"",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "NMG",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Eine Suchmaschine für Kinder"
+  },
+  {
+    "name": "Blitzrechnen",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Mathematik lernen und üben"
+  },
+  {
+    "name": "Bodenreise",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "Biologie",
+      "Chemie",
+      "Ökologie",
+      "|",
+      "Tiere",
+      "Pflanzen",
+      "Stoff",
+      "Natur",
+      "Lebensraum",
+      "|",
+      "erforschen",
+      "|",
+      ""
+    ],
+    "description": "Den Boden entdecken"
+  },
+  {
+    "name": "Cool Driving",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "|",
+      "Bewegung",
+      "|",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Verkehrtheorie für Velofahrer"
+  },
+  {
+    "name": "Duden",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "|",
+      "Sprache",
+      "|",
+      "schreiben",
+      "suchen",
+      "|",
+      ""
+    ],
+    "description": "Im Duden online Wörter nachschlagen"
+  },
+  {
+    "name": "Flubidux",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "NMG",
+      "Musik",
+      "|",
+      "|",
+      "|",
+      "hören",
+      "|",
+      ""
+    ],
+    "description": "Töne und Geräusche entdecken"
+  },
+  {
+    "name": "fragFINN",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "NMG",
+      "Gestalten",
+      "Musik",
+      "Medien",
+      "Beruf",
+      "|",
+      "|",
+      "|",
+      "suchen",
+      "|",
+      ""
+    ],
+    "description": "Suchmaschine für Kinder"
+  },
+  {
+    "name": "GeoGebra",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "Geometrie",
+      "Statistik",
+      "|",
+      "Zahl",
+      "Variable",
+      "Form",
+      "Raum",
+      "Funktion",
+      "Zufall",
+      "|",
+      "operieren",
+      "erforschen",
+      "|",
+      ""
+    ],
+    "description": "Erstellen Sie interaktive geometrische Konstruktionen und Applets."
+  },
+  {
+    "name": "GNU Solfege",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Musik",
+      "|",
+      "|",
+      "Musik",
+      "|",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Gehörbildung"
+  },
+  {
+    "name": "Google Übersetzer",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "Französisch",
+      "English",
+      "|",
+      "Sprache",
+      "|",
+      "hören",
+      "sprechen",
+      "schreiben",
+      "|",
+      ""
+    ],
+    "description": "Sprachen übersetzen"
+  },
+  {
+    "name": "Internet ABC",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Umgang mit dem Internet lernen"
+  },
+  {
+    "name": "KGeography",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "Geografie",
+      "|",
+      "Räume",
+      "|",
+      "prüfen",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Ein Geografie-Lernprogramm"
+  },
+  {
+    "name": "Kinder Suchmaschine",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "NMG",
+      "Gestalten",
+      "Musik",
+      "Medien",
+      "Beruf",
+      "|",
+      "|",
+      "|",
+      "suchen",
+      "|",
+      ""
+    ],
+    "description": "Die Suchmaschine für Kinder"
+  },
+  {
+    "name": "Kinder Wald",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "Biologie",
+      "Chemie",
+      "Ökologie",
+      "|",
+      "Tiere",
+      "Pflanzen",
+      "Stoff",
+      "Natur",
+      "|",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Entdecke den Wald"
+  },
+  {
+    "name": "Kinderweltmusik",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Musik",
+      "|",
+      "|",
+      "Lebensweise",
+      "Lebensraum",
+      "Räume",
+      "|",
+      "hören",
+      "singen",
+      "tanzen",
+      "musizieren",
+      "|",
+      ""
+    ],
+    "description": "Ein Multimediale Weltkarte der Kindermusik"
+  },
+  {
+    "name": "Kinder Zeitmaschine",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "|",
+      "Räume",
+      "Zeit",
+      "Dauer",
+      "Wandel",
+      "Gesellschaft",
+      "Weltansichten",
+      "|",
+      "hören",
+      "lesen",
+      "erforschen",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Reise in die Vergangenheit"
+  },
+  {
+    "name": "Lerntrix",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Eine online Rechenwerkstatt"
+  },
+  {
+    "name": "Logisch",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben"
+  },
+  {
+    "name": "Lose Luege Läse",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "|",
+      "|",
+      "hören",
+      "lesen",
+      "|",
+      ""
+    ],
+    "description": "Ausprache und Schrift verbinden und üben"
+  },
+  {
+    "name": "Mathe Aktiv Multiplikation",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "|",
+      "üben",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "\"Dividieren üben\""
+  },
+  {
+    "name": "Mathe im Netz",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen online üben"
+  },
+  {
+    "name": "Mille feuilles",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MiniBooks",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "Französisch",
+      "English",
+      "|",
+      "|",
+      "schreiben",
+      "herstellen",
+      "|",
+      ""
+    ],
+    "description": "Kleine Bücher herstellen"
+  },
+  {
+    "name": "MyMoments",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "|",
+      "|",
+      "lesen",
+      "schreiben",
+      "|",
+      ""
+    ],
+    "description": "Online schreiben und lesen"
+  },
+  {
+    "name": "Unser Körper",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "Biologie",
+      "|",
+      "Idenität",
+      "Körper",
+      "Gesundheit",
+      "|",
+      "erforschen",
+      "suchen",
+      "|",
+      ""
+    ],
+    "description": "Entdecke dich und deinen Körper"
+  },
+  {
+    "name": "Tux Paint",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Gestalten",
+      "|",
+      "Zeichnen",
+      "|",
+      "|",
+      "herstellen",
+      "|",
+      ""
+    ],
+    "description": "Ein Malprogramm für Kinder"
+  },
+  {
+    "name": "Tux Math",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "|",
+      "operieren",
+      "üben",
+      "spielen",
+      "|",
+      ""
+    ],
+    "description": "Spielerisch Mathe lernen"
+  },
+  {
+    "name": "SiKoRe",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "|",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Sicheres Kopfrechnen"
+  },
+  {
+    "name": "Schatz der Kulturen",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "|",
+      "Lebensweise",
+      "Lebensraum",
+      "Räume",
+      "Gesellschaft",
+      "Weltansichten",
+      "|",
+      "hören",
+      "lesen",
+      "erforschen",
+      "|",
+      ""
+    ],
+    "description": "Interkulturelles Quiz"
+  },
+  {
+    "name": "OpenThesaurus",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "|",
+      "Sprache",
+      "|",
+      "sprechen",
+      "schreiben",
+      "suchen",
+      "|",
+      ""
+    ],
+    "description": "Synomyme und Assoziationen finden"
+  },
+  {
+    "name": "OrthoGrafieTrainer",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "|",
+      "Sprache",
+      "|",
+      "üben",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Rechtschreibung üben"
+  },
+  {
+    "name": "OpenStreetMap",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "|",
+      "Räume",
+      "|",
+      "erforschen",
+      "suchen",
+      "|",
+      ""
+    ],
+    "description": "Online Karte ansehen"
+  },
+  {
+    "name": "NotenMax",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Musik",
+      "|",
+      "|",
+      "Kultur",
+      "Musik",
+      "|",
+      "hören",
+      "lesen",
+      "singen",
+      "musizieren",
+      "|",
+      ""
+    ],
+    "description": "Musikerziehung"
+  },
+  {
+    "name": "New World 1",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "English",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Englisch lernen"
+  },
+  {
+    "name": "NetLa",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Meine Daten gehören mir - Sicherheit im Netz lernen"
+  },
+  {
+    "name": "NetCity",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Spiel zu den Gefahren im Internen"
+  },
+  {
+    "name": "LibreOffice Writer",
+    "keywords": [
+      "n1",
+      "n2",
+      "n3",
+      "word"
+    ],
+    "description": "Erstellen und bearbeiten von Text und Grafiken in Briefen, Reports, Dokumenten und Web-Seiten"
+  },
+  {
+    "name": "PDF-Shuffler",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "PDF-Dateien seitenweise bearbeiten"
+  },
+  {
+    "name": "LibreOffice Calc",
+    "keywords": [
+      "n2",
+      "n3",
+      "excel"
+    ],
+    "description": "Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten"
+  },
+  {
+    "name": "GIMP Bildbearbeitung",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Gestalten",
+      "|",
+      "Zeichnen",
+      "|",
+      "|",
+      "herstellen",
+      "|",
+      ""
+    ],
+    "description": "Bilder erstellen und Fotografien bearbeiten"
+  },
+  {
+    "name": "Inkscape",
+    "keywords": [
+      "n2",
+      "n3"
+    ],
+    "description": "Skalierbare Vektorgrafiken (SVG) erzeugen und bearbeiten"
+  },
+  {
+    "name": "Shotwell",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Fotos und Bilder organisieren und bearbeiten"
+  },
+  {
+    "name": "Scribus",
+    "keywords": [
+      "n1",
+      "indesign"
+    ],
+    "description": "Seitenlayout erstellen und bearbeiten"
+  },
+  {
+    "name": "Google Earth",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Die Erde erforschen"
+  },
+  {
+    "name": "SFLphone",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Mit SIP telefonieren"
+  },
+  {
+    "name": "Skype",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Skype Internet Telephonie"
+  },
+  {
+    "name": "Empathy",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Chat auf Google Talk, Facebook, MSN und vielen anderen Chat-Diensten"
+  },
+  {
+    "name": "Firefox Web Browser",
+    "keywords": [
+      "n1",
+      "explorer"
+    ],
+    "description": "Im Internet surfen"
+  },
+  {
+    "name": "Dropbox",
+    "keywords": [
+      "|",
+      "|",
+      "Geschichte",
+      "|",
+      "Variable",
+      "Grössen",
+      "|",
+      "herstellen",
+      ""
+    ],
+    "description": "Sync your files across computers and to the web"
+  },
+  {
+    "name": "Audacity",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Audio aufnehmen und bearbeiten"
+  },
+  {
+    "name": "Cheese",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Bilder und Videos mit einer Webcam aufzunehmen und Effekte hinzuzufügen"
+  },
+  {
+    "name": "PhotoFilmStrip",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Animierte Diaschauen erstellen"
+  },
+  {
+    "name": "Pitivi",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Erstellen und bearbeiten Sie Ihre eigenen Filme"
+  },
+  {
+    "name": "RecordMyDesktop",
+    "keywords": [
+      "n1",
+      "lp"
+    ],
+    "description": "Den eigenen Desktop aufnehmen"
+  },
+  {
+    "name": "Stellarium",
+    "keywords": [
+      "n1",
+      "lp",
+      "z2",
+      "z3",
+      "nmg",
+      "geografie",
+      "astronomie"
+    ],
+    "description": "Planetarium"
+  },
+  {
+    "name": "LibreOffice Draw",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren"
+  },
+  {
+    "name": "Logisch 1",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben 1"
+  },
+  {
+    "name": "Logisch 2",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "benennen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben 2"
+  },
+  {
+    "name": "Logisch 3",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben 3"
+  },
+  {
+    "name": "Logisch 4",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben 4"
+  },
+  {
+    "name": "Logisch 5",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Variable",
+      "Form",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben 5"
+  },
+  {
+    "name": "Logisch 6",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Rechnen und üben 6"
+  },
+  {
+    "name": "Mille feuilles 3.2",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "Mille feuilles 3.3",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 4.1",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 4.2",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 4.3",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 5.1",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "MilleFeuilles 5.2",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "Mille feuilles: magazine 3.1",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "schreiben",
+      "singen",
+      "|",
+      ""
+    ],
+    "description": "Französisch lernen"
+  },
+  {
+    "name": "LibreOffice Math",
+    "keywords": [
+      "n2",
+      "n2"
+    ],
+    "description": "Wissenschaftliche Formeln setzen und bearbeiten"
+  },
+  {
+    "name": "LibreOffice Impress",
+    "keywords": [
+      "n2",
+      "n3",
+      "powerpoint"
+    ],
+    "description": "Erstellen und bearbeiten von Präsentationen für Dia-Vorführungen, Meetings und Web-Auftritte"
+  },
+  {
+    "name": "LibreOffice Base",
+    "keywords": [
+      "n2",
+      "n3",
+      "access"
+    ],
+    "description": "Verwalten von Datenbanken, Erstellen von Abfragen und Berichten"
+  },
+  {
+    "name": "Adobe Reader 9",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "PDF lesen"
+  },
+  {
+    "name": "Evolution",
+    "keywords": [
+      "n1",
+      "n2",
+      "outlook"
+    ],
+    "description": "Ihre E-Mails, Kontakte und Kalender verwalten"
+  },
+  {
+    "name": "Gummi",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Documente mit LaTeX erstellen und verändern"
+  },
+  {
+    "name": "LibreOffice",
+    "keywords": [
+      "n1",
+      "n2",
+      "n3",
+      "office"
+    ],
+    "description": "Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF)"
+  },
+  {
+    "name": "Thunderbird-E-Mail und -Nachrichten",
+    "keywords": [
+      "n1",
+      "n2",
+      "outlook"
+    ],
+    "description": "E-Mails und Nachrichten mit Thunderbird lesen und schreiben"
+  },
+  {
+    "name": "Liferea",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "News-Feeds und Blogs lesen"
+  },
+  {
+    "name": "Kaffeine",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Medien-Spieler"
+  },
+  {
+    "name": "FMIT",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Musik",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Musikinstrumente stimmen"
+  },
+  {
+    "name": "Okular",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Dokumente betrachten&nbsp;"
+  },
+  {
+    "name": "Chromium-Webbrowser",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Internetzugriff"
+  },
+  {
+    "name": "Google Chrome",
+    "keywords": [
+      "n1",
+      "n2"
+    ],
+    "description": "Internetzugriff"
+  },
+  {
+    "name": "Dateien",
+    "keywords": [
+      "n0",
+      "explorer"
+    ],
+    "description": "Auf Dateien zugreifen und diese organisieren"
+  },
+  {
+    "name": "LMMS",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Ton-Studio"
+  },
+  {
+    "name": "Rhythmbox",
+    "keywords": [
+      "n1"
+    ],
+    "description": "Ihre Musiksammlung wiedergeben und organisieren"
+  },
+  {
+    "name": "Sound Juicer",
+    "keywords": [
+      "n0"
+    ],
+    "description": "Ihre Musik-CDs auslesen"
+  },
+  {
+    "name": "MuseScore",
+    "keywords": [
+      "musik",
+      "noten",
+      "schreiben"
+    ],
+    "description": "Musiknoten setzen"
+  },
+  {
+    "name": "Brasero",
+    "keywords": [
+      "n1"
+    ],
+    "description": "CDs/DVDs schreiben und kopieren"
+  },
+  {
+    "name": "Blinken",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Beruf",
+      "|",
+      "|",
+      "|",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Das Gedächtnis spielerisch trainieren"
+  },
+  {
+    "name": "emesene",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Instant Messaging Client für MSN, Gtalk und Facebook"
+  },
+  {
+    "name": "Mandelbulber",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Besuche die fraktale 3D-Welt"
+  },
+  {
+    "name": "LibreCAD",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Ein professionelles CAD System"
+  },
+  {
+    "name": "gThumb",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Ihre Bilder betrachten und katalogisieren"
+  },
+  {
+    "name": "Lokalize",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Programme übersetzten"
+  },
+  {
+    "name": "Dia",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Diagramme bearbeiten"
+  },
+  {
+    "name": "OpenShot Video Editor",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Videos und Filme erstellen und bearbeiten"
+  },
+  {
+    "name": "OGMRip DVD-Ausleser",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "DVD auslesen und rippen"
+  },
+  {
+    "name": "Me TV",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Digitales Fernsehen (DVB) ansehen"
+  },
+  {
+    "name": "GNOME MPlayer",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Medien spielen und darstellen"
+  },
+  {
+    "name": "Cmaptools - käsitekarttatyökalu",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Luo käsitekarttoja yksin tai ryhmässä"
+  },
+  {
+    "name": "ELinks Webbrowser",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Browse the web in text mode"
+  },
+  {
+    "name": "BlueGriffon",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Html-Dateien herstellen und verändern"
+  },
+  {
+    "name": "Arduino IDE",
+    "keywords": [
+      "|",
+      "NMG",
+      "|",
+      "|",
+      "|",
+      "gestalten",
+      "operieren",
+      "erforschen",
+      "herstellen",
+      "spielen",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "Den Arduino Micro-Computer programmieren"
+  },
+  {
+    "name": "Eclipse",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Eclipse Integrated Development Environment"
+  },
+  {
+    "name": "Tellico",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      "sprechen",
+      ""
+    ],
+    "description": "Eine Sammlung verwalten"
+  },
+  {
+    "name": "Kino",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Digital-Videos erstellen und bearbeiten"
+  },
+  {
+    "name": "F-Spot",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Fotos anschauen, sortieren und weitergeben"
+  },
+  {
+    "name": "Mathe Aktiv Division",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "|",
+      "üben",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "\"Dividieren üben\""
+  },
+  {
+    "name": "Mathe Aktiv Insätze",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "|",
+      "üben",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": "\"Insätze üben\""
+  },
+  {
+    "name": "Mathe-Trainer",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Mathe üben 1. bis 4.Klasse"
+  },
+  {
+    "name": "Mathe1Trainer",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "\"Mathe üben 1.Klasse\""
+  },
+  {
+    "name": "Mathe2Trainer",
+    "keywords": [
+      "1.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "\"Mathe üben 2.Klasse\""
+  },
+  {
+    "name": "Mathe3Trainer",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "\"Mathe üben 3 .Klasse\""
+  },
+  {
+    "name": "Mathe4Trainer",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "Algebra",
+      "|",
+      "Zahl",
+      "Variable",
+      "|",
+      "operieren",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "\"Mathe üben 4.Klasse\""
+  },
+  {
+    "name": "Kanagram",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "Französisch",
+      "English",
+      "|",
+      "Sprache",
+      "|",
+      "spielen",
+      "|",
+      ""
+    ],
+    "description": "Ein KDE-Spiel, bei dem Buchstaben sortiert werden"
+  },
+  {
+    "name": "KBruch",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Arithmetik",
+      "|",
+      "Zahl",
+      "|",
+      "operieren",
+      "benennen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "Übungen mit Brüchen"
+  },
+  {
+    "name": "KHangMan",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "|",
+      "|",
+      "Deutsch",
+      "Französisch",
+      "English",
+      "|",
+      "Sprache",
+      "|",
+      "spielen",
+      "|",
+      ""
+    ],
+    "description": "Ein Buchstabierspiel für KDE"
+  },
+  {
+    "name": "Musikwissenschaften",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Musik",
+      "|",
+      "|",
+      "Musik",
+      "|",
+      "hören",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": "\"Übungen zur Gehörbildung\""
+  },
+  {
+    "name": "XMind",
+    "keywords": [
+      "|",
+      "|",
+      "|",
+      "|",
+      "|",
+      ""
+    ],
+    "description": "Mindmaps erstellen und berabeiten"
+  },
+  {
+    "name": "Dr. Geo",
+    "keywords": [
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "|",
+      "Geometrie",
+      "|",
+      "Form",
+      "Raum",
+      "|",
+      "erforschen",
+      "mathematisieren",
+      "darstellen",
+      "|",
+      ""
+    ],
+    "description": "Interaktives Geometrieprogramm"
+  },
+  {
+    "name": "Marble",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "NMG",
+      "|",
+      "Geografie",
+      "|",
+      "Lebensraum",
+      "Räume",
+      "|",
+      "benennen",
+      "erforschen",
+      "darstellen",
+      "|",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "MilleFeuilles 6.1",
+    "keywords": [
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Literatur",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "MilleFeuilles 6.2",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Französisch",
+      "|",
+      "Sprache",
+      "Kultur",
+      "|",
+      "hören",
+      "lesen",
+      "sprechen",
+      "singen",
+      "üben",
+      "|",
+      ""
+    ],
+    "description": ""
+  },
+  {
+    "name": "Snap",
+    "keywords": [
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Mathematik",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "gestalten",
+      "operieren",
+      "|",
+      ""
+    ],
+    "description": "\"Programieren mit Blöcken\""
+  },
+  {
+    "name": "Pahvi",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Gestalten",
+      "Medien",
+      "|",
+      "|",
+      "|",
+      "schreiben",
+      "gestalten",
+      "|",
+      ""
+    ],
+    "description": "\"\""
+  },
+  {
+    "name": "MiniPodium",
+    "keywords": [
+      "2.Zyklus",
+      "|",
+      "Sprachen",
+      "NMG",
+      "Gestalten",
+      "Medien",
+      "|",
+      "Zeichnen",
+      "Werken",
+      "|",
+      "Kultur",
+      "|",
+      "darstellen",
+      "erklären",
+      "herstellen",
+      "|",
+      ""
+    ],
+    "description": "\"\""
+  },
+  {
+    "name": "Parley",
+    "keywords": [
+      "1.Zyklus",
+      "2.Zyklus",
+      "3.Zyklus",
+      "|",
+      "Sprachen",
+      "|",
+      "Deutsch",
+      "Französisch",
+      "English",
+      "|",
+      "Sprache",
+      "|",
+      "üben",
+      "lernen",
+      "|",
+      ""
+    ],
+    "description": ""
+  }
+]

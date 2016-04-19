@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export GROUPS=$(groups|sed 's/ /:/g')
+
+nw /usr/share/node/webmenu-editor/ 
+
+exit $?

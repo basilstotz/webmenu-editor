@@ -1,0 +1,180 @@
+
+
+body {
+   margin:0px;
+}
+
+
+.niveau { height:20px;opacity:0.2; }
+.ein { height:20px;opacity:1.0;}
+
+.green { background:#0f0;color:#0f0; }
+.blue { background:#00f;color:#00f; }
+.red { background:#f00;color:#f00; }
+.black { background:#000;color:#000; }
+
+
+.on  { background:#f00;color:#fff;font-weight:bold; }
+.off { background:#fff;color:#000; }
+
+.dir {
+  font-family: Sans-serif;
+  font-size:18px;
+  background:#eee;
+  padding:3px;
+}
+
+.titel {
+   font-size:10px;
+   font-weight:bold;  
+   position:absolute;
+   top:85px;
+   left:20px;
+
+}
+
+.icon {
+    width:50px;
+    height:50px;
+    opacity:1.0;
+    position:absolute;
+    top:35px;
+    left:35px;
+  
+   
+}
+.desc {
+    witdh:100%;
+    background:#eee;
+    opacity:0.9;
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+    font-size:12px;
+    display:none;
+    z-index:8;
+    padding:5px;
+}
+
+
+
+.ordner {
+    width:120px;
+    height:120px;
+    opacity:1.0;
+    position:absolute;
+    top:-2px;
+    left:0px;
+}
+
+.aus .icon {
+    width:50px;
+    height:50px;
+    opacity:0.5;
+    position:absolute;
+    top:35px;
+    left:35px;
+}
+
+.star {
+    width:50px;
+    height:50px;
+    opacity:1.0;
+    position:absolute;
+    top:60px;
+}
+
+
+.desk_star {
+    left:91px;
+    top:0px;
+    position:absolute;
+    width:30px;
+    heigth:30px;
+}
+
+.desk_edit {
+    left:71px;
+    top:2px;
+    position:absolute;
+    width:30px;
+    heigth:30px;
+}
+
+.menu { 
+    height:120px;
+    width:120px;
+    margin:10px;
+    background:#fff;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+}
+
+
+.aus { 
+    height:120px;
+    width:120px;
+    margin:10px;
+    background:#fff;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+}
+
+
+.ein {
+    height:120px;
+    width:120px;
+    margin:10px;
+    background:#fff;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+}
+
+
+
+#header {
+   z-index:4;
+   position:fixed;
+   top:0px;
+   opacity:0.95;
+   height:60px;
+   width:100%;
+   left:0px;
+   background:#fff;
+}
+
+#query {
+  font-size:18px;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+#pfad {
+   margin-left:20px;
+   font-size:18px;
+}
+
+#pfad:last-child {
+   font-weight:bold;
+}
+
+#applay {
+  padding-left:4px;
+  padding-right:4px;
+  background:#fff;
+  margin-top:20px;
+  margin-right:10px;
+  float:right;
+}
+
+#ausgabe {
+  z-index:0;
+  position:relative;
+  top:60px;
+}
+
+

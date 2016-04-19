@@ -1,4 +1,4 @@
-TARGETS = init build clean
+TARGETS = init build clean publish
 NAME = "webmenu-editor"
 
 .PHONY: ${TARGETS}
@@ -9,10 +9,14 @@ help:
 	@echo "   ${TARGETS}" | fmt
 
 init:
-	@./init.sh ${NAME}
+	@./bin/init.sh ${NAME}
 
 clean:
-	@./clean.sh ${NAME}
+	@./bin/clean.sh ${NAME}
 
 build:
-	@./build.sh ${NAME}
+	@./bin/build.sh ${NAME}
+
+publish:
+	@./bin/publish.sh ${NAME}
+	
