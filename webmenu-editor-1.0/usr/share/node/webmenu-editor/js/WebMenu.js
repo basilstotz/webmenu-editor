@@ -556,9 +556,18 @@ module.exports.Menu = function() {
    this.rearangeMenu = function(){
   
                   //this is the config for the keeps and removes
-                  var other="Andere";
-                  var drop= [ ];
-                  var keep= [ "Bildung","Büro","Grafik","Internet","Multimedia","Software-Entwicklung","Spiele","Wissenschaft" ];
+                  //var drop= ["T-lasku","Tilitin" ];
+
+                 var keep= [ "Bildung","Éducation","Education",
+                   "Büro","Bureautique","Office",
+                   "Grafik","Graphisme","Graphics",
+                   "Internet",
+                   "Multimedia","Son et vidéo","Sound & Video",
+                   "Software-Entwicklung","Programmation","Programming",
+                   "Spiele","Jeux","Games",
+                   "Wissenschaft","Sciences","Science"
+                  ];
+
 
 
                   //template for new folder
@@ -568,13 +577,34 @@ module.exports.Menu = function() {
                     "type": "menu",
                     "items": []
                     };
-                  neuer.name=other;
+               
 
                   //////////////////////////////////////////////////////////////////////////
                  
 
                   var src;
                   var dst;
+                                
+                  //detect language!!!!
+                  var other="Undefined";
+
+                  for(var i=0;i<this.menuIn.items.length;i++){
+                     item = this.menuIn.items[i];
+                     switch(item.name) {
+                       case "Bureautique":
+                           other="Ailleurs";
+                           break;
+                       case "Office":
+                           other="Other";
+                           break;
+                       case "Büro":
+                           other="Andere";
+                           break;
+                       default:
+                           break;
+                     }    
+                  }
+                  neuer.name=other;
 
                   // 1. remove all "not folders"
                   for(var i=0;i<this.menuIn.items.length;i++){
@@ -583,17 +613,19 @@ module.exports.Menu = function() {
                   }
 
                   // 2. remove all drop's
-                  for(var i=0;i<drop.length;i++){
-                      dst= this.getItemByName(drop[i]);
-                      if(dst)this.menuIn.removeItem(dst);
-                  }
+                  //for(var i=drop.length-1;i>=0;i++){
+                  //    dst= this.getItemByName(drop[i]);
+                  //    if(dst)this.menuIn.removeItem(dst);
+                  //}
 
 
                   // 3. move all, which are not in "keep-members", to "other-folder"
-                  dst= new Itemm(this.menuIn.addItem(neuer));
-
-                  if(dst){
-                     for(var i=0;i<this.menuIn.items.length;i++){
+//                  dst= new Itemm(this.menuIn.addItem(neuer));
+                  var temp=[];
+              
+                  if(true){
+                     //for(var i=0;i<this.menuIn.items.length;i++){
+                     for(var i=this.menuIn.items.length-1;i>=0;i--){
                          var item=this.menuIn.items[i];
                          var n=item.name;
 
@@ -606,15 +638,23 @@ module.exports.Menu = function() {
 
                          //if not in keep:
                          if(!found){   
-                             //move dirs..
-                             src=this.getItemByName(n);                 
-                             if(src){
-                                dst.addItem(src);
-                                this.menuIn.removeItem(src);
+                             if(item){
+                                //dst.addItem(item);
+                                temp.push(item);
+                                this.menuIn.removeItem(item);
                              }
                          }   
                       }     
                   }        // if(dst)
+
+                  //put to menu
+                  dst= new Itemm(neuer);
+                  //reverse order 
+                  for(var i=temp.length-1;i>=0;i--){
+                     dst.addItem(temp[i]);
+                  }
+                  this.menuIn.addItem(dst);
+
       }; //rearange 
 
   

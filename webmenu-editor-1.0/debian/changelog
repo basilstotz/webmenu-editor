@@ -1,3 +1,9 @@
+webmenu-editor (1.0-1ubuntu3) precise; urgency=low
+
+  * fixed prepareMenu for de/en/fr
+
+ -- root <root@bootserver.amxa.opinys.fi>  Fri, 22 Apr 2016 20:23:17 +0200
+
 webmenu-editor (1.0-1ubuntu2) precise; urgency=low
 
   * moved menuinits from install_patch.sh to here
