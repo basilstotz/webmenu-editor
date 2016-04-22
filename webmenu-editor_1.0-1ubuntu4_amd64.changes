@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 22 Apr 2016 23:20:02 +0200
+Source: webmenu-editor
+Binary: webmenu-editor
+Architecture: source all
+Version: 1.0-1ubuntu4
+Distribution: precise
+Urgency: low
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: root <root@bootserver.amxa.opinys.fi>
+Description: 
+ webmenu-editor - <insert up to 60 chars description>
+Changes: 
+ webmenu-editor (1.0-1ubuntu4) precise; urgency=low
+ .
+   * minor fixes
+Checksums-Sha1: 
+ 96536fa991e4398d6b9e2a6af8b75223fde881a4 609 webmenu-editor_1.0-1ubuntu4.dsc
+ e388c3defff03daa07829d8309eeb59f278fc8e3 471479 webmenu-editor_1.0-1ubuntu4.tar.gz
+ 5cbe5ef94008ebf2d11d93f7f422fbba1da7af7c 461458 webmenu-editor_1.0-1ubuntu4_all.deb
+Checksums-Sha256: 
+ 383f4c71af4185da3735ab99cb597e3a091e32efc223a0ffa2d1a8f92729d9c4 609 webmenu-editor_1.0-1ubuntu4.dsc
+ 1fea8ba96ac75f928a3169ca454c2ad8d3b6f408ff05f23ac521b72072ae2ebe 471479 webmenu-editor_1.0-1ubuntu4.tar.gz
+ 8ad8c3adc88c6c4ff65bf4373a087546f4d4f8e590d392c7214d30e591e31e52 461458 webmenu-editor_1.0-1ubuntu4_all.deb
+Files: 
+ 1fdd9890bce29fef1fc54c25bd8dd69a 609 unknown extra webmenu-editor_1.0-1ubuntu4.dsc
+ a53d78d0c38c3f902e2fe921446f8362 471479 unknown extra webmenu-editor_1.0-1ubuntu4.tar.gz
+ 181522eaae0b8c2a80ac93c5d4b41fb0 461458 unknown extra webmenu-editor_1.0-1ubuntu4_all.deb
