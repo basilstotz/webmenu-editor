@@ -1,3 +1,15 @@
+webmenu-editor (1.0-1ubuntu6) precise; urgency=low
+
+  * new menu-default.json (for primary schools)
+
+ -- root <root@bootserver.amxa.opinys.fi>  Tue, 10 May 2016 11:00:34 +0200
+
+webmenu-editor (1.0-1ubuntu5) precise; urgency=low
+
+  * new menu-default.json
+
+ -- root <root@bootserver.amxa.opinys.fi>  Mon, 25 Apr 2016 07:13:39 +0200
+
 webmenu-editor (1.0-1ubuntu4) precise; urgency=low
 
   * minor fixes
