@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 11 May 2016 11:08:08 +0200
+Source: webmenu-editor
+Binary: webmenu-editor
+Architecture: source all
+Version: 1.0-1ubuntu7
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: patricia oberli <patricia.oberli@lap-012.basel.opinsys.fi>
+Description: 
+ webmenu-editor - <insert up to 60 chars description>
+Changes: 
+ webmenu-editor (1.0-1ubuntu7) UNRELEASED; urgency=medium
+ .
+   * new build
+Checksums-Sha1: 
+ e96bfa0f165144957413672b31a3ea231d79c473 609 webmenu-editor_1.0-1ubuntu7.dsc
+ bb0e6073516dbb931e4fcd7fb4cc9959c1d1bfd2 460857 webmenu-editor_1.0-1ubuntu7.tar.gz
+ af74df14dea72b2110b7239c0c7814dc5cc6e795 264698 webmenu-editor_1.0-1ubuntu7_all.deb
+Checksums-Sha256: 
+ ae646d3a25c7fa173bf063104db277bdf72844512b48b5bf55ec38dbd844a39a 609 webmenu-editor_1.0-1ubuntu7.dsc
+ 7c157303274e6eea6bda05d9d2997be7accc41ef29cd2e6255ed693a5e47dade 460857 webmenu-editor_1.0-1ubuntu7.tar.gz
+ 614666fd4c80378bcbb6c42a8ab72600d277d324ed879c9aaa00eef96c4e233b 264698 webmenu-editor_1.0-1ubuntu7_all.deb
+Files: 
+ 02690e6a870d6820659884129d8514c5 609 unknown extra webmenu-editor_1.0-1ubuntu7.dsc
+ a7eae3a7d2f4357bbe8f2c643c84555c 460857 unknown extra webmenu-editor_1.0-1ubuntu7.tar.gz
+ 3e6cc3b62ba363631f6104b2cc143e55 264698 unknown extra webmenu-editor_1.0-1ubuntu7_all.deb

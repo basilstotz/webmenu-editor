@@ -510,7 +510,7 @@
         {
           "type": "custom",
           "description": "Ein Malprogramm für Kinder.",
-          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/tuxpaint.png",
+          "osIconPath": "tuxpaint",
           "name": "Tux Paint",
           "command": "tuxpaint"
         },
@@ -640,6 +640,13 @@
       "osIconPath": "/usr/share/icons/Faenza/categories/48/applications-graphics.png",
       "name": "Grafik",
       "items": [
+        {
+          "type": "custom",
+          "description": "3D-Modellierung, Animation, Rendering und Nachbearbeitung",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/blender.png",
+          "name": "Blender",
+          "command": "blender"
+        },
         {
           "type": "custom",
           "description": "Diagramme bearbeiten",
@@ -1102,34 +1109,10 @@
         },
         {
           "type": "custom",
-          "description": "Druckereinstellungen ändern",
-          "osIconPath": "/usr/share/icons/Faenza/devices/48/printer.png",
-          "name": "Drucker",
-          "command": "gnome-control-center printers",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Drucker konfigurieren",
-          "osIconPath": "/usr/share/icons/Faenza/devices/48/printer.png",
-          "name": "Drucker",
-          "command": "system-config-printer",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
           "description": "Einstellungen zur Adobe Flash Player",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/flash-player-properties.png",
           "name": "Adobe Flash Player",
           "command": "flash-player-properties",
-          "isStarred": false
-        },
-        {
-          "type": "custom",
-          "description": "Drucker konfigurieren",
-          "osIconPath": "/usr/share/icons/Faenza/devices/48/printer.png",
-          "name": "Drucker",
-          "command": "system-config-printer",
           "isStarred": false
         },
         {
@@ -1414,13 +1397,6 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/t-lasku.png",
           "name": "T-lasku",
           "command": "t-lasku %F"
-        },
-        {
-          "type": "custom",
-          "description": "3D-Modellierung, Animation, Rendering und Nachbearbeitung",
-          "osIconPath": "/usr/share/icons/Faenza/apps/48/blender.png",
-          "name": "Blender",
-          "command": "blender"
         },
         {
           "type": "custom",
@@ -1846,7 +1822,7 @@
         {
           "type": "custom",
           "description": "MIDI- und Audio-Sequencer und Notensatzprogramm",
-          "osIconPath": "/usr/share/icons/hicolor/64x64/apps/rosegarden.png",
+          "osIconPath": "rosegarden",
           "name": "Rosegarden",
           "command": "rosegarden %f"
         },
@@ -2511,6 +2487,13 @@
         },
         {
           "type": "custom",
+          "description": "Play this game on Steam",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/steam.png",
+          "name": "Fishing Planet",
+          "command": "steam steam://rungameid/380600"
+        },
+        {
+          "type": "custom",
           "description": "Ein auf der Idee von Transport Tycoon Deluxe basierendes Spiel",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/openttd.png",
           "name": "OpenTTD",
@@ -2766,10 +2749,45 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "About iTunes",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/iTunes/About\\\\ iTunes.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "About QuickTime",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/QuickTime/About\\\\ QuickTime.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Apple Software Update",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/Apple\\\\ Software\\\\ Update.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Blockly4Thymio.v0.4",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Blockly4Thymio.v0.4/Blockly4Thymio.v0.4.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "Wine Applikations Deinstallations Programm",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/wine-uninstaller.png",
           "name": "Deinstalliere Wine Applikationen",
           "command": "wine uninstaller",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Désinstaller Blockly4Thymio.v0.4",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Blockly4Thymio.v0.4/Désinstaller\\\\ Blockly4Thymio.v0.4.lnk",
           "isStarred": false
         },
         {
@@ -2790,6 +2808,20 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Enter VNC Viewer Plus License Key",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/RealVNC/Advanced/Enter\\\\ VNC\\\\ Viewer\\\\ Plus\\\\ License\\\\ Key.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Fichiers sons pour la carte SD",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Blockly4Thymio.v0.4/Fichiers\\\\ sons\\\\ pour\\\\ la\\\\ carte\\\\ SD.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "Info-TV",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
           "name": "infotv",
@@ -2798,10 +2830,52 @@
         },
         {
           "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Intel(R) vPro(tm) Platform Solution Manager",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/Intel\\\\(R\\\\)\\\\ vPro\\\\(tm\\\\)\\\\ Platform\\\\ Solution\\\\ Manager.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "iTunes",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/iTunes/iTunes.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
           "description": "Ändere Wine Optionen und Applikations-spezifische Einstellungen",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/wine-winecfg.png",
           "name": "Konfiguriere Wine",
           "command": "winecfg",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Lernwerkstatt 9",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/Lernwerkstatt\\\\ 9/Lernwerkstatt\\\\ 9.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Lernwerkstatt 9 deinstallieren",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/Lernwerkstatt\\\\ 9/Lernwerkstatt\\\\ 9\\\\ deinstallieren.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "LISEZ-MOI",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Blockly4Thymio.v0.4/LISEZ-MOI.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Onlinehilfe zur Lernwerkstatt 9",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/Lernwerkstatt\\\\ 9/Onlinehilfe\\\\ zur\\\\ Lernwerkstatt\\\\ 9.lnk",
           "isStarred": false
         },
         {
@@ -2815,8 +2889,22 @@
         {
           "type": "custom",
           "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "PictureViewer",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/QuickTime/PictureViewer.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
           "name": "PyCharm Python IDE",
           "command": "/opt/pycharm/bin/pycharm-wrapper",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "QuickTime Player",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/QuickTime/QuickTime\\\\ Player.lnk",
           "isStarred": false
         },
         {
@@ -2825,6 +2913,34 @@
           "osIconPath": "/usr/share/icons/hicolor/48x48/apps/rkward.png",
           "name": "RKWard",
           "command": "rkward -caption \"%c\" %i",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Start Listening VNC Viewer Plus",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/RealVNC/Advanced/Start\\\\ Listening\\\\ VNC\\\\ Viewer\\\\ Plus.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Tester le compilateur",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/Blockly4Thymio.v0.4/Tester\\\\ le\\\\ compilateur.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "Uninstall QuickTime",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/patricia.oberli/Start\\\\ Menu/Programs/QuickTime/Uninstall\\\\ QuickTime.lnk",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "osIconPath": "/usr/share/icons/Faenza/apps/48/gnome-terminal.png",
+          "name": "VNC Viewer Plus",
+          "command": "env WINEPREFIX=\"/home/patricia.oberli/.wine\" wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe /Unix /home/patricia.oberli/.wine/dosdevices/c:/users/Public/Start\\\\ Menu/Programs/RealVNC/VNC\\\\ Viewer\\\\ Plus.lnk",
           "isStarred": false
         },
         {
@@ -2873,6 +2989,22 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/preferences-system-time.png",
           "name": "Datum und Zeit",
           "command": "gnome-control-center datetime",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Druckereinstellungen ändern",
+          "osIconPath": "/usr/share/icons/Faenza/devices/48/printer.png",
+          "name": "Drucker",
+          "command": "gnome-control-center printers",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Drucker konfigurieren",
+          "osIconPath": "/usr/share/icons/Faenza/devices/48/printer.png",
+          "name": "Drucker",
+          "command": "system-config-printer",
           "isStarred": false
         },
         {
@@ -3369,6 +3501,14 @@
           "osIconPath": "/usr/share/icons/Faenza/apps/48/dconf-editor.png",
           "name": "dconf-Bearbeitung",
           "command": "dconf-editor",
+          "isStarred": false
+        },
+        {
+          "type": "custom",
+          "description": "Drucker konfigurieren",
+          "osIconPath": "/usr/share/icons/Faenza/devices/48/printer.png",
+          "name": "Drucker",
+          "command": "system-config-printer",
           "isStarred": false
         },
         {

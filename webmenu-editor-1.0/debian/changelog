@@ -1,3 +1,9 @@
+webmenu-editor (1.0-1ubuntu7) UNRELEASED; urgency=medium
+
+  * new build
+
+ -- patricia oberli <patricia.oberli@lap-012.basel.opinsys.fi>  Wed, 11 May 2016 11:08:08 +0200
+
 webmenu-editor (1.0-1ubuntu6) precise; urgency=low
 
   * new menu-default.json (for primary schools)
