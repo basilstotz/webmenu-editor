@@ -2,7 +2,7 @@
 
 #export GROUPS=$(groups|sed 's/ /:/g')
 #export TAGS="JA";
-
+webmenu-xdg | /usr/share/bin/webmenu-prepare.sh > $HOME/.config/webmenu/menu-xdg
 env GROUPS="$(groups|sed 's/ /:/g')" TAGS="JA" nw /usr/share/node/webmenu-editor/ 
 
 exit $?

@@ -1,3 +1,21 @@
+webmenu-editor (1.0-1ubuntu10) precise; urgency=low
+
+  * menu-xdg in $HOME/.config/webmenu/menu-xdg.json
+
+ -- root <root@bootserver.amxa.opinys.fi>  Wed, 25 May 2016 22:38:49 +0200
+
+webmenu-editor (1.0-1ubuntu9) precise; urgency=low
+
+  * new menu-xdg.json
+
+ -- root <root@bootserver.amxa.opinys.fi>  Wed, 25 May 2016 19:53:50 +0200
+
+webmenu-editor (1.0-1ubuntu8) precise; urgency=low
+
+  * new build
+
+ -- root <root@bootserver.amxa.opinys.fi>  Thu, 19 May 2016 12:00:43 +0200
+
 <<<<<<< HEAD
 webmenu-editor (1.0-1ubuntu7) precise; urgency=low
 

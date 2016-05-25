@@ -659,7 +659,8 @@ module.exports.Menu = function() {
 
   
    this.loadMenuSync = function() {
-      this.menuIn= new Itemm(loadJSON('/opt/webmenu/menu-xdg.json'));
+//      this.menuIn= new Itemm(loadJSON('/opt/webmenu/menu-xdg.json'));
+        this.menuIn= new Itemm(loadJSON(process.env.HOME+'/.config/menu-xdg.json'));
                   //this.rearangeMenu();
                   this.dirPath.init();
                   this.dirPath.down(this.getIdName(this.menuIn));

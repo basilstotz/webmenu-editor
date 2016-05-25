@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 25 May 2016 22:38:49 +0200
+Source: webmenu-editor
+Binary: webmenu-editor
+Architecture: source all
+Version: 1.0-1ubuntu10
+Distribution: precise
+Urgency: low
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: root <root@bootserver.amxa.opinys.fi>
+Description: 
+ webmenu-editor - <insert up to 60 chars description>
+Changes: 
+ webmenu-editor (1.0-1ubuntu10) precise; urgency=low
+ .
+   * menu-xdg in $HOME/.config/webmenu/menu-xdg.json
+Checksums-Sha1: 
+ 4afe4683b7e5173aae4b7dc9bc5f80bee48e201f 613 webmenu-editor_1.0-1ubuntu10.dsc
+ 3c628944efeb1c87c4039cc5d6fedd7e89736fe2 643731 webmenu-editor_1.0-1ubuntu10.tar.gz
+ 95fc94137d7c5e34fc64f2d97584821fbacf8e30 635292 webmenu-editor_1.0-1ubuntu10_all.deb
+Checksums-Sha256: 
+ 637459ea2fa4f68d6b85dfab072c7ccb734b685db0b8d255309ec56ead2fbf60 613 webmenu-editor_1.0-1ubuntu10.dsc
+ bc4fe76c1d712f7e46170f597ce00adb4dabb79db8cad9f1af628b2fb2796a1c 643731 webmenu-editor_1.0-1ubuntu10.tar.gz
+ 93a302fc7b82582b0d39765c08cb0d0148dc35ded8c4e5dabb2e9463879f8e54 635292 webmenu-editor_1.0-1ubuntu10_all.deb
+Files: 
+ 4376b21f5aba151819a9b12c417c5613 613 unknown extra webmenu-editor_1.0-1ubuntu10.dsc
+ 7a9bd50ade8408d2f2770f16f55ff457 643731 unknown extra webmenu-editor_1.0-1ubuntu10.tar.gz
+ b7d2e71223a626b689be8a791dae97a9 635292 unknown extra webmenu-editor_1.0-1ubuntu10_all.deb
