@@ -1,3 +1,15 @@
+webmenu-editor (1.0-1ubuntu12) precise; urgency=low
+
+  * new *.install
+
+ -- root <root@bootserver.amxa.opinys.fi>  Sun, 07 Aug 2016 12:18:58 +0200
+
+webmenu-editor (1.0-1ubuntu11) precise; urgency=low
+
+  * removed etc and opt (is now in: amxa-webmenu-extra)
+
+ -- root <root@bootserver.amxa.opinys.fi>  Sun, 07 Aug 2016 12:16:54 +0200
+
 webmenu-editor (1.0-1ubuntu10) precise; urgency=low
 
   * menu-xdg in $HOME/.config/webmenu/menu-xdg.json

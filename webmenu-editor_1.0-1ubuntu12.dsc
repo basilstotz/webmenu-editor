@@ -2,7 +2,7 @@ Format: 1.0
 Source: webmenu-editor
 Binary: webmenu-editor
 Architecture: all
-Version: 1.0-1ubuntu10
+Version: 1.0-1ubuntu12
 Maintainer: Basil Stotz <stotz@amxa.ch>
 Homepage: <insert the upstream URL, if relevant>
 Standards-Version: 3.9.2
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List: 
  webmenu-editor deb unknown extra
 Checksums-Sha1: 
- 3c628944efeb1c87c4039cc5d6fedd7e89736fe2 643731 webmenu-editor_1.0-1ubuntu10.tar.gz
+ 4a252f702c03600219d674e7ac71b8b10032fda4 268934 webmenu-editor_1.0-1ubuntu12.tar.gz
 Checksums-Sha256: 
- bc4fe76c1d712f7e46170f597ce00adb4dabb79db8cad9f1af628b2fb2796a1c 643731 webmenu-editor_1.0-1ubuntu10.tar.gz
+ a293af9eba72c6afbc5147d5163cd6709efbecf3b565c25371337ebb4246bc3e 268934 webmenu-editor_1.0-1ubuntu12.tar.gz
 Files: 
- 7a9bd50ade8408d2f2770f16f55ff457 643731 webmenu-editor_1.0-1ubuntu10.tar.gz
+ 2751688d60e32a5f20633deb9362953c 268934 webmenu-editor_1.0-1ubuntu12.tar.gz

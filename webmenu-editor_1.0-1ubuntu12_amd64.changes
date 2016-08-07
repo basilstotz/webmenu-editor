@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 07 Aug 2016 12:18:58 +0200
+Source: webmenu-editor
+Binary: webmenu-editor
+Architecture: source all
+Version: 1.0-1ubuntu12
+Distribution: precise
+Urgency: low
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: root <root@bootserver.amxa.opinys.fi>
+Description: 
+ webmenu-editor - <insert up to 60 chars description>
+Changes: 
+ webmenu-editor (1.0-1ubuntu12) precise; urgency=low
+ .
+   * new *.install
+Checksums-Sha1: 
+ aa4f1f85c338ecb30689affa177b2867bf519566 613 webmenu-editor_1.0-1ubuntu12.dsc
+ 4a252f702c03600219d674e7ac71b8b10032fda4 268934 webmenu-editor_1.0-1ubuntu12.tar.gz
+ 518ae877aa8e5f91c83e07c94e9efea7c136a831 259972 webmenu-editor_1.0-1ubuntu12_all.deb
+Checksums-Sha256: 
+ 2d70ce346345704bbfadbd03d9084076d95d0c8684908d4f54e27666d5279d9f 613 webmenu-editor_1.0-1ubuntu12.dsc
+ a293af9eba72c6afbc5147d5163cd6709efbecf3b565c25371337ebb4246bc3e 268934 webmenu-editor_1.0-1ubuntu12.tar.gz
+ 21783c977be0ff3f896c00388c600075376d4c386df6e9464306cc9132bc4783 259972 webmenu-editor_1.0-1ubuntu12_all.deb
+Files: 
+ 0a471231cb4147718e23167d93ef0699 613 unknown extra webmenu-editor_1.0-1ubuntu12.dsc
+ 2751688d60e32a5f20633deb9362953c 268934 unknown extra webmenu-editor_1.0-1ubuntu12.tar.gz
+ a02f040f792300580518d41efd85a106 259972 unknown extra webmenu-editor_1.0-1ubuntu12_all.deb
